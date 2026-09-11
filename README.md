@@ -1,11 +1,20 @@
 # sra_processing
 TODO: rename repository once name is finalized
 
-Table of contents: TODO
+# Table of contents
+- [Pipeline overview](#pipeline-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+	- [Part 1: predownload](#part-1-pre-download-pipeline)
+	- [Manually curate accessions](#manually-curate-accessions-to-download)
+ 	- [Part 2: main pipeline](#part-2-main-pipeline)
+- [Outputs](#outputs)
+- [Acknowledgements](#acknowledgements)
 
 # Pipeline overview
 This pipeline facilitates the search for mutations of target genes within NCBI's SRA database. The SRA database is broader than GenBank or RefSeq. However, SRA cannot be directly BLASTed, and the large size of SRA read datasets makes it time-intensive and compute-intensive to conduct searches across the entire database. In order to address these issues, this pipeline was designed to conduct "smart" searches limited to the most relevant datasets, without requiring genome assembly.  
-TODO: insert diagram  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/76e9b108-eb43-4ed5-943e-453522ce4ab3" />
+
 
 # Installation
 Developed in Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-44-generic x86_64) for Nextflow v25.10.4. If you encounter any issues running the pipeline, please ensure that your Nextflow version matches this version, as Nextflow is under active development and other versions may not be compatible with this pipeline.
@@ -19,7 +28,6 @@ nextflow -v # confirm that the version being used is 25.10.4
 Any other dependencies are handled by Nextflow. Refer to envs/envs.yml.
 
 # Usage
-
 ## Part 1: pre-download pipeline
 ### Params file
 For variable types, please refer to the params block of predownload.nf.
@@ -89,3 +97,6 @@ nextflow run main.nf -params-file main-params.yaml -with-report results/report.h
 
 # Outputs
 The main output is breseq_summary_tables/breseq_summary_withMetadata.tsv, which joins metadata from the predownload pipeline to the mutations found by breseq relative to target gene sequences in reference_gb. (The missing coverage and new junction outputs are also aggregated, but do not include metadata.) breseq output HTMLs supporting each mutation may be found in breseq_export/.
+
+# Acknowledgements
+TODO
