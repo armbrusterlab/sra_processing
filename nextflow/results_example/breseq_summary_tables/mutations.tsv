@@ -1,0 +1,122 @@
+evidence	seq id	position	mutation	freq	annotation	gene	description	evidence_file	source
+RA	PA1101	140	T→C	100%	intergenic (–/‑761)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_1.html	SRR32385933
+RA	PA1101	209	G→A	100%	intergenic (–/‑692)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_2.html	SRR32385933
+RA	PA1101	347	G→A	100%	intergenic (–/‑554)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_3.html	SRR32385933
+RA	PA1101	353	C→T	100%	intergenic (–/‑548)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_4.html	SRR32385933
+RA	PA1101	468	C→T	100%	intergenic (–/‑433)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_5.html	SRR32385933
+RA	PA1101	649	T→C	100%	intergenic (–/‑252)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_6.html	SRR32385933
+RA	PA1101	836	G→A	100%	intergenic (–/‑65)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_7.html	SRR32385933
+RA	PA1101	1,503	G→T	100%	G201G (GGG→GGT)	fliF →	flagellar MS‑ring protein	evidence/RA_8.html	SRR32385933
+RA	PA1101	1,905	C→G	100%	P335P (CCC→CCG)	fliF →	flagellar MS‑ring protein	evidence/RA_9.html	SRR32385933
+RA	PA1101	2,022	C→G	100%	G374G (GGC→GGG)	fliF →	flagellar MS‑ring protein	evidence/RA_10.html	SRR32385933
+RA	PA1101	2,121	G→A	100%	G407G (GGG→GGA)	fliF →	flagellar MS‑ring protein	evidence/RA_11.html	SRR32385933
+RA	PA1101	2,250	T→C	100%	D450D (GAT→GAC)	fliF →	flagellar MS‑ring protein	evidence/RA_12.html	SRR32385933
+RA	PA1434	286	T→C	100%	intergenic (–/‑615)	– / → N_A	–/hypothetical protein	evidence/RA_13.html	SRR32385933
+RA	PA1434	379	C→A	100%	intergenic (–/‑522)	– / → N_A	–/hypothetical protein	evidence/RA_14.html	SRR32385933
+RA	PA1434	581	A→T	100%	intergenic (–/‑320)	– / → N_A	–/hypothetical protein	evidence/RA_15.html	SRR32385933
+RA	PA1434	739	A→G	100%	intergenic (–/‑162)	– / → N_A	–/hypothetical protein	evidence/RA_16.html	SRR32385933
+RA	PA1434	2,292	T→C	100%	intergenic (+678/–)	N_A → / –	hypothetical protein/–	evidence/RA_17.html	SRR32385933
+MC	PA3147	1	Δ3,042 bp	100%		wbpJ	wbpJ	evidence/MC_PLOT_121.html	SRR32385933
+RA	PA3159	2,231	C→T	100%	intergenic (+20/–)	wbpA → / –	UDP‑N‑acetyl‑d‑glucosamine 6‑dehydrogenase/–	evidence/RA_19.html	SRR32385933
+RA	PA3159	2,251	C→T	100%	intergenic (+40/–)	wbpA → / –	UDP‑N‑acetyl‑d‑glucosamine 6‑dehydrogenase/–	evidence/RA_20.html	SRR32385933
+RA	PA3159	2,608	A→T	100%	intergenic (+397/–)	wbpA → / –	UDP‑N‑acetyl‑d‑glucosamine 6‑dehydrogenase/–	evidence/RA_21.html	SRR32385933
+RA	PA3159	2,737	T→C	100%	intergenic (+526/–)	wbpA → / –	UDP‑N‑acetyl‑d‑glucosamine 6‑dehydrogenase/–	evidence/RA_22.html	SRR32385933
+RA	PA3159	2,923	A→C	100%	intergenic (+712/–)	wbpA → / –	UDP‑N‑acetyl‑d‑glucosamine 6‑dehydrogenase/–	evidence/RA_23.html	SRR32385933
+RA	PA3177	735	G→T	100%	intergenic (–/‑166)	– / → N_A	–/hypothetical protein	evidence/RA_24.html	SRR32385933
+RA	PA3177	1,296	C→T	100%	F132F (TTC→TTT)	N_A →	hypothetical protein	evidence/RA_25.html	SRR32385933
+RA	PA3177	1,962	A→T	100%	intergenic (+138/–)	N_A → / –	hypothetical protein/–	evidence/RA_26.html	SRR32385933
+RA	PA3177	2,324	C→T	100%	intergenic (+500/–)	N_A → / –	hypothetical protein/–	evidence/RA_27.html	SRR32385933
+RA	PA3565	554	T→C	100%	intergenic (–/‑347)	– / → N_A	–/transcriptional regulator	evidence/RA_28.html	SRR32385933
+RA	PA3565	1,647	C→T	100%	D249D (GAC→GAT)	N_A →	transcriptional regulator	evidence/RA_29.html	SRR32385933
+RA	PA4601	573	T→C	100%	intergenic (–/‑328)	– / → morA	–/motility regulator	evidence/RA_30.html	SRR32385933
+RA	PA4601	630	T→C	100%	intergenic (–/‑271)	– / → morA	–/motility regulator	evidence/RA_31.html	SRR32385933
+RA	PA4601	636	C→T	100%	intergenic (–/‑265)	– / → morA	–/motility regulator	evidence/RA_32.html	SRR32385933
+RA	PA4601	648	T→G	100%	intergenic (–/‑253)	– / → morA	–/motility regulator	evidence/RA_33.html	SRR32385933
+RA	PA4601	662	C→T	100%	intergenic (–/‑239)	– / → morA	–/motility regulator	evidence/RA_34.html	SRR32385933
+RA	PA4601	767	C→G	100%	intergenic (–/‑134)	– / → morA	–/motility regulator	evidence/RA_35.html	SRR32385933
+RA	PA4601	772	C→G	100%	intergenic (–/‑129)	– / → morA	–/motility regulator	evidence/RA_36.html	SRR32385933
+RA	PA4601	1,074	G→A	100%	R58R (CGG→CGA)	morA →	motility regulator	evidence/RA_37.html	SRR32385933
+RA	PA4601	1,329	T→C	100%	G143G (GGT→GGC)	morA →	motility regulator	evidence/RA_38.html	SRR32385933
+RA	PA4601	1,533	G→A	100%	P211P (CCG→CCA)	morA →	motility regulator	evidence/RA_39.html	SRR32385933
+RA	PA4601	1,611	A→G	100%	G237G (GGA→GGG)	morA →	motility regulator	evidence/RA_40.html	SRR32385933
+RA	PA4601	1,731	A→G	100%	Q277Q (CAA→CAG)	morA →	motility regulator	evidence/RA_41.html	SRR32385933
+RA	PA4601	1,734	G→A	100%	Q278Q (CAG→CAA)	morA →	motility regulator	evidence/RA_42.html	SRR32385933
+RA	PA4601	1,926	G→A	100%	P342P (CCG→CCA)	morA →	motility regulator	evidence/RA_43.html	SRR32385933
+RA	PA4601	1,984	T→C	100%	L362L (TTG→CTG)	morA →	motility regulator	evidence/RA_44.html	SRR32385933
+RA	PA4601	2,001	A→G	100%	V367V (GTA→GTG)	morA →	motility regulator	evidence/RA_45.html	SRR32385933
+RA	PA4601	2,250	T→G	100%	L450L (CTT→CTG)	morA →	motility regulator	evidence/RA_46.html	SRR32385933
+RA	PA1101	140	T→C	100%	intergenic (–/‑761)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_1.html	SRR27501784
+RA	PA1101	468	C→T	100%	intergenic (–/‑433)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_2.html	SRR27501784
+RA	PA1101	836	G→A	100%	intergenic (–/‑65)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_3.html	SRR27501784
+RA	PA1101	1,503	G→T	100%	G201G (GGG→GGT)	fliF →	flagellar MS‑ring protein	evidence/RA_4.html	SRR27501784
+RA	PA1101	1,581	G→A	100%	Q227Q (CAG→CAA)	fliF →	flagellar MS‑ring protein	evidence/RA_5.html	SRR27501784
+RA	PA1101	1,767	T→C	100%	V289V (GTT→GTC)	fliF →	flagellar MS‑ring protein	evidence/RA_6.html	SRR27501784
+RA	PA1101	1,869	C→G	100%	G323G (GGC→GGG)	fliF →	flagellar MS‑ring protein	evidence/RA_7.html	SRR27501784
+RA	PA1101	1,905	C→G	100%	P335P (CCC→CCG)	fliF →	flagellar MS‑ring protein	evidence/RA_8.html	SRR27501784
+RA	PA1101	1,923	G→T	100%	A341A (GCG→GCT)	fliF →	flagellar MS‑ring protein	evidence/RA_9.html	SRR27501784
+RA	PA1101	2,421	T→C	100%	G507G (GGT→GGC)	fliF →	flagellar MS‑ring protein	evidence/RA_10.html	SRR27501784
+RA	PA1101	2,437	C→T	100%	L513L (CTG→TTG)	fliF →	flagellar MS‑ring protein	evidence/RA_11.html	SRR27501784
+RA	PA1101	2,699	C→T	100%	intergenic (+2/–)	fliF → / –	flagellar MS‑ring protein/–	evidence/RA_12.html	SRR27501784
+RA	PA1101	2,810	A→G	100%	intergenic (+113/–)	fliF → / –	flagellar MS‑ring protein/–	evidence/RA_13.html	SRR27501784
+RA	PA1101	2,864	T→C	100%	intergenic (+167/–)	fliF → / –	flagellar MS‑ring protein/–	evidence/RA_14.html	SRR27501784
+RA	PA1434	581	A→T	100%	intergenic (–/‑320)	– / → N_A	–/hypothetical protein	evidence/RA_15.html	SRR27501784
+RA	PA1434	2,292	T→C	100%	intergenic (+678/–)	N_A → / –	hypothetical protein/–	evidence/RA_16.html	SRR27501784
+MC	PA3146	1	Δ2,751 bp	100%		wbpK	wbpK	evidence/MC_PLOT_120.html	SRR27501784
+MC	PA3147	1	Δ3,042 bp	100%		wbpJ	wbpJ	evidence/MC_PLOT_121.html	SRR27501784
+MC	PA3148	1	Δ2,865 bp	100%		wbpI	wbpI	evidence/MC_PLOT_122.html	SRR27501784
+MC	PA3159	1	Δ3,111 bp	100%		wbpA	wbpA	evidence/MC_PLOT_123.html	SRR27501784
+RA	PA3177	264	G→T	100%	intergenic (–/‑637)	– / → N_A	–/hypothetical protein	evidence/RA_21.html	SRR27501784
+RA	PA3177	300	T→C	100%	intergenic (–/‑601)	– / → N_A	–/hypothetical protein	evidence/RA_22.html	SRR27501784
+RA	PA3177	429	A→G	100%	intergenic (–/‑472)	– / → N_A	–/hypothetical protein	evidence/RA_23.html	SRR27501784
+RA	PA3177	1,614	G→A	100%	P238P (CCG→CCA)	N_A →	hypothetical protein	evidence/RA_24.html	SRR27501784
+RA	PA3177	1,910	T→C	100%	intergenic (+86/–)	N_A → / –	hypothetical protein/–	evidence/RA_25.html	SRR27501784
+RA	PA3177	1,962	A→T	100%	intergenic (+138/–)	N_A → / –	hypothetical protein/–	evidence/RA_26.html	SRR27501784
+RA	PA3177	2,315	A→T	100%	intergenic (+491/–)	N_A → / –	hypothetical protein/–	evidence/RA_27.html	SRR27501784
+RA	PA3177	2,324	C→T	100%	intergenic (+500/–)	N_A → / –	hypothetical protein/–	evidence/RA_28.html	SRR27501784
+RA	PA3565	554	T→C	100%	intergenic (–/‑347)	– / → N_A	–/transcriptional regulator	evidence/RA_29.html	SRR27501784
+RA	PA3565	1,575	C→T	100%	A225A (GCC→GCT)	N_A →	transcriptional regulator	evidence/RA_30.html	SRR27501784
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_31.html	SRR27501784
+RA	PA3565	1,695	A→G	100%	E265E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_32.html	SRR27501784
+RA	PA3565	1,743	T→C	100%	R281R (CGT→CGC)	N_A →	transcriptional regulator	evidence/RA_33.html	SRR27501784
+RA	PA4601	255	C→T	100%	intergenic (–/‑646)	– / → morA	–/motility regulator	evidence/RA_34.html	SRR27501784
+RA	PA4601	767	C→G	100%	intergenic (–/‑134)	– / → morA	–/motility regulator	evidence/RA_35.html	SRR27501784
+RA	PA4601	775	C→T	100%	intergenic (–/‑126)	– / → morA	–/motility regulator	evidence/RA_36.html	SRR27501784
+RA	PA4601	1,074	G→A	100%	R58R (CGG→CGA)	morA →	motility regulator	evidence/RA_37.html	SRR27501784
+RA	PA4601	1,611	A→G	100%	G237G (GGA→GGG)	morA →	motility regulator	evidence/RA_38.html	SRR27501784
+RA	PA4601	1,908	C→T	100%	H336H (CAC→CAT)	morA →	motility regulator	evidence/RA_39.html	SRR27501784
+RA	PA4601	1,984	T→C	100%	L362L (TTG→CTG)	morA →	motility regulator	evidence/RA_40.html	SRR27501784
+RA	PA4601	2,001	A→G	100%	V367V (GTA→GTG)	morA →	motility regulator	evidence/RA_41.html	SRR27501784
+RA	PA4601	2,250	T→G	100%	L450L (CTT→CTG)	morA →	motility regulator	evidence/RA_42.html	SRR27501784
+RA	PA4601	2,256	G→A	100%	E452E (GAG→GAA)	morA →	motility regulator	evidence/RA_43.html	SRR27501784
+RA	PA4601	2,263	T→C	100%	L455L (TTG→CTG)	morA →	motility regulator	evidence/RA_44.html	SRR27501784
+RA	PA4601	2,475	G→A	100%	E525E (GAG→GAA)	morA →	motility regulator	evidence/RA_45.html	SRR27501784
+RA	PA4601	2,622	A→G	100%	E574E (GAA→GAG)	morA →	motility regulator	evidence/RA_46.html	SRR27501784
+RA	PA4601	2,751	2 bp→AC	100%	coding (1851‑1852/4248 nt)	morA →	motility regulator	evidence/RA_47.html	SRR27501784
+RA	PA4601	2,892	2 bp→AC	100%	coding (1992‑1993/4248 nt)	morA →	motility regulator	evidence/RA_48.html	SRR27501784
+RA	PA4601	3,108	A→G	100%	E736E (GAA→GAG)	morA →	motility regulator	evidence/RA_49.html	SRR27501784
+RA	PA4601	3,189	T→C	100%	H763H (CAT→CAC)	morA →	motility regulator	evidence/RA_50.html	SRR27501784
+RA	PA4601	3,708	G→A	100%	E936E (GAG→GAA)	morA →	motility regulator	evidence/RA_51.html	SRR27501784
+RA	PA4601	3,717	A→G	100%	P939P (CCA→CCG)	morA →	motility regulator	evidence/RA_52.html	SRR27501784
+RA	PA4601	3,744	C→T	100%	R948R (CGC→CGT)	morA →	motility regulator	evidence/RA_53.html	SRR27501784
+RA	PA4601	4,596	G→A	100%	L1232L (TTG→TTA)	morA →	motility regulator	evidence/RA_54.html	SRR27501784
+RA	PA4601	4,764	T→C	100%	S1288S (AGT→AGC)	morA →	motility regulator	evidence/RA_55.html	SRR27501784
+RA	PA1101	428	C→T	100%	intergenic (–/‑473)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_1.html	SRR6977054
+RA	PA1101	649	T→C	100%	intergenic (–/‑252)	– / → fliF	–/flagellar MS‑ring protein	evidence/RA_2.html	SRR6977054
+RA	PA1101	1,350	C→T	100%	Y150Y (TAC→TAT)	fliF →	flagellar MS‑ring protein	evidence/RA_3.html	SRR6977054
+RA	PA1101	1,722	G→T	100%	P274P (CCG→CCT)	fliF →	flagellar MS‑ring protein	evidence/RA_4.html	SRR6977054
+RA	PA1101	2,079	C→T	100%	Y393Y (TAC→TAT)	fliF →	flagellar MS‑ring protein	evidence/RA_5.html	SRR6977054
+RA	PA1101	2,421	T→C	100%	G507G (GGT→GGC)	fliF →	flagellar MS‑ring protein	evidence/RA_6.html	SRR6977054
+RA	PA1434	1,200	A→G	100%	Q100Q (CAA→CAG)	N_A →	hypothetical protein	evidence/RA_7.html	SRR6977054
+RA	PA1434	1,212	T→C	100%	Y104Y (TAT→TAC)	N_A →	hypothetical protein	evidence/RA_8.html	SRR6977054
+MC	PA3146	1	Δ2,751 bp	100%		wbpK	wbpK	evidence/MC_PLOT_131.html	SRR6977054
+MC	PA3147	1	Δ3,042 bp	100%		wbpJ	wbpJ	evidence/MC_PLOT_132.html	SRR6977054
+MC	PA3148	1	Δ2,865 bp	100%		wbpI	wbpI	evidence/MC_PLOT_133.html	SRR6977054
+MC	PA3159	1	Δ3,111 bp	100%		wbpA	wbpA	evidence/MC_PLOT_134.html	SRR6977054
+RA	PA3177	1,056	A→G	100%	A52A (GCA→GCG)	N_A →	hypothetical protein	evidence/RA_13.html	SRR6977054
+RA	PA3565	554	T→C	100%	intergenic (–/‑347)	– / → N_A	–/transcriptional regulator	evidence/RA_14.html	SRR6977054
+RA	PA3565	674	G→A	100%	intergenic (–/‑227)	– / → N_A	–/transcriptional regulator	evidence/RA_15.html	SRR6977054
+RA	PA4601	144	T→C	100%	intergenic (–/‑757)	– / → morA	–/motility regulator	evidence/RA_16.html	SRR6977054
+RA	PA4601	155	G→A	100%	intergenic (–/‑746)	– / → morA	–/motility regulator	evidence/RA_17.html	SRR6977054
+RA	PA4601	648	T→G	100%	intergenic (–/‑253)	– / → morA	–/motility regulator	evidence/RA_18.html	SRR6977054
+RA	PA4601	663	G→A	100%	intergenic (–/‑238)	– / → morA	–/motility regulator	evidence/RA_19.html	SRR6977054
+RA	PA4601	4,128	A→G	100%	K1076K (AAA→AAG)	morA →	motility regulator	evidence/RA_20.html	SRR6977054

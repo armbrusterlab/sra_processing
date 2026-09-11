@@ -1,0 +1,4 @@
+sra_query: 'ERR6004000 | SRR27501784 | SRR32385933 | SRR6977054'
+genome_length: 6.26e6
+taxid: 286
+coverage_threshold: 30

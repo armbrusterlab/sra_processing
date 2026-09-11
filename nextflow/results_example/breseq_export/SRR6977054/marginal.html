@@ -1,0 +1,169 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.40.1&nbsp;&nbsp;
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<div id="read_alignment_list">
+<table border="0" cellspacing="1", cellpadding="3">
+<tr><th colspan="12" align="left" class="read_alignment_header_row">Marginal read alignment evidence (highest polymorphism score 20 of 81 shown, sorted by polymorphism_score from high to low)</th></tr>
+<tr>
+<th>&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th colspan="2">position</th>
+<th>ref</th>
+<th>new</th>
+<th>freq</th>
+<th>score&nbsp;(cons/poly)</th>
+<th>reads</th>
+<th>annotation</th>
+<th>genes</th>
+<th width="100%">product</th>
+</tr>
+<tbody class="list">
+<tr class="normal_table_row"><td><a href="evidence/RA_22.html">*</a></td><td align="center">PA1101</td><td align="right">468</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">36.5
+/&nbsp;NA
+</td><td align="center">17</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;433)</td><td align="center"><i>&#8211;/fliF</i></td><td align="left">&#8211;/flagellar MS&#8209;ring protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_24.html">*</a></td><td align="center">PA1101</td><td align="right">836</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">37.3
+/&nbsp;NA
+</td><td align="center">17</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;65)</td><td align="center"><i>&#8211;/fliF</i></td><td align="left">&#8211;/flagellar MS&#8209;ring protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_29.html">*</a></td><td align="center">PA1101</td><td align="right">2,067</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">17.1
+/&nbsp;NA
+</td><td align="center">9</td><td align="center"><font class="snp_type_synonymous">T389T</font>&nbsp;(AC<font class="mutation_in_codon">C</font>&rarr;AC<font class="mutation_in_codon">T</font>)&nbsp;</td><td align="center"><i>fliF</i></td><td align="left">flagellar MS&#8209;ring protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_32.html">*</a></td><td align="center">PA1101</td><td align="right">2,547</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">37.3
+/&nbsp;NA
+</td><td align="center">17</td><td align="center"><font class="snp_type_synonymous">D549D</font>&nbsp;(GA<font class="mutation_in_codon">C</font>&rarr;GA<font class="mutation_in_codon">T</font>)&nbsp;</td><td align="center"><i>fliF</i></td><td align="left">flagellar MS&#8209;ring protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_33.html">*</a></td><td align="center">PA1101</td><td align="right">3,293</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">38.6
+/&nbsp;NA
+</td><td align="center">18</td><td align="center">intergenic&nbsp;(+596/&#8211;)</td><td align="center"><i>fliF/&#8211;</i></td><td align="left">flagellar MS&#8209;ring protein/&#8211;</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_34.html">*</a></td><td align="center">PA1434</td><td align="right">32</td><td align="right">0</td><td align="center">A</td><td align="center">G</td><td align="right">100.0%
+</td><td align="center">7.8
+/&nbsp;NA
+</td><td align="center">6</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;869)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_35.html">*</a></td><td align="center">PA1434</td><td align="right">574</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">13.4
+/&nbsp;NA
+</td><td align="center">7</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;327)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_36.html">*</a></td><td align="center">PA1434</td><td align="right">581</td><td align="right">0</td><td align="center">A</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">5.5
+/&nbsp;NA
+</td><td align="center">4</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;320)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_37.html">*</a></td><td align="center">PA1434</td><td align="right">910</td><td align="right">0</td><td align="center">A</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">30.3
+/&nbsp;NA
+</td><td align="center">16</td><td align="center"><font class="snp_type_nonsynonymous">T4P</font>&nbsp;(<font class="mutation_in_codon">A</font>CC&rarr;<font class="mutation_in_codon">C</font>CC)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_38.html">*</a></td><td align="center">PA1434</td><td align="right">1,163</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">17.5
+/&nbsp;NA
+</td><td align="center">9</td><td align="center"><font class="snp_type_nonsynonymous">R88Q</font>&nbsp;(C<font class="mutation_in_codon">G</font>G&rarr;C<font class="mutation_in_codon">A</font>G)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_39.html">*</a></td><td align="center">PA1434</td><td align="right">1,170</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">17.6
+/&nbsp;NA
+</td><td align="center">9</td><td align="center"><font class="snp_type_synonymous">L90L</font>&nbsp;(CT<font class="mutation_in_codon">G</font>&rarr;CT<font class="mutation_in_codon">A</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_40.html">*</a></td><td align="center">PA1434</td><td align="right">1,173</td><td align="right">0</td><td align="center">T</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">15.9
+/&nbsp;NA
+</td><td align="center">9</td><td align="center"><font class="snp_type_synonymous">R91R</font>&nbsp;(CG<font class="mutation_in_codon">T</font>&rarr;CG<font class="mutation_in_codon">C</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_41.html">*</a></td><td align="center">PA1434</td><td align="right">1,191</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">17.6
+/&nbsp;NA
+</td><td align="center">9</td><td align="center"><font class="snp_type_synonymous">E97E</font>&nbsp;(GA<font class="mutation_in_codon">G</font>&rarr;GA<font class="mutation_in_codon">A</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_44.html">*</a></td><td align="center">PA1434</td><td align="right">1,449</td><td align="right">0</td><td align="center">T</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">5.1
+/&nbsp;NA
+</td><td align="center">4</td><td align="center"><font class="snp_type_synonymous">R183R</font>&nbsp;(CG<font class="mutation_in_codon">T</font>&rarr;CG<font class="mutation_in_codon">C</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_45.html">*</a></td><td align="center">PA1434</td><td align="right">1,599</td><td align="right">0</td><td align="center">A</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">19.2
+/&nbsp;NA
+</td><td align="center">10</td><td align="center"><font class="snp_type_synonymous">A233A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">C</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_46.html">*</a></td><td align="center">PA1434</td><td align="right">1,899</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">5.2
+/&nbsp;NA
+</td><td align="center">4</td><td align="center">intergenic&nbsp;(+285/&#8211;)</td><td align="center"><i>N_A/&#8211;</i></td><td align="left">hypothetical protein/&#8211;</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_47.html">*</a></td><td align="center">PA1434</td><td align="right">2,096</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">0.5
+/&nbsp;NA
+</td><td align="center">2</td><td align="center">intergenic&nbsp;(+482/&#8211;)</td><td align="center"><i>N_A/&#8211;</i></td><td align="left">hypothetical protein/&#8211;</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_48.html">*</a></td><td align="center">PA3177</td><td align="right">443</td><td align="right">0</td><td align="center">T</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">0.5
+/&nbsp;NA
+</td><td align="center">2</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;458)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_50.html">*</a></td><td align="center">PA3177</td><td align="right">2,019</td><td align="right">0</td><td align="center">T</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">6.7
+/&nbsp;NA
+</td><td align="center">5</td><td align="center">intergenic&nbsp;(+195/&#8211;)</td><td align="center"><i>N_A/&#8211;</i></td><td align="left">hypothetical protein/&#8211;</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_51.html">*</a></td><td align="center">PA3177</td><td align="right">2,029</td><td align="right">0</td><td align="center">C</td><td align="center">G</td><td align="right">100.0%
+</td><td align="center">12.5
+/&nbsp;NA
+</td><td align="center">8</td><td align="center">intergenic&nbsp;(+205/&#8211;)</td><td align="center"><i>N_A/&#8211;</i></td><td align="left">hypothetical protein/&#8211;</td></tr>
+</tbody>
+</table>
+</div>
+
+</body></html>

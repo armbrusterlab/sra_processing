@@ -1,0 +1,125 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.40.1&nbsp;&nbsp;
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<div id="read_alignment_list">
+<table border="0" cellspacing="1", cellpadding="3">
+<tr><th colspan="12" align="left" class="read_alignment_header_row">Marginal read alignment evidence</th></tr>
+<tr>
+<th>&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th colspan="2">position</th>
+<th>ref</th>
+<th>new</th>
+<th>freq</th>
+<th>score&nbsp;(cons/poly)</th>
+<th>reads</th>
+<th>annotation</th>
+<th>genes</th>
+<th width="100%">product</th>
+</tr>
+<tbody class="list">
+<tr class="polymorphism_table_row"><td><a href="evidence/RA_116.html">*</a></td><td align="center">PA4601</td><td align="right">4,765</td><td align="right">0</td><td align="center">G</td><td align="center">.</td><td align="right"> 3.4%
+</td><td align="center">199.1
+/&nbsp;4.5
+</td><td align="center">88</td><td align="center">coding&nbsp;(3865/4248&nbsp;nt)</td><td align="center"><i>morA</i></td><td align="left">motility regulator</td></tr>
+<tr class="polymorphism_table_row"><td><a href="evidence/RA_117.html">*</a></td><td align="center">PA4601</td><td align="right">4,766</td><td align="right">0</td><td align="center">A</td><td align="center">.</td><td align="right"> 3.4%
+</td><td align="center">227.4
+/&nbsp;4.5
+</td><td align="center">88</td><td align="center">coding&nbsp;(3866/4248&nbsp;nt)</td><td align="center"><i>morA</i></td><td align="left">motility regulator</td></tr>
+<tr class="polymorphism_table_row"><td><a href="evidence/RA_95.html">*</a></td><td align="center">PA4601</td><td align="right">1,369</td><td align="right">1</td><td align="center">.</td><td align="center">C</td><td align="right"> 7.7%
+</td><td align="center">92.7
+/&nbsp;3.3
+</td><td align="center">26</td><td align="center">coding&nbsp;(469/4248&nbsp;nt)</td><td align="center"><i>morA</i></td><td align="left">motility regulator</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_70.html">*</a></td><td align="center">PA1434</td><td align="right">32</td><td align="right">0</td><td align="center">A</td><td align="center">G</td><td align="right">100.0%
+</td><td align="center">28.4
+/&nbsp;NA
+</td><td align="center">14</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;869)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_72.html">*</a></td><td align="center">PA1434</td><td align="right">678</td><td align="right">0</td><td align="center">C</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">20.4
+/&nbsp;NA
+</td><td align="center">9</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;223)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_73.html">*</a></td><td align="center">PA1434</td><td align="right">739</td><td align="right">0</td><td align="center">A</td><td align="center">G</td><td align="right">100.0%
+</td><td align="center">5.1
+/&nbsp;NA
+</td><td align="center">4</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;162)</td><td align="center"><i>&#8211;/N_A</i></td><td align="left">&#8211;/hypothetical protein</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_88.html">*</a></td><td align="center">PA4601</td><td align="right">17</td><td align="right">0</td><td align="center">G</td><td align="center">T</td><td align="right">100.0%
+</td><td align="center">6.6
+/&nbsp;NA
+</td><td align="center">4</td><td align="center">intergenic&nbsp;(&#8211;/&#8209;884)</td><td align="center"><i>&#8211;/morA</i></td><td align="left">&#8211;/motility regulator</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_93.html">*</a></td><td align="center">PA4601</td><td align="right">1,310</td><td align="right">0</td><td align="center">G</td><td align="center">A</td><td align="right">100.0%
+</td><td align="center">36.2
+/&nbsp;NA
+</td><td align="center">15</td><td align="center"><font class="snp_type_nonsynonymous">R137H</font>&nbsp;(C<font class="mutation_in_codon">G</font>C&rarr;C<font class="mutation_in_codon">A</font>C)&nbsp;</td><td align="center"><i>morA</i></td><td align="left">motility regulator</td></tr>
+<tr class="normal_table_row"><td><a href="evidence/RA_94.html">*</a></td><td align="center">PA4601</td><td align="right">1,329</td><td align="right">0</td><td align="center">T</td><td align="center">C</td><td align="right">100.0%
+</td><td align="center">34.6
+/&nbsp;NA
+</td><td align="center">16</td><td align="center"><font class="snp_type_synonymous">G143G</font>&nbsp;(GG<font class="mutation_in_codon">T</font>&rarr;GG<font class="mutation_in_codon">C</font>)&nbsp;</td><td align="center"><i>morA</i></td><td align="left">motility regulator</td></tr>
+</tbody>
+</table>
+</div>
+
+</body></html>

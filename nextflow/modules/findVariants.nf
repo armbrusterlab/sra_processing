@@ -1,0 +1,91 @@
+/*
+ * Creates a GB file containing only target genes to use in the downstream breseq process
+ */
+process makeGB {
+    conda "${workflow.projectDir}/envs/envs.yml"
+
+    input:
+    path reference_gb // user may download from NCBI or supply their own
+    val target_genes // space-separated string of target genes
+    val target_type // e.g. "locus_tag" if the reference genes are provided as locus tags from the reference genome
+    val buffer_upstream // in bases
+    val buffer_downstream // in bases
+
+    output:
+    path "for_breseq.gb", emit: gb_for_breseq
+
+    script:
+    """
+    projDir="${workflow.projectDir}"
+
+    python "\$projDir/../scripts/extract_gene_from_gb_v2.py" -i ${reference_gb} -o "for_breseq.gb" -g ${target_genes} -t ${target_type} -a "unknown" -u ${buffer_upstream} -d ${buffer_downstream}
+    """
+}
+
+/*
+ * Runs breseq to find variants of target genes among downloaded SRA data
+ */
+process runBreseq {
+    conda "${workflow.projectDir}/envs/envs.yml"
+
+    input:
+    path grepq
+    path runids_postqc_dir
+    path gb_for_breseq
+    val breseq_additional
+    path predownload_outputs
+
+    output:
+    path "breseq_summary_tables/", emit: breseq_tables
+    path "breseq_export/", emit: breseq_htmls
+
+    script:
+    """
+    export projDir="${workflow.projectDir}"
+
+    # run breseq
+    numCores=\$(( \$(nproc) / 4 ))
+    export ref="${gb_for_breseq}"
+    export out="breseq/" 
+    export additional="${breseq_additional}"
+
+    start=\$(date +"%Y-%m-%d %H:%M:%S") # human-readable time
+
+    # any singletons are processed with the paired IDs
+    cat "${runids_postqc_dir}/ids_paired_postQC.txt" "${runids_postqc_dir}/ids_single_long_postQC.txt" "${runids_postqc_dir}/ids_single_short_postQC.txt" | parallel -j "\$numCores" '
+        id={}
+        echo "Processing \$id"
+        files=\$(find -L ${grepq} -type f -name "\$id*")
+        echo \$files
+        required="-r \$ref -o \${out}/\${id} \$files"
+        foo=\$(echo \$files | awk "{print \\\$1}")
+        type=\$(basename \$(dirname -- \$(dirname -- \$foo)))
+        echo "Read length: \$type"
+        if [[ \$type == "long" ]]; then 
+            required="-x \$required"
+        fi
+        ADDITIONAL=\$additional REQUIRED=\$required bash "\$projDir/../scripts/breseq_command.sh"
+        '
+
+    end=\$(date +"%Y-%m-%d %H:%M:%S")
+    echo "Start time: \$start"
+    echo "End time: \$end"
+
+    # aggregate outputs
+    find breseq/ -mindepth 2 -maxdepth 2 -type d -name "output" > "breseq/run_outputs.txt"
+
+    python "\$projDir/../scripts/summarize_breseq.py" "breseq/run_outputs.txt" "breseq_summary_tables"
+
+    # join breseq aggregator mutation table with other metadata:
+    python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
+
+    # move breseq output htmls to a single dir
+    exportdir="breseq_export/"
+    mkdir -p \$exportdir
+    for d in \$(find breseq/ -mindepth 2 -type d -name "output"); do 
+        temp=\${d%/*}
+        run=\${temp##*/}
+        mv \$d "\$exportdir/\${run}"
+    done
+    """
+}

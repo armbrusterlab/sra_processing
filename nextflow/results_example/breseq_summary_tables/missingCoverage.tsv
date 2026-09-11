@@ -1,0 +1,58 @@
+			seq id	start	end	size	←reads	reads→	gene	description	source
+('*', 'evidence/MC_SIDE_1_118.html')	('*', 'evidence/MC_SIDE_2_118.html')	('÷', 'evidence/MC_PLOT_118.html')	PA1101	1	117	117	NA [0]	[41] 43	–/fliF	–/flagellar MS‑ring protein	SRR32385933
+('*', 'evidence/MC_SIDE_1_119.html')	('*', 'evidence/MC_SIDE_2_119.html')	('÷', 'evidence/MC_PLOT_119.html')	PA1101	3523	3597	75	42 [41]	[0] NA	fliF/–	flagellar MS‑ring protein/–	SRR32385933
+('*', 'evidence/MC_SIDE_1_120.html')	('*', 'evidence/MC_SIDE_2_120.html')	('÷', 'evidence/MC_PLOT_120.html')	PA3146	1–1741	1741	1–1741	NA [0]	[41] 43	[wbpK]	[wbpK]	SRR32385933
+('*', 'evidence/MC_SIDE_1_122.html')	('*', 'evidence/MC_SIDE_2_122.html')	('÷', 'evidence/MC_PLOT_122.html')	PA3148	1160–2863	2865	3–1706	40 [39]	[0] NA	[wbpI]	[wbpI]	SRR32385933
+('*', 'evidence/MC_SIDE_1_123.html')	('*', 'evidence/MC_SIDE_2_123.html')	('÷', 'evidence/MC_PLOT_123.html')	PA3565	2582	2721	140	53 [52]	[0] NA	N_A/–	transcriptional regulator/–	SRR32385933
+('*', 'evidence/MC_SIDE_1_118.html')	('*', 'evidence/MC_SIDE_2_118.html')	('÷', 'evidence/MC_PLOT_118.html')	PA1101	1	48	48	NA [0]	[11] 12	–/fliF	–/flagellar MS‑ring protein	SRR27501784
+('*', 'evidence/MC_SIDE_1_119.html')	('*', 'evidence/MC_SIDE_2_119.html')	('÷', 'evidence/MC_PLOT_119.html')	PA1434	666	1006	341	14 [13]	[13] 14	[N_A]	[N_A]	SRR27501784
+('*', 'evidence/MC_SIDE_1_124.html')	('*', 'evidence/MC_SIDE_2_124.html')	('÷', 'evidence/MC_PLOT_124.html')	PA3177	1	78	78	NA [0]	[13] 16	–/N_A	–/hypothetical protein	SRR27501784
+('*', 'evidence/MC_SIDE_1_125.html')	('*', 'evidence/MC_SIDE_2_125.html')	('÷', 'evidence/MC_PLOT_125.html')	PA3565	1	12	12	NA [0]	[2] 6	–/N_A	–/transcriptional regulator	SRR27501784
+('*', 'evidence/MC_SIDE_1_126.html')	('*', 'evidence/MC_SIDE_2_126.html')	('÷', 'evidence/MC_PLOT_126.html')	PA3565	2677	2721	45	6 [5]	[0] NA	N_A/–	transcriptional regulator/–	SRR27501784
+('*', 'evidence/MC_SIDE_1_127.html')	('*', 'evidence/MC_SIDE_2_127.html')	('÷', 'evidence/MC_PLOT_127.html')	PA4601	1	37	37	NA [0]	[8] 11	–/morA	–/motility regulator	SRR27501784
+('*', 'evidence/MC_SIDE_1_128.html')	('*', 'evidence/MC_SIDE_2_128.html')	('÷', 'evidence/MC_PLOT_128.html')	PA4601	6019	6048	30	13 [10]	[0] NA	morA/–	motility regulator/–	SRR27501784
+('*', 'evidence/MC_SIDE_1_118.html')	('*', 'evidence/MC_SIDE_2_118.html')	('÷', 'evidence/MC_PLOT_118.html')	PA1101	1	31	31	NA [0]	[2] 4	–/fliF	–/flagellar MS‑ring protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_119.html')	('*', 'evidence/MC_SIDE_2_119.html')	('÷', 'evidence/MC_PLOT_119.html')	PA1101	150	291	142	3 [1]	[2] 4	–/fliF	–/flagellar MS‑ring protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_120.html')	('*', 'evidence/MC_SIDE_2_120.html')	('÷', 'evidence/MC_PLOT_120.html')	PA1101	340	405	66	4 [1]	[0] 3	–/fliF	–/flagellar MS‑ring protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_121.html')	('*', 'evidence/MC_SIDE_2_121.html')	('÷', 'evidence/MC_PLOT_121.html')	PA1101	1608	1633	26	5 [1]	[1] 4	fliF	flagellar MS‑ring protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_122.html')	('*', 'evidence/MC_SIDE_2_122.html')	('÷', 'evidence/MC_PLOT_122.html')	PA1101	1792	1897	106	6 [0]	[2] 3	fliF	flagellar MS‑ring protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_123.html')	('*', 'evidence/MC_SIDE_2_123.html')	('÷', 'evidence/MC_PLOT_123.html')	PA1434	1	15	15	NA [0]	[0] 6	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_124.html')	('*', 'evidence/MC_SIDE_2_124.html')	('÷', 'evidence/MC_PLOT_124.html')	PA1434	95	155	61	2 [1]	[0] 3	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_125.html')	('*', 'evidence/MC_SIDE_2_125.html')	('÷', 'evidence/MC_PLOT_125.html')	PA1434	597	618	22	3 [1]	[1] 3	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_126.html')	('*', 'evidence/MC_SIDE_2_126.html')	('÷', 'evidence/MC_PLOT_126.html')	PA1434	710	755	46	2 [1]	[1] 2	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_127.html')	('*', 'evidence/MC_SIDE_2_127.html')	('÷', 'evidence/MC_PLOT_127.html')	PA1434	1248	1367	120	7 [1]	[1] 2	N_A	hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_128.html')	('*', 'evidence/MC_SIDE_2_128.html')	('÷', 'evidence/MC_PLOT_128.html')	PA1434	1483	1556	74	2 [1]	[1] 5	N_A	hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_129.html')	('*', 'evidence/MC_SIDE_2_129.html')	('÷', 'evidence/MC_PLOT_129.html')	PA1434	1800	1808	9	3 [1]	[0] 2	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_130.html')	('*', 'evidence/MC_SIDE_2_130.html')	('÷', 'evidence/MC_PLOT_130.html')	PA1434	2107	2147	41	2 [1]	[1] 2	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_135.html')	('*', 'evidence/MC_SIDE_2_135.html')	('÷', 'evidence/MC_PLOT_135.html')	PA3177	1	116	116	NA [0]	[1] 2	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_136.html')	('*', 'evidence/MC_SIDE_2_136.html')	('÷', 'evidence/MC_PLOT_136.html')	PA3177	450	497	48	2 [0]	[1] 2	–/N_A	–/hypothetical protein	SRR6977054
+('*', 'evidence/MC_SIDE_1_137.html')	('*', 'evidence/MC_SIDE_2_137.html')	('÷', 'evidence/MC_PLOT_137.html')	PA3177	1890	1973	84	3 [0]	[1] 2	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_138.html')	('*', 'evidence/MC_SIDE_2_138.html')	('÷', 'evidence/MC_PLOT_138.html')	PA3177	2135	2164	30	2 [1]	[1] 2	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_139.html')	('*', 'evidence/MC_SIDE_2_139.html')	('÷', 'evidence/MC_PLOT_139.html')	PA3177	2354	2612	259	3 [1]	[1] 2	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_140.html')	('*', 'evidence/MC_SIDE_2_140.html')	('÷', 'evidence/MC_PLOT_140.html')	PA3177	2619	2724	106	2 [1]	[0] NA	N_A/–	hypothetical protein/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_141.html')	('*', 'evidence/MC_SIDE_2_141.html')	('÷', 'evidence/MC_PLOT_141.html')	PA3565	1046	1073	28	2 [1]	[1] 2	N_A	transcriptional regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_142.html')	('*', 'evidence/MC_SIDE_2_142.html')	('÷', 'evidence/MC_PLOT_142.html')	PA3565	1352	1406	55	5 [1]	[1] 2	N_A	transcriptional regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_143.html')	('*', 'evidence/MC_SIDE_2_143.html')	('÷', 'evidence/MC_PLOT_143.html')	PA3565	1586	1803	218	3 [1]	[1] 3	N_A	transcriptional regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_144.html')	('*', 'evidence/MC_SIDE_2_144.html')	('÷', 'evidence/MC_PLOT_144.html')	PA3565	1854	1932	79	3 [1]	[0] 2	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_145.html')	('*', 'evidence/MC_SIDE_2_145.html')	('÷', 'evidence/MC_PLOT_145.html')	PA3565	1982	2043	62	3 [1]	[1] 3	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_146.html')	('*', 'evidence/MC_SIDE_2_146.html')	('÷', 'evidence/MC_PLOT_146.html')	PA3565	2094	2233	140	3 [1]	[0] 2	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_147.html')	('*', 'evidence/MC_SIDE_2_147.html')	('÷', 'evidence/MC_PLOT_147.html')	PA3565	2327	2369	43	2 [0]	[1] 2	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_148.html')	('*', 'evidence/MC_SIDE_2_148.html')	('÷', 'evidence/MC_PLOT_148.html')	PA3565	2420	2522	103	2 [1]	[0] 2	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_149.html')	('*', 'evidence/MC_SIDE_2_149.html')	('÷', 'evidence/MC_PLOT_149.html')	PA3565	2700	2721	22	2 [0]	[0] NA	N_A/–	transcriptional regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_150.html')	('*', 'evidence/MC_SIDE_2_150.html')	('÷', 'evidence/MC_PLOT_150.html')	PA4601	1	4	4	NA [0]	[1] 6	–/morA	–/motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_151.html')	('*', 'evidence/MC_SIDE_2_151.html')	('÷', 'evidence/MC_PLOT_151.html')	PA4601	1309	1329	21	2 [0]	[1] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_152.html')	('*', 'evidence/MC_SIDE_2_152.html')	('÷', 'evidence/MC_PLOT_152.html')	PA4601	1709	1748	40	2 [1]	[1] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_153.html')	('*', 'evidence/MC_SIDE_2_153.html')	('÷', 'evidence/MC_PLOT_153.html')	PA4601	1997	2027	31	2 [1]	[0] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_154.html')	('*', 'evidence/MC_SIDE_2_154.html')	('÷', 'evidence/MC_PLOT_154.html')	PA4601	2156	2205	50	2 [1]	[0] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_155.html')	('*', 'evidence/MC_SIDE_2_155.html')	('÷', 'evidence/MC_PLOT_155.html')	PA4601	2434	2450	17	2 [0]	[1] 2	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_156.html')	('*', 'evidence/MC_SIDE_2_156.html')	('÷', 'evidence/MC_PLOT_156.html')	PA4601	2903	2948	46	3 [1]	[1] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_157.html')	('*', 'evidence/MC_SIDE_2_157.html')	('÷', 'evidence/MC_PLOT_157.html')	PA4601	3302	3409	108	2 [0]	[0] 2	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_158.html')	('*', 'evidence/MC_SIDE_2_158.html')	('÷', 'evidence/MC_PLOT_158.html')	PA4601	3680	3717	38	3 [1]	[1] 2	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_159.html')	('*', 'evidence/MC_SIDE_2_159.html')	('÷', 'evidence/MC_PLOT_159.html')	PA4601	4462	4484	23	2 [1]	[1] 3	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_160.html')	('*', 'evidence/MC_SIDE_2_160.html')	('÷', 'evidence/MC_PLOT_160.html')	PA4601	4855	4892	38	3 [1]	[0] 2	morA	motility regulator	SRR6977054
+('*', 'evidence/MC_SIDE_1_161.html')	('*', 'evidence/MC_SIDE_2_161.html')	('÷', 'evidence/MC_PLOT_161.html')	PA4601	5338	5417	80	4 [1]	[1] 2	morA/–	motility regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_162.html')	('*', 'evidence/MC_SIDE_2_162.html')	('÷', 'evidence/MC_PLOT_162.html')	PA4601	5485	5565	81	2 [1]	[1] 2	morA/–	motility regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_163.html')	('*', 'evidence/MC_SIDE_2_163.html')	('÷', 'evidence/MC_PLOT_163.html')	PA4601	5628	5676	49	2 [0]	[1] 3	morA/–	motility regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_164.html')	('*', 'evidence/MC_SIDE_2_164.html')	('÷', 'evidence/MC_PLOT_164.html')	PA4601	5853	5867	15	2 [1]	[1] 3	morA/–	motility regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_165.html')	('*', 'evidence/MC_SIDE_2_165.html')	('÷', 'evidence/MC_PLOT_165.html')	PA4601	5918	5948	31	2 [0]	[0] 2	morA/–	motility regulator/–	SRR6977054
+('*', 'evidence/MC_SIDE_1_166.html')	('*', 'evidence/MC_SIDE_2_166.html')	('÷', 'evidence/MC_PLOT_166.html')	PA4601	6008	6048	41	2 [1]	[0] NA	morA/–	motility regulator/–	SRR6977054

@@ -1,0 +1,167 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Evidence</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<!--Output Html_Mutation_Table_String-->
+<div id="mutation_list">
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="8" align="left" class="mutation_header_row">Predicted mutation</th></tr><tr>
+<th class="evidence">evidence</th>
+<th>seq&nbsp;id</th>
+<th class="position">position</th>
+<th class="mutation">mutation</th>
+<th class="freq">freq</th>
+<th class="annotation">annotation</th>
+<th class="gene">gene</th>
+<th class="description"width="100%">description</th>
+</tr>
+
+<!-- Item Lines -->
+<tbody class="list">
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td class="evidence" align="center"><a href="RA_13.html">RA</a></td><!-- Evidence -->
+<td class="seq_id" align="center">PA3177</td><!-- Seq_Id -->
+<td class="position" align="right" data-position="1056">1,056</td><!-- Position -->
+<td class="mutation" align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td class="freq" align="right">100%</td>
+<td class="annotation" align="center"><font class="snp_type_synonymous">A52A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td class="gene" align="center"><i>N_A</i>&nbsp;&rarr;</td>
+<td class="description" align="left">hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+</tbody>
+</table></div>
+<p><div id="read_alignment_list">
+<table border="0" cellspacing="1", cellpadding="3">
+<tr><th colspan="12" align="left" class="read_alignment_header_row">Read alignment evidence...</th></tr>
+<tr>
+<th>&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th colspan="2">position</th>
+<th>ref</th>
+<th>new</th>
+<th>freq</th>
+<th>score&nbsp;(cons/poly)</th>
+<th>reads</th>
+<th>annotation</th>
+<th>genes</th>
+<th width="100%">product</th>
+</tr>
+<tbody class="list">
+<tr class="normal_table_row"><td><a href="RA_13.html">*</a></td><td align="center">PA3177</td><td align="right">1,056</td><td align="right">0</td><td align="center">A</td><td align="center">G</td><td align="right">100.0%
+</td><td align="center">40.6
+/&nbsp;NA
+</td><td align="center">21</td><td align="center"><font class="snp_type_synonymous">A52A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">G</font>)&nbsp;</td><td align="center"><i>N_A</i></td><td align="left">hypothetical protein</td></tr>
+<tr class="information_table_row"><td colspan="12">Reads supporting (aligned to +/- strand):&nbsp;&nbsp;<b>ref</b> base A (0/0);&nbsp;&nbsp;<b>new</b> base G (6/15);&nbsp;&nbsp;<b>total</b> (6/15)</td></tr><tr class="reject_table_row"><td colspan="12">Rejected as polymorphism: Frequency below/above cutoff threshold.</td></tr><tr class="reject_table_row"><td colspan="12">Rejected as polymorphism: Variant not supported by required number of reads on each strand.</td></tr></tbody>
+</table>
+</div>
+<p>
+<style>
+.NC {color: rgb(0,0,0); background-color: rgb(255,255,255)}
+.AM {color: rgb(0,0,0); background-color: rgb(210,210,210)}
+.AO {color: rgb(0,0,0); background-color: rgb(255,205,204)}
+.AP {color: rgb(0,0,0); background-color: rgb(255,229,204)}
+.UN {color: rgb(120,120,120); background-color: rgb(255,255,255)}
+.GAP {color: rgb(255,255,255); background-color: rgb(128,0,128)}
+.R0 {color: rgb(170,170,170); background-color: rgb(255,255,175)}
+.R1 {color: rgb(170,170,170); background-color: rgb(240,240,240)}
+.R2 {color: rgb(135,135,135); background-color: rgb(240,240,240)}
+.R3 {color: rgb(90,90,90); background-color: rgb(240,240,240)}
+.R4 {color: rgb(45,45,45); background-color: rgb(240,240,240)}
+.R5 {color: rgb(0,0,0); background-color: rgb(240,240,240)}
+.A0{color: rgb(120,120,120); background-color:rgb(255,255,0)}
+.A1{color: rgb(255,255,255); background-color:rgb(255,210,210)}
+.A2{color: rgb(255,255,255); background-color:rgb(255,180,180)}
+.A3{color: rgb(255,255,255); background-color:rgb(255,100,100)}
+.A4{color: rgb(255,255,255); background-color:rgb(255,20,20)}
+.A5{color: rgb(255,255,255); background-color:rgb(200,0,0)}
+.C0{color: rgb(120,120,120); background-color:rgb(255,255,0)}
+.C1{color: rgb(255,255,255); background-color:rgb(160,160,255)}
+.C2{color: rgb(255,255,255); background-color:rgb(120,120,255)}
+.C3{color: rgb(255,255,255); background-color:rgb(60,60,255)}
+.C4{color: rgb(255,255,255); background-color:rgb(20,20,255)}
+.C5{color: rgb(255,255,255); background-color:rgb(0,0,150)}
+.G0{color: rgb(120,120,120); background-color:rgb(255,255,0)}
+.G1{color: rgb(255,255,255); background-color:rgb(230,230,230)}
+.G2{color: rgb(255,255,255); background-color:rgb(210,210,210)}
+.G3{color: rgb(255,255,255); background-color:rgb(140,140,140)}
+.G4{color: rgb(255,255,255); background-color:rgb(70,70,70)}
+.G5{color: rgb(255,255,255); background-color:rgb(0,0,0)}
+.T0{color: rgb(120,120,120); background-color:rgb(255,255,0)}
+.T1{color: rgb(255,255,255); background-color:rgb(210,255,210)}
+.T2{color: rgb(255,255,255); background-color:rgb(180,255,180)}
+.T3{color: rgb(255,255,255); background-color:rgb(100,255,100)}
+.T4{color: rgb(255,255,255); background-color:rgb(20,255,20)}
+.T5{color: rgb(255,255,255); background-color:rgb(0,200,0)}
+CODE {font-family:Monaco, monospace; font-size: 85%;}
+</style>
+<table style="background-color: rgb(255,255,255)"><tr ><td style="font-size:10pt">
+
+<!-- Reference Begin --><CODE><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="A5">AA</font><font class="C5">C</font><font class="T5">T</font><font class="G5">G</font><font class="A5">A</font><font class="C5">CCC</font><font class="T5">T</font><font class="A5">A</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="T5">TT</font><font class="G5">G</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="C5">CC</font><font class="T5">T</font><font class="G5">GG</font><font class="A5">A</font><font class="G5">GG</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="G5">GG</font><font class="A5">A</font><font class="T5">TT</font><font class="C5">C</font><font class="T5">T</font><font class="C5">C</font><font class="G5">GG</font><font class="C5">CC</font><font class="T5">T</font><font class="G5">G</font><font class="T5">TT</font><font class="C5">C</font><font class="T5">TT</font><font class="C5">C</font><font class="G5">G</font><font class="A5">A</font><font class="G5">GG</font><font class="A5">AA</font><font class="G5">G</font><font class="T5">T</font><font class="C5">CC</font><font class="G5">G</font><font class="C5">C</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">PA3177/1018&#8209;1092</font></CODE><BR>
+<!-- Reference End -->
+<CODE><font class=" 5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="|5">|</font><font class=" 5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></CODE><BR>
+
+<!-- Reads Begin --><CODE><font class="R3">cAGCA</font><font class="R4">ACTGACCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGA</font><font class="R2">T</font><font class="R4">tct</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:5213681/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">cTGACCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTC</font><font class="R3">GG</font><font class="R2">cc</font><font class="NC">n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:2585388/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R2">cT</font><font class="R3">G</font><font class="R2">A</font><font class="R3">C</font><font class="R2">C</font><font class="R4">CTAC</font><font class="R2">A</font><font class="R4">GTTGCAGA</font><font class="R3">G</font><font class="R4">CAGCCTGG</font><font class="R2">AG</font><font class="R4">GC</font><font class="G3">G</font><font class="R3">G</font><font class="R2">A</font><font class="R4">GCGG</font><font class="R2">A</font><font class="R3">T</font><font class="R4">TC</font><font class="R3">T</font><font class="R4">CGGCCt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:2527144/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">tGACCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCG</font><font class="R3">GCCt</font><font class="NC">a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:6917501/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gA</font><font class="R2">CCCTA</font><font class="R4">C</font><font class="R2">A</font><font class="R3">G</font><font class="R2">TTGC</font><font class="R4">AGA</font><font class="R2">GC</font><font class="R3">A</font><font class="R4">GCC</font><font class="R2">T</font><font class="R4">G</font><font class="R2">GA</font><font class="R4">GGC</font><font class="G3">G</font><font class="R4">G</font><font class="R3">A</font><font class="R4">GCGGATTCTCGG</font><font class="R3">CCTg</font><font class="NC">g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:7454615/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R0">gA</font><font class="R4">CCCTACAGTTG</font><font class="R3">C</font><font class="R4">AG</font><font class="R3">A</font><font class="R4">GCAGCCTGGA</font><font class="R3">GG</font><font class="R4">C</font><font class="G2">G</font><font class="R3">G</font><font class="R4">AGCGGATTC</font><font class="R3">T</font><font class="R4">CGG</font><font class="R2">CCTg</font><font class="NC">g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:1390635/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gACCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGG</font><font class="R3">CCTg</font><font class="NC">g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:1022881/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">g</font><font class="R2">AC</font><font class="R4">CCTACAGT</font><font class="R2">T</font><font class="R3">G</font><font class="R4">CAGAGCAGC</font><font class="R2">C</font><font class="R4">TG</font><font class="R2">G</font><font class="R4">AGGC</font><font class="G4">G</font><font class="R4">G</font><font class="R2">AG</font><font class="R4">CG</font><font class="R2">G</font><font class="R3">A</font><font class="R2">TTCTCG</font><font class="R3">G</font><font class="R2">C</font><font class="R3">CTg</font><font class="NC">c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:7621222/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gACCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGG</font><font class="R3">CCTg</font><font class="NC">c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:5981017/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gACCCTACAGTTG</font><font class="R3">C</font><font class="R4">AGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">G</font><font class="R3">A</font><font class="R4">GCGGATTCTCGG</font><font class="R3">CCTg</font><font class="NC">a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:3833237/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gACCCTACAGTTG</font><font class="R2">C</font><font class="R4">AGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGG</font><font class="R3">CCTg</font><font class="NC">a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:3809381/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R3">gACCC</font><font class="R4">TACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGG</font><font class="R2">A</font><font class="R3">T</font><font class="R4">TCTCGGCCTGt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:6306094/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R3">gA</font><font class="R2">CCC</font><font class="R4">TA</font><font class="R3">C</font><font class="R4">A</font><font class="R3">G</font><font class="R4">TT</font><font class="R2">GC</font><font class="R4">AGA</font><font class="R3">G</font><font class="R2">C</font><font class="R4">AG</font><font class="R3">C</font><font class="R4">CTG</font><font class="R3">G</font><font class="R4">AG</font><font class="R2">G</font><font class="R4">C</font><font class="G4">G</font><font class="R3">GA</font><font class="R2">GC</font><font class="R4">G</font><font class="R2">GATTCTC</font><font class="R4">G</font><font class="R3">G</font><font class="R4">CCTGt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:4143808/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gACCCTA</font><font class="R3">C</font><font class="R4">AGT</font><font class="R3">T</font><font class="R4">G</font><font class="R3">C</font><font class="R4">AGA</font><font class="R3">G</font><font class="R4">CAGCCTGGAGGC</font><font class="G4">G</font><font class="R3">GAG</font><font class="R2">CGG</font><font class="R4">ATT</font><font class="R3">CT</font><font class="R4">CGG</font><font class="R3">CCT</font><font class="R2">Gt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:3595003/50&#8209;1</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R3">gACCC</font><font class="R4">TACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGGC</font><font class="R3">C</font><font class="R4">TGt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:1920930/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">aCCCTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGGC</font><font class="R3">CTGtt</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:7863481/50&#8209;1</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">aCCC</font><font class="R2">T</font><font class="R4">ACAGT</font><font class="R3">T</font><font class="R2">G</font><font class="R4">CAG</font><font class="R3">A</font><font class="R2">G</font><font class="R3">C</font><font class="R4">AGCCTGG</font><font class="R2">AG</font><font class="R4">G</font><font class="R3">C</font><font class="G4">G</font><font class="R3">GA</font><font class="R4">G</font><font class="R3">C</font><font class="R4">GGA</font><font class="R2">T</font><font class="R4">TC</font><font class="R2">T</font><font class="R3">CG</font><font class="R4">GC</font><font class="R3">CTGt</font><font class="NC">a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:690268/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">ccTACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGGCCT</font><font class="R3">Gttct</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:7241090/50&#8209;1</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">tACAGTTGCAGAGCAGCCTGGAGGC</font><font class="G4">G</font><font class="R4">GAGCGGATTCTCGGCCTGt</font><font class="R3">tctt</font><font class="NC">t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:38534/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R2">t</font><font class="R3">G</font><font class="R2">CAGAGC</font><font class="R3">A</font><font class="R4">GCCT</font><font class="R3">G</font><font class="R4">GA</font><font class="R2">GGC</font><font class="G3">G</font><font class="R2">GAG</font><font class="R4">CG</font><font class="R3">G</font><font class="R2">ATTCTCGGC</font><font class="R4">C</font><font class="R3">T</font><font class="R4">GTT</font><font class="R3">CTTC</font><font class="R4">GA</font><font class="R2">G</font><font class="R4">G</font><font class="R0">aa</font><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class=" 5">&nbsp;</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">1:7786042/1&#8209;50</font>&nbsp;(MQ=255)</CODE><BR><CODE><font class="NC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="R4">gcagcCTGGAG</font><font class="R3">G</font><font class="R4">C</font><font class="G4">G</font><font class="R4">G</font><font class="R2">AG</font><font class="R4">C</font><font class="R3">G</font><font class="R4">GATTCTCGGCC</font><font class="R3">TG</font><font class="R4">TTCTTCGAGGAAG</font><font class="R3">TCCg</font><font class="NC">t</font>&nbsp;&nbsp;&lt;&nbsp;&nbsp;<font class="NC">1:5162879/50&#8209;2</font>&nbsp;(MQ=255)</CODE><BR>
+<!-- Reads End -->
+<CODE><font class=" 5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font class="|5">|</font><font class=" 5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></CODE><BR>
+
+<!-- Reference Begin --><CODE><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="A5">AA</font><font class="C5">C</font><font class="T5">T</font><font class="G5">G</font><font class="A5">A</font><font class="C5">CCC</font><font class="T5">T</font><font class="A5">A</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="T5">TT</font><font class="G5">G</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="C5">CC</font><font class="T5">T</font><font class="G5">GG</font><font class="A5">A</font><font class="G5">GG</font><font class="C5">C</font><font class="A5">A</font><font class="G5">G</font><font class="A5">A</font><font class="G5">G</font><font class="C5">C</font><font class="G5">GG</font><font class="A5">A</font><font class="T5">TT</font><font class="C5">C</font><font class="T5">T</font><font class="C5">C</font><font class="G5">GG</font><font class="C5">CC</font><font class="T5">T</font><font class="G5">G</font><font class="T5">TT</font><font class="C5">C</font><font class="T5">TT</font><font class="C5">C</font><font class="G5">G</font><font class="A5">A</font><font class="G5">GG</font><font class="A5">AA</font><font class="G5">G</font><font class="T5">T</font><font class="C5">CC</font><font class="G5">G</font><font class="C5">C</font>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<font class="NC">PA3177/1018&#8209;1092</font></CODE><BR>
+<!-- Reference End -->
+
+</td></tr></table>
+
+<!-- Legend Begin --><br><table border="0" cellspacing="1" cellpadding="3" style="font-size:10pt"><tr><th align="left">Alignment Legend</th></tr><tr ><td >Aligned&nbsp;base&nbsp;mismatch/match&nbsp;(shaded&nbsp;by&nbsp;quality&nbsp;score):&nbsp;<CODE><font class="A0">A</font><font class="T0">T</font><font class="C0">C</font><font class="G0">G</font><font class="NC">/</font><font class="R0">ATCG</font></CODE><CODE>&nbsp;&lt;&nbsp;3&nbsp;&le;&nbsp;</CODE><CODE><font class="A1">A</font><font class="T1">T</font><font class="C1">C</font><font class="G1">G</font><font class="NC">/</font><font class="R1">ATCG</font></CODE><CODE>&nbsp;&lt;&nbsp;14&nbsp;&le;&nbsp;</CODE><CODE><font class="A2">A</font><font class="T2">T</font><font class="C2">C</font><font class="G2">G</font><font class="NC">/</font><font class="R2">ATCG</font></CODE><CODE>&nbsp;&lt;&nbsp;33&nbsp;&le;&nbsp;</CODE><CODE><font class="A3">A</font><font class="T3">T</font><font class="C3">C</font><font class="G3">G</font><font class="NC">/</font><font class="R3">ATCG</font></CODE><CODE>&nbsp;&lt;&nbsp;37&nbsp;&le;&nbsp;</CODE><CODE><font class="A4">A</font><font class="T4">T</font><font class="C4">C</font><font class="G4">G</font><font class="NC">/</font><font class="R4">ATCG</font></CODE></td></tr><tr ><td >Unaligned&nbsp;base:&nbsp;<code>atcg</code>&nbsp;&nbsp;&nbsp;&nbsp;Masked&nbsp;matching&nbsp;base:&nbsp;<CODE><font class="R5">atcg</font></CODE>&nbsp;&nbsp;&nbsp;&nbsp;Alignment&nbsp;gap:&nbsp;<CODE><font class="NC">&#8209;</font></CODE>&nbsp;&nbsp;&nbsp;&nbsp;Deleted&nbsp;base:&nbsp;<CODE><font class="GAP">&#8209;</font></CODE></td></tr></table>
+<!-- Legend End -->
+
+</body></html>
