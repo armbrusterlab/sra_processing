@@ -39,6 +39,7 @@ For variable types, please refer to the params block of predownload.nf.
 ### Run the pipeline
 The code below will place outputs in the results/ dir. If you use the -output-dir option with a different outdir, you will need to specify the metadata/ subdir of that outdir as predownload_outputs in the params file for the main pipeline.  
 ```bash
+cd nextflow/
 nextflow run predownload.nf -params-file predownload-params.yaml
 ```
 
@@ -92,11 +93,19 @@ find ${datadir}/ncbi_dataset -type f -name genomic.gbff # prints the filename; p
 ### Run the pipeline
 The outdir does not need to match that of the predownload pipeline.
 ```bash
-nextflow run main.nf -params-file main-params.yaml -with-report results/report.html
+cd nextflow/ # if not already at the nextflow dir
+nextflow run main.nf -params-file main-params.yaml -with-report results/report.html # if using custom outdir, change report dir to match
 ```
 
 # Outputs
 The main output is breseq_summary_tables/breseq_summary_withMetadata.tsv, which joins metadata from the predownload pipeline to the mutations found by breseq relative to target gene sequences in reference_gb. (The missing coverage and new junction outputs are also aggregated, but do not include metadata.) breseq output HTMLs supporting each mutation may be found in breseq_export/.
 
 # Acknowledgements
-TODO
+* Advisor: Dr. Catherine Armbruster
+* Open-source projects used:
+	* [pysradb](https://github.com/saketkc/pysradb)
+ 	* NCBI [esearch](https://eutilities.github.io/site/Quick_Start/eu_quick/#esearch) and [datasets](https://github.com/ncbi/datasets)
+  	* [sra-tools](https://github.com/ncbi/sra-tools)
+  	* [fastp](https://github.com/OpenGene/fastp) and [fastplong](https://github.com/OpenGene/fastplong)
+  	* [kraken2](https://github.com/DerrickWood/kraken2)
+  	* [breseq](https://github.com/barricklab/breseq)
