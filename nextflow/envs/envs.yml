@@ -60,6 +60,7 @@ dependencies:
   - idna=3.13=pyhcf101f3_0
   - isa-l=2.31.1=hb9d3cd8_1
   - jmespath=1.1.0=pyhcf101f3_1
+  - joblib=1.5.2=pyhd8ed1ab_0
   - jq=1.8.1=h73b1eb8_0
   - k8=1.2=he8db53b_6
   - kernel-headers_linux-64=6.12.0=he073ed8_6
@@ -195,6 +196,7 @@ dependencies:
   - rsync=3.4.4=h5440a77_0
   - s3transfer=0.18.0=pyhd8ed1ab_0
   - samtools=1.23=h96c455f_0
+  - scikit-learn=1.7.2=py313h06d4379_0
   - sed=4.10=h19d0853_0
   - seqkit=2.13.0=he881be0_0
   - setuptools=

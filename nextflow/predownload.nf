@@ -1,6 +1,7 @@
 #!/usr/bin/env nextflow
 include { getMetadata } from './modules/getMetadata.nf'
 include { checkTaxidCoverage } from './modules/checkCoverage.nf'
+include { predictEnvSources } from './modules/predictSources.nf'
 
 params {
     // always use params file to pass arguments; otherwise ints, floats, and Booleans may be interpreted as strings
@@ -8,6 +9,7 @@ params {
     genome_length: Float
     taxid: Integer
     coverage_threshold: Integer
+    model_dir: Path
 }
 
 workflow {
@@ -17,9 +19,11 @@ workflow {
 
     checkTaxidCoverage(taxdir, params.genome_length, params.taxid, params.coverage_threshold)
 
+    predictEnvSources(getMetadata.out.metadata_pysradb, params.model_dir)
+
     publish:
     metadata_esearch = getMetadata.out.metadata_esearch
-    metadata_pysradb = getMetadata.out.metadata_pysradb
+    metadata_pysradb = predictEnvSources.out.metadata_pysradb // it's overwritten to include model predictions
     taxonomy_analysis = taxdir
 
     taxid = checkTaxidCoverage.out.taxid
