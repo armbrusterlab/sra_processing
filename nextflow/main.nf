@@ -2,7 +2,7 @@
 include { downloadRuns } from './modules/downloadRuns.nf'
 include { qualityControl } from './modules/qualityControl.nf'
 include { krakenClassify; makePatternFiles; filterByTaxid } from './modules/taxidFiltering.nf'
-include { makeGB; runBreseq } from './modules/findVariants.nf'
+include { makeGB; runBreseq; summarizeSources } from './modules/findVariants.nf'
 
 params {
     // always use params file to pass arguments; otherwise ints, floats, and Booleans may be interpreted as strings
@@ -25,6 +25,10 @@ params {
     buffer_downstream: Integer
 
     breseq_additional: String
+    filter_intergenic: String
+    filter_synonymous: String
+    category_colname: String
+    subcategory_colname: String
 }
 
 workflow {
@@ -49,14 +53,17 @@ workflow {
     makeGB(params.reference_gb, params.target_genes, params.target_type, params.buffer_upstream, params.buffer_downstream)
     def gb_for_breseq = makeGB.out.gb_for_breseq
 
-    runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional, params.predownload_outputs)
+    runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional, params.predownload_outputs, params.filter_intergenic, params.filter_synonymous)
     def breseq_tables = runBreseq.out.breseq_tables
     def breseq_htmls = runBreseq.out.breseq_htmls
+
+    summarizeSources(breseq_tables, params.category_colname, params.subcategory_colname)
 
     publish:
     kraken_reports = krakenClassify.out.kraken2_reports
     breseq_t = breseq_tables
     breseq_h = breseq_htmls
+    source_summary = summarizeSources.out.mutation_frequencies
 }
 
 
@@ -71,6 +78,10 @@ output {
     }
     breseq_h {
         path { "./" }
+        mode "copy"
+    }
+    source_summary {
+        path {"./"}
         mode "copy"
     }
 }

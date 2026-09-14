@@ -34,6 +34,8 @@ process runBreseq {
     path gb_for_breseq
     val breseq_additional
     path predownload_outputs
+    val filter_intergenic
+    val filter_synonymous
 
     output:
     path "breseq_summary_tables/", emit: breseq_tables
@@ -74,7 +76,16 @@ process runBreseq {
     # aggregate outputs
     find breseq/ -mindepth 2 -maxdepth 2 -type d -name "output" > "breseq/run_outputs.txt"
 
-    python "\$projDir/../scripts/summarize_breseq.py" "breseq/run_outputs.txt" "breseq_summary_tables"
+    additional_flags=""
+    if [[ "${filter_intergenic}" == "True" ]]; then
+        additional_flags+="-i "
+    fi
+    if [[ "${filter_synonymous}" == "True" ]]; then
+        additional_flags+="-s"
+    fi
+    echo "Additional flags: \$additional_flags"
+
+    python "\$projDir/../scripts/summarize_breseq.py" "breseq/run_outputs.txt" "breseq_summary_tables" \$additional_flags
 
     # join breseq aggregator mutation table with other metadata:
     python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
@@ -87,5 +98,27 @@ process runBreseq {
         run=\${temp##*/}
         mv \$d "\$exportdir/\${run}"
     done
+    """
+}
+/*
+ * For each mutant, counts the associated environments.
+ */
+process summarizeSources {
+    conda "${workflow.projectDir}/envs/envs.yml"
+
+    input:
+    path breseq_tables
+    val category_colname
+    val subcategory_colname
+
+    output:
+    path "mutation_frequencies.tsv", emit: mutation_frequencies
+
+    script:
+    """
+    projDir="${workflow.projectDir}"
+
+    mutant_summary="${breseq_tables}/breseq_summary_withMetadata.tsv"
+    python "\$projDir/../scripts/summarize_mutants_envsource.py" -f \$mutant_summary -c "${category_colname}" -s "${subcategory_colname}" # default outname is "mutation_frequencies.tsv"
     """
 }

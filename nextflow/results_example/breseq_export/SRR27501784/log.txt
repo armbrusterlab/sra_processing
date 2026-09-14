@@ -1,4 +1,4 @@
-Thu Sep 10 19:39:15 2026
+Mon Sep 14 17:01:39 2026
 
 breseq --polymorphism-prediction --maximum-read-mismatches 5 --consensus-minimum-total-coverage 20 -r for_breseq.gb -o breseq//SRR27501784 grepq/paired/SRR27501784/SRR27501784_1.fq.gz grepq/paired/SRR27501784/SRR27501784_2.fq.gz grepq/single/short/SRR27501784/SRR27501784.fq.gz
 

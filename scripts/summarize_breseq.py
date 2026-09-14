@@ -65,6 +65,9 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
     print("Done!")
 
 def find_synonymous(s):
+    if s != s: # this is true only if s is NaN
+        return False
+    
     pattern = r"^([A-Z])[0-9]+([A-Z])?" # capturing groups: the two nucleotides flanking some number
     found = re.match(pattern, s)
     if found:

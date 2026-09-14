@@ -12,7 +12,7 @@ TODO: rename repository once name is finalized
 - [Acknowledgements](#acknowledgements)
 
 # Pipeline overview
-This pipeline facilitates the search for mutations of target genes within NCBI's SRA database. The SRA database is broader than GenBank or RefSeq. However, SRA cannot be directly BLASTed, and the large size of SRA read datasets makes it time-intensive and compute-intensive to conduct searches across the entire database. In order to address these issues, this pipeline was designed to conduct "smart" searches limited to the most relevant datasets, without requiring genome assembly.  
+This pipeline facilitates the search for mutations of target genes within NCBI's SRA database, and summarizes the environmental sources each mutation is found in. The SRA database is broader than GenBank or RefSeq. However, SRA cannot be directly BLASTed, and the large size of SRA read datasets makes it time-intensive and compute-intensive to conduct searches across the entire database. In order to address these issues, this pipeline was designed to conduct "smart" searches limited to the most relevant datasets, without requiring genome assembly.  
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/76e9b108-eb43-4ed5-943e-453522ce4ab3" />
 
 
@@ -76,6 +76,8 @@ Other params:
 * target_type: Indicates the field in the GB file in which to look for matching items in the target_genes list. For example, "locus_tag", "gene", or "product".
 * buffer_upstream and buffer_downstream: To assist with read mapping in the breseq step, each target gene is extracted with a buffer on either side. Default for both: 900 bp.
 * breseq_additional: Additional arguments for breseq.
+* filter_intergenic and filter_synonymous: Filter out intergenic and/or synonymous mutations from the breseq output.
+* category_colname and subcategory_colname: Column names for predicted category and subcategory. These don't need to be changed unless you opt to use a model other than v19 or v20. If you create your own model, refer to scripts/predict_environmental_source.py to understand how column names are assigned.
 
 #### Obtaining a GB file
 reference_gb may either be downloaded from a website or obtained from NCBI datasets. See below for the latter approach.
@@ -98,7 +100,11 @@ nextflow run main.nf -params-file main-params.yaml -with-report results/report.h
 ```
 
 # Outputs
-The main output is breseq_summary_tables/breseq_summary_withMetadata.tsv, which joins metadata from the predownload pipeline to the mutations found by breseq relative to target gene sequences in reference_gb. (The missing coverage and new junction outputs are also aggregated, but do not include metadata.) breseq output HTMLs supporting each mutation may be found in breseq_export/.
+The main output is breseq_summary_tables/breseq_summary_withMetadata.tsv, which joins metadata from the predownload pipeline to the mutations found by breseq relative to target gene sequences in reference_gb. (The missing coverage and new junction outputs are also aggregated, but do not include metadata.) breseq output HTMLs supporting each mutation may be found in breseq_export/. Opening this file in Excel may result in garbled text being displayed; if that is the case, please try opening it in a plaintext editor such as Notepad.  
+Additionally, a summary of mutations with environmental sources may be found at mutation_frequencies.tsv. Environmental sources are predicted from metadata such as the isolation_source column using logistic regression models located in the models/ directory and described in modeling/README.md. The frequencies of environmental source labels for any given mutation in this file may be visualized as bar plots using the following script.  
+```bash
+Rscript scripts/visualize_mutants_envsource.R "nextflow/results_example/mutation_frequencies.tsv" "morA →: L450L (CTT→CTG)" "nextflow/results_example/my_boxplot.png"
+```
 
 # Acknowledgements
 * Advisor: Dr. Catherine Armbruster

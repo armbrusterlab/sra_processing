@@ -1,0 +1,203 @@
+Mutation	Category	Subcategory	Count
+wbpA → / –: intergenic (+40/–)	Engineered	Food production	1
+wbpA → / –: intergenic (+40/–)	Environmental	Aquatic	1
+fliF →: D450D (GAT→GAC)	Engineered	Food production	1
+fliF →: D450D (GAT→GAC)	Environmental	Aquatic	1
+N_A →: E261D (GAG→GAC)	Engineered	Industrial	1
+N_A →: E261D (GAG→GAC)	Infection	Medical environment	1
+morA →: Q277Q (CAA→CAG)	Engineered	Food production	1
+morA →: Q277Q (CAA→CAG)	Environmental	Aquatic	1
+morA →: P939P (CCA→CCG)	Engineered	Industrial	1
+morA →: P939P (CCA→CCG)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑761)	Engineered	Industrial	1
+– / → fliF: intergenic (–/‑761)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑761)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑761)	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑522)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑522)	Environmental	Aquatic	1
+morA →: E525E (GAG→GAA)	Engineered	Industrial	1
+morA →: E525E (GAG→GAA)	Infection	Medical environment	1
+wbpA: 	Engineered	Industrial	1
+wbpA: 	Infection	Medical environment	1
+fliF →: G201G (GGG→GGT)	Engineered	Industrial	1
+fliF →: G201G (GGG→GGT)	Infection	Medical environment	1
+fliF →: G201G (GGG→GGT)	Engineered	Food production	1
+fliF →: G201G (GGG→GGT)	Environmental	Aquatic	1
+fliF → / –: intergenic (+167/–)	Engineered	Industrial	1
+fliF → / –: intergenic (+167/–)	Infection	Medical environment	1
+wbpA → / –: intergenic (+20/–)	Engineered	Food production	1
+wbpA → / –: intergenic (+20/–)	Environmental	Aquatic	1
+N_A → / –: intergenic (+86/–)	Engineered	Industrial	1
+N_A → / –: intergenic (+86/–)	Infection	Medical environment	1
+fliF →: Q227Q (CAG→CAA)	Engineered	Industrial	1
+fliF →: Q227Q (CAG→CAA)	Infection	Medical environment	1
+morA →: P211P (CCG→CCA)	Engineered	Food production	1
+morA →: P211P (CCG→CCA)	Environmental	Aquatic	1
+fliF → / –: intergenic (+113/–)	Engineered	Industrial	1
+fliF → / –: intergenic (+113/–)	Infection	Medical environment	1
+morA →: E736E (GAA→GAG)	Engineered	Industrial	1
+morA →: E736E (GAA→GAG)	Infection	Medical environment	1
+fliF →: P335P (CCC→CCG)	Engineered	Industrial	1
+fliF →: P335P (CCC→CCG)	Infection	Medical environment	1
+fliF →: P335P (CCC→CCG)	Engineered	Food production	1
+fliF →: P335P (CCC→CCG)	Environmental	Aquatic	1
+morA →: L450L (CTT→CTG)	Engineered	Industrial	1
+morA →: L450L (CTT→CTG)	Infection	Medical environment	1
+morA →: L450L (CTT→CTG)	Engineered	Food production	1
+morA →: L450L (CTT→CTG)	Environmental	Aquatic	1
+fliF →: G407G (GGG→GGA)	Engineered	Food production	1
+fliF →: G407G (GGG→GGA)	Environmental	Aquatic	1
+wbpK: 	Engineered	Industrial	1
+wbpK: 	Infection	Medical environment	1
+fliF →: L513L (CTG→TTG)	Engineered	Industrial	1
+fliF →: L513L (CTG→TTG)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑126)	Engineered	Industrial	1
+– / → morA: intergenic (–/‑126)	Infection	Medical environment	1
+fliF →: A341A (GCG→GCT)	Engineered	Industrial	1
+fliF →: A341A (GCG→GCT)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑692)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑692)	Environmental	Aquatic	1
+N_A →: D249D (GAC→GAT)	Engineered	Food production	1
+N_A →: D249D (GAC→GAT)	Environmental	Aquatic	1
+– / → morA: intergenic (–/‑271)	Engineered	Food production	1
+– / → morA: intergenic (–/‑271)	Environmental	Aquatic	1
+morA →: R948R (CGC→CGT)	Engineered	Industrial	1
+morA →: R948R (CGC→CGT)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑239)	Engineered	Food production	1
+– / → morA: intergenic (–/‑239)	Environmental	Aquatic	1
+– / → fliF: intergenic (–/‑65)	Engineered	Industrial	1
+– / → fliF: intergenic (–/‑65)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑65)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑65)	Environmental	Aquatic	1
+morA →: coding (1992‑1993/4248 nt)	Engineered	Industrial	1
+morA →: coding (1992‑1993/4248 nt)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑433)	Engineered	Industrial	1
+– / → fliF: intergenic (–/‑433)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑433)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑433)	Environmental	Aquatic	1
+morA →: Q278Q (CAG→CAA)	Engineered	Food production	1
+morA →: Q278Q (CAG→CAA)	Environmental	Aquatic	1
+– / → morA: intergenic (–/‑328)	Engineered	Food production	1
+– / → morA: intergenic (–/‑328)	Environmental	Aquatic	1
+morA →: E452E (GAG→GAA)	Engineered	Industrial	1
+morA →: E452E (GAG→GAA)	Infection	Medical environment	1
+morA →: V367V (GTA→GTG)	Engineered	Industrial	1
+morA →: V367V (GTA→GTG)	Infection	Medical environment	1
+morA →: V367V (GTA→GTG)	Engineered	Food production	1
+morA →: V367V (GTA→GTG)	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑637)	Engineered	Industrial	1
+– / → N_A: intergenic (–/‑637)	Infection	Medical environment	1
+wbpJ: 	Engineered	Industrial	1
+wbpJ: 	Infection	Medical environment	1
+wbpJ: 	Engineered	Food production	1
+wbpJ: 	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑347)	Engineered	Industrial	1
+– / → N_A: intergenic (–/‑347)	Infection	Medical environment	1
+– / → N_A: intergenic (–/‑347)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑347)	Environmental	Aquatic	1
+– / → morA: intergenic (–/‑134)	Engineered	Industrial	1
+– / → morA: intergenic (–/‑134)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑134)	Engineered	Food production	1
+– / → morA: intergenic (–/‑134)	Environmental	Aquatic	1
+N_A → / –: intergenic (+491/–)	Engineered	Industrial	1
+N_A → / –: intergenic (+491/–)	Infection	Medical environment	1
+fliF → / –: intergenic (+2/–)	Engineered	Industrial	1
+fliF → / –: intergenic (+2/–)	Infection	Medical environment	1
+morA →: S1288S (AGT→AGC)	Engineered	Industrial	1
+morA →: S1288S (AGT→AGC)	Infection	Medical environment	1
+– / → fliF: intergenic (–/‑252)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑252)	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑472)	Engineered	Industrial	1
+– / → N_A: intergenic (–/‑472)	Infection	Medical environment	1
+– / → N_A: intergenic (–/‑162)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑162)	Environmental	Aquatic	1
+N_A →: A225A (GCC→GCT)	Engineered	Industrial	1
+N_A →: A225A (GCC→GCT)	Infection	Medical environment	1
+wbpI: 	Engineered	Industrial	1
+wbpI: 	Infection	Medical environment	1
+N_A → / –: intergenic (+138/–)	Engineered	Industrial	1
+N_A → / –: intergenic (+138/–)	Infection	Medical environment	1
+N_A → / –: intergenic (+138/–)	Engineered	Food production	1
+N_A → / –: intergenic (+138/–)	Environmental	Aquatic	1
+wbpA → / –: intergenic (+526/–)	Engineered	Food production	1
+wbpA → / –: intergenic (+526/–)	Environmental	Aquatic	1
+fliF →: G507G (GGT→GGC)	Engineered	Industrial	1
+fliF →: G507G (GGT→GGC)	Infection	Medical environment	1
+N_A →: R281R (CGT→CGC)	Engineered	Industrial	1
+N_A →: R281R (CGT→CGC)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑129)	Engineered	Food production	1
+– / → morA: intergenic (–/‑129)	Environmental	Aquatic	1
+N_A → / –: intergenic (+678/–)	Engineered	Industrial	1
+N_A → / –: intergenic (+678/–)	Infection	Medical environment	1
+N_A → / –: intergenic (+678/–)	Engineered	Food production	1
+N_A → / –: intergenic (+678/–)	Environmental	Aquatic	1
+N_A →: P238P (CCG→CCA)	Engineered	Industrial	1
+N_A →: P238P (CCG→CCA)	Infection	Medical environment	1
+fliF →: G323G (GGC→GGG)	Engineered	Industrial	1
+fliF →: G323G (GGC→GGG)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑265)	Engineered	Food production	1
+– / → morA: intergenic (–/‑265)	Environmental	Aquatic	1
+morA →: H336H (CAC→CAT)	Engineered	Industrial	1
+morA →: H336H (CAC→CAT)	Infection	Medical environment	1
+morA →: G237G (GGA→GGG)	Engineered	Industrial	1
+morA →: G237G (GGA→GGG)	Infection	Medical environment	1
+morA →: G237G (GGA→GGG)	Engineered	Food production	1
+morA →: G237G (GGA→GGG)	Environmental	Aquatic	1
+– / → fliF: intergenic (–/‑548)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑548)	Environmental	Aquatic	1
+N_A → / –: intergenic (+500/–)	Engineered	Industrial	1
+N_A → / –: intergenic (+500/–)	Infection	Medical environment	1
+N_A → / –: intergenic (+500/–)	Engineered	Food production	1
+N_A → / –: intergenic (+500/–)	Environmental	Aquatic	1
+morA →: H763H (CAT→CAC)	Engineered	Industrial	1
+morA →: H763H (CAT→CAC)	Infection	Medical environment	1
+– / → morA: intergenic (–/‑253)	Engineered	Food production	1
+– / → morA: intergenic (–/‑253)	Environmental	Aquatic	1
+morA →: L362L (TTG→CTG)	Engineered	Industrial	1
+morA →: L362L (TTG→CTG)	Infection	Medical environment	1
+morA →: L362L (TTG→CTG)	Engineered	Food production	1
+morA →: L362L (TTG→CTG)	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑601)	Engineered	Industrial	1
+– / → N_A: intergenic (–/‑601)	Infection	Medical environment	1
+– / → N_A: intergenic (–/‑615)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑615)	Environmental	Aquatic	1
+– / → morA: intergenic (–/‑646)	Engineered	Industrial	1
+– / → morA: intergenic (–/‑646)	Infection	Medical environment	1
+morA →: L455L (TTG→CTG)	Engineered	Industrial	1
+morA →: L455L (TTG→CTG)	Infection	Medical environment	1
+wbpA → / –: intergenic (+712/–)	Engineered	Food production	1
+wbpA → / –: intergenic (+712/–)	Environmental	Aquatic	1
+– / → N_A: intergenic (–/‑320)	Engineered	Industrial	1
+– / → N_A: intergenic (–/‑320)	Infection	Medical environment	1
+– / → N_A: intergenic (–/‑320)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑320)	Environmental	Aquatic	1
+wbpA → / –: intergenic (+397/–)	Engineered	Food production	1
+wbpA → / –: intergenic (+397/–)	Environmental	Aquatic	1
+N_A →: E265E (GAA→GAG)	Engineered	Industrial	1
+N_A →: E265E (GAA→GAG)	Infection	Medical environment	1
+morA →: coding (1851‑1852/4248 nt)	Engineered	Industrial	1
+morA →: coding (1851‑1852/4248 nt)	Infection	Medical environment	1
+morA →: L1232L (TTG→TTA)	Engineered	Industrial	1
+morA →: L1232L (TTG→TTA)	Infection	Medical environment	1
+N_A →: F132F (TTC→TTT)	Engineered	Food production	1
+N_A →: F132F (TTC→TTT)	Environmental	Aquatic	1
+– / → fliF: intergenic (–/‑554)	Engineered	Food production	1
+– / → fliF: intergenic (–/‑554)	Environmental	Aquatic	1
+morA →: E936E (GAG→GAA)	Engineered	Industrial	1
+morA →: E936E (GAG→GAA)	Infection	Medical environment	1
+– / → N_A: intergenic (–/‑166)	Engineered	Food production	1
+– / → N_A: intergenic (–/‑166)	Environmental	Aquatic	1
+morA →: E574E (GAA→GAG)	Engineered	Industrial	1
+morA →: E574E (GAA→GAG)	Infection	Medical environment	1
+morA →: P342P (CCG→CCA)	Engineered	Food production	1
+morA →: P342P (CCG→CCA)	Environmental	Aquatic	1
+fliF →: V289V (GTT→GTC)	Engineered	Industrial	1
+fliF →: V289V (GTT→GTC)	Infection	Medical environment	1
+morA →: R58R (CGG→CGA)	Engineered	Industrial	1
+morA →: R58R (CGG→CGA)	Infection	Medical environment	1
+morA →: R58R (CGG→CGA)	Engineered	Food production	1
+morA →: R58R (CGG→CGA)	Environmental	Aquatic	1
+fliF →: G374G (GGC→GGG)	Engineered	Food production	1
+fliF →: G374G (GGC→GGG)	Environmental	Aquatic	1
+morA →: G143G (GGT→GGC)	Engineered	Food production	1
+morA →: G143G (GGT→GGC)	Environmental	Aquatic	1

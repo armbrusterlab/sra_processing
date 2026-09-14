@@ -1,0 +1,3 @@
+# $1: list of accessions
+# $2: output filename
+datasets summary genome accession $(cat "$1") --annotated --assembly-version "latest" --exclude-atypical --as-json-lines | dataformat tsv genome --fields accession,assminfo-biosample-isolation-source,assminfo-sequencing-tech,assmstats-genome-coverage,assminfo-assembly-method,assminfo-biosample-host,assminfo-biosample-host-disease,assminfo-bioproject-lineage-title,assminfo-biosample-bioproject-title,assminfo-biosample-description-title,organism-name,organism-infraspecific-strain,organism-tax-id,assmstats-contig-l50,assmstats-contig-n50,assmstats-scaffold-l50,assmstats-scaffold-n50,assminfo-biosample-attribute-name,assminfo-biosample-attribute-value > "$2"

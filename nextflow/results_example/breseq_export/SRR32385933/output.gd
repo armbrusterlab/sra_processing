@@ -1,5 +1,5 @@
 #=GENOME_DIFF	1.0
-#=CREATED	19:48:50 10 Sep 2026
+#=CREATED	17:13:05 14 Sep 2026
 #=PROGRAM	breseq 0.40.1 
 #=COMMAND	breseq --polymorphism-prediction --maximum-read-mismatches 5 --consensus-minimum-total-coverage 20 -x -r for_breseq.gb -o breseq//SRR32385933 grepq/single/long/SRR32385933/SRR32385933.fq.gz
 #=REFSEQ	for_breseq.gb
