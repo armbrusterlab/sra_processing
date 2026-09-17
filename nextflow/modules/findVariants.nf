@@ -33,12 +33,8 @@ process runBreseq {
     path runids_postqc_dir
     path gb_for_breseq
     val breseq_additional
-    path predownload_outputs
-    val filter_intergenic
-    val filter_synonymous
 
     output:
-    path "breseq_summary_tables/", emit: breseq_tables
     path "breseq_export/", emit: breseq_htmls
 
     script:
@@ -73,8 +69,36 @@ process runBreseq {
     echo "Start time: \$start"
     echo "End time: \$end"
 
-    # aggregate outputs
-    find breseq/ -mindepth 2 -maxdepth 2 -type d -name "output" > "breseq/run_outputs.txt"
+    # move breseq output htmls to a single dir
+    exportdir="breseq_export/"
+    mkdir -p \$exportdir
+    for d in \$(find breseq/ -mindepth 2 -type d -name "output"); do 
+        temp=\${d%/*}
+        run=\${temp##*/}
+        mv \$d "\$exportdir/\${run}"
+    done
+    """
+}
+/*
+ * The breseq summarizer has been separated into its own process so that modifications won't invalidate the cache for actually running breseq.
+ */
+process summarizeBreseq {
+    conda "${workflow.projectDir}/envs/envs.yml"
+
+    input:
+    path breseq_tables
+    path predownload_outputs
+    val filter_intergenic
+    val filter_synonymous
+
+    output:
+    path "breseq_summary_tables/", emit: breseq_tables
+
+    script:
+    """
+    projDir="${workflow.projectDir}"
+
+    find -L ${breseq_tables} -mindepth 1 -maxdepth 1 -type d | sort > "run_outputs.txt" # -L option so that find follows symlinks
 
     additional_flags=""
     if [[ "${filter_intergenic}" == "True" ]]; then
@@ -85,19 +109,10 @@ process runBreseq {
     fi
     echo "Additional flags: \$additional_flags"
 
-    python "\$projDir/../scripts/summarize_breseq.py" "breseq/run_outputs.txt" "breseq_summary_tables" \$additional_flags
+    python "\$projDir/../scripts/summarize_breseq.py" "run_outputs.txt" "breseq_summary_tables" \$additional_flags -n -1
 
     # join breseq aggregator mutation table with other metadata:
     python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
-
-    # move breseq output htmls to a single dir
-    exportdir="breseq_export/"
-    mkdir -p \$exportdir
-    for d in \$(find breseq/ -mindepth 2 -type d -name "output"); do 
-        temp=\${d%/*}
-        run=\${temp##*/}
-        mv \$d "\$exportdir/\${run}"
-    done
     """
 }
 /*

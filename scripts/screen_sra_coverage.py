@@ -1,5 +1,6 @@
 from pathlib import Path
 import pandas as pd
+import csv
 import json
 import argparse
 
@@ -13,12 +14,15 @@ import argparse
 # taxid = 286 # int or string?
 
 def join_data(taxdir, genome_length, taxid, coverage_threshold=30, outdir='.', showAllMetdata=False):
+    outdir_path = Path(outdir)
+    outdir_path.mkdir(exist_ok=True, parents=True)
+
     esearch_file = f"{taxdir}/../metadata_esearch.csv"
-    esearch = pd.read_csv(esearch_file, sep=",")
+    esearch = pd.read_csv(esearch_file, sep=",", on_bad_lines="warn")
 
     pysradb_file = f"{taxdir}/../metadata_pysradb.tsv"
     #pysradb = pd.read_csv(pysradb_file, sep="\t", low_memory=False) # get a warning about mixed data types without low_memory=False
-    pysradb = pd.read_csv(pysradb_file, sep="\t")
+    pysradb = pd.read_csv(pysradb_file, sep="\t", low_memory=False,  on_bad_lines="warn", quoting=csv.QUOTE_NONE) # some lines contain unmatched quotes; this ignores them
 
     coverage_by_run = {}
     pass_by_run = {}
@@ -29,8 +33,22 @@ def join_data(taxdir, genome_length, taxid, coverage_threshold=30, outdir='.', s
     for path in pathlist:
         run_id = path.stem # filename without extension- this is the run ID
 
-        read_type = pysradb[pysradb.run_accession == run_id].reset_index(drop=True).library_layout[0]
-        spot_factor = 1 + (read_type == "PAIRED") # in paired end runs, a single spot has two reads
+        matches = pysradb.loc[pysradb.run_accession == run_id, "library_layout"]
+        if matches.empty: # e.g. if NCBI glitched on this accession and pysradb failed to get metadata for it
+            print(f"WARNING: {run_id} missing from pysradb metadata; skipping")
+            
+            # fill with bogus values; even if in theory the coverage is high enough, the pysradb metadata is not re-acquired later, so to avoid problems skip this
+            coverage_by_run[run_id] = 0
+            pass_by_run[run_id] = False
+            spots_by_run[run_id] = 0
+            
+            continue
+            # spot_factor = 2 # for the calculation, assume that the run is paired because that requirement is more stringent
+            # but it doesn't really matter either way because later an inner join is performed, removing rows without pysradb metadata
+        else:
+            read_type = matches.iloc[0]
+            spot_factor = 1 + (read_type == "PAIRED") # in paired end runs, a single spot has two reads
+
         avg_length = esearch[esearch.Run == run_id].reset_index(drop=True).avgLength[0]
 
         # parse the json
@@ -90,7 +108,7 @@ def join_data(taxdir, genome_length, taxid, coverage_threshold=30, outdir='.', s
         passed_df = df[df.coverage_pass == True]
 
     df_full = pd.merge(passed_df, esearch, left_on = "run_id", right_on = "Run").drop(columns="Run")
-    df_full = pd.merge(df_full, pysradb, left_on = "run_id", right_on = "run_accession").drop(columns="run_id")
+    df_full = pd.merge(df_full, pysradb, left_on = "run_id", right_on = "run_accession").drop(columns="run_id") # default how='inner'
     
     # which runs are most space-efficient for coverage?
     df_full["coverage_megabyte_ratio"] = df_full[f"coverage"] / df_full["size_MB"]

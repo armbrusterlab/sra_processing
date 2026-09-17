@@ -25,13 +25,13 @@ def join_strings(f):
         idx = matching_cols.index("study_title")
         matching_cols[idx]="study_title_from"
 
-    df['joined_string'] = (
+    df['text_for_prediction'] = (
         df[matching_cols]
         .fillna('') # NA's become empty strings
         .agg(' '.join, axis=1)  # join with space
     )
 
-    df.insert(1, "joined_string", df.pop("joined_string"))
+    df.insert(1, "text_for_prediction", df.pop("text_for_prediction"))
 
     return df
 
@@ -42,7 +42,7 @@ def predict_on_metadata(df, model_dir, outname):
     y_colnames = joblib.load(f'{model_dir}/y_colnames.joblib')
 
     # transform data using the same vectorizer as was used to build the model
-    X = vectorizer.transform(df["joined_string"])
+    X = vectorizer.transform(df["text_for_prediction"])
 
     # apply feature selection
     X = X[:, selected_indices] # X.shape returns (29, 2000)
@@ -61,18 +61,18 @@ def predict_on_metadata(df, model_dir, outname):
         # separate these into category and subcategory columns
         category = []
         subcategory = []
+        terms = []
         for t in predictions_list:
             tt = [term.split("@@@") for term in t]
             category.append([term_list[0] for term_list in tt])
             subcategory.append([term_list[1] for term_list in tt])
+            terms.append(", ".join([term.replace("@@@", ": ") for term in t]))
 
         df[f"category_{model}"]=category
         df[f"subcategory_{model}"]=subcategory
+        df[f"terms_{model}"]=terms
 
-        df.insert(2, f"category_{model}", df.pop(f"category_{model}"))
-        df.insert(3, f"subcategory_{model}", df.pop(f"subcategory_{model}"))
-
-        # the code below saves the predictions as strings rather than lists
+        # # the code below saves the predictions as strings rather than lists
         # category_str = []
         # subcategory_str = []
         # for t in predictions_list:
@@ -83,7 +83,12 @@ def predict_on_metadata(df, model_dir, outname):
         # df[f"category_{model}"]=category_str
         # df[f"subcategory_{model}"]=subcategory_str
 
-    df.to_csv(outname, sep="\t")
+        df.insert(2, f"terms_{model}", df.pop(f"terms_{model}"))
+        df.insert(3, f"category_{model}", df.pop(f"category_{model}"))
+        df.insert(4, f"subcategory_{model}", df.pop(f"subcategory_{model}"))
+
+
+    df.to_csv(outname, sep="\t", index=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="A script to predict environmental sources from a metadata file.")

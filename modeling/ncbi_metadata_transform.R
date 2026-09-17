@@ -30,7 +30,7 @@ transform_metadata <- function(metadata_file, outname) {
 
   # join the strings and simultaneously add this new column to df
   # can't use "df2$foo <-" notation because the output of unite already has a name that you have to provide, and things get weird when you do that
-  df2 <- cbind(df2, unite(cbind(titles, df_useful), "joined_string", sep=" "))
+  df2 <- cbind(df2, unite(cbind(titles, df_useful), "text_for_prediction", sep=" "))
 
   # if for whatever reason an accession is duplicated, assume the rows are all duplicates, and keep only the first instance
   df2 <- df2 |>

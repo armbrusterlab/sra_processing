@@ -46,14 +46,14 @@ selected_indices = joblib.load('models/feature_selection_indices.joblib')
 y_colnames = list(joblib.load('models/y_colnames.joblib')) # keeping the list typecast to maintain compatibility with bugged outputs which produced sets instead, but it should already be a list
 
 # Transform new data using the SAME vectorizer (NOT fit_transform!)
-X = vectorizer.transform(df["joined_string"]) # X.shape returns (29, 12781)
+X = vectorizer.transform(df["text_for_prediction"]) # X.shape returns (29, 12781)
 
 # apply feature selection
 X = X[:, selected_indices] # X.shape returns (29, 2000)
 
 # predictions = model.predict(X)
 
-# # the code below is robust to the possibility that the model predicts no categories/subcategories on a given joined_string
+# # the code below is robust to the possibility that the model predicts no categories/subcategories on a given text_for_prediction
 # predictions_list = [[] for i in range(len(df))]
 # for i in range(len(predictions)):
 #     for j in range(len(predictions[i])):

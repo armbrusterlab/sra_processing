@@ -17,6 +17,11 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
         for line in f:
             dir = line.strip()
             print(f"Processing {dir}")
+
+            # dir_path = Path(dir)
+            # for item in dir_path.iterdir():
+            #     print(item)
+
             summary = f"{dir}/index.html"
             tab = pd.read_html(summary, extract_links="body") # need link locations from the evidence column, but this turns all elements into tuples
             for i in range(1, len(tab)):
@@ -35,8 +40,11 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
                           df[col] = df[col].apply(lambda x: x[0] if isinstance(x, tuple) else x)
   
                   df = df.iloc[:-2] # last two rows don't actually have data, so crop them.
-  
-                  name = "/".join(Path(dir).parts[-1 * (n+1):-1])
+
+                  if n == -1: # this is used in the Nextflow context. It gets the basename, which is the lowest dir.
+                      name = Path(dir).parts[-1]
+                  else:
+                      name = "/".join(Path(dir).parts[-1 * (n+1):-1])
                   df["source"] = name
                 except: # the above will fail if no mutations predicted
                   table_type = None
@@ -56,6 +64,13 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
     if filter_synonymous:
         print("Filtering out synonymous mutants...")
         df_mutations = df_mutations[df_mutations['annotation'].apply(find_synonymous) == False]
+
+    # fix non-breaking spaces in mutations file (they appear in other files, but these aren't the priority)
+
+    # for the following: the former string has character U+00a0 (non-breaking space)
+    df_mutations = df_mutations.rename(columns={'seq id': 'seq_id'}) 
+    df_mutations['annotation'] = df_mutations['annotation'].str.replace(' ', ' ')
+    df_mutations['gene'] = df_mutations['gene'].str.replace(' ', ' ')
 
     # save dfs to files
     df_mutations.to_csv(outdir_path.joinpath("mutations.tsv"), sep="\t", index=False, header=True)

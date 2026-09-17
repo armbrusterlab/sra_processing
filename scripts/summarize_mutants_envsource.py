@@ -11,7 +11,8 @@ def get_sources_per_mutant(f, outname = "mutation_frequencies.tsv", category_col
     df = pd.read_csv(f, sep="\t")
 
     # mutation labels: mutate a column that joins gene and description
-    id_cols = ["gene", "annotation"]
+    # id_cols = ["gene", "annotation"]
+    id_cols = ["seq_id", "annotation"] # I debated whether to also join with the mutation column but decided against it because different mutations may be synonymous
 
     df['mutation_id'] = (
         df[id_cols]

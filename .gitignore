@@ -2,6 +2,7 @@
 **_log.txt
 *__pycache__*
 nextflow/work/
+nextflow/test/
 nextflow/results/
 nextflow/results2/
 nextflow/.nextflow.log*
