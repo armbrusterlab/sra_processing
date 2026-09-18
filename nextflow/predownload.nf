@@ -17,14 +17,17 @@ workflow {
     getMetadata(params.sra_query)
     def taxdir = getMetadata.out.taxonomy_analysis
 
-    checkTaxidCoverage(taxdir, params.genome_length, params.taxid, params.coverage_threshold)
-
     predictEnvSources(getMetadata.out.metadata_pysradb, params.model_dir)
+    def predictions = predictEnvSources.out.predictions
 
+    checkTaxidCoverage(taxdir, predictions, params.genome_length, params.taxid, params.coverage_threshold) // metadata is accessed relative to taxdir, and is joined as part of this process
+    
     publish:
     metadata_esearch = getMetadata.out.metadata_esearch
-    metadata_pysradb = predictEnvSources.out.metadata_pysradb // it's overwritten to include model predictions
+    metadata_pysradb = getMetadata.out.metadata_pysradb
     taxonomy_analysis = taxdir
+
+    predictions_table = predictions
 
     taxid = checkTaxidCoverage.out.taxid
     taxid_passed = checkTaxidCoverage.out.taxid_passed
@@ -42,6 +45,10 @@ output {
         mode 'copy'
     }
     taxonomy_analysis {
+        path { "metadata" }
+        mode 'copy'
+    }
+    predictions_table {
         path { "metadata" }
         mode 'copy'
     }

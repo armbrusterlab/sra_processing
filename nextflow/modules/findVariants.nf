@@ -42,7 +42,7 @@ process runBreseq {
     export projDir="${workflow.projectDir}"
 
     # run breseq
-    numCores=\$(( \$(nproc) / 4 ))
+    numCores=${task.cpus}
     export ref="${gb_for_breseq}"
     export out="breseq/" 
     export additional="${breseq_additional}"
@@ -111,8 +111,9 @@ process summarizeBreseq {
 
     python "\$projDir/../scripts/summarize_breseq.py" "run_outputs.txt" "breseq_summary_tables" \$additional_flags -n -1
 
-    # join breseq aggregator mutation table with other metadata:
-    python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
+    # Removed the call below since the output file has a lot of redundant data, but the prediction data (formerly from pysradb table) will be used in downstream analysis
+    # # join breseq aggregator mutation table with other metadata:
+    # python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
     """
 }
 /*

@@ -13,9 +13,11 @@ import argparse
 # coverage_threshold = 30 # when parsing this, set the type as int or float
 # taxid = 286 # int or string?
 
-def join_data(taxdir, genome_length, taxid, coverage_threshold=30, outdir='.', showAllMetdata=False):
+def join_data(taxdir, predictions_file, genome_length, taxid, coverage_threshold=30, outdir='.', showAllMetdata=False):
     outdir_path = Path(outdir)
     outdir_path.mkdir(exist_ok=True, parents=True)
+
+    predictions = pd.read_csv(predictions_file, sep="\t", on_bad_lines="warn")
 
     esearch_file = f"{taxdir}/../metadata_esearch.csv"
     esearch = pd.read_csv(esearch_file, sep=",", on_bad_lines="warn")
@@ -107,8 +109,9 @@ def join_data(taxdir, genome_length, taxid, coverage_threshold=30, outdir='.', s
     else:
         passed_df = df[df.coverage_pass == True]
 
-    df_full = pd.merge(passed_df, esearch, left_on = "run_id", right_on = "Run").drop(columns="Run")
-    df_full = pd.merge(df_full, pysradb, left_on = "run_id", right_on = "run_accession").drop(columns="run_id") # default how='inner'
+    df_full = pd.merge(passed_df, predictions, left_on = "run_id", right_on = "run_accession").drop(columns="run_id")
+    df_full = pd.merge(df_full, esearch, left_on = "run_accession", right_on = "Run").drop(columns="Run")
+    df_full = pd.merge(df_full, pysradb, left_on = "run_accession", right_on = "run_accession") # default how='inner'
     
     # which runs are most space-efficient for coverage?
     df_full["coverage_megabyte_ratio"] = df_full[f"coverage"] / df_full["size_MB"]
@@ -130,6 +133,7 @@ if __name__ == '__main__':
 
     # positional arguments (required)
     parser.add_argument("-t", "--taxdir", type=str, help='Directory containing SRA taxonomy analyses.')
+    parser.add_argument("-p", "--predictions", type=str, help='Table containing run accession and environmental source predictions.') # no longer part of pysradb metadata
     parser.add_argument("-L", "--genome_length", type=float, help="Length of reference genome in bp.")
     parser.add_argument("-i", "--taxid", type=int, help="Taxonomic id to reference when calculating coverage.") # must be int or else it won't match in the JSON
     parser.add_argument("-c", "--coverage_threshold", type=float, default=30, help="Coverage required for the taxonomic ID.")
@@ -138,5 +142,5 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     showAll_bool = args.showAllMetadata == "True"
-    print(args.taxdir, args.genome_length, args.taxid, args.coverage_threshold, args.outdir, showAll_bool)
-    join_data(args.taxdir, args.genome_length, args.taxid, args.coverage_threshold, args.outdir, showAll_bool)
+    print(args.taxdir, args.predictions, args.genome_length, args.taxid, args.coverage_threshold, args.outdir, showAll_bool)
+    join_data(args.taxdir, args.predictions, args.genome_length, args.taxid, args.coverage_threshold, args.outdir, showAll_bool)

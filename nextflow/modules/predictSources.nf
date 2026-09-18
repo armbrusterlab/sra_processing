@@ -5,15 +5,15 @@ process predictEnvSources {
     conda "${workflow.projectDir}/envs/envs.yml"
 
     input:
-    path metadata, stageAs: 'metadata.tsv'
+    path metadata
     path model_dir
 
     output:
-    path "metadata_pysradb.tsv", emit: metadata_pysradb
+    path "environment_predictions.tsv", emit: predictions
 
     script:
     """
     projDir="${workflow.projectDir}"
-    python "\$projDir/../scripts/predict_environmental_source.py" -m "metadata.tsv" -d "${model_dir}" -o "metadata_pysradb.tsv"
+    python "\$projDir/../scripts/predict_environmental_source.py" -m "${metadata}" -d "${model_dir}" -o "environment_predictions.tsv"
     """
 }

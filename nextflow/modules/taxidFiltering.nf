@@ -17,7 +17,7 @@ process krakenClassify {
 
     script:
     """
-    numCores=\$(( \$(nproc) / 4 ))
+    numCores=${task.cpus}
 
     echo "Processing paired reads."
     start=\$(date +"%Y-%m-%d %H:%M:%S")
@@ -146,17 +146,17 @@ process filterByTaxid {
 
     echo "Filtering paired-end reads..."
     start=\$(date +"%Y-%m-%d %H:%M:%S")
-    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "paired/"
+    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "paired/" ${task.cpus}
     end=\$(date +"%Y-%m-%d %H:%M:%S")
 
     echo "Filtering single-end short reads..." # don't need to specify singletons; it processes all fastqs in this dir
     start2=\$(date +"%Y-%m-%d %H:%M:%S")
-    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "single/short/"
+    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "single/short/" ${task.cpus}
     end2=\$(date +"%Y-%m-%d %H:%M:%S")
 
     echo "Filtering single-end long reads..."
     start3=\$(date +"%Y-%m-%d %H:%M:%S")
-    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "single/long/"
+    bash "\$projDir/../scripts/run_grepq.sh" ${patternsdir} ${kraken2} "single/long/" ${task.cpus}
     end3=\$(date +"%Y-%m-%d %H:%M:%S")
 
     echo "Start time: \$start"

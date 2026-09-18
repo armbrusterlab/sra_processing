@@ -25,15 +25,18 @@ def join_strings(f):
         idx = matching_cols.index("study_title")
         matching_cols[idx]="study_title_from"
 
-    df['text_for_prediction'] = (
+    new_df = pd.DataFrame()
+    new_df['run_accession'] = df['run_accession'] # df is from pysradb, which has the run_accession column
+
+    new_df['text_for_prediction'] = (
         df[matching_cols]
         .fillna('') # NA's become empty strings
         .agg(' '.join, axis=1)  # join with space
     )
 
-    df.insert(1, "text_for_prediction", df.pop("text_for_prediction"))
+    # df.insert(1, "text_for_prediction", df.pop("text_for_prediction"))
 
-    return df
+    return new_df
 
 
 def predict_on_metadata(df, model_dir, outname):

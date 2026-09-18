@@ -6,6 +6,7 @@ process checkTaxidCoverage {
 
     input:
     path taxdir
+    path predictions // table of predicted environments; no longer part of pysradb table
     val genome_length
     val taxid
     val coverage_threshold
@@ -18,6 +19,6 @@ process checkTaxidCoverage {
     script:
     """
     projDir="${workflow.projectDir}"
-    python "\$projDir/../scripts/screen_sra_coverage.py" --taxdir "${taxdir}" --genome_length ${genome_length} --taxid ${taxid} --coverage_threshold ${coverage_threshold}
+    python "\$projDir/../scripts/screen_sra_coverage.py" --taxdir "${taxdir}" --predictions "${predictions}" --genome_length ${genome_length} --taxid ${taxid} --coverage_threshold ${coverage_threshold}
     """
 }

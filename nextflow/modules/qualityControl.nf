@@ -27,14 +27,14 @@ process qualityControl {
         echo "No paired-end reads."
         mkdir -p "fastp/paired/reports"
     else
-        python "\$projDir/../scripts/fastp_parallel.py" -i "${fqdump}/paired/" -o fastp/paired/ -r fastp/paired/reports -1 "_1" -2 "_2" -a "${fastp_additional_short}"
+        python "\$projDir/../scripts/fastp_parallel.py" -i "${fqdump}/paired/" -o fastp/paired/ -r fastp/paired/reports -1 "_1" -2 "_2" -p ${task.cpus} -a "${fastp_additional_short}"
     fi
 
     if [[ -z "${fqdump}/single/short/" ]]; then
         echo "No short single-end reads."
         mkdir -p "fastp/single/short/reports"
     else
-        python "\$projDir/../scripts/fastp_parallel.py" -i "${fqdump}/single/short/" -o fastp/single/short/ -r fastp/single/short/reports -a "${fastp_additional_short}"
+        python "\$projDir/../scripts/fastp_parallel.py" -i "${fqdump}/single/short/" -o fastp/single/short/ -r fastp/single/short/reports -p ${task.cpus} -a "${fastp_additional_short}"
     fi
 
     # long reads

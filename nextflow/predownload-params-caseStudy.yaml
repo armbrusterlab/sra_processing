@@ -1,0 +1,4 @@
+sra_query: '(pseudomonas aeruginosa NOT phage) AND (environment OR cystic fibrosis)' # 'cystic fibrosis'
+genome_length: 6.26e6
+taxid: 286
+coverage_threshold: 30

@@ -231,7 +231,7 @@ EOF
 
 # delete temp files
 rm -f $(find -name "metadata_esearch_*") # it's fine to delete this because in debugging you can easily re-split the esearch file
-# rm -f $(find -name "metadata_pysradb_*")
+rm -f $(find -name "metadata_pysradb_*")
 
 echo "Fetching taxonomy analysis metadata..."
 mkdir -p "taxonomy_analysis/"

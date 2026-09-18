@@ -5,12 +5,12 @@ set -euo pipefail
 export patternsdir=$1
 kraken=$2
 batchname=$3 # paired/, single/short/, or single/long/
+numCores=$4 #$(( $(nproc) / 4 ))
 
 krakendir="${kraken}/${batchname}"
 export grepqdir="grepq/${batchname}"
 mkdir -p $grepqdir
 
-numCores=$(( $(nproc) / 4 ))
 
 # -L to make find follow symlinks, which is what Nextflow will pass to it. Needed for all find calls.
 find -L "$krakendir" -type f -name "*.fq" | parallel --env grepqdir --env patternsdir -j "$numCores" '
