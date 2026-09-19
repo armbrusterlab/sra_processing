@@ -65,6 +65,8 @@ workflow {
 
     summarizeSources(breseq_tables, params.category_colname, params.subcategory_colname)
 
+    // TODO add stats process (and remember to use stats_env.yml for the process environment)
+
     publish:
     kraken_reports = krakenClassify.out.kraken2_reports
     breseq_t = breseq_tables
