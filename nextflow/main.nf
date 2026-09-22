@@ -3,6 +3,7 @@ include { downloadRuns } from './modules/downloadRuns.nf'
 include { qualityControl } from './modules/qualityControl.nf'
 include { krakenClassify; makePatternFiles; filterByTaxid } from './modules/taxidFiltering.nf'
 include { makeGB; runBreseq; summarizeBreseq; summarizeSources } from './modules/findVariants.nf'
+include { variantStats } from './modules/statisticalTests.nf'
 
 params {
     // always use params file to pass arguments; otherwise ints, floats, and Booleans may be interpreted as strings
@@ -29,6 +30,10 @@ params {
     filter_synonymous: String
     category_colname: String
     subcategory_colname: String
+    terms_colname: String
+
+    p_adjust_method: String
+    report_all: String
 }
 
 workflow {
@@ -63,15 +68,16 @@ workflow {
     summarizeBreseq(breseq_htmls, params.predownload_outputs, params.filter_intergenic, params.filter_synonymous)
     def breseq_tables = summarizeBreseq.out.breseq_tables
 
-    summarizeSources(breseq_tables, params.category_colname, params.subcategory_colname)
+    // summarizeSources(breseq_tables, params.category_colname, params.subcategory_colname)
 
-    // TODO add stats process (and remember to use stats_env.yml for the process environment)
+    variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all)
 
     publish:
     kraken_reports = krakenClassify.out.kraken2_reports
     breseq_t = breseq_tables
     breseq_h = breseq_htmls
-    source_summary = summarizeSources.out.mutation_frequencies
+    // source_summary = summarizeSources.out.mutation_frequencies
+    stats_dir = variantStats.out.stats
 }
 
 
@@ -88,7 +94,11 @@ output {
         path { "./" }
         mode "copy"
     }
-    source_summary {
+    // source_summary {
+    //     path {"./"}
+    //     mode "copy"
+    // }
+    stats_dir {
         path {"./"}
         mode "copy"
     }

@@ -3,7 +3,7 @@ run_list: "./results/metadata/coverage_check/coverage_pass.txt"
 genome_length: 6.26e6
 coverage_threshold: 20 # it is recommended to use a value greater than or equal to the one in the predownload params file, but in this case there was no issue with using a less stringent coverage_threshold
 
-k2db: "/home/share/kraken2StandardDB/"
+k2db: "./kraken2_db/" # "/home/share/kraken2StandardDB/" 
 taxid: 286
 
 target_genes: "PA4601 PA1101 PA1434 PA3159 PA3147 PA3146 PA3148 PA3565 PA3177"

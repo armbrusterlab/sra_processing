@@ -258,7 +258,7 @@ from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import RandomForestClassifier, StackingClassifier
 from sklearn.linear_model import LogisticRegression, Lasso
 from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.metrics import f1_score, jaccard_score, accuracy_score, precision_score
+from sklearn.metrics import f1_score, jaccard_score, accuracy_score, precision_score, recall_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.base import clone
 import warnings
@@ -381,49 +381,60 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
             random_state=42
         )
         return MultiOutputClassifier(lr, n_jobs=-1)
-    
+
     def create_logistic_regression(params):
-        """Create logistic regression model with parameter validation."""
-        
-        # Get the penalty
-        penalty = params.get('estimator__penalty')
-        solver = params.get('estimator__solver')
-        
-        # Validate and fix parameter combinations
-        if penalty == 'elasticnet':
-            # elasticnet only works with saga
-            solver = 'saga'
-            # Must have l1_ratio for elasticnet
-            if 'estimator__l1_ratio' not in params:
-                params['estimator__l1_ratio'] = 0.5
-        elif penalty == 'l1':
-            # l1 works with liblinear or saga
-            if solver not in ['liblinear', 'saga']:
-                solver = 'liblinear'  # default to liblinear
-        elif penalty == 'l2':
-            # l2 works with most solvers
-            if solver not in ['lbfgs', 'liblinear', 'saga']:
-                solver = 'lbfgs'  # default to lbfgs
-        else:  # penalty == None
-            # None penalty works with lbfgs or saga (not liblinear)
-            if solver not in ['lbfgs', 'saga']:
-                solver = 'lbfgs'  # default to lbfgs
-        
-        # Build the model parameters
-        lr_params = {
-            'penalty': penalty,
-            'C': params.get('estimator__C', 1.0),
-            'solver': solver,
-            'max_iter': params.get('estimator__max_iter', 1000),
-            'random_state': 42
-        }
-        
-        # Add l1_ratio if using elasticnet
-        if penalty == 'elasticnet':
-            lr_params['l1_ratio'] = params.get('estimator__l1_ratio', 0.5)
-        
-        return MultiOutputClassifier(LogisticRegression(**lr_params), n_jobs=-1)
+        lr = LogisticRegression(
+            penalty=params['estimator__penalty'],
+            C=params['estimator__C'],
+            solver=params['estimator__solver'],
+            max_iter=params['estimator__max_iter'],
+            random_state=42
+        )
+        return MultiOutputClassifier(lr, n_jobs=-1)
     
+    # def create_logistic_regression(params):
+    #     """Create logistic regression model with parameter validation."""
+        
+    #     # Get the penalty
+    #     penalty = params.get('estimator__penalty')
+    #     solver = params.get('estimator__solver')
+        
+    #     # Validate and fix parameter combinations
+    #     if penalty == 'elasticnet':
+    #         # elasticnet only works with saga
+    #         solver = 'saga'
+    #         # Must have l1_ratio for elasticnet
+    #         if 'estimator__l1_ratio' not in params:
+    #             params['estimator__l1_ratio'] = 0.5
+    #     elif penalty == 'l1':
+    #         # l1 works with liblinear or saga
+    #         if solver not in ['liblinear', 'saga']:
+    #             solver = 'liblinear'  # default to liblinear
+    #     elif penalty == 'l2':
+    #         # l2 works with most solvers
+    #         if solver not in ['lbfgs', 'liblinear', 'saga']:
+    #             solver = 'lbfgs'  # default to lbfgs
+    #     else:  # penalty == None
+    #         # None penalty works with lbfgs or saga (not liblinear)
+    #         if solver not in ['lbfgs', 'saga']:
+    #             solver = 'lbfgs'  # default to lbfgs
+        
+    #     # Build the model parameters
+    #     lr_params = {
+    #         'penalty': penalty,
+    #         'C': params.get('estimator__C', 1.0),
+    #         'solver': solver,
+    #         'max_iter': params.get('estimator__max_iter', 1000),
+    #         'random_state': 42
+    #     }
+        
+    #     # Add l1_ratio if using elasticnet
+    #     if penalty == 'elasticnet':
+    #         lr_params['l1_ratio'] = params.get('estimator__l1_ratio', 0.5)
+        
+    #     return MultiOutputClassifier(LogisticRegression(**lr_params), n_jobs=-1)
+
+    scoring_metric = 'jaccard_macro' # or 'precision_macro'
     def objective(trial, model_name, create_model_func, param_dist):
         """Objective function for Optuna optimization."""
         # Sample parameters
@@ -445,6 +456,7 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
             cv = KFold(n_splits=5, shuffle=True, random_state=42)
             
             # Compute cross-validation scores
+            
             scores = cross_val_score(
                 model, X_train, y_train,
                 cv=cv,
@@ -453,8 +465,9 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
                 # scoring='jaccard_macro',
                 # scoring='f1_macro',
                 # scoring='f1_weighted',
-                scoring='precision_macro',
+                # scoring='precision_macro',
                 # scoring='precision_weighted',
+                scoring=scoring_metric
                 n_jobs=-1,
                 error_score='raise'
             )
@@ -518,16 +531,20 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         # Evaluate on test set
         y_pred = best_model.predict(X_test)
         f1 = f1_score(y_test, y_pred, average='macro', zero_division=0)
-        jaccard = jaccard_score(y_test, y_pred, average='samples', zero_division=0)
+        jaccard = jaccard_score(y_test, y_pred, average='macro', zero_division=0) # don't know why I was previously averaging over 'samples'
         accuracy = accuracy_score(y_test, y_pred)
         precision = precision_score(y_test, y_pred, average='macro', zero_division=0)
+        sensitivity = recall_score(y_test, y_pred, average='macro')
+        specificity = recall_score(y_test, y_pred, average='macro', pos_label=0) # specificity is the recall of the negative class https://stackoverflow.com/a/70547246
         
         scores = {
             'cv_score': best_score,
             'test_f1': f1,
             'test_jaccard': jaccard,
             'test_accuracy': accuracy,
-            'test_precision': precision
+            'test_precision': precision,
+            'test_sensitivity': sensitivity,
+            'test_specificity': specificity,
         }
         
         # Store results (but not the model itself to save memory)
@@ -547,10 +564,12 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         # Print results immediately
         logger.info(f"\n{model_name.upper()} Results:")
         logger.info(f"  Best CV score: {best_score:.4f}")
-        logger.info(f"  Test F1 (macro): {f1:.4f}")
+        logger.info(f"  Test F1: {f1:.4f}")
         logger.info(f"  Test Jaccard: {jaccard:.4f}")
         logger.info(f"  Test Accuracy: {accuracy:.4f}")
         logger.info(f"  Test Precision: {precision:.4f}")
+        logger.info(f"  Test Sensitivity: {sensitivity:.4f}")
+        logger.info(f"  Test Specificity: {specificity:.4f}")
         logger.info(f"  Tuning time: {tuning_time:.2f} seconds")
         logger.info(f"  Best params: {best_params}")
         
@@ -564,6 +583,8 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
             f.write(f"Test Jaccard: {jaccard:.4f}\n")
             f.write(f"Test Accuracy: {accuracy:.4f}\n")
             f.write(f"Test Precision: {precision:.4f}\n")
+            f.write(f"  Test Sensitivity: {sensitivity:.4f}")
+            f.write(f"  Test Specificity: {specificity:.4f}")
             f.write("-"*40 + "\n")
 
     # Final summary
@@ -582,7 +603,9 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         logger.info(f"  Test Jaccard: {scores['test_jaccard']:.4f}")
         logger.info(f"  Test Accuracy: {scores['test_accuracy']:.4f}")
         logger.info(f"  Test Precision: {scores['test_precision']:.4f}")
-        logger.info(f"  CV Jaccard: {scores['cv_score']:.4f}")
+        logger.info(f"  Test Sensitivity: {scores['test_sensitivity']:.4f}")
+        logger.info(f"  Test Specificity: {scores['test_specificity']:.4f}")
+        logger.info(f"  CV score ({scoring_metric}): {scores['cv_score']:.4f}")
         logger.info(f"  Tuning time: {tuning_time:.2f}s")
         logger.info(f"  Best params: {params}")
     

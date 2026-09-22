@@ -111,13 +111,11 @@ process summarizeBreseq {
 
     python "\$projDir/../scripts/summarize_breseq.py" "run_outputs.txt" "breseq_summary_tables" \$additional_flags -n -1
 
-    # Removed the call below since the output file has a lot of redundant data, but the prediction data (formerly from pysradb table) will be used in downstream analysis
-    # # join breseq aggregator mutation table with other metadata:
-    # python "\$projDir/../scripts/join_breseq_metadata.py" "breseq_summary_tables/mutations.tsv" "${predownload_outputs}/metadata_esearch.csv" "${predownload_outputs}/metadata_pysradb.tsv" "breseq_summary_tables/breseq_summary_withMetadata.tsv"
+    # Removed the join_breseq_metadata.py call since the output file has a lot of redundant data, but the prediction data (formerly from pysradb table) will be used in downstream analysis
     """
 }
 /*
- * For each mutant, counts the associated environments.
+ * For each mutant, counts the associated environments. This process is no longer being used.
  */
 process summarizeSources {
     conda "${workflow.projectDir}/envs/envs.yml"

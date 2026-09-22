@@ -8,3 +8,4 @@ nextflow/results2/
 nextflow/caseStudy*
 nextflow/.nextflow.log*
 nextflow/.nextflow/
+nextflow/kraken2_db/

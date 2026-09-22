@@ -13,17 +13,18 @@ def suggest_runs(f, outdir, terms_colname="terms_logistic_regression"):
     outdir_path.mkdir(exist_ok=True, parents=True)
 
     df = pd.read_csv(f, sep="\t")
+    
+    # filter out the rows with no terms, since they can't be used in downstream statistical analysis anyway
+    df = df[df[terms_colname].notnull()]
 
-    # first: assume the user wants to download only one run per study, as runs from the same study aren't independent
-    # from each study, pick the run with the best ratio of coverage (of taxid chosen earlier) to file size so it's less likely to be filtered later
+    # assume the user wants to download only one run per study, as runs from the same study aren't independent
+    # from each study, pick the run with the best ratio of coverage (of taxid chosen earlier) to file size so it's less likely to be filtered out due to insufficient coverage later
     bestRatio_df = (
         df
         .sort_values("coverage_megabyte_ratio", ascending=False)
         .drop_duplicates(subset="study_accession", keep="first")
     )
 
-    # filter out the rows with no terms, since they can't be used in downstream statistical analysis anyway
-    bestRatio_df = bestRatio_df[bestRatio_df[terms_colname].notnull()]
     bestRatio_df.to_csv(f"{outdir}/suggested_runs_metadata.tsv", sep='\t', index=False)
     bestRatio_df['run_accession'].to_csv(f"{outdir}/suggested_runs.txt", sep='\t', index=False, header=False) # this can be directly plugged into the download pipeline if desired
 

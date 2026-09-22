@@ -28,12 +28,16 @@ nextflow -v # confirm that the version being used is 25.10.4
 Any other dependencies are handled by Nextflow. Refer to envs/envs.yml.
 
 # Usage
+Please modify parameters in the process block (e.g. memory, cpus) of nextflow/nextflow.config as needed. 
 ## Part 1: pre-download pipeline
 ### Params file
 For variable types, please refer to the params block of predownload.nf.
+#### Required parameters
 * sra_query: NCBI SRA query for runs you are considering downloading. You may copy and paste the query built by the [SRA Advanced Search Builder](https://www.ncbi.nlm.nih.gov/sra/advanced/). It is completely fine to start with a broad search query, as only the metadata will be downloaded. However, you may search for specific runs or BioProjects by IDs if you already have an idea of which datasets to download.
 * genome_length: For coverage calculations, the length of the genome of interest in base pairs. This may be approximate, or the average of multiple species' genome lengths. Scientific notation is supported.
 * taxid: For coverage calculations, the NCBI taxonomic ID for the genus or species of interest. Only reads mapping to this taxid or its children will be counted toward coverage. Please enter this as an int, not a string, because strings will not match JSON keys.
+
+#### Optional parameters
 * coverage_threshold: In order to avoid downloading runs with very low coverage for the taxid of interest, a coverage check is conducted. Default: 30x.
 
 ### Run the pipeline
@@ -44,6 +48,10 @@ nextflow run predownload.nf -params-file predownload-params.yaml
 ```
 
 ## Manually curate accessions to download
+### Automatic suggestion of runs to download
+The suggested_runs/ dir of the predownload output contains a list of the runs with the best ratio of coverage (for the user's specified taxid) to prefetch file size in megabytes for each study, ignoring any runs without predicted environmental source terms. suggested_runs/suggested_runs.txt may be used directly as run_list in the main pipeline if desired, while suggested_runs/suggested_runs_metadata.tsv can help with further narrowing down that list. This is most helpful if the user's goal is to statistically identify terms enriched in genes/mutations (which is performed at the end of the main pipeline regardless). If solely interested in discovering as many mutations as possible, it does not matter whether the runs downloaded are independent, so they don't need to all be from different studies.  
+Usefully, suggested_runs/estimated_space_required.txt explains the disk space required if the user were to proceed with the suggested runs.
+
 ### Disk space considerations
 SRA runs are very large. Please refer to metadata in metadata/coverage_check/ from the pre-download pipeline in order to select runs to download in the main pipeline. To estimate the disk space required by a set of runs, sum their size_megabytes values from the metadata and multiply that by 25 or 30. (The actual fastq files are about [7 times the size of the prefetch files](https://github.com/ncbi/sra-tools/wiki/08.-prefetch-and-fasterq-dump/633360aa302b9f2b6e8ceda7c99dde07f4f20e2e#extract-fastq-files-from-the-sra---accession), and due to [Nextflow's limitations](https://github.com/nextflow-io/nextflow/issues/452), the 4 processes' worth of redundant files are not deleted once no longer needed by the pipeline. To save space, please use `nextflow clean` to remove intermediate files.)  
 The conda environment used by the Nextflow pipeline requires about 2.8 GB.
@@ -60,6 +68,7 @@ sed -i 's/\r$//' $run_list
 ## Part 2: main pipeline
 ### Params file
 For variable types, please refer to the params block of main.nf.  
+#### Required parameters
 Params that should match params for the pre-download pipeline:
 * genome_length
 * taxid
@@ -67,17 +76,30 @@ Params that should match params for the pre-download pipeline:
 
 Other params:
 * run_list: Manually curated list of runs to download, as described above.
+* k2db: Path to a Kraken2 database for taxonomic classification. Please prepare this in advance. You may refer to the section on downloading a Kraken2 database.
+* reference_gb: Reference sequences for target genes will be extracted from this GB file. Please refer to the "Downloading a Kraken2 database" section below for more detail.
+* target_genes: space-separated list of genes in which to find variants.
+
+#### Optional parameters
 * predownload_outputs: Path to the metadata/ subdir of the predownload pipeline's outputs. By default, assumes predownload outputs are saved to the default outdir (./results/).
 * read_length_threshold: Threshold in bp for whether a read is considered "short" or "long".
 * fastp_additional_short and fastp_additional_long: Additional arguments for fastp and fastplong respectively.
-* k2db: Path to a Kraken2 database for taxonomic classification. Please prepare this in advance.
-* reference_gb: Reference sequences for target genes will be extracted from this GB file. Please refer to the section below for more detail.
-* target_genes: space-separated list of genes in which to find variants.
 * target_type: Indicates the field in the GB file in which to look for matching items in the target_genes list. For example, "locus_tag", "gene", or "product".
 * buffer_upstream and buffer_downstream: To assist with read mapping in the breseq step, each target gene is extracted with a buffer on either side. Default for both: 900 bp.
 * breseq_additional: Additional arguments for breseq.
 * filter_intergenic and filter_synonymous: Filter out intergenic and/or synonymous mutations from the breseq output.
-* category_colname and subcategory_colname: Column names for predicted category and subcategory. These don't need to be changed unless you opt to use a model other than v19 or v20. If you create your own model, refer to scripts/predict_environmental_source.py to understand how column names are assigned.
+* category_colname, subcategory_colname, and terms_colname: Column names for predicted category, subcategory, and terms (where terms is a readable concatenation of the former two columns). These don't need to be changed unless you opt to use a model other than the ones provided in the models/ dir, e.g. v19 and v20. If you create your own model, refer to scripts/predict_environmental_source.py to understand how column names are assigned.
+* p_adjust_method: Multiple hypothesis testing correction method; default value "fdr". Refer to [p.adjust documentation](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/p.adjust) for options.
+* report_all: Default value "TRUE". (Note that this is in all caps, in keeping with R boolean convention.) If not TRUE, the summary tables will only include rows with statistically significant rows.
+
+#### Downloading a Kraken2 database
+Unless you would like to build your own Kraken2 database, you may download various databases provided by Langmead et al. from [here](https://benlangmead.github.io/aws-indexes/k2). The code below produces a database at nextflow/kraken2_db/.
+```bash
+mkdir nextflow/kraken2_db/
+curl https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08_GB_20260626.tar.gz --output nextflow/kraken2_db/k2_standard_8GB.tar.gz # this is the current link for the 8 GB standard database
+tar -xvzf nextflow/kraken2_db/k2_standard_8GB.tar.gz -C nextflow/kraken2_db/
+rm -f nextflow/kraken2_db/k2_standard_8GB.tar.gz
+```
 
 #### Obtaining a GB file
 reference_gb may either be downloaded from a website or obtained from NCBI datasets. See below for the latter approach.
@@ -100,11 +122,8 @@ nextflow run main.nf -params-file main-params.yaml -with-report results/report.h
 ```
 
 # Outputs
-The main output is breseq_summary_tables/breseq_summary_withMetadata.tsv, which joins metadata from the predownload pipeline to the mutations found by breseq relative to target gene sequences in reference_gb. (The missing coverage and new junction outputs are also aggregated, but do not include metadata.) breseq output HTMLs supporting each mutation may be found in breseq_export/. Opening this file in Excel may result in garbled text being displayed; if that is the case, please try opening it in a plaintext editor such as Notepad.  
-Additionally, a summary of mutations with environmental sources may be found at mutation_frequencies.tsv. Environmental sources are predicted from metadata such as the isolation_source column using logistic regression models located in the models/ directory and described in modeling/README.md. The frequencies of environmental source labels for any given mutation in this file may be visualized as bar plots using the following script.  
-```bash
-Rscript scripts/visualize_mutants_envsource.R "nextflow/results_example/mutation_frequencies.tsv" "morA →: L450L (CTT→CTG)" "nextflow/results_example/my_boxplot.png"
-```
+The main output is the stats/ dir, which contains by-gene and by-mutation counts of associated environmental source terms, as well as statistical tests (2x2 Fisher's Exact Tests) to determine whether any terms are enriched for each gene/mutation. Please note that if a mutation is associated with multiple terms, it will be counted multiple times in the count tables. If you would instead like to know how many runs a particular mutation appeared in, please refer to breseq_summary_tables/mutations.tsv.  
+breseq output HTMLs supporting each mutation listed in breseq_summary_tables/mutations.tsv may be found in breseq_export/. Opening this file in Excel may result in garbled text being displayed; if that is the case, please try opening it in a plaintext editor such as Notepad.  
 
 # Acknowledgements
 * Advisor: Dr. Catherine Armbruster
