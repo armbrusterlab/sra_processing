@@ -86,11 +86,12 @@ countries.remove("ocean")
 countries.remove("city")
 countries.remove("sandwich")
 
-# add other stopwords
+# add other stopwords (I'm using the countries set for convenience)
 countries.add("collected") # the phrase "not collected" was being marked with a variety of categories for some reason
 countries.update(["missing", "unknown", "metagenome", "not", "provided"]) # these words don't seem to cause issues, but they commonly occur and are uninformative, so I'll add them in case
 countries.update("metagenomes available from the Sequence Read Archive".lower().split()) # this has the potential to be problematic too
 countries.add("sterile") # the models associate this with laboratory, but it might refer to a sterile body site, so it's not informative
+countries.add("environment") # erroneously associated with built environment when it appears on its own
 
 # add integers as stopwords
 integer_stopwords = set([str(i) for i in range(100)]) # manual inspection of selected features suggests that 2 digits are enough
@@ -467,7 +468,7 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
                 # scoring='f1_weighted',
                 # scoring='precision_macro',
                 # scoring='precision_weighted',
-                scoring=scoring_metric
+                scoring=scoring_metric,
                 n_jobs=-1,
                 error_score='raise'
             )
@@ -534,7 +535,7 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         jaccard = jaccard_score(y_test, y_pred, average='macro', zero_division=0) # don't know why I was previously averaging over 'samples'
         accuracy = accuracy_score(y_test, y_pred)
         precision = precision_score(y_test, y_pred, average='macro', zero_division=0)
-        sensitivity = recall_score(y_test, y_pred, average='macro')
+        sensitivity = recall_score(y_test, y_pred, average='macro', pos_label=1) # sensitivity is the recall of the positive class
         specificity = recall_score(y_test, y_pred, average='macro', pos_label=0) # specificity is the recall of the negative class https://stackoverflow.com/a/70547246
         
         scores = {
@@ -599,7 +600,7 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         tuning_time = results['tuning_times'][model_name]
         
         logger.info(f"\n{model_name.upper()}:")
-        logger.info(f"  Test F1 (macro): {scores['test_f1']:.4f}")
+        logger.info(f"  Test F1: {scores['test_f1']:.4f}")
         logger.info(f"  Test Jaccard: {scores['test_jaccard']:.4f}")
         logger.info(f"  Test Accuracy: {scores['test_accuracy']:.4f}")
         logger.info(f"  Test Precision: {scores['test_precision']:.4f}")
@@ -618,5 +619,5 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
     return results
 
 # Usage: run on the feature-selected data
-# results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=30) 
-results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=120) # if only creating logistic regression models, can use a greater number of trials
+results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=30) 
+# results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=120) # if only creating logistic regression models, can use a greater number of trials
