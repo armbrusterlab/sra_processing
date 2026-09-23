@@ -21,6 +21,7 @@ process variantStats {
     mutants="${breseq_tables}/mutations.tsv" # at this time, only the mutations table is used for stats
     predictions="${predownload_outputs}/environment_predictions.tsv"
     
+    # TSVs are saved with UTF-16 encoding
     Rscript "\$projDir/../scripts/mutant_environment_tests.R" "\$mutants" "\$predictions" "stats/" "${terms_colname}" "${p_adjust_method}" "${report_all}"
     """
 }

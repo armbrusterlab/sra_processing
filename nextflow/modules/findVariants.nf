@@ -55,7 +55,7 @@ process runBreseq {
         echo "Processing \$id"
         files=\$(find -L ${grepq} -type f -name "\$id*")
         echo \$files
-        required="-r \$ref -o \${out}/\${id} \$files"
+        required="-p -r \$ref -o \${out}/\${id} \$files" # add polymorphism prediction (-p) to default list of arguments
         foo=\$(echo \$files | awk "{print \\\$1}")
         type=\$(basename \$(dirname -- \$(dirname -- \$foo)))
         echo "Read length: \$type"
@@ -109,30 +109,43 @@ process summarizeBreseq {
     fi
     echo "Additional flags: \$additional_flags"
 
+    # saves files as both utf-8 and utf-16
     python "\$projDir/../scripts/summarize_breseq.py" "run_outputs.txt" "breseq_summary_tables" \$additional_flags -n -1
-
-    # Removed the join_breseq_metadata.py call since the output file has a lot of redundant data, but the prediction data (formerly from pysradb table) will be used in downstream analysis
     """
 }
 /*
- * For each mutant, counts the associated environments. This process is no longer being used.
+ * For each mutant, join the environment prediction for the run. It isn't really summarizing sources; I'm reusing the name of a deprecated process.
  */
 process summarizeSources {
     conda "${workflow.projectDir}/envs/envs.yml"
 
     input:
     path breseq_tables
-    val category_colname
-    val subcategory_colname
+    path predownload_outputs
 
     output:
-    path "mutation_frequencies.tsv", emit: mutation_frequencies
+    path "mutations_withSources.tsv", emit: mutations_annotated
+    path "mutations_withSources_utf16.tsv", emit: mutations_annotated_excel
 
     script:
     """
-    projDir="${workflow.projectDir}"
+    #!/usr/bin/env python
+    import pandas as pd
+    import os
 
-    mutant_summary="${breseq_tables}/breseq_summary_withMetadata.tsv"
-    python "\$projDir/../scripts/summarize_mutants_envsource.py" -f \$mutant_summary -c "${category_colname}" -s "${subcategory_colname}" # default outname is "mutation_frequencies.tsv"
+    breseq_file = os.path.join("${breseq_tables}", "mutations.tsv")
+    predictions_file = os.path.join("${predownload_outputs}", "environment_predictions.tsv")
+    print(f"{breseq_file} and {predictions_file}")
+
+    # need to escape the slash in \t
+    breseq = pd.read_csv(breseq_file, sep='\\t')
+    predictions = pd.read_csv(predictions_file, sep='\\t')
+
+    df = pd.merge(breseq, predictions, left_on = "source", right_on = "run_accession").drop(columns="source")
+
+    df.to_csv("mutations_withSources.tsv", sep='\\t', index=False)
+
+    # also save a version viewable in Excel
+    df.to_csv("mutations_withSources_utf16.tsv", sep="\t", index=False, header=True, encoding="utf-16")
     """
 }

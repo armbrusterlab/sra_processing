@@ -71,12 +71,22 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
     df_mutations = df_mutations.rename(columns={'seq id': 'seq_id'}) 
     df_mutations['annotation'] = df_mutations['annotation'].str.replace(' ', ' ')
     df_mutations['gene'] = df_mutations['gene'].str.replace(' ', ' ')
+    df_mutations['mutation'] = df_mutations['mutation'].str.replace(' ', ' ')
 
-    # save dfs to files
+    # # save dfs to files with utf-16 encoding to avoid displaying garbled text in Excel
+    # df_mutations.to_csv(outdir_path.joinpath("mutations.tsv"), sep="\t", index=False, header=True, encoding="utf-16")
+    # df_missingCoverage.to_csv(outdir_path.joinpath("missingCoverage.tsv"), sep="\t", index=False, header=True, encoding="utf-16")
+    # df_newJunction.to_csv(outdir_path.joinpath("newJunction.tsv"), sep="\t", index=False, header=True, encoding="utf-16")
+
+    # utf-16 encoding caused irreconcilable issues downstream, so the files will be saved without it
     df_mutations.to_csv(outdir_path.joinpath("mutations.tsv"), sep="\t", index=False, header=True)
     df_missingCoverage.to_csv(outdir_path.joinpath("missingCoverage.tsv"), sep="\t", index=False, header=True)
     df_newJunction.to_csv(outdir_path.joinpath("newJunction.tsv"), sep="\t", index=False, header=True)
-                
+
+    # the mutations df will be saved in a more comprehensive form later, so for now, save the others as xlsx
+    df_missingCoverage.to_csv(outdir_path.joinpath("missingCoverage_utf16.tsv"), sep="\t", index=False, header=True, encoding="utf-16")
+    df_newJunction.to_csv(outdir_path.joinpath("newJunction_utf16.tsv"), sep="\t", index=False, header=True, encoding="utf-16")
+
     print("Done!")
 
 def find_synonymous(s):

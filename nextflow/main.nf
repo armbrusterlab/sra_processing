@@ -58,17 +58,13 @@ workflow {
     makeGB(params.reference_gb, params.target_genes, params.target_type, params.buffer_upstream, params.buffer_downstream)
     def gb_for_breseq = makeGB.out.gb_for_breseq
 
-    // runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional, params.predownload_outputs, params.filter_intergenic, params.filter_synonymous)
-    // def breseq_tables = runBreseq.out.breseq_tables
-    // def breseq_htmls = runBreseq.out.breseq_htmls
-
     runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional)
     def breseq_htmls = runBreseq.out.breseq_htmls
 
     summarizeBreseq(breseq_htmls, params.predownload_outputs, params.filter_intergenic, params.filter_synonymous)
     def breseq_tables = summarizeBreseq.out.breseq_tables
 
-    // summarizeSources(breseq_tables, params.category_colname, params.subcategory_colname)
+    summarizeSources(breseq_tables, params.predownload_outputs)
 
     variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all)
 
@@ -76,7 +72,8 @@ workflow {
     kraken_reports = krakenClassify.out.kraken2_reports
     breseq_t = breseq_tables
     breseq_h = breseq_htmls
-    // source_summary = summarizeSources.out.mutation_frequencies
+    source_summary = summarizeSources.out.mutations_annotated
+    source_summary_excel = summarizeSources.out.mutations_annotated_excel
     stats_dir = variantStats.out.stats
 }
 
@@ -94,10 +91,14 @@ output {
         path { "./" }
         mode "copy"
     }
-    // source_summary {
-    //     path {"./"}
-    //     mode "copy"
-    // }
+    source_summary {
+        path {"breseq_summary_tables/"}
+        mode "copy"
+    }
+    source_summary_excel {
+        path {"breseq_summary_tables/"}
+        mode "copy"
+    }
     stats_dir {
         path {"./"}
         mode "copy"

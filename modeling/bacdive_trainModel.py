@@ -6,8 +6,9 @@ import joblib
 
 #df = pd.read_csv(r"C:\Users\achro\OneDrive\Desktop\CMU\Spring 2025\Armbruster Lab research\bacdiveReformat_2026-08-12.tsv",
                  #sep="\t") # processed in wrangle_bacdive.py to add joined_1_2 column
-df = pd.read_csv("/home/kcw2/data/testing/bacdive_model/bacdiveReformat_2026-08-12.tsv",
-                 sep="\t") # processed in wrangle_bacdive.py to add joined_1_2 column
+# df = pd.read_csv("/home/kcw2/data/testing/bacdive_model/bacdiveReformat_2026-08-12.tsv", sep="\t") # processed in wrangle_bacdive.py to add joined_1_2 column
+# df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v2.tsv", sep="\t") # with updated joined_1_2 using cat3_select
+df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v3.tsv", sep="\t") # like v2, but also fix the alignment issues between category 1 and category 2
                  
 print(f"Original length of df: {len(df)}") # 63296
 
@@ -15,7 +16,7 @@ print(f"Original length of df: {len(df)}") # 63296
 df = df[df["Isolation source"].isna() == False]
 print(f"Length of df after removing rows with no isolation source: {len(df)}") # 58625
 
-df = df[df["joined_1_2"].isna() == False]
+df = df[df["joined_1_2"].isna() == False] # with v3 input data this check is obsolete; instead, filter out the "no category 1" category below
 print(f"Length of df after removing rows with no category tags: {len(df)}") # 43314
 
 # reconvert joined_1_2 from string to list
@@ -34,8 +35,14 @@ for t in df["joined_1_2"]:
 minSize = 20
 terms_blacklist = set([k for k in terms.keys() if terms[k] < minSize])
 terms_blacklist = terms_blacklist.union(set([k for k in terms.keys() if "Host@@@" in k])) # decided to filter out "Host" category due to its ambiguity
+terms_blacklist = terms_blacklist.union(set([k for k in terms.keys() if "no category 1@@@" in k])) 
 terms_blacklist.add("Infection@@@Patient") # this term in particular seems to be ambiguous and difficult to categorize
 terms_keep = sorted(list(set(terms.keys()) - terms_blacklist)) # Fixing a MAJOR bug- if this is a set, it's impossible to actually reconstitute the predicted terms from the prediction columns
+
+print("Terms kept:")
+print(terms_keep)
+print("Terms removed:")
+print(terms_blacklist)
 
 # will need terms_keep later in order to decipher the model's y_pred output
 # For now, create the output dir in the current directory
@@ -53,7 +60,7 @@ df["joined_1_2"] = [
 
 # Some rows may now have empty lists after removing terms that are too rare, so remove these rows
 df = df[df["joined_1_2"].str.len() > 0] # even though the items are lists, pandas's str.len() function can get list lengths
-print(f"Length of df after removing extremely rare terms: {len(df)}") # 43283; compared to 43314, didn't remove too much
+print(f"Length of df after removing extremely rare terms and rows with no Category 1 label: {len(df)}") # 43283; compared to 43314, didn't remove too much
 
 # Convert the response column, joined_1_2, into binary yes/no columns, one per label
 y = pd.DataFrame()
@@ -217,26 +224,26 @@ def eda():
     results['hybrid6000'] = evaluate_features(X_train_hybrid2, X_test_hybrid2, y_train, y_test, 'Hybrid: chi2_k=6000') # Hybrid: chi2_k=6000 - Macro F1: 0.5492, Avg Jaccard: 0.8069
     results['hybrid8000'] = evaluate_features(X_train_hybrid3, X_test_hybrid3, y_train, y_test, 'Hybrid: chi2_k=8000') # Hybrid: chi2_k=8000 - Macro F1: 0.5509, Avg Jaccard: 0.8090
 
-# Since the difference between the trials is small (using Jaccard index as the main scoring criteria), I will just go with chi2_k=4000
-chi2_k = 4000 # X_train.shape[1]
-rf_k = 2000 # X_train.shape[1] #1000
-selected_indices_hybrid = hybrid_feature_selection(
-   X_train, y_train, chi2_k=chi2_k, rf_k=rf_k
-)
-X_train_hybrid = X_train[:, selected_indices_hybrid]
-X_test_hybrid = X_test[:, selected_indices_hybrid]
-# These dataframes contain the top 2000 features (or more generally speaking, rf_k number of features).
-# >>> X_train_hybrid.shape  
-# (34626, 2000)
-# >>> X_test_hybrid.shape 
-# (8657, 2000)
-
-# # minimally disruptive (in terms of pipeline) way to skip feature selection: just select all indices...
+# # Since the difference between the trials is small (using Jaccard index as the main scoring criteria), I will just go with chi2_k=4000
+# chi2_k = 4000 # X_train.shape[1]
+# rf_k = 2000 # X_train.shape[1] #1000
 # selected_indices_hybrid = hybrid_feature_selection(
-#    X_train, y_train, chi2_k=X_train.shape[1], rf_k=X_train.shape[1]
+#    X_train, y_train, chi2_k=chi2_k, rf_k=rf_k
 # )
 # X_train_hybrid = X_train[:, selected_indices_hybrid]
 # X_test_hybrid = X_test[:, selected_indices_hybrid]
+# # These dataframes contain the top 2000 features (or more generally speaking, rf_k number of features).
+# # >>> X_train_hybrid.shape  
+# # (34626, 2000)
+# # >>> X_test_hybrid.shape 
+# # (8657, 2000)
+
+# minimally disruptive (in terms of pipeline) way to skip feature selection: just select all indices...
+selected_indices_hybrid = hybrid_feature_selection(
+   X_train, y_train, chi2_k=X_train.shape[1], rf_k=X_train.shape[1]
+)
+X_train_hybrid = X_train[:, selected_indices_hybrid]
+X_test_hybrid = X_test[:, selected_indices_hybrid]
 
 X_train_hybrid.shape 
 X_test_hybrid.shape 
@@ -435,6 +442,22 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         
     #     return MultiOutputClassifier(LogisticRegression(**lr_params), n_jobs=-1)
 
+    from sklearn.metrics import multilabel_confusion_matrix
+
+    # in a multi-label setting, can't use recall_score(y_test, y_pred, average='macro', pos_label=0) for specificity because pos_label is ignored
+    def macro_specificity(y_true, y_pred):
+        mcm = multilabel_confusion_matrix(y_true, y_pred)
+
+        specs = []
+        for cm in mcm:
+            tn, fp, fn, tp = cm.ravel()
+
+            spec = tn / (tn + fp) if (tn + fp) > 0 else 0
+            specs.append(spec)
+
+        return np.mean(specs)
+
+
     scoring_metric = 'jaccard_macro' # or 'precision_macro'
     def objective(trial, model_name, create_model_func, param_dist):
         """Objective function for Optuna optimization."""
@@ -535,8 +558,8 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
         jaccard = jaccard_score(y_test, y_pred, average='macro', zero_division=0) # don't know why I was previously averaging over 'samples'
         accuracy = accuracy_score(y_test, y_pred)
         precision = precision_score(y_test, y_pred, average='macro', zero_division=0)
-        sensitivity = recall_score(y_test, y_pred, average='macro', pos_label=1) # sensitivity is the recall of the positive class
-        specificity = recall_score(y_test, y_pred, average='macro', pos_label=0) # specificity is the recall of the negative class https://stackoverflow.com/a/70547246
+        sensitivity = recall_score(y_test, y_pred, average='macro', zero_division=0, pos_label=1) # sensitivity is the recall of the positive class
+        specificity = macro_specificity(y_test, y_pred)
         
         scores = {
             'cv_score': best_score,

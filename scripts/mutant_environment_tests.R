@@ -31,12 +31,12 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
     # for now I am opting not to do per-mutation tests because that is a lot of comparisons; the user can use this table to run their own tests if they want
     df |> 
         group_by(seq_id, gene, annotation, term) |> summarize(n=n()) |>
-        write.table(file.path(outdir, "term_counts_by_mutation.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+        write.table(file.path(outdir, "term_counts_by_mutation.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
 
     # the below is an even more general summary, on the level of genes
     df |>
         group_by(seq_id, term) |> summarize(n=n()) |> 
-        write.table(file.path(outdir, "term_counts_by_gene.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+        write.table(file.path(outdir, "term_counts_by_gene.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
 
     # another possible summary:  df |> group_by(seq_id, gene, annotation) |> summarize(n=n(), n_terms=(length(unique(term))))
 
@@ -120,7 +120,7 @@ run_fisher_2x2_tests <- function(df, data_col, outdir, basename, adjust="fdr", a
     }
     
     results |> 
-        write.table(file.path(outdir, basename), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+        write.table(file.path(outdir, basename), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
 }
 
 ### Process CLIs (from Nextflow)

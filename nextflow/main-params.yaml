@@ -9,4 +9,4 @@ taxid: 286
 target_genes: "PA4601 PA1101 PA1434 PA3159 PA3147 PA3146 PA3148 PA3565 PA3177"
 reference_gb: "../ncbi_dataset/data/GCF_000006765.1/genomic.gbff"
 
-breseq_additional: "--polymorphism-prediction --maximum-read-mismatches 5 --consensus-minimum-total-coverage 20"
+breseq_additional: "--maximum-read-mismatches 5 --consensus-minimum-total-coverage 20" # --polymorphism-prediction moved to default arguments
