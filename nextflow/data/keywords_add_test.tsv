@@ -1,0 +1,13 @@
+keyword	category	subcategory
+otitis	Host Body-Site	Organ
+otitis	Host Body-Site	Organ; Ear
+otitis	Infection	Disease
+otitis	Infection	Inflammation
+ocular	Host Body-Site	Organ
+ocular	Host Body-Site	Organ; Eye
+bronchiectasis	Infection	Inflammation
+bronchiectasis	Host Body-Site	Oral cavity and airways
+bronchiectasis	Host Body-Site	Oral cavity and airways; Lung
+itis	foo	bar
+\bitis	foo2	bar2
+ear	Host Body-Site	Organ; Ear

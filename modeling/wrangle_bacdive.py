@@ -32,7 +32,8 @@ df = pd.read_csv(myfile)
 # if category 3 has a non-NaN value (which is what the foo == foo check is for) and the category 1 is one of the selected terms, then add the concatenated categories 2 and 3 to cat3_select
 # cat3_select is intended to be used as a supplement to category 2, not as a replacement
 # the terms in cat3_select are more specific
-cat3_select=[df['Category 2'][i].lstrip('#') + "; " + df['Category 3'][i].lstrip('#') if df['Category 1'][i] in ["#Host Body-Site", "#Infection"] and df['Category 3'][i] == df['Category 3'][i] else "" for i in range(len(df))]
+cat1_important = ["#Host Body-Site", "#Infection", "#Environmental", "#Engineered", "#Host Body Product"] # for v4 output file: added the last three category 1 terms
+cat3_select=[df['Category 2'][i].lstrip('#') + "; " + df['Category 3'][i].lstrip('#') if df['Category 1'][i] in cat1_important and df['Category 3'][i] == df['Category 3'][i] else "" for i in range(len(df))]
 df['cat3_select'] = cat3_select
 
 # for rows where there's a category 1 value but no category 2 (or 3) value, the categories end up incorrectly aligned with each other, resulting in nonsensical terms created
@@ -90,6 +91,7 @@ len(combined_df) # 63296
 # outfile = r"C:\Users\achro\OneDrive\Desktop\CMU\Spring 2025\Armbruster Lab research\bacdiveReformat_2026-06-25.tsv"
 # outfile = r"C:\Users\achro\OneDrive\Desktop\CMU\Spring 2025\Armbruster Lab research\bacdiveReformat_2026-08-12.tsv"
 # outfile = "/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v2.tsv" # with updated joined_1_2 using cat3_select
-outfile = "/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v3.tsv" # like v2, but also fix the alignment issues between category 1 and category 2
+# outfile = "/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v3.tsv" # like v2, but also fix the alignment issues between category 1 and category 2
+outfile = "/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v4.tsv" # like v3, but adding level 3 terms for "#Environmental", "#Engineered", "#Host Body Product"
 combined_df.to_csv(outfile, sep="\t", header = True, index = False)
 # the idea is that the joined_1_2 column will serve as input to the ML model (after being re-separated into two columns, each with lists as elements)

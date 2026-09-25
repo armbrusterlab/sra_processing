@@ -7,6 +7,7 @@ TODO: rename repository once name is finalized
 - [Usage](#usage)
 	- [Part 1: predownload](#part-1-pre-download-pipeline)
 	- [Manually curate accessions](#manually-curate-accessions-to-download)
+	- [Adjust environmental source predictions](#adjust-environmental-source-predictions)
  	- [Part 2: main pipeline](#part-2-main-pipeline)
 - [Outputs](#outputs)
 - [Acknowledgements](#acknowledgements)
@@ -64,6 +65,25 @@ If there are Windows-style return characters in run_list, it may cause issues wi
 run_list="my_run_list.txt"
 sed -i 's/\r$//' $run_list
 ```
+
+## Adjust environmental source predictions
+To add field-specific custom terms or terms that the classification model missed, or to remove terms that the classification model erroneously introduced, you may use scripts/override_categorization.py.
+```bash
+cp "nextflow/results/metadata/environment_predictions.tsv" "nextflow/results/metadata/environment_predictions_old.tsv"
+
+python "scripts/override_categorization.py" -p "nextflow/results/metadata/environment_predictions_old.tsv" -o "nextflow/results/metadata/environment_predictions.tsv" -a "nextflow/data/keywords_add.tsv" -m "nextflow/data/keywords_subtract.tsv"
+
+```
+Important considerations:
+* You may run this script at any time, on any file with environmental source prediction columns (including files to which the predictions have been joined as metadata). HOWEVER, if running it on "environment_predictions.tsv" in between the predownload pipeline and main pipeline, please also name the new file "environment_predictions.tsv" and place it in the predownload outputs directory used for the main pipeline, at the same level as metadata_esearch.csv and metadata_pysradb.tsv.
+* Be mindful of other files that may contain the out-of-date predictions.
+* The -a and -m arguments are not strictly necessary, in case you only want to add terms or you only want to subtract terms.
+
+File format:
+* The -a (addition) and -m (subtraction) files are tab-separated tables with the following columns: keyword, category, subcategory
+* Keywords can be written as regex patterns following the style of the Python re module. For example, word boundaries can be enforced by adding "\b" to the keyword.
+* All input text is converted to lowercase, so the keywords should also be written as lowercase.
+* In the -m file, generally the category and subcategory must be an exact match for existing terms in order for these terms to be removed. However, if the subcategory is provided as "*", then all terms matching the category will be removed.
 
 ## Part 2: main pipeline
 ### Params file

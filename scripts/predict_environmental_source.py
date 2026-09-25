@@ -17,7 +17,7 @@ def join_strings(f):
 
     # there's some variation in column names, but columns with names containing any of these keywords should be relevant
     keywords=["study_title", "isolation", "environment", "organism part", "tissue", "env_biome", "disease"]
-    matching_cols = [col for col in df.columns if any(substring in col for substring in keywords)]
+    matching_cols = [col for col in df.columns if any(substring in col.lower() for substring in keywords)]
 
     # for study_title column specifically, only extract the part following "from" so as to avoid using misleading strings from the full title
     if "study_title" in matching_cols:

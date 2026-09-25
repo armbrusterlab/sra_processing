@@ -1,0 +1,10 @@
+run_accession	text_for_prediction	terms_logistic_regression	category_logistic_regression	subcategory_logistic_regression
+1	eye	Host Body-Site: Organ, Host Body-Site: Organ; Eye	['Host Body-Site', 'Host Body-Site']	['Organ', 'Organ; Eye']
+2	conjunctivitis	Infection: Disease, Infection: Inflammation, foo: bar	['Infection', 'Infection', 'foo']	['Disease', 'Inflammation', 'bar']
+3	ear	Host Body-Site: Organ, Host Body-Site: Organ; Ear	['Host Body-Site', 'Host Body-Site']	['Organ', 'Organ; Ear']
+4	otitis	Host Body-Site: Organ, Host Body-Site: Organ; Ear, Infection: Disease, Infection: Inflammation, foo: bar	['Host Body-Site', 'Host Body-Site', 'Infection', 'Infection', 'foo']	['Organ', 'Organ; Ear', 'Disease', 'Inflammation', 'bar']
+5	hospital	Engineered: Built environment, Infection: Medical environment; Clinic	['Engineered', 'Infection']	['Built environment', 'Medical environment; Clinic']
+6	Non-CF Bronchiectasis	Infection: Inflammation, Host Body-Site: Oral cavity and airways, Host Body-Site: Oral cavity and airways; Lung	['Infection', 'Host Body-Site', 'Host Body-Site']	['Inflammation', 'Oral cavity and airways', 'Oral cavity and airways; Lung']
+7	Non CF Bronchiectasis	Infection: Inflammation, Host Body-Site: Oral cavity and airways, Host Body-Site: Oral cavity and airways; Lung	['Infection', 'Host Body-Site', 'Host Body-Site']	['Inflammation', 'Oral cavity and airways', 'Oral cavity and airways; Lung']
+8	CF	Infection: Disease, Infection: Disease; Cystic fibrosis	['Infection', 'Infection']	['Disease', 'Disease; Cystic fibrosis']
+9	ocular	Host Body-Site: Organ, Host Body-Site: Organ; Eye	['Host Body-Site', 'Host Body-Site']	['Organ', 'Organ; Eye']

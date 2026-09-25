@@ -25,9 +25,16 @@ Not all fields listed above are necessary. The following fields are assumed to b
 * Assembly.BioSample.Host.disease
 * Assembly.Accession
 
-Note that spaces in column names have been replaced with periods.
+Note that spaces in column names have been replaced with periods.  
+
+UPDATE: columns are now selected based on whether column names contain keywords. This means that this method is now applicable to NCBI data from a wide range of sources (e.g. SRA metadata collected via pysradb), rather than being locked to NCBI Datasets metadata. 
+```
+# from scripts/predict_environmental_source.py
+keywords=["study_title", "isolation", "environment", "organism part", "tissue", "env_biome", "disease"]
+```
 
 ### Transform the metadata
+UPDATE: this section is no longer necessary.
 The ncbi_metadata_transform.R script joins all metadata potentially informative of environmental source into a single column, text_for_prediction. The text_for_prediction column is used as input for prediction.
 ```bash
 transformed_metadata="/home/kcw2/data/testing/bacdive_model/1000_bacteria_metadata_transformed.tsv"
@@ -53,17 +60,22 @@ model_dir="vx" # e.g. v1, v2... the model-building script is currently hard-code
 mkdir $model_dir
 cd $model_dir
 
-python "~/metadata-magnet/scripts/modeling/bacdive_trainModel.py"
+python "~/sra_processing/scripts/modeling/bacdive_trainModel.py"
 ```
 
 ## Test models
- I tested the models on $transformed_metadata.
+UPDATE: the v26 model is the most up-to-date, and allows for more specific labels than previous models do.
  ```bash 
- # still in $model_dir
- python "~/metadata-magnet/scripts/modeling/ncbi_metadata_predict.py"
+ python "scripts/predict_environmental_source.py" -m "1000_bacteria_metadata.tsv" -d "models/v26/" -o /home/kcw2/data/testing/bacdive_model/v26/predictions_on_1000_dataset.tsv
  ```
  In doing so, I found that over many iterations of the models, the logistic regression model tends to perform the best, so I decided to focus on that. I tested combinations of metrics (Jaccard vs precision; macro vs weighted averaging strategy) and settled on two models: Jaccard macro for a less conservative model (v19) that will occasionally assign environmental sources that don't apply, and precision macro for a more conservative model (v20) that is usually accurate with its labeling but will sometimes fail to classify isolation sources that Jaccard macro would be able to. 
 
  # Future directions
+ UPDATE: use categorization override function on prediction output table to perform additive or subtractive modification of terms based on regex string matching.  
+ ``` bash
+ # the following may be run with -a and/or -m; neither file is strictly necessary
+ python "scripts/override_categorization.py" -p "nextflow/data/predictions_on_test_dataset.tsv" -o "nextflow/data/adjusted_predictions_on_test_dataset.tsv" -a "nextflow/data/keywords_add_test.tsv" -m "nextflow/data/keywords_subtract_test.tsv"
+ ```
+
  The models could be improved by adding to the training data based on shortcomings of the prediction upon $transformed_metadata. For example, if the word "bed" does not appear enough in the training data to be associated with the "built environment" subcategory, then adding some lines with the isolation source and user-verified labels would reinforce that connection in the model. This would require extensive manual review of the predictions, but it may be worth investing the time to do so. Additionally, many entries in the training data had isolation sources but no tags and so I had to discard them; it is possible that more tags will be added later, as the BacDive team tags these entries manually.
  I considered using n-grams rather than single words when vectorizing the text. However, the ordering of words may be somewhat arbitrary because I join data from unrelated columns into a single column to produce the training data.

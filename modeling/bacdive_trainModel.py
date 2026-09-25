@@ -8,8 +8,9 @@ import joblib
                  #sep="\t") # processed in wrangle_bacdive.py to add joined_1_2 column
 # df = pd.read_csv("/home/kcw2/data/testing/bacdive_model/bacdiveReformat_2026-08-12.tsv", sep="\t") # processed in wrangle_bacdive.py to add joined_1_2 column
 # df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v2.tsv", sep="\t") # with updated joined_1_2 using cat3_select
-df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v3.tsv", sep="\t") # like v2, but also fix the alignment issues between category 1 and category 2
-                 
+# df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v3.tsv", sep="\t") # like v2, but also fix the alignment issues between category 1 and category 2
+df = pd.read_csv("/home/kcw2/sra_processing/modeling/bacdiveReformat_2026-08-12_v4.tsv", sep="\t") # like v3, but adding level 3 terms for "#Environmental", "#Engineered", "#Host Body Product"
+          
 print(f"Original length of df: {len(df)}") # 63296
 
 # row-wise filtering
@@ -36,7 +37,9 @@ minSize = 20
 terms_blacklist = set([k for k in terms.keys() if terms[k] < minSize])
 terms_blacklist = terms_blacklist.union(set([k for k in terms.keys() if "Host@@@" in k])) # decided to filter out "Host" category due to its ambiguity
 terms_blacklist = terms_blacklist.union(set([k for k in terms.keys() if "no category 1@@@" in k])) 
-terms_blacklist.add("Infection@@@Patient") # this term in particular seems to be ambiguous and difficult to categorize
+# terms_blacklist.add("Infection@@@Patient") # this term in particular seems to be ambiguous and difficult to categorize
+terms_blacklist = terms_blacklist.union(set([k for k in terms.keys() if "Infection@@@Patient" in k])) # generalized version of the line above, now that some level 3 terms have been added
+
 terms_keep = sorted(list(set(terms.keys()) - terms_blacklist)) # Fixing a MAJOR bug- if this is a set, it's impossible to actually reconstitute the predicted terms from the prediction columns
 
 print("Terms kept:")
@@ -99,6 +102,7 @@ countries.update(["missing", "unknown", "metagenome", "not", "provided"]) # thes
 countries.update("metagenomes available from the Sequence Read Archive".lower().split()) # this has the potential to be problematic too
 countries.add("sterile") # the models associate this with laboratory, but it might refer to a sterile body site, so it's not informative
 countries.add("environment") # erroneously associated with built environment when it appears on its own
+countries.add("core") # associated with environment terrestrial ("core sample"), but it can appear in many other contexts, so it's misleading.
 
 # add integers as stopwords
 integer_stopwords = set([str(i) for i in range(100)]) # manual inspection of selected features suggests that 2 digits are enough
@@ -642,5 +646,5 @@ def build_and_tune_models(X_train, y_train, X_test, y_test, n_trials=10, save_di
     return results
 
 # Usage: run on the feature-selected data
-results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=30) 
-# results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=120) # if only creating logistic regression models, can use a greater number of trials
+# results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=30) 
+results = build_and_tune_models(X_train_hybrid, y_train, X_test_hybrid, y_test, n_trials=120) # if only creating logistic regression models, can use a greater number of trials

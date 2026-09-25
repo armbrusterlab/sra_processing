@@ -1,0 +1,6 @@
+keyword	category	subcategory
+non[ -]cf	Infection	Disease; Cystic fibrosis
+non[ -]cf	Infection	testString
+hospital	Engineered	Built environment; House
+hospital	Infection	Medical environment
+conjunctivitis	Host Body-Site	*

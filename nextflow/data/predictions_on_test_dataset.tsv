@@ -1,0 +1,10 @@
+run_accession	text_for_prediction	terms_logistic_regression	category_logistic_regression	subcategory_logistic_regression
+1	eye	Host Body-Site: Organ, Host Body-Site: Organ; Eye	['Host Body-Site', 'Host Body-Site']	['Organ', 'Organ; Eye']
+2	conjunctivitis	Host Body-Site: Organ, Host Body-Site: Organ; Eye, Infection: Disease, Infection: Inflammation	['Host Body-Site', 'Host Body-Site', 'Infection', 'Infection']	['Organ', 'Organ; Eye', 'Disease', 'Inflammation']
+3	ear	Host Body-Site: Organ, Host Body-Site: Organ; Ear	['Host Body-Site', 'Host Body-Site']	['Organ', 'Organ; Ear']
+4	otitis		[]	[]
+5	hospital	Engineered: Built environment, Engineered: Built environment; House, Infection: Medical environment, Infection: Medical environment; Clinic	['Engineered', 'Engineered', 'Infection', 'Infection']	['Built environment', 'Built environment; House', 'Medical environment', 'Medical environment; Clinic']
+6	Non-CF Bronchiectasis	Infection: Disease; Cystic fibrosis	['Infection']	['Disease; Cystic fibrosis']
+7	Non CF Bronchiectasis	Infection: Disease; Cystic fibrosis	['Infection']	['Disease; Cystic fibrosis']
+8	CF	Infection: Disease, Infection: Disease; Cystic fibrosis	['Infection', 'Infection']	['Disease', 'Disease; Cystic fibrosis']
+9	ocular		[]	[]
