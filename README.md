@@ -110,7 +110,7 @@ Other params:
 * filter_intergenic and filter_synonymous: Filter out intergenic and/or synonymous mutations from the breseq output.
 * category_colname, subcategory_colname, and terms_colname: Column names for predicted category, subcategory, and terms (where terms is a readable concatenation of the former two columns). These don't need to be changed unless you opt to use a model other than the ones provided in the models/ dir, e.g. v19 and v20. If you create your own model, refer to scripts/predict_environmental_source.py to understand how column names are assigned.
 * p_adjust_method: Multiple hypothesis testing correction method; default value "fdr". Refer to [p.adjust documentation](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/p.adjust) for options.
-* report_all: Default value "TRUE". (Note that this is in all caps, in keeping with R boolean convention.) If not TRUE, the summary tables will only include rows with statistically significant rows.
+* report_all: Default value "TRUE". (Note that this is in all caps, in keeping with R boolean convention.) If not TRUE, the summary tables will only include rows with statistically significant p-values.
 
 #### Downloading a Kraken2 database
 Unless you would like to build your own Kraken2 database, you may download various databases provided by Langmead et al. from [here](https://benlangmead.github.io/aws-indexes/k2). The code below produces a database at nextflow/kraken2_db/.

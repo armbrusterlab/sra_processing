@@ -6,7 +6,7 @@ import re
 import argparse
 
 def override(predictions_file, outname,
-             keywords_add_file = "", keywords_subtract_file = "", 
+             keywords_add_file = "", keywords_subtract_file = "", keywords_keeponly_file = "",
              terms_colname = "terms_logistic_regression", category_colname = "category_logistic_regression", subcategory_colname = "subcategory_logistic_regression"):
     # the default values for keywords_add_file and keywords_subtract_file are "" because it's easier to set it up that way with Nextflow
     df = pd.read_csv(predictions_file, sep="\t")
@@ -15,6 +15,8 @@ def override(predictions_file, outname,
         keywords_add = pd.read_csv(keywords_add_file, sep="\t")
     if keywords_subtract_file != "":
         keywords_subtract = pd.read_csv(keywords_subtract_file, sep="\t")
+    if keywords_keeponly_file != "":
+        keywords_keeponly = pd.read_csv(keywords_keeponly_file, sep="\t")
 
     # parse lists from string
     df[category_colname] = [json.loads(s.replace("'", '"')) for s in df[category_colname]]
@@ -64,6 +66,27 @@ def override(predictions_file, outname,
                         df.at[i, category_colname].append(kw_cat)
                         df.at[i, subcategory_colname].append(kw_subcat)
 
+    # if there's a list of keywords to keep exclusively, filter out other terms based on that
+    if keywords_keeponly_file != "":
+        print("Removing terms aside from those specified...")
+        for i,row in df.iterrows():
+            t = row['text_for_prediction']
+            i_to_keep = []
+
+            for n,kw in enumerate(keywords_keeponly['keyword']):
+                kw_cat = keywords_keeponly['category'][n]
+                kw_subcat = keywords_keeponly['subcategory'][n]
+
+                if re.search(kw, t.lower()): # if a keyword match is detected, need to filter
+                    for j in range(len(row[category_colname])):
+                        c = row[category_colname][j]
+                        s = row[subcategory_colname][j]
+
+                        if (kw_subcat == "*" or s == kw_subcat) and c == kw_cat:
+                            i_to_keep.append(j)
+            df.at[i, category_colname] = [row[category_colname][i] for i in range(len(row[category_colname])) if i in i_to_keep]
+            df.at[i, subcategory_colname] = [row[subcategory_colname][i] for i in range(len(row[category_colname])) if i in i_to_keep]
+
     # finally, produce the terms_colname column anew based on updated values of category and subcategory columns
     df[terms_colname] = [", ".join(
             [df[category_colname][i][j] + ": " + df[subcategory_colname][i][j] for j in range(len(df[category_colname][i]))]
@@ -80,6 +103,7 @@ if __name__ == '__main__':
     # not strictly required for the function to run
     parser.add_argument("-a", "--keywords_add_file", type=str, default="", help="Table of keywords for terms to add.")
     parser.add_argument("-m", "--keywords_subtract_file", type=str, default="", help="Table of keywords for terms to subtract.")
+    parser.add_argument("-k", "--keywords_keeponly_file", type=str, default="", help="Table of keywords for the only terms to keep.")
 
     # optional; most likely will not have to modify
     parser.add_argument("-t", "--terms_colname", type=str, default="terms_logistic_regression", help="Terms column name.")
@@ -88,6 +112,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     override(args.predictions_file, args.outname, 
-             keywords_add_file=args.keywords_add_file, keywords_subtract_file=args.keywords_subtract_file, 
+             keywords_add_file=args.keywords_add_file, keywords_subtract_file=args.keywords_subtract_file, keywords_keeponly_file=args.keywords_keeponly_file,
              terms_colname=args.terms_colname, category_colname=args.category_colname, subcategory_colname=args.subcategory_colname)
 

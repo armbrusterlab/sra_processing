@@ -8,3 +8,5 @@ ocular	Host Body-Site	Organ; Eye
 bronchiectasis	Infection	Inflammation
 bronchiectasis	Host Body-Site	Oral cavity and airways
 bronchiectasis	Host Body-Site	Oral cavity and airways; Lung
+cystic fibrosis	Infection	Disease; Cystic fibrosis
+\bear\b	Host Body-Site	Organ; Ear

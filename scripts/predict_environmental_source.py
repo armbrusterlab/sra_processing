@@ -16,7 +16,7 @@ def join_strings(f):
     df = pd.read_csv(f, sep="\t")
 
     # there's some variation in column names, but columns with names containing any of these keywords should be relevant
-    keywords=["study_title", "isolation", "environment", "organism part", "tissue", "env_biome", "disease"]
+    keywords=["study_title", "isolation", "environment", "organism part", "tissue", "env_biome", "disease", "experiment_title", "experiment_desc"]
     matching_cols = [col for col in df.columns if any(substring in col.lower() for substring in keywords)]
 
     # for study_title column specifically, only extract the part following "from" so as to avoid using misleading strings from the full title
@@ -24,6 +24,17 @@ def join_strings(f):
         df["study_title_from"] = df["study_title"].str.extract(r"from (.*)", flags=re.IGNORECASE)
         idx = matching_cols.index("study_title")
         matching_cols[idx]="study_title_from"
+
+    # update: experiment_title and experiment_desc must be processed in the same way
+    if "experiment_title" in matching_cols:
+        df["experiment_title_from"] = df["experiment_title"].str.extract(r"from (.*)", flags=re.IGNORECASE)
+        idx = matching_cols.index("experiment_title")
+        matching_cols[idx]="experiment_title_from"
+
+    if "experiment_desc" in matching_cols:
+        df["experiment_desc_from"] = df["experiment_desc"].str.extract(r"from (.*)", flags=re.IGNORECASE)
+        idx = matching_cols.index("experiment_desc")
+        matching_cols[idx]="experiment_desc_from"
 
     new_df = pd.DataFrame()
     new_df['run_accession'] = df['run_accession'] # df is from pysradb, which has the run_accession column

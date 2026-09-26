@@ -87,7 +87,6 @@ process summarizeBreseq {
 
     input:
     path breseq_tables
-    path predownload_outputs
     val filter_intergenic
     val filter_synonymous
 

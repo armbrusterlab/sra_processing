@@ -61,7 +61,7 @@ workflow {
     runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional)
     def breseq_htmls = runBreseq.out.breseq_htmls
 
-    summarizeBreseq(breseq_htmls, params.predownload_outputs, params.filter_intergenic, params.filter_synonymous)
+    summarizeBreseq(breseq_htmls, params.filter_intergenic, params.filter_synonymous)
     def breseq_tables = summarizeBreseq.out.breseq_tables
 
     summarizeSources(breseq_tables, params.predownload_outputs)

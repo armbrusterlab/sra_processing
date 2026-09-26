@@ -1,0 +1,15 @@
+run_list: "./caseStudy2_predownload/runs_to_download.txt"
+
+genome_length: 6.26e6
+taxid: 286
+coverage_threshold: 30
+
+predownload_outputs: "./caseStudy2_predownload/"
+
+k2db: "/home/share/kraken2StandardDB/"
+
+target_genes: "PA2020 PA1430 PA0313 PA0425 PA4848 PA0652 PA2491 PA1713 PA0506 PA3703 PA4462 PA1097 PA2492 PA3574 PA4522 PA0366 PA3217 PA3817 PA4526 PA1333 PA3565 PA2312 PA1544 PA3477 PA1179 PA3476 PA4796 PA0997 PA0707 PA2435 PA4420 PA2121" # https://pmc.ncbi.nlm.nih.gov/articles/PMC1482519/ table 3
+reference_gb: "../ncbi_dataset/data/GCF_000006765.1/genomic.gbff"
+
+breseq_additional: "--maximum-read-mismatches 5 --consensus-minimum-total-coverage 20" # --polymorphism-prediction moved to default arguments
+filter_intergenic: "True"
