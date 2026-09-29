@@ -46,15 +46,20 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
 
     tryCatch(
         {
-        test_by_gene(df, outdir, adjust = adjust, report_all = report_all)
+            results <- test_by_gene(df, outdir, adjust = adjust, report_all = report_all) |>
+                filter(significant == TRUE)
+
+            # new: downstream, to reduce the number of comparisons made, only run stat tests for mutants from genes which were
+            # discovered to be enriched in any terms
+            df <- df |> filter(seq_id %in% results$seq_id)
         }, 
         error = function(e) {
             writeLines(paste("Error:", e$message), file.path(outdir, "test_by_gene_error.txt"))
     })
 
     tryCatch(
-        {
-        test_by_mutation(df, outdir, adjust = adjust, report_all = report_all)
+        {   # now testing only on genes which passed the first test, as explained above
+            results <- test_by_mutation(df, outdir, adjust = adjust, report_all = report_all)
         }, 
         error = function(e) {
             writeLines(paste("Error:", e$message), file.path(outdir, "test_by_mutation_error.txt"))
@@ -120,7 +125,29 @@ run_fisher_2x2_tests <- function(df, data_col, outdir, basename, adjust="fdr", a
     }
     
     results |> 
-        write.table(file.path(outdir, basename), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
+        write.table(file.path(outdir, basename), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+
+    # results |> 
+    #     write.table(file.path(outdir, paste0("UTF-16LE_", basename)), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-8")
+
+    con <- file(file.path(outdir, paste0("UTF-16LE_", basename)), open = "wb")
+
+    writeBin(as.raw(c(0xFF, 0xFE)), con)  # UTF-16LE BOM
+
+    close(con)
+
+    write.table(
+        results,
+        file.path(outdir, paste0("UTF-16LE_", basename)),
+        sep = "\t",
+        row.names = FALSE,
+        quote = FALSE,
+        na = "",
+        fileEncoding = "UTF-16LE",
+        append = TRUE
+    )
+
+    return(results)
 }
 
 ### Process CLIs (from Nextflow)

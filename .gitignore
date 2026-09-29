@@ -5,7 +5,9 @@ nextflow/work/
 nextflow/test/
 nextflow/results/
 nextflow/results2/
-nextflow/caseStudy*
+nextflow/caseStudy/
+nextflow/caseStudy2/
+nextflow/caseStudy2_main/breseq_export/*
 nextflow/.nextflow.log*
 nextflow/.nextflow/
 nextflow/kraken2_db/

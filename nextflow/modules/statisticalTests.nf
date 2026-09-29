@@ -18,7 +18,7 @@ process variantStats {
     """
     projDir="${workflow.projectDir}"
 
-    mutants="${breseq_tables}/mutations.tsv" # at this time, only the mutations table is used for stats
+    mutants="${breseq_tables}/mutations.tsv" # at this time, stat tests are only run on the mutations table
     predictions="${predownload_outputs}/environment_predictions.tsv"
     
     # TSVs are saved with UTF-16 encoding
