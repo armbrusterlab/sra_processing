@@ -14,7 +14,7 @@ TODO: rename repository once name is finalized
 
 # Pipeline overview
 This pipeline facilitates the search for mutations of target genes within NCBI's SRA database, and summarizes the environmental sources each mutation is found in. The SRA database is broader than GenBank or RefSeq. However, SRA cannot be directly BLASTed, and the large size of SRA read datasets makes it time-intensive and compute-intensive to conduct searches across the entire database. In order to address these issues, this pipeline was designed to conduct "smart" searches limited to the most relevant datasets, without requiring genome assembly.  
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/76e9b108-eb43-4ed5-943e-453522ce4ab3" />
+<img width="6045" height="2858" alt="image" src="https://github.com/user-attachments/assets/06790872-e8f4-419a-a87b-cde5cbfa5b12" />
 
 
 # Installation
