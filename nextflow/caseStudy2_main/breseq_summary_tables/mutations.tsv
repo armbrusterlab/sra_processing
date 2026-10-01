@@ -402,37 +402,6 @@ RA	PA4796	1,356	A→G	100%	A152A (GCA→GCG)	N_A →	hypothetical protein	eviden
 RA	PA4848	1,251	T→C	100%	V117V (GTT→GTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_594.html	ERR10011719
 RA	PA4848	1,656	T→C	100%	A252A (GCT→GCC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_595.html	ERR10011719
 RA	PA4848	1,800	T→G	100%	S300S (TCT→TCG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_596.html	ERR10011719
-MC	PA0313	1	Δ2,493 bp	100%		N_A	N_A	evidence/MC_PLOT_32.html	ERR10814912
-MC	PA0366	1	Δ3,231 bp	100%		N_A	N_A	evidence/MC_PLOT_33.html	ERR10814912
-MC	PA0425	1	Δ2,952 bp	100%		mexA	mexA	evidence/MC_PLOT_34.html	ERR10814912
-MC	PA0506	1	Δ3,606 bp	100%		N_A	N_A	evidence/MC_PLOT_35.html	ERR10814912
-MC	PA0652	1	Δ2,445 bp	100%		vfr	vfr	evidence/MC_PLOT_36.html	ERR10814912
-MC	PA0707	1	Δ2,580 bp	100%		toxR	toxR	evidence/MC_PLOT_37.html	ERR10814912
-MC	PA0997	1	Δ2,652 bp	100%		pqsB	pqsB	evidence/MC_PLOT_38.html	ERR10814912
-MC	PA1097	1	Δ3,273 bp	100%		fleQ	fleQ	evidence/MC_PLOT_39.html	ERR10814912
-MC	PA1179	1	Δ2,478 bp	100%		phoP	phoP	evidence/MC_PLOT_40.html	ERR10814912
-MC	PA1333	1	Δ2,007 bp	100%		N_A	N_A	evidence/MC_PLOT_41.html	ERR10814912
-MC	PA1430	1	Δ2,520 bp	100%		lasR	lasR	evidence/MC_PLOT_42.html	ERR10814912
-MC	PA1544	1	Δ2,535 bp	100%		anr	anr	evidence/MC_PLOT_43.html	ERR10814912
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_44.html	ERR10814912
-MC	PA2020	1	Δ2,433 bp	100%		N_A	N_A	evidence/MC_PLOT_45.html	ERR10814912
-MC	PA2121	1	Δ2,706 bp	100%		N_A	N_A	evidence/MC_PLOT_46.html	ERR10814912
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_47.html	ERR10814912
-MC	PA2435	1	Δ3,786 bp	100%		N_A	N_A	evidence/MC_PLOT_48.html	ERR10814912
-MC	PA2491	1	Δ2,820 bp	100%		N_A	N_A	evidence/MC_PLOT_49.html	ERR10814912
-MC	PA2492	1	Δ2,844 bp	100%		mexT	mexT	evidence/MC_PLOT_50.html	ERR10814912
-MC	PA3217	1	Δ3,192 bp	100%		cyaB	cyaB	evidence/MC_PLOT_51.html	ERR10814912
-MC	PA3476	1	Δ2,406 bp	100%		rhlI	rhlI	evidence/MC_PLOT_52.html	ERR10814912
-MC	PA3477	1	Δ2,526 bp	100%		rhlR	rhlR	evidence/MC_PLOT_53.html	ERR10814912
-MC	PA3565	1	Δ2,721 bp	100%		N_A	N_A	evidence/MC_PLOT_54.html	ERR10814912
-MC	PA3574	1	Δ2,439 bp	100%		nalD	nalD	evidence/MC_PLOT_55.html	ERR10814912
-MC	PA3703	1	Δ2,808 bp	100%		wspF	wspF	evidence/MC_PLOT_56.html	ERR10814912
-MC	PA3817	1	Δ2,574 bp	100%		N_A	N_A	evidence/MC_PLOT_57.html	ERR10814912
-MC	PA4420	1	Δ2,742 bp	100%		N_A	N_A	evidence/MC_PLOT_58.html	ERR10814912
-MC	PA4462	1	Δ3,294 bp	100%		rpoN	rpoN	evidence/MC_PLOT_59.html	ERR10814912
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_62.html	ERR10814912
-MC	PA4796	1	Δ2,268 bp	100%		N_A	N_A	evidence/MC_PLOT_63.html	ERR10814912
-MC	PA4848	1	Δ3,150 bp	100%		accC	accC	evidence/MC_PLOT_64.html	ERR10814912
 RA	PA0313	1,173	A→C	100%	V91V (GTA→GTC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_9.html	ERR10818797
 RA	PA0313	1,344	C→T	100%	T148T (ACC→ACT)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_10.html	ERR10818797
 RA	PA0313	1,410	C→T	100%	T170T (ACC→ACT)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_11.html	ERR10818797
@@ -2224,38 +2193,6 @@ RA	PA4848	1,656	T→C	100%	A252A (GCT→GCC)	accC →	acetyl‑CoA carboxylase b
 RA	PA4848	1,800	T→G	100%	S300S (TCT→TCG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_358.html	ERR3611294
 RA	PA4848	2,031	G→A	100%	V377V (GTG→GTA)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_359.html	ERR3611294
 RA	PA4848	2,214	T→C	100%	H438H (CAT→CAC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_360.html	ERR3611294
-MC	PA0313	1	Δ2,493 bp	100%		N_A	N_A	evidence/MC_PLOT_33.html	ERR3697153
-MC	PA0366	1	Δ3,231 bp	100%		N_A	N_A	evidence/MC_PLOT_34.html	ERR3697153
-MC	PA0425	1	Δ2,952 bp	100%		mexA	mexA	evidence/MC_PLOT_35.html	ERR3697153
-MC	PA0506	1	Δ3,606 bp	100%		N_A	N_A	evidence/MC_PLOT_36.html	ERR3697153
-MC	PA0652	1	Δ2,445 bp	100%		vfr	vfr	evidence/MC_PLOT_37.html	ERR3697153
-MC	PA0707	1	Δ2,580 bp	100%		toxR	toxR	evidence/MC_PLOT_38.html	ERR3697153
-MC	PA0997	1	Δ2,652 bp	100%		pqsB	pqsB	evidence/MC_PLOT_39.html	ERR3697153
-MC	PA1097	1	Δ3,273 bp	100%		fleQ	fleQ	evidence/MC_PLOT_40.html	ERR3697153
-MC	PA1179	1	Δ2,478 bp	100%		phoP	phoP	evidence/MC_PLOT_41.html	ERR3697153
-MC	PA1333	1	Δ2,007 bp	100%		N_A	N_A	evidence/MC_PLOT_42.html	ERR3697153
-MC	PA1430	1	Δ2,520 bp	100%		lasR	lasR	evidence/MC_PLOT_43.html	ERR3697153
-MC	PA1544	1	Δ2,535 bp	100%		anr	anr	evidence/MC_PLOT_44.html	ERR3697153
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_45.html	ERR3697153
-MC	PA2020	1	Δ2,433 bp	100%		N_A	N_A	evidence/MC_PLOT_46.html	ERR3697153
-MC	PA2121	1	Δ2,706 bp	100%		N_A	N_A	evidence/MC_PLOT_47.html	ERR3697153
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_48.html	ERR3697153
-MC	PA2435	1	Δ3,786 bp	100%		N_A	N_A	evidence/MC_PLOT_49.html	ERR3697153
-MC	PA2491	1	Δ2,820 bp	100%		N_A	N_A	evidence/MC_PLOT_50.html	ERR3697153
-MC	PA2492	1	Δ2,844 bp	100%		mexT	mexT	evidence/MC_PLOT_51.html	ERR3697153
-MC	PA3217	1	Δ3,192 bp	100%		cyaB	cyaB	evidence/MC_PLOT_52.html	ERR3697153
-MC	PA3476	1	Δ2,406 bp	100%		rhlI	rhlI	evidence/MC_PLOT_53.html	ERR3697153
-MC	PA3477	1	Δ2,526 bp	100%		rhlR	rhlR	evidence/MC_PLOT_54.html	ERR3697153
-MC	PA3565	1	Δ2,721 bp	100%		N_A	N_A	evidence/MC_PLOT_55.html	ERR3697153
-MC	PA3574	1	Δ2,439 bp	100%		nalD	nalD	evidence/MC_PLOT_56.html	ERR3697153
-MC	PA3703	1	Δ2,808 bp	100%		wspF	wspF	evidence/MC_PLOT_57.html	ERR3697153
-MC	PA3817	1	Δ2,574 bp	100%		N_A	N_A	evidence/MC_PLOT_58.html	ERR3697153
-MC	PA4420	1	Δ2,742 bp	100%		N_A	N_A	evidence/MC_PLOT_59.html	ERR3697153
-MC	PA4462	1	Δ3,294 bp	100%		rpoN	rpoN	evidence/MC_PLOT_60.html	ERR3697153
-MC	PA4522	1	Δ2,367 bp	100%		ampD	ampD	evidence/MC_PLOT_61.html	ERR3697153
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_62.html	ERR3697153
-MC	PA4796	1	Δ2,268 bp	100%		N_A	N_A	evidence/MC_PLOT_63.html	ERR3697153
-MC	PA4848	1	Δ3,150 bp	100%		accC	accC	evidence/MC_PLOT_64.html	ERR3697153
 RA	PA0313	1,410	C→T	100%	T170T (ACC→ACT)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	ERR431140
 RA	PA0313	1,414	C→T	100%	L172L (CTG→TTG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	ERR431140
 RA	PA0366	1,069	G→A	100%	A57T (GCA→ACA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_15.html	ERR431140
@@ -4348,7 +4285,6 @@ RA	PA3217	2,139	C→T	100%	R413R (CGC→CGT)	cyaB →	protein CyaB	evidence/RA_4
 RA	PA3217	2,265	A→G	100%	E455E (GAA→GAG)	cyaB →	protein CyaB	evidence/RA_447.html	SRR1014150
 RA	PA3217	2,271	G→A	100%	L457L (CTG→CTA)	cyaB →	protein CyaB	evidence/RA_448.html	SRR1014150
 RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_449.html	SRR1014150
-MC	PA3477	1	Δ2,526 bp	100%		rhlR	rhlR	evidence/MC_PLOT_1420.html	SRR1014150
 RA	PA3565	1,227	A→C	100%	P109P (CCA→CCC)	N_A →	transcriptional regulator	evidence/RA_469.html	SRR1014150
 RA	PA3565	1,350	C→T	100%	D150D (GAC→GAT)	N_A →	transcriptional regulator	evidence/RA_470.html	SRR1014150
 RA	PA3565	1,695	A→G	100%	E265E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_471.html	SRR1014150
@@ -5119,7 +5055,6 @@ RA	PA1713	1,191	T→C	100%	S97S (AGT→AGC)	exsA →	exoenzyme S transcriptional
 RA	PA1713	1,252	C→T	100%	L118L (CTG→TTG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_209.html	SRR11218711
 RA	PA1713	1,527	T→C	100%	Y209Y (TAT→TAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_210.html	SRR11218711
 RA	PA1713	1,686	G→A	100%	T262T (ACG→ACA)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_211.html	SRR11218711
-MC JC	PA2020	865	Δ1,062 bp	100%		N_A	N_A	evidence/MC_PLOT_1126.html	SRR11218711
 RA	PA2121	939	T→G	100%	L13L (CTT→CTG)	N_A →	transcriptional regulator	evidence/RA_230.html	SRR11218711
 RA	PA2121	1,072	G→A	100%	A58T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_231.html	SRR11218711
 RA	PA2312	990	C→T	100%	A30A (GCC→GCT)	N_A →	transcriptional regulator	evidence/RA_246.html	SRR11218711
@@ -5716,7 +5651,6 @@ RA	PA1544	1,344	T→C	100%	D148D (GAT→GAC)	anr →	transcriptional regulator A
 RA	PA1544	1,380	T→C	100%	T160T (ACT→ACC)	anr →	transcriptional regulator Anr	evidence/RA_410.html	SRR12695631
 RA	PA1544	1,440	C→T	100%	G180G (GGC→GGT)	anr →	transcriptional regulator Anr	evidence/RA_411.html	SRR12695631
 RA	PA1544	1,533	C→G	100%	T211T (ACC→ACG)	anr →	transcriptional regulator Anr	evidence/RA_412.html	SRR12695631
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_2310.html	SRR12695631
 RA	PA2020	909	G→A	100%	R3R (AGG→AGA)	N_A →	transcriptional regulator	evidence/RA_435.html	SRR12695631
 RA	PA2020	969	T→C	100%	V23V (GTT→GTC)	N_A →	transcriptional regulator	evidence/RA_436.html	SRR12695631
 RA	PA2020	1,008	C→T	100%	D36D (GAC→GAT)	N_A →	transcriptional regulator	evidence/RA_437.html	SRR12695631
@@ -6348,9 +6282,6 @@ RA	PA4848	1,659	C→T	100%	R253R (CGC→CGT)	accC →	acetyl‑CoA carboxylase b
 RA	PA0506	1,608	G→T	14.9%	L236L (CTG→CTT)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_2.html	SRR13767060
 RA	PA0506	1,612	A→G	14.9%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_3.html	SRR13767060
 RA	PA0506	1,623	C→T	8.1%	G241G (GGC→GGT)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_4.html	SRR13767060
-MC	PA2435	1	Δ3,786 bp	100%		N_A	N_A	evidence/MC_PLOT_43.html	SRR13767060
-MC	PA2491	1	Δ2,820 bp	100%		N_A	N_A	evidence/MC_PLOT_44.html	SRR13767060
-MC	PA2492	1	Δ2,844 bp	100%		mexT	mexT	evidence/MC_PLOT_45.html	SRR13767060
 RA	PA0313	1,591	T→C	100%	*231R (TGA→CGA)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR14585691
 RA	PA0366	1,154	G→A	100%	G85D (GGC→GAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_17.html	SRR14585691
 RA	PA0366	1,248	G→A	100%	V116V (GTG→GTA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_18.html	SRR14585691
@@ -7068,7 +6999,6 @@ RA	PA2121	1,659	C→T	100%	R253R (CGC→CGT)	N_A →	transcriptional regulator	e
 RA	PA2121	1,663	G→T	100%	A255S (GCC→TCC)	N_A →	transcriptional regulator	evidence/RA_373.html	SRR17017347
 RA	PA2121	1,678	T→C	100%	L260L (TTG→CTG)	N_A →	transcriptional regulator	evidence/RA_374.html	SRR17017347
 RA	PA2121	1,773	A→G	100%	L291L (CTA→CTG)	N_A →	transcriptional regulator	evidence/RA_375.html	SRR17017347
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_1549.html	SRR17017347
 RA	PA2435	933	C→T	100%	G11G (GGC→GGT)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_394.html	SRR17017347
 RA	PA2435	954	T→C	100%	H18H (CAT→CAC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_395.html	SRR17017347
 RA	PA2435	1,102	A→C	100%	I68L (ATC→CTC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_396.html	SRR17017347
@@ -7266,8 +7196,6 @@ RA	PA1544	1,230	C→T	100%	A110A (GCC→GCT)	anr →	transcriptional regulator A
 RA	PA1544	1,299	G→A	100%	Q133Q (CAG→CAA)	anr →	transcriptional regulator Anr	evidence/RA_217.html	SRR17283908
 RA	PA1713	1,527	T→C	100%	Y209Y (TAT→TAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_239.html	SRR17283908
 RA	PA1713	1,686	G→A	100%	T262T (ACG→ACA)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_240.html	SRR17283908
-MC	PA2020	1	Δ2,433 bp	100%		N_A	N_A	evidence/MC_PLOT_1228.html	SRR17283908
-MC	PA2121	1	Δ2,706 bp	100%		N_A	N_A	evidence/MC_PLOT_1229.html	SRR17283908
 RA	PA2312	912	A→G	100%	E4E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_259.html	SRR17283908
 RA	PA2312	1,089	T→C	100%	G63G (GGT→GGC)	N_A →	transcriptional regulator	evidence/RA_260.html	SRR17283908
 RA	PA2312	1,137	T→C	100%	G79G (GGT→GGC)	N_A →	transcriptional regulator	evidence/RA_261.html	SRR17283908
@@ -7981,7 +7909,6 @@ RA	PA0652	1,158	A→G	100%	E86E (GAA→GAG)	vfr →	cAMP‑regulatory protein	ev
 RA	PA0652	1,176	T→C	100%	R92R (CGT→CGC)	vfr →	cAMP‑regulatory protein	evidence/RA_135.html	SRR2043986
 RA	PA0652	1,338	A→T	100%	G146G (GGA→GGT)	vfr →	cAMP‑regulatory protein	evidence/RA_136.html	SRR2043986
 RA	PA0652	1,395	G→C	100%	P165P (CCG→CCC)	vfr →	cAMP‑regulatory protein	evidence/RA_137.html	SRR2043986
-MC	PA0707	1	Δ2,580 bp	100%		toxR	toxR	evidence/MC_PLOT_1373.html	SRR2043986
 RA	PA1097	2,094	G→A	100%	E398E (GAG→GAA)	fleQ →	transcriptional regulator FleQ	evidence/RA_147.html	SRR2043986
 RA	PA1097	2,190	A→G	100%	E430E (GAA→GAG)	fleQ →	transcriptional regulator FleQ	evidence/RA_148.html	SRR2043986
 RA	PA1179	1,389	G→T	100%	R163R (CGG→CGT)	phoP →	two‑component response regulator PhoP	evidence/RA_157.html	SRR2043986
@@ -7994,9 +7921,7 @@ RA	PA1544	1,041	G→C	100%	L47L (CTG→CTC)	anr →	transcriptional regulator An
 RA	PA1544	1,071	T→C	100%	G57G (GGT→GGC)	anr →	transcriptional regulator Anr	evidence/RA_172.html	SRR2043986
 RA	PA1544	1,083	C→T	100%	G61G (GGC→GGT)	anr →	transcriptional regulator Anr	evidence/RA_173.html	SRR2043986
 RA	PA1544	1,146	G→A	100%	E82E (GAG→GAA)	anr →	transcriptional regulator Anr	evidence/RA_174.html	SRR2043986
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_1404.html	SRR2043986
 RA	PA2121	1,710	C→G	100%	A270A (GCC→GCG)	N_A →	transcriptional regulator	evidence/RA_180.html	SRR2043986
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_1417.html	SRR2043986
 RA	PA2435	2,652	A→G	100%	Q584Q (CAA→CAG)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_185.html	SRR2043986
 RA	PA2435	2,655	C→T	100%	C585C (TGC→TGT)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_186.html	SRR2043986
 RA	PA2491	1,564	T→C	100%	L222L (TTG→CTG)	N_A →	oxidoreductase	evidence/RA_187.html	SRR2043986
@@ -8527,7 +8452,6 @@ RA	PA1097	2,316	A→G	100%	V472V (GTA→GTG)	fleQ →	transcriptional regulator 
 RA	PA1097	2,349	T→C	100%	R483R (CGT→CGC)	fleQ →	transcriptional regulator FleQ	evidence/RA_167.html	SRR22801516
 RA	PA1179	1,056	C→T	100%	L52L (CTC→CTT)	phoP →	two‑component response regulator PhoP	evidence/RA_180.html	SRR22801516
 RA	PA1333	949	A→G	100%	T17A (ACC→GCC)	N_A →	hypothetical protein	evidence/RA_197.html	SRR22801516
-MC	PA1430	1	Δ2,520 bp	100%		lasR	lasR	evidence/MC_PLOT_1392.html	SRR22801516
 RA	PA1544	1,071	T→C	100%	G57G (GGT→GGC)	anr →	transcriptional regulator Anr	evidence/RA_214.html	SRR22801516
 RA	PA1544	1,230	C→T	100%	A110A (GCC→GCT)	anr →	transcriptional regulator Anr	evidence/RA_215.html	SRR22801516
 RA	PA1544	1,299	G→A	100%	Q133Q (CAG→CAA)	anr →	transcriptional regulator Anr	evidence/RA_216.html	SRR22801516
@@ -8759,7 +8683,6 @@ RA	PA1713	1,191	T→C	100%	S97S (AGT→AGC)	exsA →	exoenzyme S transcriptional
 RA	PA1713	1,527	T→C	100%	Y209Y (TAT→TAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_226.html	SRR24707197
 RA	PA1713	1,641	T→C	100%	S247S (AGT→AGC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_227.html	SRR24707197
 RA	PA1713	1,686	G→A	100%	T262T (ACG→ACA)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_228.html	SRR24707197
-MC	PA2020	1	Δ2,433 bp	100%		N_A	N_A	evidence/MC_PLOT_1233.html	SRR24707197
 RA	PA2121	984	G→T	100%	A28A (GCG→GCT)	N_A →	transcriptional regulator	evidence/RA_240.html	SRR24707197
 RA	PA2121	1,072	G→A	100%	A58T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_241.html	SRR24707197
 RA	PA2121	1,258	C→T	100%	L120L (CTG→TTG)	N_A →	transcriptional regulator	evidence/RA_242.html	SRR24707197
@@ -8928,7 +8851,6 @@ RA	PA1179	1,437	T→C	100%	Y179Y (TAT→TAC)	phoP →	two‑component response r
 RA	PA1333	949	A→G	100%	T17A (ACC→GCC)	N_A →	hypothetical protein	evidence/RA_111.html	SRR25119420
 RA	PA1333	981	G→A	100%	E27E (GAG→GAA)	N_A →	hypothetical protein	evidence/RA_112.html	SRR25119420
 RA	PA1333	1,104	C→G	100%	L68L (CTC→CTG)	N_A →	hypothetical protein	evidence/RA_113.html	SRR25119420
-MC	PA1430	1	Δ2,520 bp	100%		lasR	lasR	evidence/MC_PLOT_647.html	SRR25119420
 RA	PA1544	1,071	T→C	100%	G57G (GGT→GGC)	anr →	transcriptional regulator Anr	evidence/RA_129.html	SRR25119420
 RA	PA1544	1,320	T→C	100%	R140R (CGT→CGC)	anr →	transcriptional regulator Anr	evidence/RA_130.html	SRR25119420
 RA	PA1713	1,527	T→C	100%	Y209Y (TAT→TAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_137.html	SRR25119420
@@ -10451,7 +10373,6 @@ RA	PA4462	2,064	T→C	100%	H388H (CAT→CAC)	rpoN →	RNA polymerase factor sigm
 RA	PA4462	2,184	T→C	100%	S428S (AGT→AGC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_414.html	SRR27140059
 RA	PA4462	2,190	T→C	100%	A430A (GCT→GCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_415.html	SRR27140059
 RA	PA4522	1,002	T→C	100%	V34V (GTT→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_426.html	SRR27140059
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_1126.html	SRR27140059
 RA	PA4796	927	G→A	100%	E9E (GAG→GAA)	N_A →	hypothetical protein	evidence/RA_442.html	SRR27140059
 RA	PA4796	970	T→C	100%	L24L (TTG→CTG)	N_A →	hypothetical protein	evidence/RA_443.html	SRR27140059
 RA	PA4796	1,027	C→T	100%	L43L (CTG→TTG)	N_A →	hypothetical protein	evidence/RA_444.html	SRR27140059
@@ -11321,7 +11242,6 @@ RA	PA2020	1,267	T→C	100%	L123L (TTG→CTG)	N_A →	transcriptional regulator	e
 RA	PA2020	1,338	A→G	100%	E146E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_168.html	SRR31254167
 RA	PA2020	1,501:1	+G	92.7%	coding (601/633 nt)	N_A →	transcriptional regulator	evidence/RA_169.html	SRR31254167
 RA	PA2020	1,501:2	+T	92.7%	coding (601/633 nt)	N_A →	transcriptional regulator	evidence/RA_170.html	SRR31254167
-MC	PA2121	1	Δ2,706 bp	100%		N_A	N_A	evidence/MC_PLOT_698.html	SRR31254167
 RA	PA2312	1,137	T→C	100%	G79G (GGT→GGC)	N_A →	transcriptional regulator	evidence/RA_183.html	SRR31254167
 RA	PA2312	1,284	A→G	100%	E128E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_184.html	SRR31254167
 RA	PA2312	1,299	T→C	100%	G133G (GGT→GGC)	N_A →	transcriptional regulator	evidence/RA_185.html	SRR31254167
@@ -12008,7 +11928,6 @@ RA	PA1544	1,437	T→C	100%	R179R (CGT→CGC)	anr →	transcriptional regulator A
 RA	PA1544	1,440	C→T	100%	G180G (GGC→GGT)	anr →	transcriptional regulator Anr	evidence/RA_470.html	SRR33388173
 RA	PA1544	1,494	T→C	100%	Y198Y (TAT→TAC)	anr →	transcriptional regulator Anr	evidence/RA_471.html	SRR33388173
 RA	PA1544	1,599	G→A	100%	E233E (GAG→GAA)	anr →	transcriptional regulator Anr	evidence/RA_472.html	SRR33388173
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_2801.html	SRR33388173
 RA	PA2020	909	G→A	100%	R3R (AGG→AGA)	N_A →	transcriptional regulator	evidence/RA_492.html	SRR33388173
 RA	PA2020	933	A→G	100%	K11K (AAA→AAG)	N_A →	transcriptional regulator	evidence/RA_493.html	SRR33388173
 RA	PA2020	954	T→C	100%	D18D (GAT→GAC)	N_A →	transcriptional regulator	evidence/RA_494.html	SRR33388173
@@ -12025,7 +11944,6 @@ RA	PA2121	1,641	A→G	100%	P247P (CCA→CCG)	N_A →	transcriptional regulator	e
 RA	PA2121	1,710	C→G	100%	A270A (GCC→GCG)	N_A →	transcriptional regulator	evidence/RA_525.html	SRR33388173
 RA	PA2121	1,729	A→G	100%	I277V (ATC→GTC)	N_A →	transcriptional regulator	evidence/RA_526.html	SRR33388173
 RA	PA2121	1,755	G→C	100%	T285T (ACG→ACC)	N_A →	transcriptional regulator	evidence/RA_527.html	SRR33388173
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_2813.html	SRR33388173
 RA	PA2435	1,209	G→C	100%	A103A (GCG→GCC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_547.html	SRR33388173
 RA	PA2435	1,236	C→T	100%	S112S (AGC→AGT)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_548.html	SRR33388173
 RA	PA2435	1,287	T→C	100%	H129H (CAT→CAC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_549.html	SRR33388173
@@ -12540,7 +12458,6 @@ RA	PA2020	1,149	T→C	100%	D83D (GAT→GAC)	N_A →	transcriptional regulator	ev
 RA	PA2020	1,165	G→A	100%	G89S (GGC→AGC)	N_A →	transcriptional regulator	evidence/RA_274.html	SRR34269087
 RA	PA2020	1,267	T→C	100%	L123L (TTG→CTG)	N_A →	transcriptional regulator	evidence/RA_275.html	SRR34269087
 RA	PA2020	1,338	A→G	100%	E146E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_276.html	SRR34269087
-MC JC	PA2020	1,531	Δ21 bp	100%		[N_A]	[N_A]	evidence/MC_PLOT_1418.html	SRR34269087
 RA	PA2121	1,072	G→A	100%	A58T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_290.html	SRR34269087
 RA	PA2121	1,188	T→C	100%	T96T (ACT→ACC)	N_A →	transcriptional regulator	evidence/RA_291.html	SRR34269087
 RA	PA2121	1,196	C→G	100%	T99S (ACC→AGC)	N_A →	transcriptional regulator	evidence/RA_292.html	SRR34269087
@@ -13982,7 +13899,6 @@ RA	PA1544	1,344	T→C	100%	D148D (GAT→GAC)	anr →	transcriptional regulator A
 RA	PA1544	1,380	T→C	100%	T160T (ACT→ACC)	anr →	transcriptional regulator Anr	evidence/RA_440.html	SRR36784808
 RA	PA1544	1,440	C→T	100%	G180G (GGC→GGT)	anr →	transcriptional regulator Anr	evidence/RA_441.html	SRR36784808
 RA	PA1544	1,533	C→G	100%	T211T (ACC→ACG)	anr →	transcriptional regulator Anr	evidence/RA_442.html	SRR36784808
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_2443.html	SRR36784808
 RA	PA2020	909	G→A	100%	R3R (AGG→AGA)	N_A →	transcriptional regulator	evidence/RA_471.html	SRR36784808
 RA	PA2020	969	T→C	100%	V23V (GTT→GTC)	N_A →	transcriptional regulator	evidence/RA_472.html	SRR36784808
 RA	PA2020	1,008	C→T	100%	D36D (GAC→GAT)	N_A →	transcriptional regulator	evidence/RA_473.html	SRR36784808
@@ -14001,7 +13917,6 @@ RA	PA2121	1,380	C→T	100%	P160P (CCC→CCT)	N_A →	transcriptional regulator	e
 RA	PA2121	1,413	C→T	100%	R171R (CGC→CGT)	N_A →	transcriptional regulator	evidence/RA_509.html	SRR36784808
 RA	PA2121	1,557	G→A	100%	V219V (GTG→GTA)	N_A →	transcriptional regulator	evidence/RA_510.html	SRR36784808
 RA	PA2121	1,773	A→G	100%	L291L (CTA→CTG)	N_A →	transcriptional regulator	evidence/RA_511.html	SRR36784808
-MC	PA2312	1	Δ2,382 bp	100%		N_A	N_A	evidence/MC_PLOT_2445.html	SRR36784808
 RA	PA2435	1,002	T→C	100%	R34R (CGT→CGC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_529.html	SRR36784808
 RA	PA2435	1,096	A→G	100%	S66G (AGC→GGC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_530.html	SRR36784808
 RA	PA2435	1,185	T→C	100%	H95H (CAT→CAC)	N_A →	cation‑transporting P‑type ATPase	evidence/RA_531.html	SRR36784808
@@ -14885,7 +14800,6 @@ RA	PA1713	1,686	G→A	100%	T262T (ACG→ACA)	exsA →	exoenzyme S transcriptiona
 RA	PA2020	942	C→T	100%	D14D (GAC→GAT)	N_A →	transcriptional regulator	evidence/RA_119.html	SRR8182773
 RA	PA2020	1,149	T→C	100%	D83D (GAT→GAC)	N_A →	transcriptional regulator	evidence/RA_120.html	SRR8182773
 RA	PA2020	1,507	C→T	100%	P203S (CCC→TCC)	N_A →	transcriptional regulator	evidence/RA_121.html	SRR8182773
-MC JC	PA2020	1,531	Δ21 bp	100%		[N_A]	[N_A]	evidence/MC_PLOT_829.html	SRR8182773
 RA	PA2121	939	T→G	100%	L13L (CTT→CTG)	N_A →	transcriptional regulator	evidence/RA_132.html	SRR8182773
 RA	PA2121	987	G→A	100%	A29A (GCG→GCA)	N_A →	transcriptional regulator	evidence/RA_133.html	SRR8182773
 RA	PA2121	1,641	A→G	100%	P247P (CCA→CCG)	N_A →	transcriptional regulator	evidence/RA_134.html	SRR8182773
@@ -15206,7 +15120,6 @@ RA	PA1333	981	G→A	100%	E27E (GAG→GAA)	N_A →	hypothetical protein	evidence/
 RA	PA1333	1,104	C→G	100%	L68L (CTC→CTG)	N_A →	hypothetical protein	evidence/RA_45.html	SRR8612873
 RA	PA1544	1,071	T→C	100%	G57G (GGT→GGC)	anr →	transcriptional regulator Anr	evidence/RA_50.html	SRR8612873
 RA	PA1713	1,527	T→C	100%	Y209Y (TAT→TAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_55.html	SRR8612873
-MC JC	PA2020	1,163	Δ513 bp	100%		[N_A]	[N_A]	evidence/MC_PLOT_401.html	SRR8612873
 RA	PA2121	1,044	A→G	100%	E48E (GAA→GAG)	N_A →	transcriptional regulator	evidence/RA_59.html	SRR8612873
 RA	PA2121	1,072	G→A	100%	A58T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_60.html	SRR8612873
 RA	PA2312	1,299	T→C	100%	G133G (GGT→GGC)	N_A →	transcriptional regulator	evidence/RA_64.html	SRR8612873
@@ -15218,7 +15131,6 @@ RA	PA4462	1,278	G→A	100%	E126E (GAG→GAA)	rpoN →	RNA polymerase factor sigm
 RA	PA4522	1,002	T→C	100%	V34V (GTT→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_82.html	SRR8612873
 RA	PA4522	1,044	T→C	100%	G48G (GGT→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_83.html	SRR8612873
 RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_84.html	SRR8612873
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_427.html	SRR8612873
 RA	PA4796	1,262	G→A	100%	R121Q (CGG→CAG)	N_A →	hypothetical protein	evidence/RA_89.html	SRR8612873
 JC	PA4848	1,385	+CGG	100%	coding (485/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/JC_435.html	SRR8612873
 RA	PA4848	1,701	C→T	100%	I267I (ATC→ATT)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_94.html	SRR8612873
@@ -15250,7 +15162,6 @@ RA	PA1179	1,524	G→A	100%	K208K (AAG→AAA)	phoP →	two‑component response r
 RA	PA1333	949	A→G	100%	T17A (ACC→GCC)	N_A →	hypothetical protein	evidence/RA_89.html	SRR8737545
 RA	PA1333	981	G→A	100%	E27E (GAG→GAA)	N_A →	hypothetical protein	evidence/RA_90.html	SRR8737545
 RA	PA1333	1,104	C→G	100%	L68L (CTC→CTG)	N_A →	hypothetical protein	evidence/RA_91.html	SRR8737545
-MC	PA1430	1	Δ2,520 bp	100%		lasR	lasR	evidence/MC_PLOT_548.html	SRR8737545
 RA	PA1544	1,071	T→C	100%	G57G (GGT→GGC)	anr →	transcriptional regulator Anr	evidence/RA_102.html	SRR8737545
 RA	PA1544	1,299	G→A	100%	Q133Q (CAG→CAA)	anr →	transcriptional regulator Anr	evidence/RA_103.html	SRR8737545
 RA	PA1544	1,308	T→C	100%	R136R (CGT→CGC)	anr →	transcriptional regulator Anr	evidence/RA_104.html	SRR8737545
@@ -15299,7 +15210,6 @@ RA	PA4522	1,002	T→C	100%	V34V (GTT→GTC)	ampD →	N‑acetyl‑anhydromuranmy
 RA	PA4522	1,044	T→C	100%	G48G (GGT→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_222.html	SRR8737545
 RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_223.html	SRR8737545
 RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_224.html	SRR8737545
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_557.html	SRR8737545
 RA	PA4848	1,251	T→C	100%	V117V (GTT→GTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_235.html	SRR8737545
 RA	PA4848	1,329	G→A	100%	E143E (GAG→GAA)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_236.html	SRR8737545
 RA	PA4848	1,395	T→C	100%	G165G (GGT→GGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_237.html	SRR8737545
@@ -15602,7 +15512,6 @@ RA	PA4462	2,064	T→C	100%	H388H (CAT→CAC)	rpoN →	RNA polymerase factor sigm
 RA	PA4462	2,190	T→C	100%	A430A (GCT→GCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_186.html	SRR9031856
 RA	PA4522	1,002	T→C	100%	V34V (GTT→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_198.html	SRR9031856
 RA	PA4522	1,044	T→C	100%	G48G (GGT→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_199.html	SRR9031856
-MC	PA4526	1	Δ3,501 bp	100%		pilB	pilB	evidence/MC_PLOT_535.html	SRR9031856
 RA	PA4848	1,251	T→C	100%	V117V (GTT→GTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_211.html	SRR9031856
 RA	PA4848	1,329	G→A	100%	E143E (GAG→GAA)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_212.html	SRR9031856
 RA	PA4848	1,398	G→T	100%	G166G (GGG→GGT)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_213.html	SRR9031856
@@ -16354,7 +16263,6 @@ RA	PA0506	2,524	T→C	100%	L542L (TTG→CTG)	N_A →	acyl‑CoA dehydrogenase	ev
 RA	PA0652	1,176	T→C	100%	R92R (CGT→CGC)	vfr →	cAMP‑regulatory protein	evidence/RA_46.html	SRR9841424
 RA	PA0652	1,344	C→G	100%	V148V (GTC→GTG)	vfr →	cAMP‑regulatory protein	evidence/RA_47.html	SRR9841424
 RA	PA0652	1,515	A→G	100%	G205G (GGA→GGG)	vfr →	cAMP‑regulatory protein	evidence/RA_48.html	SRR9841424
-MC	PA0707	1	Δ2,580 bp	100%		toxR	toxR	evidence/MC_PLOT_617.html	SRR9841424
 RA	PA0997	1,140	C→T	100%	I80I (ATC→ATT)	pqsB →	hypothetical protein	evidence/RA_57.html	SRR9841424
 RA	PA0997	1,179	G→C	100%	A93A (GCG→GCC)	pqsB →	hypothetical protein	evidence/RA_58.html	SRR9841424
 RA	PA1097	1,008	C→T	100%	S36S (AGC→AGT)	fleQ →	transcriptional regulator FleQ	evidence/RA_73.html	SRR9841424
@@ -16377,7 +16285,6 @@ RA	PA1544	1,299	G→A	100%	Q133Q (CAG→CAA)	anr →	transcriptional regulator A
 RA	PA1544	1,308	T→C	100%	R136R (CGT→CGC)	anr →	transcriptional regulator Anr	evidence/RA_120.html	SRR9841424
 RA	PA1544	1,320	T→C	100%	R140R (CGT→CGC)	anr →	transcriptional regulator Anr	evidence/RA_121.html	SRR9841424
 RA	PA1544	1,509	G→A	100%	V203V (GTG→GTA)	anr →	transcriptional regulator Anr	evidence/RA_122.html	SRR9841424
-MC	PA1713	1	Δ2,637 bp	100%		exsA	exsA	evidence/MC_PLOT_622.html	SRR9841424
 RA	PA2020	993	C→T	100%	T31T (ACC→ACT)	N_A →	transcriptional regulator	evidence/RA_129.html	SRR9841424
 RA	PA2020	1,257	C→T	100%	N119N (AAC→AAT)	N_A →	transcriptional regulator	evidence/RA_130.html	SRR9841424
 RA	PA2020	1,264:1	+C	100%	coding (364/633 nt)	N_A →	transcriptional regulator	evidence/RA_131.html	SRR9841424
@@ -16429,7 +16336,6 @@ RA	PA4462	1,845	G→A	100%	P315P (CCG→CCA)	rpoN →	RNA polymerase factor sigm
 RA	PA4462	1,893	T→C	100%	D331D (GAT→GAC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_235.html	SRR9841424
 RA	PA4462	2,064	T→C	100%	H388H (CAT→CAC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_236.html	SRR9841424
 RA	PA4462	2,190	T→C	100%	A430A (GCT→GCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_237.html	SRR9841424
-MC	PA4522	1	Δ2,367 bp	100%		ampD	ampD	evidence/MC_PLOT_640.html	SRR9841424
 RA	PA4526	1,689	G→A	100%	V263V (GTG→GTA)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_244.html	SRR9841424
 RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_245.html	SRR9841424
 RA	PA4526	1,713	T→C	100%	F271F (TTT→TTC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_246.html	SRR9841424

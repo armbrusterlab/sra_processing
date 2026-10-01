@@ -28,12 +28,14 @@ params {
     breseq_additional: String
     filter_intergenic: String
     filter_synonymous: String
+    filter_absent: String
     category_colname: String
     subcategory_colname: String
     terms_colname: String
 
     p_adjust_method: String
     report_all: String
+    adjust_separately: String
 }
 
 workflow {
@@ -61,12 +63,12 @@ workflow {
     runBreseq(grepq, runids_postqc_dir, gb_for_breseq, params.breseq_additional)
     def breseq_htmls = runBreseq.out.breseq_htmls
 
-    summarizeBreseq(breseq_htmls, params.filter_intergenic, params.filter_synonymous)
+    summarizeBreseq(breseq_htmls, params.filter_intergenic, params.filter_synonymous, params.filter_absent)
     def breseq_tables = summarizeBreseq.out.breseq_tables
 
     summarizeSources(breseq_tables, params.predownload_outputs)
 
-    variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all)
+    variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all, params.adjust_separately)
 
     publish:
     kraken_reports = krakenClassify.out.kraken2_reports

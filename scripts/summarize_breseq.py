@@ -5,7 +5,7 @@ import argparse
 import pandas as pd
 import re
 
-def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_synonymous = False):
+def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_synonymous = False, filter_absent = False):
     outdir_path = Path(outdir)
     outdir_path.mkdir(exist_ok=True, parents=True)
 
@@ -64,9 +64,12 @@ def write_summary(breseq_dirs, outdir, n=1, filter_intergenic = False, filter_sy
     if filter_synonymous:
         print("Filtering out synonymous mutants...")
         df_mutations = df_mutations[df_mutations['annotation'].apply(find_synonymous) == False]
+        
+    if filter_absent:
+        print("Filtering out complete deletions...")
+        df_mutations = df_mutations[df_mutations["annotation"] != ""] # I have not verified that empty annotations always correspond to complete deletions, but it is likely that this is the case
 
     # fix non-breaking spaces in mutations file (they appear in other files, but these aren't the priority)
-
     # for the following: the former string has character U+00a0 (non-breaking space)
     df_mutations = df_mutations.rename(columns={'seq id': 'seq_id'}) 
     df_mutations['annotation'] = df_mutations['annotation'].str.replace(' ', ' ')
@@ -111,6 +114,7 @@ if __name__ == '__main__':
     parser.add_argument("-n", "--num", type=int, default=1, help="Number of levels of dir names to preserve in the output (source column).")
     parser.add_argument("-i", "--filter_intergenic", action="store_true", help="Filter out intergenic variants.")
     parser.add_argument("-s", "--filter_synonymous", action="store_true", help="Filter out synonymous mutations.")
+    parser.add_argument("-a", "--filter_absent", action="store_true", help="Filter out complete deletions.")
 
     args = parser.parse_args()
-    write_summary(args.breseq_dirs, args.outdir, args.num, args.filter_intergenic, args.filter_synonymous)
+    write_summary(args.breseq_dirs, args.outdir, args.num, args.filter_intergenic, args.filter_synonymous, args.filter_absent)

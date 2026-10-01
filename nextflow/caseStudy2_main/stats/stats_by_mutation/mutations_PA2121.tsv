@@ -1,0 +1,226 @@
+mutation	term	p.value	p.adj	significant
+PA2121; N_A →; A108V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A141A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A190A (GCG→GCC)	Host Body-Site: Organ; Ear	0.361009634064693	1	FALSE
+PA2121; N_A →; A190P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A235D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A255S	Host Body-Site: Organ; Ear	0.495518608605696	1	FALSE
+PA2121; N_A →; A263T	Host Body-Site: Organ; Ear	0.336382494672103	1	FALSE
+PA2121; N_A →; A270A (GCC→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A270A (GCC→GCG)	Host Body-Site: Organ; Ear	0.239063113359794	1	FALSE
+PA2121; N_A →; A270A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A28A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A28A (GCG→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A29A (GCG→GCA)	Host Body-Site: Organ; Ear	0.408848925925833	1	FALSE
+PA2121; N_A →; A58T	Host Body-Site: Organ; Ear	0.69263494172173	1	FALSE
+PA2121; N_A →; A67A (GCC→GCG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; D153D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; E193A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; E268D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; E48E (GAA→GAG)	Host Body-Site: Organ; Ear	0.913933364479988	1	FALSE
+PA2121; N_A →; F100F (TTT→TTC)	Host Body-Site: Organ; Ear	0.807754211521058	1	FALSE
+PA2121; N_A →; G176A	Host Body-Site: Organ; Ear	0.860405498285261	1	FALSE
+PA2121; N_A →; G176G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; G205G (GGG→GGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; G205G (GGG→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; G256S	Host Body-Site: Organ; Ear	0.371501065594615	1	FALSE
+PA2121; N_A →; G259G (GGT→GGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; G61G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; I277V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; I30M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; K2K (AAG→AAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; L120L (CTG→TTG)	Host Body-Site: Organ; Ear	0.640351526599561	1	FALSE
+PA2121; N_A →; L13L (CTT→CTG)	Host Body-Site: Organ; Ear	0.307077774243427	1	FALSE
+PA2121; N_A →; L148L (CTC→CTG)	Host Body-Site: Organ; Ear	0.691655477385502	1	FALSE
+PA2121; N_A →; L201L (CTG→CTC)	Host Body-Site: Organ; Ear	0.336382494672103	1	FALSE
+PA2121; N_A →; L260L (TTG→CTG)	Host Body-Site: Organ; Ear	0.330022048246009	1	FALSE
+PA2121; N_A →; L276L (CTG→CTC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; L291L (CTA→CTG)	Host Body-Site: Organ; Ear	0.618668055045169	1	FALSE
+PA2121; N_A →; L43L (CTC→CTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; L5L (TTG→TTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; L71L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; L8F	Host Body-Site: Organ; Ear	0.336382494672103	1	FALSE
+PA2121; N_A →; N4N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; P114P (CCG→CCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; P160P (CCC→CCT)	Host Body-Site: Organ; Ear	0.398191808128858	1	FALSE
+PA2121; N_A →; P228P (CCT→CCG)	Host Body-Site: Organ; Ear	0.518094246485476	1	FALSE
+PA2121; N_A →; P247P (CCA→CCG)	Host Body-Site: Organ; Ear	0.305969073924435	1	FALSE
+PA2121; N_A →; P271P (CCG→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; P74P (CCG→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; Q142Q (CAA→CAG)	Host Body-Site: Organ; Ear	0.305384555028571	1	FALSE
+PA2121; N_A →; Q222R	Host Body-Site: Organ; Ear	0.398191808128858	1	FALSE
+PA2121; N_A →; R126Q	Host Body-Site: Organ; Ear	0.274882206885776	1	FALSE
+PA2121; N_A →; R132R (CGT→CGG)	Host Body-Site: Organ; Ear	0.579318734151498	1	FALSE
+PA2121; N_A →; R171R (CGC→CGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; R177R (CGG→CGC)	Host Body-Site: Organ; Ear	0.45921639679618	1	FALSE
+PA2121; N_A →; R203R (CGG→CGC)	Host Body-Site: Organ; Ear	0.171846919436784	1	FALSE
+PA2121; N_A →; R253R (CGC→CGT)	Host Body-Site: Organ; Ear	0.305969073924435	1	FALSE
+PA2121; N_A →; S208S (AGT→AGC)	Host Body-Site: Organ; Ear	0.239063113359794	1	FALSE
+PA2121; N_A →; T122I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; T285T (ACG→ACC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; T91A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; T96T (ACT→ACC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; T99S	Host Body-Site: Organ; Ear	0.746531293943507	1	FALSE
+PA2121; N_A →; V117V (GTG→GTA)	Host Body-Site: Organ; Ear	0.127612761276128	1	FALSE
+PA2121; N_A →; V127L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; V131V (GTA→GTG)	Host Body-Site: Organ; Ear	0.579318734151498	1	FALSE
+PA2121; N_A →; V167I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; V173A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; V204I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; V204V (GTC→GTG)	Host Body-Site: Organ; Ear	0.794304078580618	1	FALSE
+PA2121; N_A →; V213V (GTC→GTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; V219V (GTG→GTA)	Host Body-Site: Organ; Ear	0.665389517639036	1	FALSE
+PA2121; N_A →; V272A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; Y107Y (TAT→TAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; Y154Y (TAC→TAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; Y72H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2121; N_A →; A108V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A141A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A190A (GCG→GCC)	Host Body-Site: Organ; Eye	0.222089309589144	1	FALSE
+PA2121; N_A →; A190P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A235D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A255S	Host Body-Site: Organ; Eye	0.65290970273882	1	FALSE
+PA2121; N_A →; A263T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A270A (GCC→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A270A (GCC→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A270A (GCC→GCT)	Host Body-Site: Organ; Eye	0.0275666576898564	1	FALSE
+PA2121; N_A →; A28A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A28A (GCG→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A29A (GCG→GCA)	Host Body-Site: Organ; Eye	0.108198813932111	1	FALSE
+PA2121; N_A →; A58T	Host Body-Site: Organ; Eye	0.970121510838549	1	FALSE
+PA2121; N_A →; A67A (GCC→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; D153D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; E193A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; E268D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; E48E (GAA→GAG)	Host Body-Site: Organ; Eye	0.986800308326552	1	FALSE
+PA2121; N_A →; F100F (TTT→TTC)	Host Body-Site: Organ; Eye	0.179080787111367	1	FALSE
+PA2121; N_A →; G176A	Host Body-Site: Organ; Eye	0.99581808720457	1	FALSE
+PA2121; N_A →; G176G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; G205G (GGG→GGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; G205G (GGG→GGT)	Host Body-Site: Organ; Eye	0.0591394261726982	1	FALSE
+PA2121; N_A →; G256S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; G259G (GGT→GGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; G61G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; I277V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; I30M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; K2K (AAG→AAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; L120L (CTG→TTG)	Host Body-Site: Organ; Eye	0.563939922297968	1	FALSE
+PA2121; N_A →; L13L (CTT→CTG)	Host Body-Site: Organ; Eye	0.306037662637454	1	FALSE
+PA2121; N_A →; L148L (CTC→CTG)	Host Body-Site: Organ; Eye	0.45741202210777	1	FALSE
+PA2121; N_A →; L201L (CTG→CTC)	Host Body-Site: Organ; Eye	0.469599170574257	1	FALSE
+PA2121; N_A →; L260L (TTG→CTG)	Host Body-Site: Organ; Eye	0.407127182693894	1	FALSE
+PA2121; N_A →; L276L (CTG→CTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; L291L (CTA→CTG)	Host Body-Site: Organ; Eye	0.938856801873231	1	FALSE
+PA2121; N_A →; L43L (CTC→CTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; L5L (TTG→TTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; L71L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; L8F	Host Body-Site: Organ; Eye	0.469599170574257	1	FALSE
+PA2121; N_A →; N4N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; P114P (CCG→CCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; P160P (CCC→CCT)	Host Body-Site: Organ; Eye	0.335097211381225	1	FALSE
+PA2121; N_A →; P228P (CCT→CCG)	Host Body-Site: Organ; Eye	0.0811062372674706	1	FALSE
+PA2121; N_A →; P247P (CCA→CCG)	Host Body-Site: Organ; Eye	0.374989263166725	1	FALSE
+PA2121; N_A →; P271P (CCG→CCA)	Host Body-Site: Organ; Eye	0.190319031903191	1	FALSE
+PA2121; N_A →; P74P (CCG→CCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; Q142Q (CAA→CAG)	Host Body-Site: Organ; Eye	0.227197983227696	1	FALSE
+PA2121; N_A →; Q222R	Host Body-Site: Organ; Eye	0.0836586243735241	1	FALSE
+PA2121; N_A →; R126Q	Host Body-Site: Organ; Eye	0.369220116557377	1	FALSE
+PA2121; N_A →; R132R (CGT→CGG)	Host Body-Site: Organ; Eye	0.26200889938835	1	FALSE
+PA2121; N_A →; R171R (CGC→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; R177R (CGG→CGC)	Host Body-Site: Organ; Eye	0.410253563132197	1	FALSE
+PA2121; N_A →; R203R (CGG→CGC)	Host Body-Site: Organ; Eye	0.719332956528847	1	FALSE
+PA2121; N_A →; R253R (CGC→CGT)	Host Body-Site: Organ; Eye	0.374989263166725	1	FALSE
+PA2121; N_A →; S208S (AGT→AGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; T122I	Host Body-Site: Organ; Eye	0.65290970273882	1	FALSE
+PA2121; N_A →; T285T (ACG→ACC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; T91A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; T96T (ACT→ACC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; T99S	Host Body-Site: Organ; Eye	0.103282952370935	1	FALSE
+PA2121; N_A →; V117V (GTG→GTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; V127L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; V131V (GTA→GTG)	Host Body-Site: Organ; Eye	0.26200889938835	1	FALSE
+PA2121; N_A →; V167I	Host Body-Site: Organ; Eye	0.0945609819203583	1	FALSE
+PA2121; N_A →; V173A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; V204I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; V204V (GTC→GTG)	Host Body-Site: Organ; Eye	0.105690158045635	1	FALSE
+PA2121; N_A →; V213V (GTC→GTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; V219V (GTG→GTA)	Host Body-Site: Organ; Eye	0.998655703364289	1	FALSE
+PA2121; N_A →; V272A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; Y107Y (TAT→TAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; Y154Y (TAC→TAT)	Host Body-Site: Organ; Eye	0.469599170574257	1	FALSE
+PA2121; N_A →; Y72H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2121; N_A →; A108V	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; A141A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A190A (GCG→GCC)	Infection: Disease; Cystic fibrosis	0.921116748459428	1	FALSE
+PA2121; N_A →; A190P	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A235D	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A255S	Infection: Disease; Cystic fibrosis	0.812968797941261	1	FALSE
+PA2121; N_A →; A263T	Infection: Disease; Cystic fibrosis	0.761292889290677	1	FALSE
+PA2121; N_A →; A270A (GCC→GCA)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A270A (GCC→GCG)	Infection: Disease; Cystic fibrosis	0.899158197758102	1	FALSE
+PA2121; N_A →; A270A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.963580005024433	1	FALSE
+PA2121; N_A →; A28A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A28A (GCG→GCT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; A29A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.969880178353096	1	FALSE
+PA2121; N_A →; A58T	Infection: Disease; Cystic fibrosis	0.0570799206548227	1	FALSE
+PA2121; N_A →; A67A (GCC→GCG)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; D153D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; E193A	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; E268D	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; E48E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.0173265598711001	1	FALSE
+PA2121; N_A →; F100F (TTT→TTC)	Infection: Disease; Cystic fibrosis	0.853186402897495	1	FALSE
+PA2121; N_A →; G176A	Infection: Disease; Cystic fibrosis	0.011157028610653	1	FALSE
+PA2121; N_A →; G176G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; G205G (GGG→GGC)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; G205G (GGG→GGT)	Infection: Disease; Cystic fibrosis	0.853186402897495	1	FALSE
+PA2121; N_A →; G256S	Infection: Disease; Cystic fibrosis	0.335234319974209	1	FALSE
+PA2121; N_A →; G259G (GGT→GGC)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; G61G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; I277V	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; I30M	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; K2K (AAG→AAA)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; L120L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.527342776686289	1	FALSE
+PA2121; N_A →; L13L (CTT→CTG)	Infection: Disease; Cystic fibrosis	0.905934422105016	1	FALSE
+PA2121; N_A →; L148L (CTC→CTG)	Infection: Disease; Cystic fibrosis	0.66326730203121	1	FALSE
+PA2121; N_A →; L201L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.968090851991814	1	FALSE
+PA2121; N_A →; L260L (TTG→CTG)	Infection: Disease; Cystic fibrosis	0.838291275668053	1	FALSE
+PA2121; N_A →; L276L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; L291L (CTA→CTG)	Infection: Disease; Cystic fibrosis	0.127023182881291	1	FALSE
+PA2121; N_A →; L43L (CTC→CTT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; L5L (TTG→TTA)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; L71L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; L8F	Infection: Disease; Cystic fibrosis	0.968090851991814	1	FALSE
+PA2121; N_A →; N4N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; P114P (CCG→CCT)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; P160P (CCC→CCT)	Infection: Disease; Cystic fibrosis	0.865956731024696	1	FALSE
+PA2121; N_A →; P228P (CCT→CCG)	Infection: Disease; Cystic fibrosis	0.955542458773932	1	FALSE
+PA2121; N_A →; P247P (CCA→CCG)	Infection: Disease; Cystic fibrosis	0.866927443863802	1	FALSE
+PA2121; N_A →; P271P (CCG→CCA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2121; N_A →; P74P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; Q142Q (CAA→CAG)	Infection: Disease; Cystic fibrosis	0.94452808403578	1	FALSE
+PA2121; N_A →; Q222R	Infection: Disease; Cystic fibrosis	0.973359651898248	1	FALSE
+PA2121; N_A →; R126Q	Infection: Disease; Cystic fibrosis	0.907112948124273	1	FALSE
+PA2121; N_A →; R132R (CGT→CGG)	Infection: Disease; Cystic fibrosis	0.839765595325448	1	FALSE
+PA2121; N_A →; R171R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.464978215883262	1	FALSE
+PA2121; N_A →; R177R (CGG→CGC)	Infection: Disease; Cystic fibrosis	0.79158610296638	1	FALSE
+PA2121; N_A →; R203R (CGG→CGC)	Infection: Disease; Cystic fibrosis	0.91507234148188	1	FALSE
+PA2121; N_A →; R253R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.866927443863802	1	FALSE
+PA2121; N_A →; S208S (AGT→AGC)	Infection: Disease; Cystic fibrosis	0.899158197758102	1	FALSE
+PA2121; N_A →; T122I	Infection: Disease; Cystic fibrosis	0.491360423862099	1	FALSE
+PA2121; N_A →; T285T (ACG→ACC)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; T91A	Infection: Disease; Cystic fibrosis	0.316820879179554	1	FALSE
+PA2121; N_A →; T96T (ACT→ACC)	Infection: Disease; Cystic fibrosis	0.316820879179554	1	FALSE
+PA2121; N_A →; T99S	Infection: Disease; Cystic fibrosis	0.939180986061032	1	FALSE
+PA2121; N_A →; V117V (GTG→GTA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2121; N_A →; V127L	Infection: Disease; Cystic fibrosis	0.146859787044664	1	FALSE
+PA2121; N_A →; V131V (GTA→GTG)	Infection: Disease; Cystic fibrosis	0.839765595325448	1	FALSE
+PA2121; N_A →; V167I	Infection: Disease; Cystic fibrosis	0.968090851991814	1	FALSE
+PA2121; N_A →; V173A	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; V204I	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; V204V (GTC→GTG)	Infection: Disease; Cystic fibrosis	0.875933668198018	1	FALSE
+PA2121; N_A →; V213V (GTC→GTG)	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; V219V (GTG→GTA)	Infection: Disease; Cystic fibrosis	0.0122522481302011	1	FALSE
+PA2121; N_A →; V272A	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE
+PA2121; N_A →; Y107Y (TAT→TAC)	Infection: Disease; Cystic fibrosis	0.215759914408152	1	FALSE
+PA2121; N_A →; Y154Y (TAC→TAT)	Infection: Disease; Cystic fibrosis	0.761292889290677	1	FALSE
+PA2121; N_A →; Y72H	Infection: Disease; Cystic fibrosis	0.682068206820682	1	FALSE

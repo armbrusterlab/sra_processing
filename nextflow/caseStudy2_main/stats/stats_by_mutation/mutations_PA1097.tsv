@@ -1,0 +1,367 @@
+mutation	term	p.value	p.adj	significant
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Ear	0.748861535468091	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Ear	0.615212600454109	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Ear	0.615212600454109	1	FALSE
+PA1097; fleQ →; A131A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; A21A (GCA→GCG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; A284A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; A325A (GCC→GCA)	Host Body-Site: Organ; Ear	0.272100751984466	1	FALSE
+PA1097; fleQ →; A348A (GCG→GCA)	Host Body-Site: Organ; Ear	0.436560436777581	1	FALSE
+PA1097; fleQ →; A349A (GCA→GCC)	Host Body-Site: Organ; Ear	0.748861535468091	1	FALSE
+PA1097; fleQ →; A349A (GCA→GCG)	Host Body-Site: Organ; Ear	0.212077533240981	1	FALSE
+PA1097; fleQ →; A412A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; A416A (GCC→GCT)	Host Body-Site: Organ; Ear	0.265219806186302	1	FALSE
+PA1097; fleQ →; A460A (GCC→GCT)	Host Body-Site: Organ; Ear	0.100377358490566	1	FALSE
+PA1097; fleQ →; A91S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D116D (GAT→GAC)	Host Body-Site: Organ; Ear	0.777193953362988	1	FALSE
+PA1097; fleQ →; D12D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D249D (GAC→GAT)	Host Body-Site: Organ; Ear	0.190747306618024	1	FALSE
+PA1097; fleQ →; D279D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D296D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D30D (GAT→GAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D38D (GAT→GAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D433D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D452D (GAC→GAT)	Host Body-Site: Organ; Ear	0.712050946998183	1	FALSE
+PA1097; fleQ →; D485D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D489E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D92D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E106E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E126E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E235E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E264E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E29E (GAA→GAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E301E (GAA→GAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E322E (GAA→GAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E336E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E398E (GAG→GAA)	Host Body-Site: Organ; Ear	0.190747306618024	1	FALSE
+PA1097; fleQ →; E410E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; E430E (GAA→GAG)	Host Body-Site: Organ; Ear	0.190747306618024	1	FALSE
+PA1097; fleQ →; E95E (GAA→GAG)	Host Body-Site: Organ; Ear	0.466523900098298	1	FALSE
+PA1097; fleQ →; F223F (TTC→TTT)	Host Body-Site: Organ; Ear	0.411244071619814	1	FALSE
+PA1097; fleQ →; G174G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G177G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G196G (GGG→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G204R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G221G (GGT→GGC)	Host Body-Site: Organ; Ear	0.435203438043658	1	FALSE
+PA1097; fleQ →; G225G (GGT→GGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G271G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G341G (GGG→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G417G (GGG→GGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G420G (GGA→GGG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G58G (GGC→GGT)	Host Body-Site: Organ; Ear	0.81780310534115	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGG)	Host Body-Site: Organ; Ear	0.736390769332004	1	FALSE
+PA1097; fleQ →; H188H (CAT→CAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; H337H (CAT→CAC)	Host Body-Site: Organ; Ear	0.0723333678563536	1	FALSE
+PA1097; fleQ →; I206I (ATC→ATT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; I23I (ATT→ATC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; I343I (ATC→ATT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; K180K (AAG→AAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; K220R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; K292K (AAG→AAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L114L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L215L (TTG→CTG)	Host Body-Site: Organ; Ear	0.24513331883412	1	FALSE
+PA1097; fleQ →; L236L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L242L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L242L (CTG→TTG)	Host Body-Site: Organ; Ear	0.345331160445938	1	FALSE
+PA1097; fleQ →; L252M	Host Body-Site: Organ; Ear	0.654100688706087	1	FALSE
+PA1097; fleQ →; L258L (CTG→TTG)	Host Body-Site: Organ; Ear	0.571989015876741	1	FALSE
+PA1097; fleQ →; L262L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L32L (CTG→CTC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L353L (CTC→CTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L434L (CTC→CTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L438L (CTG→CTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L445L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L56L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L69L (CTG→TTG)	Host Body-Site: Organ; Ear	0.689085181787525	1	FALSE
+PA1097; fleQ →; L83L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L83P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; M250L	Host Body-Site: Organ; Ear	0.453788820065822	1	FALSE
+PA1097; fleQ →; M254I	Host Body-Site: Organ; Ear	0.654100688706087	1	FALSE
+PA1097; fleQ →; N202N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; N238D	Host Body-Site: Organ; Ear	0.571989015876741	1	FALSE
+PA1097; fleQ →; N25N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; N48N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; P140P (CCG→CCC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; Q72Q (CAA→CAG)	Host Body-Site: Organ; Ear	0.821237114648503	1	FALSE
+PA1097; fleQ →; R136R (CGT→CGC)	Host Body-Site: Organ; Ear	0.449114384379967	1	FALSE
+PA1097; fleQ →; R233R (CGT→CGC)	Host Body-Site: Organ; Ear	0.41098851421547	1	FALSE
+PA1097; fleQ →; R260R (CGC→CGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; R269R (AGG→AGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; R318R (CGC→CGT)	Host Body-Site: Organ; Ear	0.190747306618024	1	FALSE
+PA1097; fleQ →; R334R (CGG→CGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; R371R (CGC→CGG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; R405R (CGC→CGT)	Host Body-Site: Organ; Ear	0.272100751984466	1	FALSE
+PA1097; fleQ →; R465R (CGC→CGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; R467R (CGC→CGT)	Host Body-Site: Organ; Ear	0.415728833624171	1	FALSE
+PA1097; fleQ →; R483R (CGT→CGC)	Host Body-Site: Organ; Ear	0.588817121227634	1	FALSE
+PA1097; fleQ →; S145S (AGC→AGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; S176S (TCC→TCG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; S229S (AGT→AGC)	Host Body-Site: Organ; Ear	0.553370453881955	1	FALSE
+PA1097; fleQ →; S36S (AGC→AGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; S402S (AGC→AGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; S403S (AGC→AGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; T224T (ACC→ACT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; T286T (ACC→ACT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; T298T (ACT→ACC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; V170V (GTG→GTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; V270V (GTT→GTC)	Host Body-Site: Organ; Ear	0.402379090158764	1	FALSE
+PA1097; fleQ →; V278V (GTC→GTA)	Host Body-Site: Organ; Ear	0.100377358490566	1	FALSE
+PA1097; fleQ →; V280V (GTG→GTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; V472V (GTA→GTG)	Host Body-Site: Organ; Ear	0.393939578075562	1	FALSE
+PA1097; fleQ →; Y304Y (TAC→TAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Eye	0.0668919356608533	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Eye	0.651491423471831	1	FALSE
+PA1097; fleQ →; A131A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A21A (GCA→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A284A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A325A (GCC→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A348A (GCG→GCA)	Host Body-Site: Organ; Eye	0.960494679165852	1	FALSE
+PA1097; fleQ →; A349A (GCA→GCC)	Host Body-Site: Organ; Eye	0.00144035395754538	0.527169548461609	FALSE
+PA1097; fleQ →; A349A (GCA→GCG)	Host Body-Site: Organ; Eye	0.932117478139277	1	FALSE
+PA1097; fleQ →; A412A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A416A (GCC→GCT)	Host Body-Site: Organ; Eye	0.690155748831339	1	FALSE
+PA1097; fleQ →; A460A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; A91S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D116D (GAT→GAC)	Host Body-Site: Organ; Eye	0.843900885412846	1	FALSE
+PA1097; fleQ →; D12D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D249D (GAC→GAT)	Host Body-Site: Organ; Eye	0.208309867183492	1	FALSE
+PA1097; fleQ →; D279D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D296D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D30D (GAT→GAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D38D (GAT→GAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D433D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D452D (GAC→GAT)	Host Body-Site: Organ; Eye	0.254098419090428	1	FALSE
+PA1097; fleQ →; D485D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D489E	Host Body-Site: Organ; Eye	0.0335755370380495	1	FALSE
+PA1097; fleQ →; D92D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E106E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E126E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E235E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E264E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E29E (GAA→GAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E301E (GAA→GAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E322E (GAA→GAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E336E (GAG→GAA)	Host Body-Site: Organ; Eye	0.0587427579854989	1	FALSE
+PA1097; fleQ →; E398E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E410E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E430E (GAA→GAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; E95E (GAA→GAG)	Host Body-Site: Organ; Eye	0.0485686835809623	1	FALSE
+PA1097; fleQ →; F223F (TTC→TTT)	Host Body-Site: Organ; Eye	0.442708054327588	1	FALSE
+PA1097; fleQ →; G174G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G177G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G196G (GGG→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G204R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G221G (GGT→GGC)	Host Body-Site: Organ; Eye	0.436972761539542	1	FALSE
+PA1097; fleQ →; G225G (GGT→GGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G271G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G341G (GGG→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G417G (GGG→GGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G420G (GGA→GGG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G58G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGG)	Host Body-Site: Organ; Eye	0.322359930635397	1	FALSE
+PA1097; fleQ →; H188H (CAT→CAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; H337H (CAT→CAC)	Host Body-Site: Organ; Eye	0.740114188277068	1	FALSE
+PA1097; fleQ →; I206I (ATC→ATT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; I23I (ATT→ATC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; I343I (ATC→ATT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; K180K (AAG→AAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; K220R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; K292K (AAG→AAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L114L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L215L (TTG→CTG)	Host Body-Site: Organ; Eye	0.0190962892197172	1	FALSE
+PA1097; fleQ →; L236L (CTG→TTG)	Host Body-Site: Organ; Eye	0.373461565758931	1	FALSE
+PA1097; fleQ →; L242L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L242L (CTG→TTG)	Host Body-Site: Organ; Eye	0.373461565758931	1	FALSE
+PA1097; fleQ →; L252M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L258L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L262L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L32L (CTG→CTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L353L (CTC→CTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L434L (CTC→CTT)	Host Body-Site: Organ; Eye	0.608039457482837	1	FALSE
+PA1097; fleQ →; L438L (CTG→CTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L445L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L56L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L69L (CTG→TTG)	Host Body-Site: Organ; Eye	0.724556707516225	1	FALSE
+PA1097; fleQ →; L83L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L83P	Host Body-Site: Organ; Eye	0.110188679245283	1	FALSE
+PA1097; fleQ →; M250L	Host Body-Site: Organ; Eye	0.828140415456228	1	FALSE
+PA1097; fleQ →; M254I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; N202N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; N238D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; N25N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; N48N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; P140P (CCG→CCC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCA)	Host Body-Site: Organ; Eye	0.559211608329675	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCT)	Host Body-Site: Organ; Eye	0.608039457482837	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; Q72Q (CAA→CAG)	Host Body-Site: Organ; Eye	0.874521414773454	1	FALSE
+PA1097; fleQ →; R136R (CGT→CGC)	Host Body-Site: Organ; Eye	0.0770399062941982	1	FALSE
+PA1097; fleQ →; R233R (CGT→CGC)	Host Body-Site: Organ; Eye	0.0996198289781244	1	FALSE
+PA1097; fleQ →; R260R (CGC→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R269R (AGG→AGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R318R (CGC→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R334R (CGG→CGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R371R (CGC→CGG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R405R (CGC→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R465R (CGC→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; R467R (CGC→CGT)	Host Body-Site: Organ; Eye	0.993164487305433	1	FALSE
+PA1097; fleQ →; R483R (CGT→CGC)	Host Body-Site: Organ; Eye	0.572257371890355	1	FALSE
+PA1097; fleQ →; S145S (AGC→AGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; S176S (TCC→TCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; S229S (AGT→AGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; S36S (AGC→AGT)	Host Body-Site: Organ; Eye	0.373461565758931	1	FALSE
+PA1097; fleQ →; S402S (AGC→AGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; S403S (AGC→AGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; T224T (ACC→ACT)	Host Body-Site: Organ; Eye	0.5043479210459	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACT)	Host Body-Site: Organ; Eye	0.110188679245283	1	FALSE
+PA1097; fleQ →; T286T (ACC→ACT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; T298T (ACT→ACC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; V170V (GTG→GTA)	Host Body-Site: Organ; Eye	0.110188679245283	1	FALSE
+PA1097; fleQ →; V270V (GTT→GTC)	Host Body-Site: Organ; Eye	0.526987918208575	1	FALSE
+PA1097; fleQ →; V278V (GTC→GTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; V280V (GTG→GTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; V472V (GTA→GTG)	Host Body-Site: Organ; Eye	0.393522308913801	1	FALSE
+PA1097; fleQ →; Y304Y (TAC→TAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.205208719184221	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.976121054623666	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.71026065306796	1	FALSE
+PA1097; fleQ →; A131A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; A21A (GCA→GCG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; A284A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; A325A (GCC→GCA)	Infection: Disease; Cystic fibrosis	0.885876258957097	1	FALSE
+PA1097; fleQ →; A348A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.285309413964155	1	FALSE
+PA1097; fleQ →; A349A (GCA→GCC)	Infection: Disease; Cystic fibrosis	0.99831951643851	1	FALSE
+PA1097; fleQ →; A349A (GCA→GCG)	Infection: Disease; Cystic fibrosis	0.476030173279901	1	FALSE
+PA1097; fleQ →; A412A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; A416A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.86058137144828	1	FALSE
+PA1097; fleQ →; A460A (GCC→GCT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; A91S	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D116D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.192347044519328	1	FALSE
+PA1097; fleQ →; D12D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.491682516933126	1	FALSE
+PA1097; fleQ →; D249D (GAC→GAT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; D279D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; D296D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D30D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D38D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D433D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D452D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.727486520478741	1	FALSE
+PA1097; fleQ →; D485D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; D489E	Infection: Disease; Cystic fibrosis	0.99074311090223	1	FALSE
+PA1097; fleQ →; D92D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.491682516933126	1	FALSE
+PA1097; fleQ →; E106E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; E126E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; E235E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; E264E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; E29E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; E301E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; E322E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; E336E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.84753930084286	1	FALSE
+PA1097; fleQ →; E398E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.955787493587186	1	FALSE
+PA1097; fleQ →; E410E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; E430E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.955787493587186	1	FALSE
+PA1097; fleQ →; E95E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.976671518371677	1	FALSE
+PA1097; fleQ →; F223F (TTC→TTT)	Infection: Disease; Cystic fibrosis	0.93400623134358	1	FALSE
+PA1097; fleQ →; G174G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G177G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G196G (GGG→GGT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; G204R	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G221G (GGT→GGC)	Infection: Disease; Cystic fibrosis	0.719320963762785	1	FALSE
+PA1097; fleQ →; G225G (GGT→GGC)	Infection: Disease; Cystic fibrosis	0.190268924253895	1	FALSE
+PA1097; fleQ →; G271G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G341G (GGG→GGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G384G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G417G (GGG→GGC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G420G (GGA→GGG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; G58G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.11835241895867	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGA)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; G65G (GGT→GGG)	Infection: Disease; Cystic fibrosis	0.603499042533835	1	FALSE
+PA1097; fleQ →; H188H (CAT→CAC)	Infection: Disease; Cystic fibrosis	0.491682516933126	1	FALSE
+PA1097; fleQ →; H337H (CAT→CAC)	Infection: Disease; Cystic fibrosis	0.910075681210085	1	FALSE
+PA1097; fleQ →; I206I (ATC→ATT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; I23I (ATT→ATC)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; I343I (ATC→ATT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; K180K (AAG→AAA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; K220R	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; K292K (AAG→AAA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L114L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L215L (TTG→CTG)	Infection: Disease; Cystic fibrosis	0.994964601651989	1	FALSE
+PA1097; fleQ →; L236L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.802982264794719	1	FALSE
+PA1097; fleQ →; L242L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L242L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.968770253119475	1	FALSE
+PA1097; fleQ →; L252M	Infection: Disease; Cystic fibrosis	0.343781222452504	1	FALSE
+PA1097; fleQ →; L258L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.472207626126322	1	FALSE
+PA1097; fleQ →; L262L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.305986679450207	1	FALSE
+PA1097; fleQ →; L32L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L353L (CTC→CTG)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; L434L (CTC→CTT)	Infection: Disease; Cystic fibrosis	0.472207626126322	1	FALSE
+PA1097; fleQ →; L438L (CTG→CTT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L445L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; L56L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; L69L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.582210426777935	1	FALSE
+PA1097; fleQ →; L83L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.491682516933126	1	FALSE
+PA1097; fleQ →; L83P	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; M250L	Infection: Disease; Cystic fibrosis	0.608398174146736	1	FALSE
+PA1097; fleQ →; M254I	Infection: Disease; Cystic fibrosis	0.343781222452504	1	FALSE
+PA1097; fleQ →; N202N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; N238D	Infection: Disease; Cystic fibrosis	0.472207626126322	1	FALSE
+PA1097; fleQ →; N25N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; N48N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; P140P (CCG→CCC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCA)	Infection: Disease; Cystic fibrosis	0.547572009896067	1	FALSE
+PA1097; fleQ →; P377P (CCC→CCT)	Infection: Disease; Cystic fibrosis	0.472207626126322	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; P419P (CCG→CCT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; Q72Q (CAA→CAG)	Infection: Disease; Cystic fibrosis	0.148036784529321	1	FALSE
+PA1097; fleQ →; R136R (CGT→CGC)	Infection: Disease; Cystic fibrosis	0.947215075500665	1	FALSE
+PA1097; fleQ →; R233R (CGT→CGC)	Infection: Disease; Cystic fibrosis	0.964143359381642	1	FALSE
+PA1097; fleQ →; R260R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; R269R (AGG→AGA)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; R318R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.955787493587186	1	FALSE
+PA1097; fleQ →; R334R (CGG→CGC)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; R371R (CGC→CGG)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; R405R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.885876258957097	1	FALSE
+PA1097; fleQ →; R465R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; R467R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.185363477485621	1	FALSE
+PA1097; fleQ →; R483R (CGT→CGC)	Infection: Disease; Cystic fibrosis	0.522341552767813	1	FALSE
+PA1097; fleQ →; S145S (AGC→AGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; S176S (TCC→TCG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; S229S (AGT→AGC)	Infection: Disease; Cystic fibrosis	0.234740312416586	1	FALSE
+PA1097; fleQ →; S36S (AGC→AGT)	Infection: Disease; Cystic fibrosis	0.802982264794719	1	FALSE
+PA1097; fleQ →; S402S (AGC→AGT)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; S403S (AGC→AGT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; T224T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.629358965687358	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACG)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; T241T (ACC→ACT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; T286T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; T298T (ACT→ACC)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE
+PA1097; fleQ →; V170V (GTG→GTA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; V270V (GTT→GTC)	Infection: Disease; Cystic fibrosis	0.6882229499056	1	FALSE
+PA1097; fleQ →; V278V (GTC→GTA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; V280V (GTG→GTA)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; V472V (GTA→GTG)	Infection: Disease; Cystic fibrosis	0.772504750371279	1	FALSE
+PA1097; fleQ →; Y304Y (TAC→TAT)	Infection: Disease; Cystic fibrosis	0.623080430941116	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Infection: Disease; Cystic fibrosis	0.789433962264151	1	FALSE

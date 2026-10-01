@@ -1,0 +1,556 @@
+mutation	term	p.value	p.adj	significant
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	0.705022966210809	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	0.0784695201037614	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Ear	0.279067348383085	1	FALSE
+PA4526; pilB →; A167T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A175T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A17A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A182A (GCA→GCG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A182A (GCA→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A195A (GCC→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A233A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A238A (GCT→GCG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A28A (GCC→GCG)	Host Body-Site: Organ; Ear	0.279067348383085	1	FALSE
+PA4526; pilB →; A294A (GCA→GCG)	Host Body-Site: Organ; Ear	0.669901501726114	1	FALSE
+PA4526; pilB →; A300A (GCC→GCA)	Host Body-Site: Organ; Ear	0.52167767413154	1	FALSE
+PA4526; pilB →; A30T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A313A (GCC→GCT)	Host Body-Site: Organ; Ear	0.21754911788545	1	FALSE
+PA4526; pilB →; A314A (GCA→GCG)	Host Body-Site: Organ; Ear	0.446742098509107	1	FALSE
+PA4526; pilB →; A353A (GCC→GCT)	Host Body-Site: Organ; Ear	0.790323923340972	1	FALSE
+PA4526; pilB →; A380A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A406A (GCC→GCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A410A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A426A (GCC→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A439A (GCG→GCA)	Host Body-Site: Organ; Ear	0.331744905991109	1	FALSE
+PA4526; pilB →; A443A (GCG→GCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A81T	Host Body-Site: Organ; Ear	0.0784695201037614	1	FALSE
+PA4526; pilB →; C459C (TGT→TGC)	Host Body-Site: Organ; Ear	0.241464551779392	1	FALSE
+PA4526; pilB →; D108D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D149D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D168E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D194D (GAT→GAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D247D (GAT→GAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D270D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D290D (GAC→GAT)	Host Body-Site: Organ; Ear	0.52167767413154	1	FALSE
+PA4526; pilB →; D299D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D306D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D347D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D355D (GAC→GAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; D388D (GAC→GAT)	Host Body-Site: Organ; Ear	0.21754911788545	1	FALSE
+PA4526; pilB →; D390D (GAT→GAC)	Host Body-Site: Organ; Ear	0.73836237991987	1	FALSE
+PA4526; pilB →; D399D (GAC→GAT)	Host Body-Site: Organ; Ear	0.953159762660641	1	FALSE
+PA4526; pilB →; D566D (GAT→GAC)	Host Body-Site: Organ; Ear	0.731306523202602	1	FALSE
+PA4526; pilB →; E206E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E209E (GAG→GAA)	Host Body-Site: Organ; Ear	0.731306523202602	1	FALSE
+PA4526; pilB →; E304E (GAG→GAA)	Host Body-Site: Organ; Ear	0.594228591465496	1	FALSE
+PA4526; pilB →; E305E (GAG→GAA)	Host Body-Site: Organ; Ear	0.480717305108126	1	FALSE
+PA4526; pilB →; E358E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E401E (GAG→GAA)	Host Body-Site: Organ; Ear	0.480717305108126	1	FALSE
+PA4526; pilB →; E465E (GAA→GAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E467D	Host Body-Site: Organ; Ear	0.565784477499994	1	FALSE
+PA4526; pilB →; E476E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E523E (GAG→GAA)	Host Body-Site: Organ; Ear	0.70032277696446	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E532E (GAG→GAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E84E (GAA→GAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; F103F (TTT→TTC)	Host Body-Site: Organ; Ear	0.594228591465496	1	FALSE
+PA4526; pilB →; F271F (TTT→TTC)	Host Body-Site: Organ; Ear	0.75537286077941	1	FALSE
+PA4526; pilB →; F478F (TTC→TTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G165G (GGT→GGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G198G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G257G (GGA→GGG)	Host Body-Site: Organ; Ear	0.683086969694108	1	FALSE
+PA4526; pilB →; G326G (GGC→GGG)	Host Body-Site: Organ; Ear	0.150828500030721	1	FALSE
+PA4526; pilB →; G329G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G331V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G339G (GGC→GGT)	Host Body-Site: Organ; Ear	0.655852256152195	1	FALSE
+PA4526; pilB →; G363D	Host Body-Site: Organ; Ear	0.0784695201037614	1	FALSE
+PA4526; pilB →; G374G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G395G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G413G (GGG→GGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G436G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G477G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G484G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G503G (GGC→GGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G553G (GGG→GGA)	Host Body-Site: Organ; Ear	0.545313231478082	1	FALSE
+PA4526; pilB →; G63G (GGC→GGT)	Host Body-Site: Organ; Ear	0.52167767413154	1	FALSE
+PA4526; pilB →; G9G (GGC→GGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; H414H (CAT→CAC)	Host Body-Site: Organ; Ear	0.279067348383085	1	FALSE
+PA4526; pilB →; H42H (CAC→CAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; H461H (CAC→CAT)	Host Body-Site: Organ; Ear	0.150828500030721	1	FALSE
+PA4526; pilB →; H466H (CAC→CAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I115V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I196I (ATC→ATA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I211T	Host Body-Site: Organ; Ear	0.752611838204231	1	FALSE
+PA4526; pilB →; I236I (ATC→ATA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I248I (ATC→ATT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I322I (ATC→ATT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I350I (ATT→ATC)	Host Body-Site: Organ; Ear	0.274624622965491	1	FALSE
+PA4526; pilB →; I397I (ATC→ATT)	Host Body-Site: Organ; Ear	0.203099044787233	1	FALSE
+PA4526; pilB →; K142K (AAG→AAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; K23K (AAG→AAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; K253K (AAA→AAG)	Host Body-Site: Organ; Ear	0.267739125100213	1	FALSE
+PA4526; pilB →; K74R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L138L (CTG→CTA)	Host Body-Site: Organ; Ear	0.150828500030721	1	FALSE
+PA4526; pilB →; L192L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L222L (CTC→CTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L232L (TTG→CTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L279L (CTG→CTC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L279L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L301L (CTC→CTG)	Host Body-Site: Organ; Ear	0.224265290511356	1	FALSE
+PA4526; pilB →; L315L (CTC→CTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L336L (CTA→CTG)	Host Body-Site: Organ; Ear	0.50693458746243	1	FALSE
+PA4526; pilB →; L343L (CTG→CTC)	Host Body-Site: Organ; Ear	0.746364283940985	1	FALSE
+PA4526; pilB →; L361L (CTG→TTG)	Host Body-Site: Organ; Ear	0.436280808586262	1	FALSE
+PA4526; pilB →; L381L (CTG→CTA)	Host Body-Site: Organ; Ear	0.0743350720186072	1	FALSE
+PA4526; pilB →; L385L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L420L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L429L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L429L (CTG→CTC)	Host Body-Site: Organ; Ear	0.559431752037661	1	FALSE
+PA4526; pilB →; L432L (TTG→CTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L433P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L442L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L488L (CTT→CTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L542L (CTG→CTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L57L (TTG→TTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L95L (CTG→TTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N274N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N344N (AAT→AAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N349N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N370N (AAT→AAC)	Host Body-Site: Organ; Ear	0.458330483929982	1	FALSE
+PA4526; pilB →; N423N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N441N (AAC→AAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; N447N (AAC→AAT)	Host Body-Site: Organ; Ear	0.436280808586262	1	FALSE
+PA4526; pilB →; N70N (AAT→AAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; P318P (CCG→CCA)	Host Body-Site: Organ; Ear	0.836461768679317	1	FALSE
+PA4526; pilB →; P356P (CCG→CCT)	Host Body-Site: Organ; Ear	0.655852256152195	1	FALSE
+PA4526; pilB →; P438P (CCG→CCA)	Host Body-Site: Organ; Ear	0.390421483176546	1	FALSE
+PA4526; pilB →; P469P (CCG→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; P479L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; P491P (CCG→CCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; P515P (CCG→CCC)	Host Body-Site: Organ; Ear	0.788994272763366	1	FALSE
+PA4526; pilB →; Q172Q (CAA→CAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q295Q (CAG→CAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q29Q (CAG→CAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q373Q (CAG→CAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q411Q (CAG→CAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q533Q (CAA→CAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Q89Q (CAA→CAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R213R (CGG→CGA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R251R (CGA→CGG)	Host Body-Site: Organ; Ear	0.436280808586262	1	FALSE
+PA4526; pilB →; R258R (CGG→CGA)	Host Body-Site: Organ; Ear	0.0784695201037614	1	FALSE
+PA4526; pilB →; R272R (CGC→CGG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R287R (CGG→CGT)	Host Body-Site: Organ; Ear	0.52167767413154	1	FALSE
+PA4526; pilB →; R372R (CGC→CGT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R453R (CGC→CGA)	Host Body-Site: Organ; Ear	0.52167767413154	1	FALSE
+PA4526; pilB →; R470K	Host Body-Site: Organ; Ear	0.465547534464154	1	FALSE
+PA4526; pilB →; R79R (CGG→CGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R97R (CGG→CGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; S234S (AGT→AGC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; S264S (TCG→TCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; S268S (TCC→TCG)	Host Body-Site: Organ; Ear	0.849480272619976	1	FALSE
+PA4526; pilB →; S292S (TCC→TCT)	Host Body-Site: Organ; Ear	0.335785716943323	1	FALSE
+PA4526; pilB →; S335S (TCG→TCC)	Host Body-Site: Organ; Ear	0.150828500030721	1	FALSE
+PA4526; pilB →; S46N	Host Body-Site: Organ; Ear	0.655852256152195	1	FALSE
+PA4526; pilB →; S490S (TCG→TCA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; S527S (TCC→TCT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T266N	Host Body-Site: Organ; Ear	0.806982364099831	1	FALSE
+PA4526; pilB →; T266S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T345T (ACC→ACA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T352T (ACC→ACT)	Host Body-Site: Organ; Ear	0.211463357759313	1	FALSE
+PA4526; pilB →; T402T (ACC→ACG)	Host Body-Site: Organ; Ear	0.224265290511356	1	FALSE
+PA4526; pilB →; T402T (ACC→ACT)	Host Body-Site: Organ; Ear	0.637317568077567	1	FALSE
+PA4526; pilB →; T412T (ACC→ACA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T41T (ACG→ACA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T430T (ACC→ACT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T544A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T544S	Host Body-Site: Organ; Ear	0.150828500030721	1	FALSE
+PA4526; pilB →; T544T (ACC→ACT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V104V (GTA→GTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V157V (GTC→GTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V185V (GTA→GTC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V188V (GTC→GTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V242V (GTA→GTG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V263V (GTG→GTA)	Host Body-Site: Organ; Ear	0.731306523202602	1	FALSE
+PA4526; pilB →; V26L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V334V (GTA→GTC)	Host Body-Site: Organ; Ear	0.279067348383085	1	FALSE
+PA4526; pilB →; V334V (GTA→GTT)	Host Body-Site: Organ; Ear	0.618293984512886	1	FALSE
+PA4526; pilB →; V391V (GTG→GTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V416E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V437V (GTG→GTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V468V (GTG→GTT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V492V (GTG→GTA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V510V (GTA→GTG)	Host Body-Site: Organ; Ear	0.36665355526259	1	FALSE
+PA4526; pilB →; Y212Y (TAC→TAT)	Host Body-Site: Organ; Ear	0.655852256152195	1	FALSE
+PA4526; pilB →; Y311Y (TAC→TAT)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; Y66Y (TAT→TAC)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	0.20214476160718	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A167T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A175T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A17A (GCC→GCT)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; A182A (GCA→GCG)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; A182A (GCA→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A195A (GCC→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A233A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A238A (GCT→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A28A (GCC→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A294A (GCA→GCG)	Host Body-Site: Organ; Eye	0.437716917079442	1	FALSE
+PA4526; pilB →; A300A (GCC→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A30T	Host Body-Site: Organ; Eye	0.190992255774082	1	FALSE
+PA4526; pilB →; A313A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A314A (GCA→GCG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A353A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A380A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A406A (GCC→GCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A410A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A426A (GCC→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A439A (GCG→GCA)	Host Body-Site: Organ; Eye	0.0125485018014928	1	FALSE
+PA4526; pilB →; A443A (GCG→GCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A81T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; C459C (TGT→TGC)	Host Body-Site: Organ; Eye	0.72086340349786	1	FALSE
+PA4526; pilB →; D108D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D149D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D168E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D194D (GAT→GAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D247D (GAT→GAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D270D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D290D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D299D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D306D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D347D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D355D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D388D (GAC→GAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D390D (GAT→GAC)	Host Body-Site: Organ; Eye	0.239021853236364	1	FALSE
+PA4526; pilB →; D399D (GAC→GAT)	Host Body-Site: Organ; Eye	0.160105398694349	1	FALSE
+PA4526; pilB →; D566D (GAT→GAC)	Host Body-Site: Organ; Eye	0.818000769893555	1	FALSE
+PA4526; pilB →; E206E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E209E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E304E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E305E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E358E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E401E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E465E (GAA→GAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E467D	Host Body-Site: Organ; Eye	0.160105398694349	1	FALSE
+PA4526; pilB →; E476E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E523E (GAG→GAA)	Host Body-Site: Organ; Eye	0.294894817930099	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E532E (GAG→GAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E84E (GAA→GAG)	Host Body-Site: Organ; Eye	0.345696562769715	1	FALSE
+PA4526; pilB →; F103F (TTT→TTC)	Host Body-Site: Organ; Eye	0.689419964211645	1	FALSE
+PA4526; pilB →; F271F (TTT→TTC)	Host Body-Site: Organ; Eye	0.63683756101182	1	FALSE
+PA4526; pilB →; F478F (TTC→TTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G165G (GGT→GGC)	Host Body-Site: Organ; Eye	0.190992255774082	1	FALSE
+PA4526; pilB →; G198G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G257G (GGA→GGG)	Host Body-Site: Organ; Eye	0.418547457326148	1	FALSE
+PA4526; pilB →; G326G (GGC→GGG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G329G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G331V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G339G (GGC→GGT)	Host Body-Site: Organ; Eye	0.749141947587946	1	FALSE
+PA4526; pilB →; G363D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G374G (GGC→GGT)	Host Body-Site: Organ; Eye	0.411637416326733	1	FALSE
+PA4526; pilB →; G395G (GGC→GGT)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; G413G (GGG→GGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G436G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G477G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G484G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G503G (GGC→GGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G553G (GGG→GGA)	Host Body-Site: Organ; Eye	0.369538201325672	1	FALSE
+PA4526; pilB →; G63G (GGC→GGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G9G (GGC→GGT)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; H414H (CAT→CAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; H42H (CAC→CAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; H461H (CAC→CAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; H466H (CAC→CAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I115V	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; I196I (ATC→ATA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I211T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I236I (ATC→ATA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I248I (ATC→ATT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I322I (ATC→ATT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I350I (ATT→ATC)	Host Body-Site: Organ; Eye	0.680963051024312	1	FALSE
+PA4526; pilB →; I397I (ATC→ATT)	Host Body-Site: Organ; Eye	0.32586145907517	1	FALSE
+PA4526; pilB →; K142K (AAG→AAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; K23K (AAG→AAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; K253K (AAA→AAG)	Host Body-Site: Organ; Eye	0.689910865101201	1	FALSE
+PA4526; pilB →; K74R	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; L138L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L192L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L222L (CTC→CTT)	Host Body-Site: Organ; Eye	0.0100453577148936	1	FALSE
+PA4526; pilB →; L232L (TTG→CTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L279L (CTG→CTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L279L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L301L (CTC→CTG)	Host Body-Site: Organ; Eye	0.893546061737646	1	FALSE
+PA4526; pilB →; L315L (CTC→CTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L336L (CTA→CTG)	Host Body-Site: Organ; Eye	0.118369922000365	1	FALSE
+PA4526; pilB →; L343L (CTG→CTC)	Host Body-Site: Organ; Eye	0.660678785382544	1	FALSE
+PA4526; pilB →; L361L (CTG→TTG)	Host Body-Site: Organ; Eye	0.52435637005558	1	FALSE
+PA4526; pilB →; L381L (CTG→CTA)	Host Body-Site: Organ; Eye	0.470971313834447	1	FALSE
+PA4526; pilB →; L385L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L420L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L429L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L429L (CTG→CTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L432L (TTG→CTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L433P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L442L (CTG→CTA)	Host Body-Site: Organ; Eye	0.272418359900716	1	FALSE
+PA4526; pilB →; L488L (CTT→CTG)	Host Body-Site: Organ; Eye	0.52435637005558	1	FALSE
+PA4526; pilB →; L542L (CTG→CTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L57L (TTG→TTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; L95L (CTG→TTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N274N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N344N (AAT→AAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N349N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N370N (AAT→AAC)	Host Body-Site: Organ; Eye	0.946447943843577	1	FALSE
+PA4526; pilB →; N423N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N441N (AAC→AAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; N447N (AAC→AAT)	Host Body-Site: Organ; Eye	0.52435637005558	1	FALSE
+PA4526; pilB →; N70N (AAT→AAC)	Host Body-Site: Organ; Eye	0.150660976507648	1	FALSE
+PA4526; pilB →; P318P (CCG→CCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; P356P (CCG→CCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; P438P (CCG→CCA)	Host Body-Site: Organ; Eye	0.522222204582949	1	FALSE
+PA4526; pilB →; P469P (CCG→CCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; P479L	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; P491P (CCG→CCA)	Host Body-Site: Organ; Eye	0.470971313834447	1	FALSE
+PA4526; pilB →; P515P (CCG→CCC)	Host Body-Site: Organ; Eye	0.497051141738646	1	FALSE
+PA4526; pilB →; Q172Q (CAA→CAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Q295Q (CAG→CAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Q29Q (CAG→CAA)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; Q373Q (CAG→CAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Q411Q (CAG→CAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Q533Q (CAA→CAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Q89Q (CAA→CAG)	Host Body-Site: Organ; Eye	0.52435637005558	1	FALSE
+PA4526; pilB →; R213R (CGG→CGA)	Host Body-Site: Organ; Eye	0.190992255774082	1	FALSE
+PA4526; pilB →; R251R (CGA→CGG)	Host Body-Site: Organ; Eye	0.52435637005558	1	FALSE
+PA4526; pilB →; R258R (CGG→CGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; R272R (CGC→CGG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; R287R (CGG→CGT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; R372R (CGC→CGT)	Host Body-Site: Organ; Eye	0.689419964211645	1	FALSE
+PA4526; pilB →; R453R (CGC→CGA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; R470K	Host Body-Site: Organ; Eye	0.0940351915522837	1	FALSE
+PA4526; pilB →; R79R (CGG→CGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; R97R (CGG→CGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; S234S (AGT→AGC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; S264S (TCG→TCA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; S268S (TCC→TCG)	Host Body-Site: Organ; Eye	0.689910865101201	1	FALSE
+PA4526; pilB →; S292S (TCC→TCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; S335S (TCG→TCC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; S46N	Host Body-Site: Organ; Eye	0.381520874416826	1	FALSE
+PA4526; pilB →; S490S (TCG→TCA)	Host Body-Site: Organ; Eye	0.411637416326733	1	FALSE
+PA4526; pilB →; S527S (TCC→TCT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T266N	Host Body-Site: Organ; Eye	0.612889512105663	1	FALSE
+PA4526; pilB →; T266S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T345T (ACC→ACA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T352T (ACC→ACT)	Host Body-Site: Organ; Eye	0.689419964211645	1	FALSE
+PA4526; pilB →; T402T (ACC→ACG)	Host Body-Site: Organ; Eye	0.354715133262861	1	FALSE
+PA4526; pilB →; T402T (ACC→ACT)	Host Body-Site: Organ; Eye	0.109587807792548	1	FALSE
+PA4526; pilB →; T412T (ACC→ACA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T41T (ACG→ACA)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; T430T (ACC→ACT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T544A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T544S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T544T (ACC→ACT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V104V (GTA→GTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V157V (GTC→GTT)	Host Body-Site: Organ; Eye	0.345696562769715	1	FALSE
+PA4526; pilB →; V185V (GTA→GTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V188V (GTC→GTA)	Host Body-Site: Organ; Eye	0.100518806744488	1	FALSE
+PA4526; pilB →; V242V (GTA→GTG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V263V (GTG→GTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V26L	Host Body-Site: Organ; Eye	0.345696562769715	1	FALSE
+PA4526; pilB →; V334V (GTA→GTC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V334V (GTA→GTT)	Host Body-Site: Organ; Eye	0.111939800021334	1	FALSE
+PA4526; pilB →; V391V (GTG→GTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V416E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V437V (GTG→GTA)	Host Body-Site: Organ; Eye	0.190992255774082	1	FALSE
+PA4526; pilB →; V468V (GTG→GTT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V492V (GTG→GTA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V510V (GTA→GTG)	Host Body-Site: Organ; Eye	0.769002376715269	1	FALSE
+PA4526; pilB →; Y212Y (TAC→TAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Y311Y (TAC→TAT)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; Y66Y (TAT→TAC)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	0.763026764164295	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; A167T	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A175T	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; A17A (GCC→GCT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; A182A (GCA→GCG)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; A182A (GCA→GCT)	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; A195A (GCC→GCA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; A233A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A238A (GCT→GCG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A28A (GCC→GCG)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; A294A (GCA→GCG)	Infection: Disease; Cystic fibrosis	0.640716028029443	1	FALSE
+PA4526; pilB →; A300A (GCC→GCA)	Infection: Disease; Cystic fibrosis	0.50158858498103	1	FALSE
+PA4526; pilB →; A30T	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; A313A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.915541801830204	1	FALSE
+PA4526; pilB →; A314A (GCA→GCG)	Infection: Disease; Cystic fibrosis	0.31137937491641	1	FALSE
+PA4526; pilB →; A353A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.11973127055467	1	FALSE
+PA4526; pilB →; A380A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A406A (GCC→GCT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A410A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A426A (GCC→GCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A439A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.998074174105094	1	FALSE
+PA4526; pilB →; A443A (GCG→GCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; A81T	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; C459C (TGT→TGC)	Infection: Disease; Cystic fibrosis	0.848017323899417	1	FALSE
+PA4526; pilB →; D108D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; D149D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; D168E	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; D194D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; D247D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; D270D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; D290D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.50158858498103	1	FALSE
+PA4526; pilB →; D299D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; D306D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; D347D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; D355D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; D388D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.915541801830204	1	FALSE
+PA4526; pilB →; D390D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.707110192169661	1	FALSE
+PA4526; pilB →; D399D (GAC→GAT)	Infection: Disease; Cystic fibrosis	0.662131877492509	1	FALSE
+PA4526; pilB →; D566D (GAT→GAC)	Infection: Disease; Cystic fibrosis	0.43341308402618	1	FALSE
+PA4526; pilB →; E206E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; E209E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.189784996354077	1	FALSE
+PA4526; pilB →; E304E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.387363390286396	1	FALSE
+PA4526; pilB →; E305E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.566235810961557	1	FALSE
+PA4526; pilB →; E358E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; E401E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.566235810961557	1	FALSE
+PA4526; pilB →; E465E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE
+PA4526; pilB →; E467D	Infection: Disease; Cystic fibrosis	0.890956044718847	1	FALSE
+PA4526; pilB →; E476E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; E523E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.724746660943536	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; E532E (GAG→GAA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; E84E (GAA→GAG)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; F103F (TTT→TTC)	Infection: Disease; Cystic fibrosis	0.687091895327422	1	FALSE
+PA4526; pilB →; F271F (TTT→TTC)	Infection: Disease; Cystic fibrosis	0.38680002395947	1	FALSE
+PA4526; pilB →; F478F (TTC→TTT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; G165G (GGT→GGC)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; G198G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; G257G (GGA→GGG)	Infection: Disease; Cystic fibrosis	0.768814609829282	1	FALSE
+PA4526; pilB →; G326G (GGC→GGG)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; G329G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; G331V	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; G339G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.580565572413883	1	FALSE
+PA4526; pilB →; G363D	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; G374G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.779838694389119	1	FALSE
+PA4526; pilB →; G395G (GGC→GGT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; G413G (GGG→GGA)	Infection: Disease; Cystic fibrosis	0.453971200594423	1	FALSE
+PA4526; pilB →; G436G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; G477G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; G484G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; G503G (GGC→GGA)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE
+PA4526; pilB →; G553G (GGG→GGA)	Infection: Disease; Cystic fibrosis	0.750663396336412	1	FALSE
+PA4526; pilB →; G63G (GGC→GGT)	Infection: Disease; Cystic fibrosis	0.50158858498103	1	FALSE
+PA4526; pilB →; G9G (GGC→GGT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; H414H (CAT→CAC)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; H42H (CAC→CAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; H461H (CAC→CAT)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; H466H (CAC→CAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; I115V	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; I196I (ATC→ATA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; I211T	Infection: Disease; Cystic fibrosis	0.163133850371947	1	FALSE
+PA4526; pilB →; I236I (ATC→ATA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; I248I (ATC→ATT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; I322I (ATC→ATT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; I350I (ATT→ATC)	Infection: Disease; Cystic fibrosis	0.747628870530396	1	FALSE
+PA4526; pilB →; I397I (ATC→ATT)	Infection: Disease; Cystic fibrosis	0.948891371490274	1	FALSE
+PA4526; pilB →; K142K (AAG→AAA)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE
+PA4526; pilB →; K23K (AAG→AAA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; K253K (AAA→AAG)	Infection: Disease; Cystic fibrosis	0.783231708600453	1	FALSE
+PA4526; pilB →; K74R	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; L138L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; L192L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L222L (CTC→CTT)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; L232L (TTG→CTG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L279L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L279L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L301L (CTC→CTG)	Infection: Disease; Cystic fibrosis	0.681987541882289	1	FALSE
+PA4526; pilB →; L315L (CTC→CTT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L336L (CTA→CTG)	Infection: Disease; Cystic fibrosis	0.932856716229455	1	FALSE
+PA4526; pilB →; L343L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.444645170146137	1	FALSE
+PA4526; pilB →; L361L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.886596879525476	1	FALSE
+PA4526; pilB →; L381L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.988842876010347	1	FALSE
+PA4526; pilB →; L385L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L420L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; L429L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L429L (CTG→CTC)	Infection: Disease; Cystic fibrosis	0.441859482112037	1	FALSE
+PA4526; pilB →; L432L (TTG→CTG)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE
+PA4526; pilB →; L433P	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L442L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.915541801830204	1	FALSE
+PA4526; pilB →; L488L (CTT→CTG)	Infection: Disease; Cystic fibrosis	0.635103064193589	1	FALSE
+PA4526; pilB →; L542L (CTG→CTA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; L57L (TTG→TTA)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE
+PA4526; pilB →; L95L (CTG→TTG)	Infection: Disease; Cystic fibrosis	0.305613504574358	1	FALSE
+PA4526; pilB →; N274N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; N344N (AAT→AAC)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; N349N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; N370N (AAT→AAC)	Infection: Disease; Cystic fibrosis	0.301968310330794	1	FALSE
+PA4526; pilB →; N423N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; N441N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; N447N (AAC→AAT)	Infection: Disease; Cystic fibrosis	0.886596879525476	1	FALSE
+PA4526; pilB →; N70N (AAT→AAC)	Infection: Disease; Cystic fibrosis	0.886596879525476	1	FALSE
+PA4526; pilB →; P318P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.0742194012327486	1	FALSE
+PA4526; pilB →; P356P (CCG→CCT)	Infection: Disease; Cystic fibrosis	0.294069774595555	1	FALSE
+PA4526; pilB →; P438P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.826584023558381	1	FALSE
+PA4526; pilB →; P469P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; P479L	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; P491P (CCG→CCA)	Infection: Disease; Cystic fibrosis	0.706958440002699	1	FALSE
+PA4526; pilB →; P515P (CCG→CCC)	Infection: Disease; Cystic fibrosis	0.528106406389141	1	FALSE
+PA4526; pilB →; Q172Q (CAA→CAG)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; Q295Q (CAG→CAA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; Q29Q (CAG→CAA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; Q373Q (CAG→CAA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; Q411Q (CAG→CAA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; Q533Q (CAA→CAG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; Q89Q (CAA→CAG)	Infection: Disease; Cystic fibrosis	0.635103064193589	1	FALSE
+PA4526; pilB →; R213R (CGG→CGA)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; R251R (CGA→CGG)	Infection: Disease; Cystic fibrosis	0.886596879525476	1	FALSE
+PA4526; pilB →; R258R (CGG→CGA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; R272R (CGC→CGG)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; R287R (CGG→CGT)	Infection: Disease; Cystic fibrosis	0.50158858498103	1	FALSE
+PA4526; pilB →; R372R (CGC→CGT)	Infection: Disease; Cystic fibrosis	0.387363390286396	1	FALSE
+PA4526; pilB →; R453R (CGC→CGA)	Infection: Disease; Cystic fibrosis	0.50158858498103	1	FALSE
+PA4526; pilB →; R470K	Infection: Disease; Cystic fibrosis	0.954036855143773	1	FALSE
+PA4526; pilB →; R79R (CGG→CGC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; R97R (CGG→CGC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; S234S (AGT→AGC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; S264S (TCG→TCA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; S268S (TCC→TCG)	Infection: Disease; Cystic fibrosis	0.38847930625846	1	FALSE
+PA4526; pilB →; S292S (TCC→TCT)	Infection: Disease; Cystic fibrosis	0.779838694389119	1	FALSE
+PA4526; pilB →; S335S (TCG→TCC)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; S46N	Infection: Disease; Cystic fibrosis	0.809731797101897	1	FALSE
+PA4526; pilB →; S490S (TCG→TCA)	Infection: Disease; Cystic fibrosis	0.779838694389119	1	FALSE
+PA4526; pilB →; S527S (TCC→TCT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; T266N	Infection: Disease; Cystic fibrosis	0.506760611536454	1	FALSE
+PA4526; pilB →; T266S	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; T345T (ACC→ACA)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; T352T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.88293993280256	1	FALSE
+PA4526; pilB →; T402T (ACC→ACG)	Infection: Disease; Cystic fibrosis	0.934641165327971	1	FALSE
+PA4526; pilB →; T402T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.900396991833332	1	FALSE
+PA4526; pilB →; T412T (ACC→ACA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; T41T (ACG→ACA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; T430T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; T544A	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; T544S	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; T544T (ACC→ACT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; V104V (GTA→GTG)	Infection: Disease; Cystic fibrosis	0.673964806318602	1	FALSE
+PA4526; pilB →; V157V (GTC→GTT)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; V185V (GTA→GTC)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; V188V (GTC→GTA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; V242V (GTA→GTG)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; V263V (GTG→GTA)	Infection: Disease; Cystic fibrosis	0.189784996354077	1	FALSE
+PA4526; pilB →; V26L	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; V334V (GTA→GTC)	Infection: Disease; Cystic fibrosis	0.850791632467933	1	FALSE
+PA4526; pilB →; V334V (GTA→GTT)	Infection: Disease; Cystic fibrosis	0.922937679738762	1	FALSE
+PA4526; pilB →; V391V (GTG→GTT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; V416E	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; V437V (GTG→GTA)	Infection: Disease; Cystic fibrosis	0.9680585399849	1	FALSE
+PA4526; pilB →; V468V (GTG→GTT)	Infection: Disease; Cystic fibrosis	0.821011673151751	1	FALSE
+PA4526; pilB →; V492V (GTG→GTA)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; V510V (GTA→GTG)	Infection: Disease; Cystic fibrosis	0.602823944289526	1	FALSE
+PA4526; pilB →; Y212Y (TAC→TAT)	Infection: Disease; Cystic fibrosis	0.294069774595555	1	FALSE
+PA4526; pilB →; Y311Y (TAC→TAT)	Infection: Disease; Cystic fibrosis	0.5531763085628	1	FALSE
+PA4526; pilB →; Y66Y (TAT→TAC)	Infection: Disease; Cystic fibrosis	0.372504327145748	1	FALSE

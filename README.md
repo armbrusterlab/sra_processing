@@ -107,10 +107,11 @@ Other params:
 * target_type: Indicates the field in the GB file in which to look for matching items in the target_genes list. For example, "locus_tag", "gene", or "product".
 * buffer_upstream and buffer_downstream: To assist with read mapping in the breseq step, each target gene is extracted with a buffer on either side. Default for both: 900 bp.
 * breseq_additional: Additional arguments for breseq.
-* filter_intergenic and filter_synonymous: Filter out intergenic and/or synonymous mutations from the breseq output.
+* filter_intergenic, filter_synonymous, filter_absent: Filter out intergenic and/or synonymous mutations, and/or complete deletions (or failure to map) from the breseq output.
 * category_colname, subcategory_colname, and terms_colname: Column names for predicted category, subcategory, and terms (where terms is a readable concatenation of the former two columns). These don't need to be changed unless you opt to use a model other than the ones provided in the models/ dir, e.g. v19 and v20. If you create your own model, refer to scripts/predict_environmental_source.py to understand how column names are assigned.
 * p_adjust_method: Multiple hypothesis testing correction method; default value "fdr". Refer to [p.adjust documentation](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/p.adjust) for options.
 * report_all: Default value "TRUE". (Note that this is in all caps, in keeping with R boolean convention.) If not TRUE, the summary tables will only include rows with statistically significant p-values.
+* adjust_separately: Default value "FALSE". If TRUE, p-value adjustment for mutations will be performed within each gene as opposed to across all mutations observed regardless of gene, resulting in much less conservative p-value adjustment (especially when many target genes are provided). 
 
 #### Downloading a Kraken2 database
 Unless you would like to build your own Kraken2 database, you may download various databases provided by Langmead et al. from [here](https://benlangmead.github.io/aws-indexes/k2). The code below produces a database at nextflow/kraken2_db/.
@@ -143,7 +144,8 @@ nextflow run main.nf -params-file main-params.yaml -with-report results/report.h
 
 # Outputs
 The main output is the stats/ dir, which contains by-gene and by-mutation counts of associated environmental source terms, as well as statistical tests (2x2 Fisher's Exact Tests) to determine whether any terms are enriched for each gene/mutation. Please note that if a mutation is associated with multiple terms, it will be counted multiple times in the count tables. If you would instead like to know how many runs a particular mutation appeared in, please refer to breseq_summary_tables/mutations.tsv.  
-breseq output HTMLs supporting each mutation listed in breseq_summary_tables/mutations.tsv may be found in breseq_export/. Opening this file in Excel may result in garbled text being displayed; if that is the case, please try opening it in a plaintext editor such as Notepad.  
+breseq output HTMLs supporting each mutation listed in breseq_summary_tables/mutations.tsv may be found in breseq_export/. 
+Some output tables may display garbled text in Excel, so UTF-16 versions of these files are also included.
 
 # Acknowledgements
 * Advisor: Dr. Catherine Armbruster

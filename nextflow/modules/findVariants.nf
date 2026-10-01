@@ -89,6 +89,7 @@ process summarizeBreseq {
     path breseq_tables
     val filter_intergenic
     val filter_synonymous
+    val filter_absent
 
     output:
     path "breseq_summary_tables/", emit: breseq_tables
@@ -104,7 +105,10 @@ process summarizeBreseq {
         additional_flags+="-i "
     fi
     if [[ "${filter_synonymous}" == "True" ]]; then
-        additional_flags+="-s"
+        additional_flags+="-s "
+    fi
+    if [[ "${filter_absent}" == "True" ]]; then
+        additional_flags+="-a"
     fi
     echo "Additional flags: \$additional_flags"
 
@@ -145,6 +149,6 @@ process summarizeSources {
     df.to_csv("mutations_withSources.tsv", sep='\\t', index=False)
 
     # also save a version viewable in Excel
-    df.to_csv("mutations_withSources_utf16.tsv", sep="\t", index=False, header=True, encoding="utf-16")
+    df.to_csv("mutations_withSources_utf16.tsv", sep="\\t", index=False, header=True, encoding="utf-16")
     """
 }

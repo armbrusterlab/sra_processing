@@ -2,8 +2,9 @@
 
 library(dplyr)
 library(tidyr)
+library(stringr)
 
-run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colname = "terms_logistic_regression", adjust = "fdr", report_all = TRUE) {
+run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colname = "terms_logistic_regression", adjust = "fdr", report_all = TRUE, adjust_separately = FALSE) {
     if (!dir.exists(outdir)) {
         dir.create(outdir, recursive = TRUE)
     }
@@ -24,19 +25,65 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
             delim = ", "
         )
     
-    df <- inner_join(breseq_mutants, predictions_long, by=c("source" = "run_accession"), relationship = "many-to-many") # |>
+    df <- inner_join(breseq_mutants, predictions_long, by=c("source" = "run_accession"), relationship = "many-to-many") |>
+        mutate(
+            annotation = if_else(
+                str_detect(annotation, "^([A-Za-z])\\d+([A-Za-z])\\s") & !str_detect(annotation, "^([A-Za-z])\\d+\\1\\s"),
+                str_remove(annotation, "\\s.*$"),
+                annotation
+            )
+        ) |> # for non-synonymous mutations, drop the part specifying the exact nucleotide mutated; more concerned with the amino acid change
+        mutate(annotation = ifelse(grepl("coding", annotation), paste(mutation, annotation, sep=": "), annotation)) # annotations that include "coding" require more info from the mutation column which would be too specific for other annotations
+        # |>
         # mutate(term = tidyr::replace_na(term, "no term")) 
 
     # before running any tests, write a basic summary table
-    # for now I am opting not to do per-mutation tests because that is a lot of comparisons; the user can use this table to run their own tests if they want
-    df |> 
-        group_by(seq_id, gene, annotation, term) |> summarize(n=n()) |>
-        write.table(file.path(outdir, "term_counts_by_mutation.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
+    summary_by_mutant <- df |> 
+        group_by(seq_id, gene, annotation, term) |> 
+        summarize(n=n(), .groups = "drop") |>
+        complete(nesting(seq_id, gene, annotation), term, fill = list(n = 0)) # for combinations of mutations and terms not observed, set value of 0 
+        
+    summary_by_mutant |>
+        write.table(file.path(outdir, "term_counts_by_mutation.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+
+    con <- file(file.path(outdir, "UTF-16LE_term_counts_by_mutation.tsv"), open = "wb")
+    writeBin(as.raw(c(0xFF, 0xFE)), con)  # UTF-16LE BOM
+    close(con)
+
+    write.table(
+        summary_by_mutant,
+        file.path(outdir, "UTF-16LE_term_counts_by_mutation.tsv"),
+        sep = "\t",
+        row.names = FALSE,
+        quote = FALSE,
+        na = "",
+        fileEncoding = "UTF-16LE",
+        append = TRUE
+    )
 
     # the below is an even more general summary, on the level of genes
-    df |>
-        group_by(seq_id, term) |> summarize(n=n()) |> 
-        write.table(file.path(outdir, "term_counts_by_gene.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "", fileEncoding = "UTF-16")
+    summary_by_gene <- df |>
+        group_by(seq_id, term) |> 
+        summarize(n=n(), .groups = "drop") |>
+        complete(seq_id, term, fill = list(n = 0)) # for combinations of genes and terms not observed, set value of 0 
+
+    summary_by_gene |> 
+        write.table(file.path(outdir, "term_counts_by_gene.tsv"), sep='\t', row.names = FALSE, quote = FALSE, na = "")
+
+    con <- file(file.path(outdir, "UTF-16LE_term_counts_by_gene.tsv"), open = "wb")
+    writeBin(as.raw(c(0xFF, 0xFE)), con)  # UTF-16LE BOM
+    close(con)
+
+    write.table(
+        summary_by_gene,
+        file.path(outdir, "UTF-16LE_term_counts_by_gene.tsv"),
+        sep = "\t",
+        row.names = FALSE,
+        quote = FALSE,
+        na = "",
+        fileEncoding = "UTF-16LE",
+        append = TRUE
+    )
 
     # another possible summary:  df |> group_by(seq_id, gene, annotation) |> summarize(n=n(), n_terms=(length(unique(term))))
 
@@ -59,7 +106,7 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
 
     tryCatch(
         {   # now testing only on genes which passed the first test, as explained above
-            results <- test_by_mutation(df, outdir, adjust = adjust, report_all = report_all)
+            results <- test_by_mutation(df, outdir, adjust = adjust, report_all = report_all, adjust_separately = adjust_separately)
         }, 
         error = function(e) {
             writeLines(paste("Error:", e$message), file.path(outdir, "test_by_mutation_error.txt"))
@@ -72,11 +119,26 @@ test_by_gene <- function(df, outdir, adjust="fdr", alpha=0.05, report_all = TRUE
     run_fisher_2x2_tests(df, "seq_id", outdir, "stats_by_gene.tsv", adjust, alpha, report_all)
 }
 
-test_by_mutation <- function(df, outdir, adjust="fdr", alpha=0.05, report_all = TRUE) {
+test_by_mutation <- function(df, outdir, adjust="fdr", alpha=0.05, report_all = TRUE, adjust_separately = FALSE) {
     df <- df |> 
         mutate(mutation = paste(seq_id, gene, annotation, sep="; "))
-    
-    run_fisher_2x2_tests(df, "mutation", outdir, "stats_by_mutation.tsv", adjust, alpha, report_all)
+    if (adjust_separately) {
+        subdir = file.path(outdir, "stats_by_mutation")
+        if (!dir.exists(subdir)) {
+            dir.create(subdir, recursive = TRUE)
+        }
+
+        df |> 
+            group_by(seq_id) |> 
+            group_map(function(group_data, group_keys) {
+                curr_seq = group_keys$seq_id
+                cat(curr_seq)
+                cat(group_data |> nrow())
+                run_fisher_2x2_tests(group_data, "mutation", subdir, paste0("mutations_", curr_seq, ".tsv"), adjust, alpha, report_all)
+        })
+    } else {
+        run_fisher_2x2_tests(df, "mutation", outdir, "stats_by_mutation.tsv", adjust, alpha, report_all)
+    }
 }
 
 # this function was written with the assistance of Copilot
@@ -107,7 +169,8 @@ run_fisher_2x2_tests <- function(df, data_col, outdir, basename, adjust="fdr", a
                             sum(!is_value & !is_term)
                         ),
                         nrow = 2
-                    )
+                    ),
+                    alternative = "greater"
                 )$p.value
             }
         ) |>
@@ -153,7 +216,7 @@ run_fisher_2x2_tests <- function(df, data_col, outdir, basename, adjust="fdr", a
 ### Process CLIs (from Nextflow)
 args <- commandArgs(trailingOnly = TRUE) # only get the CLIs that come after the name of the script
 
-if (length(args) < 6) {
+if (length(args) < 7) {
   stop('Not enough arguments provided')
 }
 
@@ -163,5 +226,6 @@ outdir <- args[3]
 terms_colname <- args[4]
 adjust <- args[5]
 report_all <- args[6] == "TRUE" # it's read as a string from the command line
+adjust_separately <- args[7] == "TRUE" # it's read as a string from the command line
 
-run_tests(breseq_mutants_file, predictions_file, outdir, terms_colname, adjust, report_all)
+run_tests(breseq_mutants_file, predictions_file, outdir, terms_colname, adjust, report_all, adjust_separately)
