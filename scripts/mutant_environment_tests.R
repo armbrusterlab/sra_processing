@@ -36,6 +36,11 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
         mutate(annotation = ifelse(grepl("coding", annotation), paste(mutation, annotation, sep=": "), annotation)) # annotations that include "coding" require more info from the mutation column which would be too specific for other annotations
         # |>
         # mutate(term = tidyr::replace_na(term, "no term")) 
+        
+    if ("seq_id" %in% df == FALSE) { # this is the case if the pipeline is run on only one gene
+      df <- df |>
+        mutate(seq_id = "target") # dummy value
+    }
 
     # before running any tests, write a basic summary table
     summary_by_mutant <- df |> 
