@@ -11,6 +11,7 @@ process variantStats {
     val p_adjust_method
     val report_all
     val adjust_separately
+    val test_only_significant_genes
 
     output:
     path "stats/", emit: stats
@@ -23,6 +24,6 @@ process variantStats {
     predictions="${predownload_outputs}/environment_predictions.tsv"
     
     # each output table is also saved as a UTF-16LE version which displays without garbled text in Excel
-    Rscript "\$projDir/../scripts/mutant_environment_tests.R" "\$mutants" "\$predictions" "stats/" "${terms_colname}" "${p_adjust_method}" "${report_all}" "${adjust_separately}"
+    Rscript "\$projDir/../scripts/mutant_environment_tests.R" "\$mutants" "\$predictions" "stats/" "${terms_colname}" "${p_adjust_method}" "${report_all}" "${adjust_separately}" "${test_only_significant_genes}"
     """
 }

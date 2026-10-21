@@ -4,7 +4,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colname = "terms_logistic_regression", adjust = "fdr", report_all = TRUE, adjust_separately = FALSE) {
+run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colname = "terms_logistic_regression", adjust = "fdr", report_all = TRUE, adjust_separately = FALSE, test_only_significant_genes = TRUE) {
     if (!dir.exists(outdir)) {
         dir.create(outdir, recursive = TRUE)
     }
@@ -101,9 +101,10 @@ run_tests <- function(breseq_mutants_file, predictions_file, outdir, terms_colna
             results <- test_by_gene(df, outdir, adjust = adjust, report_all = report_all) |>
                 filter(significant == TRUE)
 
-            # new: downstream, to reduce the number of comparisons made, only run stat tests for mutants from genes which were
-            # discovered to be enriched in any terms
-            df <- df |> filter(seq_id %in% results$seq_id)
+            # option to reduce the number of comparisons made by only runbibg stat tests for mutants from genes which were discovered to be enriched in any terms
+            if (test_only_significant_genes) {
+                df <- df |> filter(seq_id %in% results$seq_id)
+            }
         }, 
         error = function(e) {
             writeLines(paste("Error:", e$message), file.path(outdir, "test_by_gene_error.txt"))
@@ -232,5 +233,6 @@ terms_colname <- args[4]
 adjust <- args[5]
 report_all <- args[6] == "TRUE" # it's read as a string from the command line
 adjust_separately <- args[7] == "TRUE" # it's read as a string from the command line
+test_only_significant_genes <- args[8] == "TRUE" # it's read as a string from the command line
 
-run_tests(breseq_mutants_file, predictions_file, outdir, terms_colname, adjust, report_all, adjust_separately)
+run_tests(breseq_mutants_file, predictions_file, outdir, terms_colname, adjust, report_all, adjust_separately, test_only_significant_genes)

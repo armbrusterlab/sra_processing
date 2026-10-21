@@ -36,6 +36,7 @@ params {
     p_adjust_method: String
     report_all: String
     adjust_separately: String
+    test_only_significant_genes: String
 }
 
 workflow {
@@ -68,7 +69,7 @@ workflow {
 
     summarizeSources(breseq_tables, params.predownload_outputs)
 
-    variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all, params.adjust_separately)
+    variantStats(breseq_tables, params.predownload_outputs, params.terms_colname, params.p_adjust_method, params.report_all, params.adjust_separately, params.test_only_significant_genes)
 
     publish:
     kraken_reports = krakenClassify.out.kraken2_reports
