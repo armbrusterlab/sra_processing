@@ -1,0 +1,23 @@
+mutation	term	p.value	p.adj	significant
+PA0763; mucA →; (AGGGG)1→2: coding (429/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; (G)5→4: coding (430/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; (GACCC)1→2: coding (289/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; +C: coding (365/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; +C: coding (367/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; +G: coding (285/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; A144V	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; E4G	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; G102R	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; P82L	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Q117* (CAA→TAA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Q146* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; R42C	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; T120A	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; T120S	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; T179A	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; T179S	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; T96I	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Δ1 bp: coding (344/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Δ1 bp: coding (365/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Δ1 bp: coding (462/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0763; mucA →; Δ13 bp: coding (172‑184/585 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE

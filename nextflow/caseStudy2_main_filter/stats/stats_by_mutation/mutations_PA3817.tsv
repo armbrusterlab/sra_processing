@@ -1,0 +1,34 @@
+mutation	term	p.value	p.adj	significant
+PA3817; N_A →; 2 bp→TC: coding (654‑655/774 nt)	Host Body-Site: Organ; Ear	0.138613861386139	1	FALSE
+PA3817; N_A →; A106S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; A164V	Host Body-Site: Organ; Ear	0.25920792079208	1	FALSE
+PA3817; N_A →; D64G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; I71S	Host Body-Site: Organ; Ear	0.920375833338664	1	FALSE
+PA3817; N_A →; K211R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; S251P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; S251T	Host Body-Site: Organ; Ear	0.25920792079208	1	FALSE
+PA3817; N_A →; S40G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; S51F	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; S74R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3817; N_A →; 2 bp→TC: coding (654‑655/774 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; A106S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; A164V	Host Body-Site: Organ; Eye	0.241980198019802	1	FALSE
+PA3817; N_A →; D64G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; I71S	Host Body-Site: Organ; Eye	0.474266323297839	1	FALSE
+PA3817; N_A →; K211R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; S251P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; S251T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; S40G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; S51F	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; S74R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3817; N_A →; 2 bp→TC: coding (654‑655/774 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3817; N_A →; A106S	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE
+PA3817; N_A →; A164V	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3817; N_A →; D64G	Infection: Disease; Cystic fibrosis	0.534851485148515	1	FALSE
+PA3817; N_A →; I71S	Infection: Disease; Cystic fibrosis	0.477316117230296	1	FALSE
+PA3817; N_A →; K211R	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE
+PA3817; N_A →; S251P	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE
+PA3817; N_A →; S251T	Infection: Disease; Cystic fibrosis	0.93049504950495	1	FALSE
+PA3817; N_A →; S40G	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE
+PA3817; N_A →; S51F	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE
+PA3817; N_A →; S74R	Infection: Disease; Cystic fibrosis	0.732673267326733	1	FALSE

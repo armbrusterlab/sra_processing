@@ -1,0 +1,29 @@
+mutation	term	p.value	p.adj	significant
+PA1713; exsA →; (GCCTGGC)1→2: coding (155/837 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; (GTTGC)1→2: coding (363/837 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; A114V	Host Body-Site: Organ; Eye	0.091304347826087	1	FALSE
+PA1713; exsA →; D103E	Host Body-Site: Organ; Eye	0.091304347826087	1	FALSE
+PA1713; exsA →; E104G	Host Body-Site: Organ; Eye	0.504347826086956	1	FALSE
+PA1713; exsA →; K186R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; N18S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; P156A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; Q83* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; S212L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; S232N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; S254C	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; T262A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; Y181S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1713; exsA →; (GCCTGGC)1→2: coding (155/837 nt)	Infection: Disease; Cystic fibrosis	0.633333333333333	1	FALSE
+PA1713; exsA →; (GTTGC)1→2: coding (363/837 nt)	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; A114V	Infection: Disease; Cystic fibrosis	0.995652173913044	1	FALSE
+PA1713; exsA →; D103E	Infection: Disease; Cystic fibrosis	0.995652173913044	1	FALSE
+PA1713; exsA →; E104G	Infection: Disease; Cystic fibrosis	0.908695652173913	1	FALSE
+PA1713; exsA →; K186R	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; N18S	Infection: Disease; Cystic fibrosis	0.633333333333333	1	FALSE
+PA1713; exsA →; P156A	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; Q83* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; S212L	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; S232N	Infection: Disease; Cystic fibrosis	0.495652173913044	1	FALSE
+PA1713; exsA →; S254C	Infection: Disease; Cystic fibrosis	0.8	1	FALSE
+PA1713; exsA →; T262A	Infection: Disease; Cystic fibrosis	0.633333333333333	1	FALSE
+PA1713; exsA →; Y181S	Infection: Disease; Cystic fibrosis	0.8	1	FALSE

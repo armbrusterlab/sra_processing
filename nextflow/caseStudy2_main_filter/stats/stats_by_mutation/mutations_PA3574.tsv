@@ -1,0 +1,23 @@
+mutation	term	p.value	p.adj	significant
+PA3574; nalD →; (A)6→5: coding (31/639 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; A208P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; D180N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; D187H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; E21D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; G206S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; M113I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; T11N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; T188A	Host Body-Site: Organ; Ear	0.0769230769230769	1	FALSE
+PA3574; nalD →; Y89* (TAC→TAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; Δ13 bp: coding (451‑463/639 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3574; nalD →; (A)6→5: coding (31/639 nt)	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; A208P	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; D180N	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; D187H	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; E21D	Infection: Disease; Cystic fibrosis	0.846153846153846	1	FALSE
+PA3574; nalD →; G206S	Infection: Disease; Cystic fibrosis	0.846153846153846	1	FALSE
+PA3574; nalD →; M113I	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; T11N	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; T188A	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3574; nalD →; Y89* (TAC→TAA)	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE
+PA3574; nalD →; Δ13 bp: coding (451‑463/639 nt)	Infection: Disease; Cystic fibrosis	0.923076923076923	1	FALSE

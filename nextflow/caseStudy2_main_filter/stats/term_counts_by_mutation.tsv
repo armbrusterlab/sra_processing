@@ -1,0 +1,1396 @@
+seq_id	gene	annotation	term	n
+PA0313	N_A →	(CAGCCTGAT)1→2: coding (491/693 nt)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	(CAGCCTGAT)1→2: coding (491/693 nt)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	(CAGCCTGAT)1→2: coding (491/693 nt)	Infection: Disease; Cystic fibrosis	2
+PA0313	N_A →	(TGATCTCCG)1→2: coding (523/693 nt)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	(TGATCTCCG)1→2: coding (523/693 nt)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	(TGATCTCCG)1→2: coding (523/693 nt)	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	*231R (TGA→CGA)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	*231R (TGA→CGA)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	*231R (TGA→CGA)	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	+GC: coding (693/693 nt)	Host Body-Site: Organ; Ear	2
+PA0313	N_A →	+GC: coding (693/693 nt)	Host Body-Site: Organ; Eye	6
+PA0313	N_A →	+GC: coding (693/693 nt)	Infection: Disease; Cystic fibrosis	20
+PA0313	N_A →	G101D	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	G101D	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	G101D	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	G119R	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	G119R	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	G119R	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	G28S	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	G28S	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	G28S	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	L159Q	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	L159Q	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	L159Q	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	L44P	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	L44P	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	L44P	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	M182V	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	M182V	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	M182V	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	Q128E	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	Q128E	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	Q128E	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	R229Q	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	R229Q	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	R229Q	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	R73C	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	R73C	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	R73C	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	S160L	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	S160L	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	S160L	Infection: Disease; Cystic fibrosis	3
+PA0313	N_A →	S162R	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	S162R	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	S162R	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	S174F	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	S174F	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	S174F	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	T106P	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	T106P	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	T106P	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	T142P	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	T142P	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	T142P	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	V188I	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	V188I	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	V188I	Infection: Disease; Cystic fibrosis	2
+PA0313	N_A →	W10* (TGG→TGA)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	W10* (TGG→TGA)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	W10* (TGG→TGA)	Infection: Disease; Cystic fibrosis	2
+PA0313	N_A →	W139* (TGG→TAG)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	W139* (TGG→TAG)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	W139* (TGG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA0313	N_A →	Δ9 bp: coding (483‑491/693 nt)	Host Body-Site: Organ; Ear	0
+PA0313	N_A →	Δ9 bp: coding (483‑491/693 nt)	Host Body-Site: Organ; Eye	0
+PA0313	N_A →	Δ9 bp: coding (483‑491/693 nt)	Infection: Disease; Cystic fibrosis	5
+PA0366	N_A →	(C)7→6: coding (1383/1431 nt)	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	(C)7→6: coding (1383/1431 nt)	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	(C)7→6: coding (1383/1431 nt)	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	(C)7→9: coding (1383/1431 nt)	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	(C)7→9: coding (1383/1431 nt)	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	(C)7→9: coding (1383/1431 nt)	Infection: Disease; Cystic fibrosis	2
+PA0366	N_A →	2 bp→AA: coding (925‑926/1431 nt)	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	2 bp→AA: coding (925‑926/1431 nt)	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	2 bp→AA: coding (925‑926/1431 nt)	Infection: Disease; Cystic fibrosis	2
+PA0366	N_A →	2 bp→CC: coding (870‑871/1431 nt)	Host Body-Site: Organ; Ear	1
+PA0366	N_A →	2 bp→CC: coding (870‑871/1431 nt)	Host Body-Site: Organ; Eye	1
+PA0366	N_A →	2 bp→CC: coding (870‑871/1431 nt)	Infection: Disease; Cystic fibrosis	5
+PA0366	N_A →	A371T	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	A371T	Host Body-Site: Organ; Eye	1
+PA0366	N_A →	A371T	Infection: Disease; Cystic fibrosis	0
+PA0366	N_A →	A390T	Host Body-Site: Organ; Ear	1
+PA0366	N_A →	A390T	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	A390T	Infection: Disease; Cystic fibrosis	0
+PA0366	N_A →	A57T	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	A57T	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	A57T	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	D167N	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	D167N	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	D167N	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	D388N	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	D388N	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	D388N	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	D49E	Host Body-Site: Organ; Ear	4
+PA0366	N_A →	D49E	Host Body-Site: Organ; Eye	3
+PA0366	N_A →	D49E	Infection: Disease; Cystic fibrosis	10
+PA0366	N_A →	E281D	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	E281D	Host Body-Site: Organ; Eye	1
+PA0366	N_A →	E281D	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	E317A	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	E317A	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	E317A	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	G306A	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	G306A	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	G306A	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	G329S	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	G329S	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	G329S	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	G85D	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	G85D	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	G85D	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	K98R	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	K98R	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	K98R	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	P324L	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	P324L	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	P324L	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	Q278R	Host Body-Site: Organ; Ear	1
+PA0366	N_A →	Q278R	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	Q278R	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	Q393R	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	Q393R	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	Q393R	Infection: Disease; Cystic fibrosis	3
+PA0366	N_A →	Q42E	Host Body-Site: Organ; Ear	2
+PA0366	N_A →	Q42E	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	Q42E	Infection: Disease; Cystic fibrosis	2
+PA0366	N_A →	Q56K	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	Q56K	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	Q56K	Infection: Disease; Cystic fibrosis	4
+PA0366	N_A →	R270Q	Host Body-Site: Organ; Ear	1
+PA0366	N_A →	R270Q	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	R270Q	Infection: Disease; Cystic fibrosis	0
+PA0366	N_A →	R271H	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	R271H	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	R271H	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	R309Q	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	R309Q	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	R309Q	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	R365H	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	R365H	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	R365H	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	R64Q	Host Body-Site: Organ; Ear	5
+PA0366	N_A →	R64Q	Host Body-Site: Organ; Eye	7
+PA0366	N_A →	R64Q	Infection: Disease; Cystic fibrosis	11
+PA0366	N_A →	V234I	Host Body-Site: Organ; Ear	1
+PA0366	N_A →	V234I	Host Body-Site: Organ; Eye	1
+PA0366	N_A →	V234I	Infection: Disease; Cystic fibrosis	8
+PA0366	N_A →	V342I	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	V342I	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	V342I	Infection: Disease; Cystic fibrosis	1
+PA0366	N_A →	W43C	Host Body-Site: Organ; Ear	0
+PA0366	N_A →	W43C	Host Body-Site: Organ; Eye	0
+PA0366	N_A →	W43C	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	(CGACCCCGC)1→2: coding (290/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	(CGACCCCGC)1→2: coding (290/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	(CGACCCCGC)1→2: coding (290/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	+A: coding (1008/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	+A: coding (1008/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	+A: coding (1008/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	+TG: coding (721/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	+TG: coding (721/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	+TG: coding (721/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	2 bp→GT: coding (546‑547/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	2 bp→GT: coding (546‑547/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	2 bp→GT: coding (546‑547/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	A108V	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	A108V	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	A108V	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	A184G	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	A184G	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	A184G	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	A206S	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	A206S	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	A206S	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	D373E	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	D373E	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	D373E	Infection: Disease; Cystic fibrosis	4
+PA0425	mexA →	D373N	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	D373N	Host Body-Site: Organ; Eye	1
+PA0425	mexA →	D373N	Infection: Disease; Cystic fibrosis	0
+PA0425	mexA →	E234G	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	E234G	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	E234G	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	G166A	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	G166A	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	G166A	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	G169S	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	G169S	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	G169S	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	G236V	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	G236V	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	G236V	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	G72D	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	G72D	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	G72D	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	G72S	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	G72S	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	G72S	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	K76Q	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	K76Q	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	K76Q	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	L338P	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	L338P	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	L338P	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	P30S	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	P30S	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	P30S	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Q118* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Q118* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Q118* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Q183* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Q183* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Q183* (CAG→TAG)	Infection: Disease; Cystic fibrosis	2
+PA0425	mexA →	Q238* (CAA→TAA)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Q238* (CAA→TAA)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Q238* (CAA→TAA)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Q69R	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Q69R	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Q69R	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	R119C	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	R119C	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	R119C	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	R300L	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	R300L	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	R300L	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	T180I	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	T180I	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	T180I	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	T256A	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	T256A	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	T256A	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	V250I	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	V250I	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	V250I	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Y120F	Host Body-Site: Organ; Ear	1
+PA0425	mexA →	Y120F	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Y120F	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Δ1 bp: coding (316/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Δ1 bp: coding (316/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Δ1 bp: coding (316/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0425	mexA →	Δ1 bp: coding (529/1152 nt)	Host Body-Site: Organ; Ear	0
+PA0425	mexA →	Δ1 bp: coding (529/1152 nt)	Host Body-Site: Organ; Eye	0
+PA0425	mexA →	Δ1 bp: coding (529/1152 nt)	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	2 bp→TG: coding (728‑729/1806 nt)	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	2 bp→TG: coding (728‑729/1806 nt)	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	2 bp→TG: coding (728‑729/1806 nt)	Infection: Disease; Cystic fibrosis	2
+PA0506	N_A →	A243V	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	A243V	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	A243V	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	A272G	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	A272G	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	A272G	Infection: Disease; Cystic fibrosis	4
+PA0506	N_A →	A540V	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	A540V	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	A540V	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	D33E	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	D33E	Host Body-Site: Organ; Eye	1
+PA0506	N_A →	D33E	Infection: Disease; Cystic fibrosis	0
+PA0506	N_A →	D433G	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	D433G	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	D433G	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	D71E	Host Body-Site: Organ; Ear	1
+PA0506	N_A →	D71E	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	D71E	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	F416Y	Host Body-Site: Organ; Ear	1
+PA0506	N_A →	F416Y	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	F416Y	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	H578Y	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	H578Y	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	H578Y	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	I231L	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	I231L	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	I231L	Infection: Disease; Cystic fibrosis	4
+PA0506	N_A →	I231M	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	I231M	Host Body-Site: Organ; Eye	1
+PA0506	N_A →	I231M	Infection: Disease; Cystic fibrosis	4
+PA0506	N_A →	K190R	Host Body-Site: Organ; Ear	1
+PA0506	N_A →	K190R	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	K190R	Infection: Disease; Cystic fibrosis	0
+PA0506	N_A →	M38I	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	M38I	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	M38I	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	N238D	Host Body-Site: Organ; Ear	2
+PA0506	N_A →	N238D	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	N238D	Infection: Disease; Cystic fibrosis	25
+PA0506	N_A →	N238T	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	N238T	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	N238T	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	N286D	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	N286D	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	N286D	Infection: Disease; Cystic fibrosis	4
+PA0506	N_A →	N286K	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	N286K	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	N286K	Infection: Disease; Cystic fibrosis	4
+PA0506	N_A →	N587S	Host Body-Site: Organ; Ear	2
+PA0506	N_A →	N587S	Host Body-Site: Organ; Eye	1
+PA0506	N_A →	N587S	Infection: Disease; Cystic fibrosis	18
+PA0506	N_A →	S123F	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	S123F	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	S123F	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	S131P	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	S131P	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	S131P	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	S188C	Host Body-Site: Organ; Ear	1
+PA0506	N_A →	S188C	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	S188C	Infection: Disease; Cystic fibrosis	0
+PA0506	N_A →	S188T	Host Body-Site: Organ; Ear	1
+PA0506	N_A →	S188T	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	S188T	Infection: Disease; Cystic fibrosis	0
+PA0506	N_A →	T77S	Host Body-Site: Organ; Ear	3
+PA0506	N_A →	T77S	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	T77S	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	V232A	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	V232A	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	V232A	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	Y529C	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	Y529C	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	Y529C	Infection: Disease; Cystic fibrosis	1
+PA0506	N_A →	Δ9 bp: coding (657‑665/1806 nt)	Host Body-Site: Organ; Ear	0
+PA0506	N_A →	Δ9 bp: coding (657‑665/1806 nt)	Host Body-Site: Organ; Eye	0
+PA0506	N_A →	Δ9 bp: coding (657‑665/1806 nt)	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	K15R	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	K15R	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	K15R	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	R128H	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	R128H	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	R128H	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	R185Q	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	R185Q	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	R185Q	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	S123N	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	S123N	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	S123N	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	T163P	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	T163P	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	T163P	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	V136M	Host Body-Site: Organ; Ear	0
+PA0652	vfr →	V136M	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	V136M	Infection: Disease; Cystic fibrosis	1
+PA0652	vfr →	Δ1 bp: coding (390/645 nt)	Host Body-Site: Organ; Ear	1
+PA0652	vfr →	Δ1 bp: coding (390/645 nt)	Host Body-Site: Organ; Eye	0
+PA0652	vfr →	Δ1 bp: coding (390/645 nt)	Infection: Disease; Cystic fibrosis	0
+PA0763	mucA →	(AGGGG)1→2: coding (429/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	(AGGGG)1→2: coding (429/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	(AGGGG)1→2: coding (429/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	(G)5→4: coding (430/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	(G)5→4: coding (430/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	(G)5→4: coding (430/585 nt)	Infection: Disease; Cystic fibrosis	11
+PA0763	mucA →	(GACCC)1→2: coding (289/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	(GACCC)1→2: coding (289/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	(GACCC)1→2: coding (289/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	+C: coding (365/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	+C: coding (365/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	+C: coding (365/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	+C: coding (367/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	+C: coding (367/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	+C: coding (367/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	+G: coding (285/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	+G: coding (285/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	+G: coding (285/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	A144V	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	A144V	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	A144V	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	E4G	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	E4G	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	E4G	Infection: Disease; Cystic fibrosis	3
+PA0763	mucA →	G102R	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	G102R	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	G102R	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	P82L	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	P82L	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	P82L	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	Q117* (CAA→TAA)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Q117* (CAA→TAA)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Q117* (CAA→TAA)	Infection: Disease; Cystic fibrosis	2
+PA0763	mucA →	Q146* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Q146* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Q146* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	R42C	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	R42C	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	R42C	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	T120A	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	T120A	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	T120A	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	T120S	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	T120S	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	T120S	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	T179A	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	T179A	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	T179A	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	T179S	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	T179S	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	T179S	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	T96I	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	T96I	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	T96I	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	Δ1 bp: coding (344/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Δ1 bp: coding (344/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Δ1 bp: coding (344/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	Δ1 bp: coding (365/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Δ1 bp: coding (365/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Δ1 bp: coding (365/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	Δ1 bp: coding (462/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Δ1 bp: coding (462/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Δ1 bp: coding (462/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA0763	mucA →	Δ13 bp: coding (172‑184/585 nt)	Host Body-Site: Organ; Ear	0
+PA0763	mucA →	Δ13 bp: coding (172‑184/585 nt)	Host Body-Site: Organ; Eye	0
+PA0763	mucA →	Δ13 bp: coding (172‑184/585 nt)	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	2 bp→GC: coding (642‑643/1473 nt)	Infection: Disease; Cystic fibrosis	2
+PA1097	fleQ →	2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	2 bp→GC: coding (804‑805/1473 nt)	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	29 bp→29 bp: coding (679‑707/1473 nt)	Infection: Disease; Cystic fibrosis	12
+PA1097	fleQ →	30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Eye	3
+PA1097	fleQ →	30 bp→30 bp: coding (678‑707/1473 nt)	Infection: Disease; Cystic fibrosis	6
+PA1097	fleQ →	33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Eye	1
+PA1097	fleQ →	33 bp→33 bp: coding (675‑707/1473 nt)	Infection: Disease; Cystic fibrosis	7
+PA1097	fleQ →	A91S	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	A91S	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	A91S	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	D489E	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	D489E	Host Body-Site: Organ; Eye	2
+PA1097	fleQ →	D489E	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	G204R	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	G204R	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	G204R	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	K220R	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	K220R	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	K220R	Infection: Disease; Cystic fibrosis	1
+PA1097	fleQ →	L252M	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	L252M	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	L252M	Infection: Disease; Cystic fibrosis	9
+PA1097	fleQ →	L83P	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	L83P	Host Body-Site: Organ; Eye	1
+PA1097	fleQ →	L83P	Infection: Disease; Cystic fibrosis	0
+PA1097	fleQ →	M250L	Host Body-Site: Organ; Ear	2
+PA1097	fleQ →	M250L	Host Body-Site: Organ; Eye	1
+PA1097	fleQ →	M250L	Infection: Disease; Cystic fibrosis	12
+PA1097	fleQ →	M254I	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	M254I	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	M254I	Infection: Disease; Cystic fibrosis	9
+PA1097	fleQ →	N238D	Host Body-Site: Organ; Ear	1
+PA1097	fleQ →	N238D	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	N238D	Infection: Disease; Cystic fibrosis	7
+PA1097	fleQ →	Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Ear	0
+PA1097	fleQ →	Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Eye	0
+PA1097	fleQ →	Δ99 bp: coding (1358‑1456/1473 nt)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	+C: coding (130/720 nt)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	+C: coding (130/720 nt)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	+C: coding (130/720 nt)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	+G: coding (130/720 nt)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	+G: coding (130/720 nt)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	+G: coding (130/720 nt)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	P74L	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	P74L	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	P74L	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	Q24* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	Q24* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	Q24* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	Q45* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	Q45* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	Q45* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	Q81* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	Q81* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	Q81* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA1430	lasR →	W60* (TGG→TAG)	Host Body-Site: Organ; Ear	1
+PA1430	lasR →	W60* (TGG→TAG)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	W60* (TGG→TAG)	Infection: Disease; Cystic fibrosis	0
+PA1430	lasR →	W88* (TGG→TGA)	Host Body-Site: Organ; Ear	1
+PA1430	lasR →	W88* (TGG→TGA)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	W88* (TGG→TGA)	Infection: Disease; Cystic fibrosis	0
+PA1430	lasR →	Δ1 bp: coding (131/720 nt)	Host Body-Site: Organ; Ear	0
+PA1430	lasR →	Δ1 bp: coding (131/720 nt)	Host Body-Site: Organ; Eye	0
+PA1430	lasR →	Δ1 bp: coding (131/720 nt)	Infection: Disease; Cystic fibrosis	1
+PA1432	lasI →	E195D	Host Body-Site: Organ; Ear	0
+PA1432	lasI →	E195D	Host Body-Site: Organ; Eye	0
+PA1432	lasI →	E195D	Infection: Disease; Cystic fibrosis	2
+PA1432	lasI →	R197Q	Host Body-Site: Organ; Ear	0
+PA1432	lasI →	R197Q	Host Body-Site: Organ; Eye	0
+PA1432	lasI →	R197Q	Infection: Disease; Cystic fibrosis	2
+PA1713	exsA →	(GCCTGGC)1→2: coding (155/837 nt)	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	(GCCTGGC)1→2: coding (155/837 nt)	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	(GCCTGGC)1→2: coding (155/837 nt)	Infection: Disease; Cystic fibrosis	2
+PA1713	exsA →	(GTTGC)1→2: coding (363/837 nt)	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	(GTTGC)1→2: coding (363/837 nt)	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	(GTTGC)1→2: coding (363/837 nt)	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	A114V	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	A114V	Host Body-Site: Organ; Eye	2
+PA1713	exsA →	A114V	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	D103E	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	D103E	Host Body-Site: Organ; Eye	2
+PA1713	exsA →	D103E	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	E104G	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	E104G	Host Body-Site: Organ; Eye	1
+PA1713	exsA →	E104G	Infection: Disease; Cystic fibrosis	2
+PA1713	exsA →	K186R	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	K186R	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	K186R	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	N18S	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	N18S	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	N18S	Infection: Disease; Cystic fibrosis	2
+PA1713	exsA →	P156A	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	P156A	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	P156A	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	Q83* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	Q83* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	Q83* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	S212L	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	S212L	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	S212L	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	S232N	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	S232N	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	S232N	Infection: Disease; Cystic fibrosis	3
+PA1713	exsA →	S254C	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	S254C	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	S254C	Infection: Disease; Cystic fibrosis	1
+PA1713	exsA →	T262A	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	T262A	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	T262A	Infection: Disease; Cystic fibrosis	2
+PA1713	exsA →	Y181S	Host Body-Site: Organ; Ear	0
+PA1713	exsA →	Y181S	Host Body-Site: Organ; Eye	0
+PA1713	exsA →	Y181S	Infection: Disease; Cystic fibrosis	1
+PA1777	oprF →	A176S	Host Body-Site: Organ; Ear	0
+PA1777	oprF →	A176S	Host Body-Site: Organ; Eye	0
+PA1777	oprF →	A176S	Infection: Disease; Cystic fibrosis	1
+PA1777	oprF →	D210V	Host Body-Site: Organ; Ear	0
+PA1777	oprF →	D210V	Host Body-Site: Organ; Eye	0
+PA1777	oprF →	D210V	Infection: Disease; Cystic fibrosis	1
+PA1777	oprF →	Q119* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA1777	oprF →	Q119* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA1777	oprF →	Q119* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA1777	oprF →	T6A	Host Body-Site: Organ; Ear	0
+PA1777	oprF →	T6A	Host Body-Site: Organ; Eye	0
+PA1777	oprF →	T6A	Infection: Disease; Cystic fibrosis	1
+PA1777	oprF →	T93A	Host Body-Site: Organ; Ear	0
+PA1777	oprF →	T93A	Host Body-Site: Organ; Eye	0
+PA1777	oprF →	T93A	Infection: Disease; Cystic fibrosis	4
+PA2020	N_A →	(ACAAGA)1→2: coding (160/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	(ACAAGA)1→2: coding (160/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	(ACAAGA)1→2: coding (160/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	(CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	(CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	(CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	+A: coding (80/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	+A: coding (80/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	+A: coding (80/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	+C: coding (364/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	+C: coding (364/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	+C: coding (364/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	+G: coding (601/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	+G: coding (601/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	+G: coding (601/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	+T: coding (601/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	+T: coding (601/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	+T: coding (601/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	2 bp→GA: coding (413‑414/633 nt)	Host Body-Site: Organ; Ear	3
+PA2020	N_A →	2 bp→GA: coding (413‑414/633 nt)	Host Body-Site: Organ; Eye	3
+PA2020	N_A →	2 bp→GA: coding (413‑414/633 nt)	Infection: Disease; Cystic fibrosis	11
+PA2020	N_A →	2 bp→TA: coding (585‑586/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	2 bp→TA: coding (585‑586/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	2 bp→TA: coding (585‑586/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A159G	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A159G	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A159G	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A194P	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A194P	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A194P	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A38T	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A38T	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A38T	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A41D	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A41D	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A41D	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A66T	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A66T	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A66T	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	A77P	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	A77P	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	A77P	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	C113R	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	C113R	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	C113R	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	C63G	Host Body-Site: Organ; Ear	1
+PA2020	N_A →	C63G	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	C63G	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	E57* (GAG→TAG)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	E57* (GAG→TAG)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	E57* (GAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	F92S	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	F92S	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	F92S	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	G100V	Host Body-Site: Organ; Ear	1
+PA2020	N_A →	G100V	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	G100V	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	G89S	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	G89S	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	G89S	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	H51R	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	H51R	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	H51R	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	I141N	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	I141N	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	I141N	Infection: Disease; Cystic fibrosis	3
+PA2020	N_A →	K11* (AAA→TAA)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	K11* (AAA→TAA)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	K11* (AAA→TAA)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	L128M	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	L128M	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	L128M	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	L174Q	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	L174Q	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	L174Q	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	L205P	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	L205P	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	L205P	Infection: Disease; Cystic fibrosis	2
+PA2020	N_A →	N186S	Host Body-Site: Organ; Ear	1
+PA2020	N_A →	N186S	Host Body-Site: Organ; Eye	1
+PA2020	N_A →	N186S	Infection: Disease; Cystic fibrosis	6
+PA2020	N_A →	P203S	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	P203S	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	P203S	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Q103R	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Q103R	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Q103R	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Q132* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Q132* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Q132* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Q164* (CAA→TAA)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Q164* (CAA→TAA)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Q164* (CAA→TAA)	Infection: Disease; Cystic fibrosis	2
+PA2020	N_A →	R45H	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	R45H	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	R45H	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	R65S	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	R65S	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	R65S	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	T12N	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	T12N	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	T12N	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	T31N	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	T31N	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	T31N	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	V48A	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	V48A	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	V48A	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	W185* (TGG→TAG)	Host Body-Site: Organ; Ear	1
+PA2020	N_A →	W185* (TGG→TAG)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	W185* (TGG→TAG)	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	Y162S	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Y162S	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Y162S	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Y49C	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Y49C	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Y49C	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Y52D	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Y52D	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Y52D	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ1 bp: coding (101/633 nt)	Host Body-Site: Organ; Ear	1
+PA2020	N_A →	Δ1 bp: coding (101/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ1 bp: coding (101/633 nt)	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	Δ1 bp: coding (227/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ1 bp: coding (227/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ1 bp: coding (227/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ1 bp: coding (342/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ1 bp: coding (342/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ1 bp: coding (342/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ1 bp: coding (408/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ1 bp: coding (408/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ1 bp: coding (408/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ1 bp: coding (89/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ1 bp: coding (89/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ1 bp: coding (89/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ10 bp: coding (559‑568/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ10 bp: coding (559‑568/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ10 bp: coding (559‑568/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ10 bp: coding (61‑70/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ10 bp: coding (61‑70/633 nt)	Host Body-Site: Organ; Eye	1
+PA2020	N_A →	Δ10 bp: coding (61‑70/633 nt)	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	Δ11 bp: coding (119‑129/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ11 bp: coding (119‑129/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ11 bp: coding (119‑129/633 nt)	Infection: Disease; Cystic fibrosis	3
+PA2020	N_A →	Δ11 bp: coding (184‑194/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ11 bp: coding (184‑194/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ11 bp: coding (184‑194/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ11 bp: coding (208‑218/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ11 bp: coding (208‑218/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ11 bp: coding (208‑218/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ11 bp: coding (293‑303/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ11 bp: coding (293‑303/633 nt)	Host Body-Site: Organ; Eye	1
+PA2020	N_A →	Δ11 bp: coding (293‑303/633 nt)	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	Δ12 bp: coding (386‑397/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ12 bp: coding (386‑397/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ12 bp: coding (386‑397/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ13 bp: coding (578‑590/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ13 bp: coding (578‑590/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ13 bp: coding (578‑590/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ14 bp: coding (334‑347/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ14 bp: coding (334‑347/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ14 bp: coding (334‑347/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ3 bp: coding (196‑198/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ3 bp: coding (196‑198/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ3 bp: coding (196‑198/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ35 bp: coding (324‑358/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ35 bp: coding (324‑358/633 nt)	Host Body-Site: Organ; Eye	1
+PA2020	N_A →	Δ35 bp: coding (324‑358/633 nt)	Infection: Disease; Cystic fibrosis	0
+PA2020	N_A →	Δ7 bp: coding (506‑512/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ7 bp: coding (506‑512/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ7 bp: coding (506‑512/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ8 bp: coding (529‑536/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ8 bp: coding (529‑536/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ8 bp: coding (529‑536/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2020	N_A →	Δ9 bp: coding (215‑223/633 nt)	Host Body-Site: Organ; Ear	0
+PA2020	N_A →	Δ9 bp: coding (215‑223/633 nt)	Host Body-Site: Organ; Eye	0
+PA2020	N_A →	Δ9 bp: coding (215‑223/633 nt)	Infection: Disease; Cystic fibrosis	1
+PA2491	N_A →	D249N	Host Body-Site: Organ; Ear	13
+PA2491	N_A →	D249N	Host Body-Site: Organ; Eye	7
+PA2491	N_A →	D249N	Infection: Disease; Cystic fibrosis	58
+PA2491	N_A →	E286D	Host Body-Site: Organ; Ear	0
+PA2491	N_A →	E286D	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	E286D	Infection: Disease; Cystic fibrosis	1
+PA2491	N_A →	G331A	Host Body-Site: Organ; Ear	0
+PA2491	N_A →	G331A	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	G331A	Infection: Disease; Cystic fibrosis	3
+PA2491	N_A →	M271I	Host Body-Site: Organ; Ear	0
+PA2491	N_A →	M271I	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	M271I	Infection: Disease; Cystic fibrosis	1
+PA2491	N_A →	M279R	Host Body-Site: Organ; Ear	0
+PA2491	N_A →	M279R	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	M279R	Infection: Disease; Cystic fibrosis	1
+PA2491	N_A →	V308I	Host Body-Site: Organ; Ear	0
+PA2491	N_A →	V308I	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	V308I	Infection: Disease; Cystic fibrosis	1
+PA2491	N_A →	V318I	Host Body-Site: Organ; Ear	1
+PA2491	N_A →	V318I	Host Body-Site: Organ; Eye	0
+PA2491	N_A →	V318I	Infection: Disease; Cystic fibrosis	0
+PA2492	mexT →	G274D	Host Body-Site: Organ; Ear	0
+PA2492	mexT →	G274D	Host Body-Site: Organ; Eye	0
+PA2492	mexT →	G274D	Infection: Disease; Cystic fibrosis	1
+PA2492	mexT →	I341F	Host Body-Site: Organ; Ear	0
+PA2492	mexT →	I341F	Host Body-Site: Organ; Eye	0
+PA2492	mexT →	I341F	Infection: Disease; Cystic fibrosis	2
+PA2492	mexT →	R334H	Host Body-Site: Organ; Ear	0
+PA2492	mexT →	R334H	Host Body-Site: Organ; Eye	0
+PA2492	mexT →	R334H	Infection: Disease; Cystic fibrosis	1
+PA2492	mexT →	Δ1 bp: coding (706/1044 nt)	Host Body-Site: Organ; Ear	0
+PA2492	mexT →	Δ1 bp: coding (706/1044 nt)	Host Body-Site: Organ; Eye	0
+PA2492	mexT →	Δ1 bp: coding (706/1044 nt)	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	*464* (TAA→TGA)	Host Body-Site: Organ; Ear	4
+PA3217	cyaB →	*464* (TAA→TGA)	Host Body-Site: Organ; Eye	8
+PA3217	cyaB →	*464* (TAA→TGA)	Infection: Disease; Cystic fibrosis	13
+PA3217	cyaB →	2 bp→TC: coding (204‑205/1392 nt)	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	2 bp→TC: coding (204‑205/1392 nt)	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	2 bp→TC: coding (204‑205/1392 nt)	Infection: Disease; Cystic fibrosis	2
+PA3217	cyaB →	A395T	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	A395T	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	A395T	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	A80V	Host Body-Site: Organ; Ear	2
+PA3217	cyaB →	A80V	Host Body-Site: Organ; Eye	6
+PA3217	cyaB →	A80V	Infection: Disease; Cystic fibrosis	10
+PA3217	cyaB →	E327K	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	E327K	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	E327K	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	E364D	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	E364D	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	E364D	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	F69L	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	F69L	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	F69L	Infection: Disease; Cystic fibrosis	2
+PA3217	cyaB →	G331S	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	G331S	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	G331S	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	G428D	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	G428D	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	G428D	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	I382V	Host Body-Site: Organ; Ear	1
+PA3217	cyaB →	I382V	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	I382V	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	L146R	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	L146R	Host Body-Site: Organ; Eye	2
+PA3217	cyaB →	L146R	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	M310I	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	M310I	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	M310I	Infection: Disease; Cystic fibrosis	1
+PA3217	cyaB →	P150S	Host Body-Site: Organ; Ear	1
+PA3217	cyaB →	P150S	Host Body-Site: Organ; Eye	1
+PA3217	cyaB →	P150S	Infection: Disease; Cystic fibrosis	4
+PA3217	cyaB →	P6S	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	P6S	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	P6S	Infection: Disease; Cystic fibrosis	2
+PA3217	cyaB →	Q290H	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	Q290H	Host Body-Site: Organ; Eye	1
+PA3217	cyaB →	Q290H	Infection: Disease; Cystic fibrosis	0
+PA3217	cyaB →	V403M	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	V403M	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	V403M	Infection: Disease; Cystic fibrosis	2
+PA3217	cyaB →	Δ1 bp: coding (544/1392 nt)	Host Body-Site: Organ; Ear	0
+PA3217	cyaB →	Δ1 bp: coding (544/1392 nt)	Host Body-Site: Organ; Eye	0
+PA3217	cyaB →	Δ1 bp: coding (544/1392 nt)	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	2 bp→AT: coding (321‑322/921 nt)	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	2 bp→AT: coding (321‑322/921 nt)	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	2 bp→AT: coding (321‑322/921 nt)	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	A247T	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	A247T	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	A247T	Infection: Disease; Cystic fibrosis	4
+PA3565	N_A →	A252V	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	A252V	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	A252V	Infection: Disease; Cystic fibrosis	5
+PA3565	N_A →	D161A	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	D161A	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	D161A	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	D219A	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	D219A	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	D219A	Infection: Disease; Cystic fibrosis	2
+PA3565	N_A →	E178A	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	E178A	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	E178A	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	E261D	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	E261D	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	E261D	Infection: Disease; Cystic fibrosis	12
+PA3565	N_A →	E27D	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	E27D	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	E27D	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	E292G	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	E292G	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	E292G	Infection: Disease; Cystic fibrosis	0
+PA3565	N_A →	F102L	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	F102L	Host Body-Site: Organ; Eye	1
+PA3565	N_A →	F102L	Infection: Disease; Cystic fibrosis	0
+PA3565	N_A →	G171A	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	G171A	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	G171A	Infection: Disease; Cystic fibrosis	4
+PA3565	N_A →	H12Y	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	H12Y	Host Body-Site: Organ; Eye	1
+PA3565	N_A →	H12Y	Infection: Disease; Cystic fibrosis	0
+PA3565	N_A →	L67Q	Host Body-Site: Organ; Ear	2
+PA3565	N_A →	L67Q	Host Body-Site: Organ; Eye	2
+PA3565	N_A →	L67Q	Infection: Disease; Cystic fibrosis	4
+PA3565	N_A →	Q120R	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	Q120R	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	Q120R	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	R117C	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	R117C	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	R117C	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	R117H	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	R117H	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	R117H	Infection: Disease; Cystic fibrosis	0
+PA3565	N_A →	R176H	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	R176H	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	R176H	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	R291C	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	R291C	Host Body-Site: Organ; Eye	1
+PA3565	N_A →	R291C	Infection: Disease; Cystic fibrosis	0
+PA3565	N_A →	R74C	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	R74C	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	R74C	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	S122N	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	S122N	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	S122N	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	S42N	Host Body-Site: Organ; Ear	1
+PA3565	N_A →	S42N	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	S42N	Infection: Disease; Cystic fibrosis	4
+PA3565	N_A →	T132A	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	T132A	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	T132A	Infection: Disease; Cystic fibrosis	1
+PA3565	N_A →	T213S	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	T213S	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	T213S	Infection: Disease; Cystic fibrosis	3
+PA3565	N_A →	Δ6 bp: coding (911‑916/921 nt)	Host Body-Site: Organ; Ear	0
+PA3565	N_A →	Δ6 bp: coding (911‑916/921 nt)	Host Body-Site: Organ; Eye	0
+PA3565	N_A →	Δ6 bp: coding (911‑916/921 nt)	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	(A)6→5: coding (31/639 nt)	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	(A)6→5: coding (31/639 nt)	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	(A)6→5: coding (31/639 nt)	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	A208P	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	A208P	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	A208P	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	D180N	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	D180N	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	D180N	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	D187H	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	D187H	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	D187H	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	E21D	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	E21D	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	E21D	Infection: Disease; Cystic fibrosis	2
+PA3574	nalD →	G206S	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	G206S	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	G206S	Infection: Disease; Cystic fibrosis	2
+PA3574	nalD →	M113I	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	M113I	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	M113I	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	T11N	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	T11N	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	T11N	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	T188A	Host Body-Site: Organ; Ear	1
+PA3574	nalD →	T188A	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	T188A	Infection: Disease; Cystic fibrosis	0
+PA3574	nalD →	Y89* (TAC→TAA)	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	Y89* (TAC→TAA)	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	Y89* (TAC→TAA)	Infection: Disease; Cystic fibrosis	1
+PA3574	nalD →	Δ13 bp: coding (451‑463/639 nt)	Host Body-Site: Organ; Ear	0
+PA3574	nalD →	Δ13 bp: coding (451‑463/639 nt)	Host Body-Site: Organ; Eye	0
+PA3574	nalD →	Δ13 bp: coding (451‑463/639 nt)	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	2 bp→TC: coding (788‑789/1008 nt)	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	2 bp→TC: coding (788‑789/1008 nt)	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	2 bp→TC: coding (788‑789/1008 nt)	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	4 bp→20 bp: coding (786‑789/1008 nt)	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	4 bp→20 bp: coding (786‑789/1008 nt)	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	4 bp→20 bp: coding (786‑789/1008 nt)	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	A146T	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	A146T	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	A146T	Infection: Disease; Cystic fibrosis	2
+PA3703	wspF →	A200T	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	A200T	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	A200T	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	A327S	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	A327S	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	A327S	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	D315N	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	D315N	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	D315N	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	D335G	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	D335G	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	D335G	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	D335N	Host Body-Site: Organ; Ear	1
+PA3703	wspF →	D335N	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	D335N	Infection: Disease; Cystic fibrosis	12
+PA3703	wspF →	G277C	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	G277C	Host Body-Site: Organ; Eye	1
+PA3703	wspF →	G277C	Infection: Disease; Cystic fibrosis	0
+PA3703	wspF →	I217M	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	I217M	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	I217M	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	M1V	Host Body-Site: Organ; Ear	1
+PA3703	wspF →	M1V	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	M1V	Infection: Disease; Cystic fibrosis	3
+PA3703	wspF →	P215L	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	P215L	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	P215L	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	Q132* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	Q132* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	Q132* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	R211C	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	R211C	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	R211C	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	V139I	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	V139I	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	V139I	Infection: Disease; Cystic fibrosis	1
+PA3703	wspF →	Δ45 bp: coding (848‑892/1008 nt)	Host Body-Site: Organ; Ear	0
+PA3703	wspF →	Δ45 bp: coding (848‑892/1008 nt)	Host Body-Site: Organ; Eye	0
+PA3703	wspF →	Δ45 bp: coding (848‑892/1008 nt)	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	2 bp→TC: coding (654‑655/774 nt)	Host Body-Site: Organ; Ear	1
+PA3817	N_A →	2 bp→TC: coding (654‑655/774 nt)	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	2 bp→TC: coding (654‑655/774 nt)	Infection: Disease; Cystic fibrosis	0
+PA3817	N_A →	A106S	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	A106S	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	A106S	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	A164V	Host Body-Site: Organ; Ear	1
+PA3817	N_A →	A164V	Host Body-Site: Organ; Eye	1
+PA3817	N_A →	A164V	Infection: Disease; Cystic fibrosis	0
+PA3817	N_A →	D64G	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	D64G	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	D64G	Infection: Disease; Cystic fibrosis	2
+PA3817	N_A →	I71S	Host Body-Site: Organ; Ear	11
+PA3817	N_A →	I71S	Host Body-Site: Organ; Eye	12
+PA3817	N_A →	I71S	Infection: Disease; Cystic fibrosis	65
+PA3817	N_A →	K211R	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	K211R	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	K211R	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	S251P	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	S251P	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	S251P	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	S251T	Host Body-Site: Organ; Ear	1
+PA3817	N_A →	S251T	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	S251T	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	S40G	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	S40G	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	S40G	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	S51F	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	S51F	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	S51F	Infection: Disease; Cystic fibrosis	1
+PA3817	N_A →	S74R	Host Body-Site: Organ; Ear	0
+PA3817	N_A →	S74R	Host Body-Site: Organ; Eye	0
+PA3817	N_A →	S74R	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	15 bp→15 bp: coding (684‑698/1362 nt)	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	15 bp→15 bp: coding (684‑698/1362 nt)	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	15 bp→15 bp: coding (684‑698/1362 nt)	Infection: Disease; Cystic fibrosis	4
+PA3841	exoS →	A157S	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	A157S	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	A157S	Infection: Disease; Cystic fibrosis	0
+PA3841	exoS →	A236T	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	A236T	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	A236T	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	A264P	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	A264P	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	A264P	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	A90V	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	A90V	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	A90V	Infection: Disease; Cystic fibrosis	2
+PA3841	exoS →	D339N	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	D339N	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	D339N	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	D46E	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	D46E	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	D46E	Infection: Disease; Cystic fibrosis	0
+PA3841	exoS →	E134K	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	E134K	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	E134K	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	E387G	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	E387G	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	E387G	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	G309R	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	G309R	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	G309R	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	G372E	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	G372E	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	G372E	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	G52R	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	G52R	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	G52R	Infection: Disease; Cystic fibrosis	0
+PA3841	exoS →	K243E	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	K243E	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	K243E	Infection: Disease; Cystic fibrosis	2
+PA3841	exoS →	K334Q	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	K334Q	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	K334Q	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	M447I	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	M447I	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	M447I	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	P257A	Host Body-Site: Organ; Ear	2
+PA3841	exoS →	P257A	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	P257A	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	Q222H	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	Q222H	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	Q222H	Infection: Disease; Cystic fibrosis	3
+PA3841	exoS →	Q415L	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	Q415L	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	Q415L	Infection: Disease; Cystic fibrosis	3
+PA3841	exoS →	R365W	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	R365W	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	R365W	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	R434P	Host Body-Site: Organ; Ear	1
+PA3841	exoS →	R434P	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	R434P	Infection: Disease; Cystic fibrosis	3
+PA3841	exoS →	S121N	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	S121N	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	S121N	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	S136P	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	S136P	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	S136P	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	T34S	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	T34S	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	T34S	Infection: Disease; Cystic fibrosis	1
+PA3841	exoS →	T82I	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	T82I	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	T82I	Infection: Disease; Cystic fibrosis	3
+PA3841	exoS →	V406I	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	V406I	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	V406I	Infection: Disease; Cystic fibrosis	6
+PA3841	exoS →	Δ1 bp: coding (816/1362 nt)	Host Body-Site: Organ; Ear	0
+PA3841	exoS →	Δ1 bp: coding (816/1362 nt)	Host Body-Site: Organ; Eye	0
+PA3841	exoS →	Δ1 bp: coding (816/1362 nt)	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	(C)5→6: coding (232/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	(C)5→6: coding (232/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	(C)5→6: coding (232/1494 nt)	Infection: Disease; Cystic fibrosis	2
+PA4462	rpoN →	2 bp→CC: coding (226‑227/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	2 bp→CC: coding (226‑227/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	2 bp→CC: coding (226‑227/1494 nt)	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	2 bp→GG: coding (172‑173/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	2 bp→GG: coding (172‑173/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	2 bp→GG: coding (172‑173/1494 nt)	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	2 bp→GT: coding (795‑796/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	2 bp→GT: coding (795‑796/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	2 bp→GT: coding (795‑796/1494 nt)	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	A346T	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	A346T	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	A346T	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	A442T	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	A442T	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	A442T	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	A66V	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	A66V	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	A66V	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	D264E	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	D264E	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	D264E	Infection: Disease; Cystic fibrosis	2
+PA4462	rpoN →	D295G	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	D295G	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	D295G	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	G248D	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	G248D	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	G248D	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	L144P	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	L144P	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	L144P	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	L419P	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	L419P	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	L419P	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	L419V	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	L419V	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	L419V	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	N122S	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	N122S	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	N122S	Infection: Disease; Cystic fibrosis	2
+PA4462	rpoN →	P231A	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	P231A	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	P231A	Infection: Disease; Cystic fibrosis	2
+PA4462	rpoN →	Q12P	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	Q12P	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	Q12P	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	Q268L	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	Q268L	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	Q268L	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	S253G	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	S253G	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	S253G	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	S437P	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	S437P	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	S437P	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	S484P	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	S484P	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	S484P	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	S71T	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	S71T	Host Body-Site: Organ; Eye	1
+PA4462	rpoN →	S71T	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	Y377Q	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	Y377Q	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	Y377Q	Infection: Disease; Cystic fibrosis	2
+PA4462	rpoN →	Δ1 bp: coding (959/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	Δ1 bp: coding (959/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	Δ1 bp: coding (959/1494 nt)	Infection: Disease; Cystic fibrosis	1
+PA4462	rpoN →	Δ9 bp: coding (416‑424/1494 nt)	Host Body-Site: Organ; Ear	0
+PA4462	rpoN →	Δ9 bp: coding (416‑424/1494 nt)	Host Body-Site: Organ; Eye	0
+PA4462	rpoN →	Δ9 bp: coding (416‑424/1494 nt)	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	A136V	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	A136V	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	A136V	Infection: Disease; Cystic fibrosis	4
+PA4522	ampD →	A29V	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	A29V	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	A29V	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	A85G	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	A85G	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	A85G	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	A85S	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	A85S	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	A85S	Infection: Disease; Cystic fibrosis	2
+PA4522	ampD →	D183Y	Host Body-Site: Organ; Ear	3
+PA4522	ampD →	D183Y	Host Body-Site: Organ; Eye	1
+PA4522	ampD →	D183Y	Infection: Disease; Cystic fibrosis	19
+PA4522	ampD →	D28G	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	D28G	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	D28G	Infection: Disease; Cystic fibrosis	2
+PA4522	ampD →	E170G	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	E170G	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	E170G	Infection: Disease; Cystic fibrosis	2
+PA4522	ampD →	E68D	Host Body-Site: Organ; Ear	1
+PA4522	ampD →	E68D	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	E68D	Infection: Disease; Cystic fibrosis	0
+PA4522	ampD →	G148A	Host Body-Site: Organ; Ear	5
+PA4522	ampD →	G148A	Host Body-Site: Organ; Eye	9
+PA4522	ampD →	G148A	Infection: Disease; Cystic fibrosis	54
+PA4522	ampD →	G46S	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	G46S	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	G46S	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	I69T	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	I69T	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	I69T	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	L58P	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	L58P	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	L58P	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	P41S	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	P41S	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	P41S	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	Q44H	Host Body-Site: Organ; Ear	1
+PA4522	ampD →	Q44H	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	Q44H	Infection: Disease; Cystic fibrosis	3
+PA4522	ampD →	Q44K	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	Q44K	Host Body-Site: Organ; Eye	1
+PA4522	ampD →	Q44K	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	Q88* (CAG→TAG)	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	Q88* (CAG→TAG)	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	Q88* (CAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	R11H	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	R11H	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	R11H	Infection: Disease; Cystic fibrosis	2
+PA4522	ampD →	R11L	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	R11L	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	R11L	Infection: Disease; Cystic fibrosis	5
+PA4522	ampD →	R164H	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	R164H	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	R164H	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	S175L	Host Body-Site: Organ; Ear	1
+PA4522	ampD →	S175L	Host Body-Site: Organ; Eye	1
+PA4522	ampD →	S175L	Infection: Disease; Cystic fibrosis	9
+PA4522	ampD →	S175P	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	S175P	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	S175P	Infection: Disease; Cystic fibrosis	2
+PA4522	ampD →	S5F	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	S5F	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	S5F	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	T7S	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	T7S	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	T7S	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	V10G	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	V10G	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	V10G	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	V10I	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	V10I	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	V10I	Infection: Disease; Cystic fibrosis	1
+PA4522	ampD →	Δ1 bp: coding (125/567 nt)	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	Δ1 bp: coding (125/567 nt)	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	Δ1 bp: coding (125/567 nt)	Infection: Disease; Cystic fibrosis	3
+PA4522	ampD →	Δ11 bp: coding (314‑324/567 nt)	Host Body-Site: Organ; Ear	0
+PA4522	ampD →	Δ11 bp: coding (314‑324/567 nt)	Host Body-Site: Organ; Eye	0
+PA4522	ampD →	Δ11 bp: coding (314‑324/567 nt)	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	5
+PA4526	pilB →	2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	10
+PA4526	pilB →	2 bp→CC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	59
+PA4526	pilB →	2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	2 bp→CT: coding (1545‑1546/1701 nt)	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	2 bp→TC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	2 bp→TC: coding (75‑76/1701 nt)	Infection: Disease; Cystic fibrosis	3
+PA4526	pilB →	A167T	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	A167T	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	A167T	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	A175T	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	A175T	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	A175T	Infection: Disease; Cystic fibrosis	4
+PA4526	pilB →	A30T	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	A30T	Host Body-Site: Organ; Eye	1
+PA4526	pilB →	A30T	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	A81T	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	A81T	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	A81T	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	D168E	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	D168E	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	D168E	Infection: Disease; Cystic fibrosis	4
+PA4526	pilB →	E467D	Host Body-Site: Organ; Ear	3
+PA4526	pilB →	E467D	Host Body-Site: Organ; Eye	6
+PA4526	pilB →	E467D	Infection: Disease; Cystic fibrosis	28
+PA4526	pilB →	E529* (GAG→TAG)	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	E529* (GAG→TAG)	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	E529* (GAG→TAG)	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	G331V	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	G331V	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	G331V	Infection: Disease; Cystic fibrosis	3
+PA4526	pilB →	G363D	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	G363D	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	G363D	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	I115V	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	I115V	Host Body-Site: Organ; Eye	1
+PA4526	pilB →	I115V	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	I211T	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	I211T	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	I211T	Infection: Disease; Cystic fibrosis	16
+PA4526	pilB →	K74R	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	K74R	Host Body-Site: Organ; Eye	1
+PA4526	pilB →	K74R	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	L433P	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	L433P	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	L433P	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	P479L	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	P479L	Host Body-Site: Organ; Eye	1
+PA4526	pilB →	P479L	Infection: Disease; Cystic fibrosis	0
+PA4526	pilB →	R470K	Host Body-Site: Organ; Ear	3
+PA4526	pilB →	R470K	Host Body-Site: Organ; Eye	6
+PA4526	pilB →	R470K	Infection: Disease; Cystic fibrosis	23
+PA4526	pilB →	S46N	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	S46N	Host Body-Site: Organ; Eye	2
+PA4526	pilB →	S46N	Infection: Disease; Cystic fibrosis	10
+PA4526	pilB →	T266N	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	T266N	Host Body-Site: Organ; Eye	2
+PA4526	pilB →	T266N	Infection: Disease; Cystic fibrosis	17
+PA4526	pilB →	T266S	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	T266S	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	T266S	Infection: Disease; Cystic fibrosis	3
+PA4526	pilB →	T544A	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	T544A	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	T544A	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	T544S	Host Body-Site: Organ; Ear	1
+PA4526	pilB →	T544S	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	T544S	Infection: Disease; Cystic fibrosis	1
+PA4526	pilB →	V26L	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	V26L	Host Body-Site: Organ; Eye	1
+PA4526	pilB →	V26L	Infection: Disease; Cystic fibrosis	3
+PA4526	pilB →	V416E	Host Body-Site: Organ; Ear	0
+PA4526	pilB →	V416E	Host Body-Site: Organ; Eye	0
+PA4526	pilB →	V416E	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	+CGG: coding (485/1350 nt)	Host Body-Site: Organ; Ear	0
+PA4848	accC →	+CGG: coding (485/1350 nt)	Host Body-Site: Organ; Eye	0
+PA4848	accC →	+CGG: coding (485/1350 nt)	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	2 bp→AC: coding (1224‑1225/1350 nt)	Host Body-Site: Organ; Ear	1
+PA4848	accC →	2 bp→AC: coding (1224‑1225/1350 nt)	Host Body-Site: Organ; Eye	0
+PA4848	accC →	2 bp→AC: coding (1224‑1225/1350 nt)	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	2 bp→CA: coding (383‑384/1350 nt)	Host Body-Site: Organ; Ear	0
+PA4848	accC →	2 bp→CA: coding (383‑384/1350 nt)	Host Body-Site: Organ; Eye	0
+PA4848	accC →	2 bp→CA: coding (383‑384/1350 nt)	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	A119T	Host Body-Site: Organ; Ear	0
+PA4848	accC →	A119T	Host Body-Site: Organ; Eye	0
+PA4848	accC →	A119T	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	A189T	Host Body-Site: Organ; Ear	0
+PA4848	accC →	A189T	Host Body-Site: Organ; Eye	0
+PA4848	accC →	A189T	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	D229G	Host Body-Site: Organ; Ear	0
+PA4848	accC →	D229G	Host Body-Site: Organ; Eye	0
+PA4848	accC →	D229G	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	D249N	Host Body-Site: Organ; Ear	0
+PA4848	accC →	D249N	Host Body-Site: Organ; Eye	0
+PA4848	accC →	D249N	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	D307N	Host Body-Site: Organ; Ear	0
+PA4848	accC →	D307N	Host Body-Site: Organ; Eye	0
+PA4848	accC →	D307N	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	E188K	Host Body-Site: Organ; Ear	0
+PA4848	accC →	E188K	Host Body-Site: Organ; Eye	0
+PA4848	accC →	E188K	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	E3G	Host Body-Site: Organ; Ear	0
+PA4848	accC →	E3G	Host Body-Site: Organ; Eye	0
+PA4848	accC →	E3G	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	F277L	Host Body-Site: Organ; Ear	0
+PA4848	accC →	F277L	Host Body-Site: Organ; Eye	0
+PA4848	accC →	F277L	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	G104C	Host Body-Site: Organ; Ear	0
+PA4848	accC →	G104C	Host Body-Site: Organ; Eye	0
+PA4848	accC →	G104C	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	G114S	Host Body-Site: Organ; Ear	0
+PA4848	accC →	G114S	Host Body-Site: Organ; Eye	0
+PA4848	accC →	G114S	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	G226D	Host Body-Site: Organ; Ear	0
+PA4848	accC →	G226D	Host Body-Site: Organ; Eye	0
+PA4848	accC →	G226D	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	G52S	Host Body-Site: Organ; Ear	0
+PA4848	accC →	G52S	Host Body-Site: Organ; Eye	0
+PA4848	accC →	G52S	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	G81S	Host Body-Site: Organ; Ear	0
+PA4848	accC →	G81S	Host Body-Site: Organ; Eye	0
+PA4848	accC →	G81S	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	I437T	Host Body-Site: Organ; Ear	0
+PA4848	accC →	I437T	Host Body-Site: Organ; Eye	0
+PA4848	accC →	I437T	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	K251E	Host Body-Site: Organ; Ear	0
+PA4848	accC →	K251E	Host Body-Site: Organ; Eye	0
+PA4848	accC →	K251E	Infection: Disease; Cystic fibrosis	2
+PA4848	accC →	L200P	Host Body-Site: Organ; Ear	0
+PA4848	accC →	L200P	Host Body-Site: Organ; Eye	0
+PA4848	accC →	L200P	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	L225F	Host Body-Site: Organ; Ear	0
+PA4848	accC →	L225F	Host Body-Site: Organ; Eye	0
+PA4848	accC →	L225F	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	P132L	Host Body-Site: Organ; Ear	0
+PA4848	accC →	P132L	Host Body-Site: Organ; Eye	0
+PA4848	accC →	P132L	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	R186P	Host Body-Site: Organ; Ear	0
+PA4848	accC →	R186P	Host Body-Site: Organ; Eye	0
+PA4848	accC →	R186P	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	R270C	Host Body-Site: Organ; Ear	0
+PA4848	accC →	R270C	Host Body-Site: Organ; Eye	0
+PA4848	accC →	R270C	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	S181L	Host Body-Site: Organ; Ear	0
+PA4848	accC →	S181L	Host Body-Site: Organ; Eye	0
+PA4848	accC →	S181L	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	S231P	Host Body-Site: Organ; Ear	0
+PA4848	accC →	S231P	Host Body-Site: Organ; Eye	0
+PA4848	accC →	S231P	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	V117I	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V117I	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V117I	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	V128A	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V128A	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V128A	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	V210M	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V210M	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V210M	Infection: Disease; Cystic fibrosis	3
+PA4848	accC →	V303F	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V303F	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V303F	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	V309I	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V309I	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V309I	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	V329I	Host Body-Site: Organ; Ear	0
+PA4848	accC →	V329I	Host Body-Site: Organ; Eye	0
+PA4848	accC →	V329I	Infection: Disease; Cystic fibrosis	1
+PA4848	accC →	Δ3 bp: coding (495‑497/1350 nt)	Host Body-Site: Organ; Ear	1
+PA4848	accC →	Δ3 bp: coding (495‑497/1350 nt)	Host Body-Site: Organ; Eye	0
+PA4848	accC →	Δ3 bp: coding (495‑497/1350 nt)	Infection: Disease; Cystic fibrosis	1

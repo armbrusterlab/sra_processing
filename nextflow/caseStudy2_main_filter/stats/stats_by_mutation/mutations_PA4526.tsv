@@ -1,0 +1,79 @@
+mutation	term	p.value	p.adj	significant
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	0.789223548475739	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Ear	0.0822510822510822	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Ear	0.292259983545345	1	FALSE
+PA4526; pilB →; A167T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A175T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A30T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; A81T	Host Body-Site: Organ; Ear	0.0822510822510822	1	FALSE
+PA4526; pilB →; D168E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; E467D	Host Body-Site: Organ; Ear	0.615793229046481	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G331V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; G363D	Host Body-Site: Organ; Ear	0.0822510822510822	1	FALSE
+PA4526; pilB →; I115V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; I211T	Host Body-Site: Organ; Ear	0.780121620494378	1	FALSE
+PA4526; pilB →; K74R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; L433P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; P479L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; R470K	Host Body-Site: Organ; Ear	0.507045418799465	1	FALSE
+PA4526; pilB →; S46N	Host Body-Site: Organ; Ear	0.682495122056703	1	FALSE
+PA4526; pilB →; T266N	Host Body-Site: Organ; Ear	0.833870430310681	1	FALSE
+PA4526; pilB →; T266S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T544A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; T544S	Host Body-Site: Organ; Ear	0.158065123282515	1	FALSE
+PA4526; pilB →; V26L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; V416E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	0.563490808000248	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A167T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A175T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; A30T	Host Body-Site: Organ; Eye	0.250894033502729	1	FALSE
+PA4526; pilB →; A81T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; D168E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; E467D	Host Body-Site: Organ; Eye	0.373955430376594	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G331V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; G363D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; I115V	Host Body-Site: Organ; Eye	0.134199134199134	1	FALSE
+PA4526; pilB →; I211T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; K74R	Host Body-Site: Organ; Eye	0.134199134199134	1	FALSE
+PA4526; pilB →; L433P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; P479L	Host Body-Site: Organ; Eye	0.134199134199134	1	FALSE
+PA4526; pilB →; R470K	Host Body-Site: Organ; Eye	0.24179206049949	1	FALSE
+PA4526; pilB →; S46N	Host Body-Site: Organ; Eye	0.542690938190395	1	FALSE
+PA4526; pilB →; T266N	Host Body-Site: Organ; Eye	0.78355797157741	1	FALSE
+PA4526; pilB →; T266S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T544A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; T544S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; V26L	Host Body-Site: Organ; Eye	0.440365675913726	1	FALSE
+PA4526; pilB →; V416E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4526; pilB →; 2 bp→CC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	0.434288273763264	1	FALSE
+PA4526; pilB →; 2 bp→CT: coding (1545‑1546/1701 nt)	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (1293‑1294/1701 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; 2 bp→TC: coding (75‑76/1701 nt)	Infection: Disease; Cystic fibrosis	0.794668074124071	1	FALSE
+PA4526; pilB →; A167T	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE
+PA4526; pilB →; A175T	Infection: Disease; Cystic fibrosis	0.374208775645727	1	FALSE
+PA4526; pilB →; A30T	Infection: Disease; Cystic fibrosis	0.953886693017128	1	FALSE
+PA4526; pilB →; A81T	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; D168E	Infection: Disease; Cystic fibrosis	0.374208775645727	1	FALSE
+PA4526; pilB →; E467D	Infection: Disease; Cystic fibrosis	0.747105970537631	1	FALSE
+PA4526; pilB →; E529* (GAG→TAG)	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE
+PA4526; pilB →; G331V	Infection: Disease; Cystic fibrosis	0.479323600265313	1	FALSE
+PA4526; pilB →; G363D	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; I115V	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; I211T	Infection: Disease; Cystic fibrosis	0.0819224987817986	1	FALSE
+PA4526; pilB →; K74R	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; L433P	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE
+PA4526; pilB →; P479L	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4526; pilB →; R470K	Infection: Disease; Cystic fibrosis	0.881175507546934	1	FALSE
+PA4526; pilB →; S46N	Infection: Disease; Cystic fibrosis	0.698395346882751	1	FALSE
+PA4526; pilB →; T266N	Infection: Disease; Cystic fibrosis	0.332776377777927	1	FALSE
+PA4526; pilB →; T266S	Infection: Disease; Cystic fibrosis	0.479323600265313	1	FALSE
+PA4526; pilB →; T544A	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE
+PA4526; pilB →; T544S	Infection: Disease; Cystic fibrosis	0.953886693017128	1	FALSE
+PA4526; pilB →; V26L	Infection: Disease; Cystic fibrosis	0.794668074124071	1	FALSE
+PA4526; pilB →; V416E	Infection: Disease; Cystic fibrosis	0.783549783549784	1	FALSE

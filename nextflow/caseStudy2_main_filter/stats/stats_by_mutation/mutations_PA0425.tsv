@@ -1,0 +1,91 @@
+mutation	term	p.value	p.adj	significant
+PA0425; mexA →; (CGACCCCGC)1→2: coding (290/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; +A: coding (1008/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; +TG: coding (721/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; 2 bp→GT: coding (546‑547/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; A108V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; A184G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; A206S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; D373E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; D373N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; E234G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; G166A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; G169S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; G236V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; G72D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; G72S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; K76Q	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; L338P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; P30S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Q118* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Q183* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Q238* (CAA→TAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Q69R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; R119C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; R300L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; T180I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; T256A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; V250I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Y120F	Host Body-Site: Organ; Ear	0.0571428571428573	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (316/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (529/1152 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0425; mexA →; (CGACCCCGC)1→2: coding (290/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; +A: coding (1008/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; +TG: coding (721/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; 2 bp→GT: coding (546‑547/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; A108V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; A184G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; A206S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; D373E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; D373N	Host Body-Site: Organ; Eye	0.0285714285714286	1	FALSE
+PA0425; mexA →; E234G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; G166A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; G169S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; G236V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; G72D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; G72S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; K76Q	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; L338P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; P30S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Q118* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Q183* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Q238* (CAA→TAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Q69R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; R119C	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; R300L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; T180I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; T256A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; V250I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Y120F	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (316/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (529/1152 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0425; mexA →; (CGACCCCGC)1→2: coding (290/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; +A: coding (1008/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; +TG: coding (721/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; 2 bp→GT: coding (546‑547/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; A108V	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; A184G	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; A206S	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; D373E	Infection: Disease; Cystic fibrosis	0.781512605042017	1	FALSE
+PA0425; mexA →; D373N	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0425; mexA →; E234G	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; G166A	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; G169S	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; G236V	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; G72D	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; G72S	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; K76Q	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; L338P	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; P30S	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; Q118* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; Q183* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.887394957983193	1	FALSE
+PA0425; mexA →; Q238* (CAA→TAA)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; Q69R	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; R119C	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; R300L	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; T180I	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; T256A	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; V250I	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; Y120F	Infection: Disease; Cystic fibrosis	0.998319327731092	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (316/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE
+PA0425; mexA →; Δ1 bp: coding (529/1152 nt)	Infection: Disease; Cystic fibrosis	0.942857142857143	1	FALSE

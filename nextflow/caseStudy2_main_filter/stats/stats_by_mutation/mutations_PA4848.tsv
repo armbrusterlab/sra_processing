@@ -1,0 +1,65 @@
+mutation	term	p.value	p.adj	significant
+PA4848; accC →; +CGG: coding (485/1350 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; 2 bp→AC: coding (1224‑1225/1350 nt)	Host Body-Site: Organ; Ear	0.106606606606607	1	FALSE
+PA4848; accC →; 2 bp→CA: coding (383‑384/1350 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; A119T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; A189T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; D229G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; D249N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; D307N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; E188K	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; E3G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; F277L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; G104C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; G114S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; G226D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; G52S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; G81S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; I437T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; K251E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; L200P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; L225F	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; P132L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; R186P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; R270C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; S181L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; S231P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V117I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V128A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V210M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V303F	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V309I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; V329I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4848; accC →; Δ3 bp: coding (495‑497/1350 nt)	Host Body-Site: Organ; Ear	0.106606606606607	1	FALSE
+PA4848; accC →; +CGG: coding (485/1350 nt)	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; 2 bp→AC: coding (1224‑1225/1350 nt)	Infection: Disease; Cystic fibrosis	0.998498498498498	1	FALSE
+PA4848; accC →; 2 bp→CA: coding (383‑384/1350 nt)	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; A119T	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; A189T	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; D229G	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; D249N	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; D307N	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; E188K	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; E3G	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; F277L	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; G104C	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; G114S	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; G226D	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; G52S	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; G81S	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; I437T	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; K251E	Infection: Disease; Cystic fibrosis	0.893393393393393	1	FALSE
+PA4848; accC →; L200P	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; L225F	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; P132L	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; R186P	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; R270C	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; S181L	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; S231P	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; V117I	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; V128A	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; V210M	Infection: Disease; Cystic fibrosis	0.842342342342342	1	FALSE
+PA4848; accC →; V303F	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; V309I	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; V329I	Infection: Disease; Cystic fibrosis	0.945945945945946	1	FALSE
+PA4848; accC →; Δ3 bp: coding (495‑497/1350 nt)	Infection: Disease; Cystic fibrosis	0.998498498498498	1	FALSE

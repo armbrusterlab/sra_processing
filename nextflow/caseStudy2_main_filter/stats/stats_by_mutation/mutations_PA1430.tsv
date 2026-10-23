@@ -1,0 +1,19 @@
+mutation	term	p.value	p.adj	significant
+PA1430; lasR →; +C: coding (130/720 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; +G: coding (130/720 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; P74L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; Q24* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; Q45* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; Q81* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; W60* (TGG→TAG)	Host Body-Site: Organ; Ear	0.222222222222222	1	FALSE
+PA1430; lasR →; W88* (TGG→TGA)	Host Body-Site: Organ; Ear	0.222222222222222	1	FALSE
+PA1430; lasR →; Δ1 bp: coding (131/720 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1430; lasR →; +C: coding (130/720 nt)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; +G: coding (130/720 nt)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; P74L	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; Q24* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; Q45* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; Q81* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE
+PA1430; lasR →; W60* (TGG→TAG)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1430; lasR →; W88* (TGG→TGA)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1430; lasR →; Δ1 bp: coding (131/720 nt)	Infection: Disease; Cystic fibrosis	0.777777777777778	1	FALSE

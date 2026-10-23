@@ -1,0 +1,82 @@
+mutation	term	p.value	p.adj	significant
+PA4522; ampD →; A136V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; A29V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; A85G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; A85S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; D183Y	Host Body-Site: Organ; Ear	0.246460411313514	1	FALSE
+PA4522; ampD →; D28G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; E170G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; E68D	Host Body-Site: Organ; Ear	0.0763888888888888	1	FALSE
+PA4522; ampD →; G148A	Host Body-Site: Organ; Ear	0.666218961736827	1	FALSE
+PA4522; ampD →; G46S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; I69T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; L58P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; P41S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; Q44H	Host Body-Site: Organ; Ear	0.274839343388939	1	FALSE
+PA4522; ampD →; Q44K	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; Q88* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; R11H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; R11L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; R164H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; S175L	Host Body-Site: Organ; Ear	0.5964242853857	1	FALSE
+PA4522; ampD →; S175P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; S5F	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; T7S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; V10G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; V10I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; Δ1 bp: coding (125/567 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; Δ11 bp: coding (314‑324/567 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA4522; ampD →; A136V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; A29V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; A85G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; A85S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; D183Y	Host Body-Site: Organ; Eye	0.887052488835955	1	FALSE
+PA4522; ampD →; D28G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; E170G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; E68D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; G148A	Host Body-Site: Organ; Eye	0.0426255299132421	1	FALSE
+PA4522; ampD →; G46S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; I69T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; L58P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; P41S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; Q44H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; Q44K	Host Body-Site: Organ; Eye	0.16025641025641	1	FALSE
+PA4522; ampD →; Q88* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; R11H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; R11L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; R164H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; S175L	Host Body-Site: Organ; Eye	0.629802727947785	1	FALSE
+PA4522; ampD →; S175P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; S5F	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; T7S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; V10G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; V10I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; Δ1 bp: coding (125/567 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; Δ11 bp: coding (314‑324/567 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4522; ampD →; A136V	Infection: Disease; Cystic fibrosis	0.494526533633516	1	FALSE
+PA4522; ampD →; A29V	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; A85G	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; A85S	Infection: Disease; Cystic fibrosis	0.705128205128205	1	FALSE
+PA4522; ampD →; D183Y	Infection: Disease; Cystic fibrosis	0.708076659017745	1	FALSE
+PA4522; ampD →; D28G	Infection: Disease; Cystic fibrosis	0.705128205128205	1	FALSE
+PA4522; ampD →; E170G	Infection: Disease; Cystic fibrosis	0.705128205128205	1	FALSE
+PA4522; ampD →; E68D	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4522; ampD →; G148A	Infection: Disease; Cystic fibrosis	0.951570986114028	1	FALSE
+PA4522; ampD →; G46S	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; I69T	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; L58P	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; P41S	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; Q44H	Infection: Disease; Cystic fibrosis	0.880089593754562	1	FALSE
+PA4522; ampD →; Q44K	Infection: Disease; Cystic fibrosis	0.975427350427351	1	FALSE
+PA4522; ampD →; Q88* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; R11H	Infection: Disease; Cystic fibrosis	0.705128205128205	1	FALSE
+PA4522; ampD →; R11L	Infection: Disease; Cystic fibrosis	0.413282888822295	1	FALSE
+PA4522; ampD →; R164H	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; S175L	Infection: Disease; Cystic fibrosis	0.753539588686486	1	FALSE
+PA4522; ampD →; S175P	Infection: Disease; Cystic fibrosis	0.705128205128205	1	FALSE
+PA4522; ampD →; S5F	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; T7S	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; V10G	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; V10I	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE
+PA4522; ampD →; Δ1 bp: coding (125/567 nt)	Infection: Disease; Cystic fibrosis	0.590917298663778	1	FALSE
+PA4522; ampD →; Δ11 bp: coding (314‑324/567 nt)	Infection: Disease; Cystic fibrosis	0.840277777777778	1	FALSE

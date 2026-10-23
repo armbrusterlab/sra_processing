@@ -1,0 +1,31 @@
+ 62.37	406	406	U	0	unclassified
+ 37.63	245	0	R	1	root
+ 37.63	245	0	R1	131567	  cellular organisms
+ 37.63	245	0	D	2	    Bacteria
+ 36.87	240	0	K	3379134	      Pseudomonadati
+ 36.87	240	1	P	1224	        Pseudomonadota
+ 32.26	210	0	C	28216	          Betaproteobacteria
+ 32.26	210	0	O	80840	            Burkholderiales
+ 32.26	210	0	F	119060	              Burkholderiaceae
+ 32.26	210	5	G	32008	                Burkholderia
+ 31.49	205	1	G1	87882	                  Burkholderia cepacia complex
+ 30.72	200	200	S	87883	                    Burkholderia multivorans
+  0.46	3	3	S	179879	                    Burkholderia anthina
+  0.15	1	1	S	60552	                    Burkholderia vietnamiensis
+  4.45	29	0	C	1236	          Gammaproteobacteria
+  4.45	29	0	O	72274	            Pseudomonadales
+  4.45	29	0	F	135621	              Pseudomonadaceae
+  4.45	29	24	G	286	                Pseudomonas
+  0.46	3	0	G1	136841	                  Pseudomonas aeruginosa group
+  0.46	3	3	S	287	                    Pseudomonas aeruginosa
+  0.31	2	0	G1	196821	                  unclassified Pseudomonas
+  0.15	1	1	S	2983246	                    Pseudomonas sp. SO81
+  0.15	1	1	S	2974552	                    Pseudomonas sp. GCEP-101
+  0.77	5	0	K	1783272	      Bacillati
+  0.77	5	0	P	1239	        Bacillota
+  0.77	5	0	C	91061	          Bacilli
+  0.77	5	1	O	186826	            Lactobacillales
+  0.61	4	0	F	1300	              Streptococcaceae
+  0.61	4	1	G	1301	                Streptococcus
+  0.46	3	0	G1	3706788	                  Streptococcus parasanguinis group
+  0.46	3	3	S	1318	                    Streptococcus parasanguinis

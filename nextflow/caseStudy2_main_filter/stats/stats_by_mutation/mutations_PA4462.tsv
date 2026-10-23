@@ -1,0 +1,49 @@
+mutation	term	p.value	p.adj	significant
+PA4462; rpoN →; (C)5→6: coding (232/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; 2 bp→CC: coding (226‑227/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; 2 bp→GG: coding (172‑173/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; 2 bp→GT: coding (795‑796/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; A346T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; A442T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; A66V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; D264E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; D295G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; G248D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; L144P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; L419P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; L419V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; N122S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; P231A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; Q12P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; Q268L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; S253G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; S437P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; S484P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; S71T	Host Body-Site: Organ; Eye	0.0666666666666667	1	FALSE
+PA4462; rpoN →; Y377Q	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; Δ1 bp: coding (959/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; Δ9 bp: coding (416‑424/1494 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA4462; rpoN →; (C)5→6: coding (232/1494 nt)	Infection: Disease; Cystic fibrosis	0.933333333333333	1	FALSE
+PA4462; rpoN →; 2 bp→CC: coding (226‑227/1494 nt)	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; 2 bp→GG: coding (172‑173/1494 nt)	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; 2 bp→GT: coding (795‑796/1494 nt)	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; A346T	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; A442T	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; A66V	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; D264E	Infection: Disease; Cystic fibrosis	0.933333333333333	1	FALSE
+PA4462; rpoN →; D295G	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; G248D	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; L144P	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; L419P	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; L419V	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; N122S	Infection: Disease; Cystic fibrosis	0.933333333333333	1	FALSE
+PA4462; rpoN →; P231A	Infection: Disease; Cystic fibrosis	0.933333333333333	1	FALSE
+PA4462; rpoN →; Q12P	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; Q268L	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; S253G	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; S437P	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; S484P	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; S71T	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA4462; rpoN →; Y377Q	Infection: Disease; Cystic fibrosis	0.933333333333333	1	FALSE
+PA4462; rpoN →; Δ1 bp: coding (959/1494 nt)	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE
+PA4462; rpoN →; Δ9 bp: coding (416‑424/1494 nt)	Infection: Disease; Cystic fibrosis	0.966666666666667	1	FALSE

@@ -1,0 +1,31 @@
+  3.27	29	29	U	0	unclassified
+ 96.73	857	0	R	1	root
+ 96.73	857	0	R1	131567	  cellular organisms
+ 96.73	857	10	D	2	    Bacteria
+ 95.60	847	14	K	3379134	      Pseudomonadati
+ 94.02	833	153	P	1224	        Pseudomonadota
+ 75.73	671	41	C	1236	          Gammaproteobacteria
+ 70.88	628	0	O	72274	            Pseudomonadales
+ 70.88	628	75	F	135621	              Pseudomonadaceae
+ 62.42	553	105	G	286	                Pseudomonas
+ 50.45	447	44	G1	136841	                  Pseudomonas aeruginosa group
+ 45.49	403	403	S	287	                    Pseudomonas aeruginosa
+  0.11	1	0	G1	196821	                  unclassified Pseudomonas
+  0.11	1	1	S	3697904	                    Pseudomonas sp. ABa2
+  0.11	1	0	O	91347	            Enterobacterales
+  0.11	1	0	F	543	              Enterobacteriaceae
+  0.11	1	1	G	570	                Klebsiella
+  0.11	1	0	O	135614	            Lysobacterales
+  0.11	1	0	F	32033	              Lysobacteraceae
+  0.11	1	0	G	2370	                Xylella
+  0.11	1	1	S	2371	                  Xylella fastidiosa
+  1.02	9	0	C	28216	          Betaproteobacteria
+  0.90	8	0	O	206389	            Rhodocyclales
+  0.90	8	0	F	2808923	              Fluviibacteraceae
+  0.90	8	0	G	2808942	                Fluviibacter
+  0.90	8	8	S	1751046	                  Fluviibacter phosphoraccumulans
+  0.11	1	0	O	80840	            Burkholderiales
+  0.11	1	0	F	80864	              Comamonadaceae
+  0.11	1	0	G	34072	                Variovorax
+  0.11	1	0	G1	663243	                  unclassified Variovorax
+  0.11	1	1	S	207745	                    Variovorax sp. WDL1

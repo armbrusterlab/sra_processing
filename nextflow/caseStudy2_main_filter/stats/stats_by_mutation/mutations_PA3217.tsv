@@ -1,0 +1,52 @@
+mutation	term	p.value	p.adj	significant
+PA3217; cyaB →; *464* (TAA→TGA)	Host Body-Site: Organ; Ear	0.300491321672182	1	FALSE
+PA3217; cyaB →; 2 bp→TC: coding (204‑205/1392 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; A395T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; A80V	Host Body-Site: Organ; Ear	0.665196743554953	1	FALSE
+PA3217; cyaB →; E327K	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; E364D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; F69L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; G331S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; G428D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; I382V	Host Body-Site: Organ; Ear	0.216977225672878	1	FALSE
+PA3217; cyaB →; L146R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; M310I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; P150S	Host Body-Site: Organ; Ear	0.531143979126573	1	FALSE
+PA3217; cyaB →; P6S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; Q290H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; V403M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; Δ1 bp: coding (544/1392 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3217; cyaB →; *464* (TAA→TGA)	Host Body-Site: Organ; Eye	0.268024205002522	1	FALSE
+PA3217; cyaB →; 2 bp→TC: coding (204‑205/1392 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; A395T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; A80V	Host Body-Site: Organ; Eye	0.287213067343096	1	FALSE
+PA3217; cyaB →; E327K	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; E364D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; F69L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; G331S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; G428D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; I382V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; L146R	Host Body-Site: Organ; Eye	0.160248447204969	1	FALSE
+PA3217; cyaB →; M310I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; P150S	Host Body-Site: Organ; Eye	0.844728924547224	1	FALSE
+PA3217; cyaB →; P6S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; Q290H	Host Body-Site: Organ; Eye	0.257142857142857	1	FALSE
+PA3217; cyaB →; V403M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; Δ1 bp: coding (544/1392 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3217; cyaB →; *464* (TAA→TGA)	Infection: Disease; Cystic fibrosis	0.950899874974629	1	FALSE
+PA3217; cyaB →; 2 bp→TC: coding (204‑205/1392 nt)	Infection: Disease; Cystic fibrosis	0.391718426501035	1	FALSE
+PA3217; cyaB →; A395T	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; A80V	Infection: Disease; Cystic fibrosis	0.84767029871848	1	FALSE
+PA3217; cyaB →; E327K	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; E364D	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; F69L	Infection: Disease; Cystic fibrosis	0.391718426501035	1	FALSE
+PA3217; cyaB →; G331S	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; G428D	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; I382V	Infection: Disease; Cystic fibrosis	0.865424430641822	1	FALSE
+PA3217; cyaB →; L146R	Infection: Disease; Cystic fibrosis	0.952502740226525	1	FALSE
+PA3217; cyaB →; M310I	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE
+PA3217; cyaB →; P150S	Infection: Disease; Cystic fibrosis	0.605680039699202	1	FALSE
+PA3217; cyaB →; P6S	Infection: Disease; Cystic fibrosis	0.391718426501035	1	FALSE
+PA3217; cyaB →; Q290H	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3217; cyaB →; V403M	Infection: Disease; Cystic fibrosis	0.391718426501035	1	FALSE
+PA3217; cyaB →; Δ1 bp: coding (544/1392 nt)	Infection: Disease; Cystic fibrosis	0.628571428571429	1	FALSE

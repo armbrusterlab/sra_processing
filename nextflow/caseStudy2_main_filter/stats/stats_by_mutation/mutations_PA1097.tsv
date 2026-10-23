@@ -1,0 +1,46 @@
+mutation	term	p.value	p.adj	significant
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Ear	0.746663490770307	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Ear	0.644633318723613	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Ear	0.603431384662583	1	FALSE
+PA1097; fleQ →; A91S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; D489E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; G204R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; K220R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; L252M	Host Body-Site: Organ; Ear	0.644633318723613	1	FALSE
+PA1097; fleQ →; L83P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; M250L	Host Body-Site: Organ; Ear	0.4235341228335	1	FALSE
+PA1097; fleQ →; M254I	Host Body-Site: Organ; Ear	0.644633318723613	1	FALSE
+PA1097; fleQ →; N238D	Host Body-Site: Organ; Ear	0.558109257195449	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Host Body-Site: Organ; Eye	0.0472052748386725	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Host Body-Site: Organ; Eye	0.603431384662583	1	FALSE
+PA1097; fleQ →; A91S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; D489E	Host Body-Site: Organ; Eye	0.0218878248974008	0.984952120383038	FALSE
+PA1097; fleQ →; G204R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; K220R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L252M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; L83P	Host Body-Site: Organ; Eye	0.0930232558139535	1	FALSE
+PA1097; fleQ →; M250L	Host Body-Site: Organ; Eye	0.799490129681217	1	FALSE
+PA1097; fleQ →; M254I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; N238D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (642‑643/1473 nt)	Infection: Disease; Cystic fibrosis	0.660738714090287	1	FALSE
+PA1097; fleQ →; 2 bp→GC: coding (804‑805/1473 nt)	Infection: Disease; Cystic fibrosis	0.813953488372093	1	FALSE
+PA1097; fleQ →; 29 bp→29 bp: coding (679‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.250110818079876	1	FALSE
+PA1097; fleQ →; 30 bp→30 bp: coding (678‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.982810396074991	1	FALSE
+PA1097; fleQ →; 33 bp→33 bp: coding (675‑707/1473 nt)	Infection: Disease; Cystic fibrosis	0.782705376769853	1	FALSE
+PA1097; fleQ →; A91S	Infection: Disease; Cystic fibrosis	0.813953488372093	1	FALSE
+PA1097; fleQ →; D489E	Infection: Disease; Cystic fibrosis	0.99452804377565	1	FALSE
+PA1097; fleQ →; G204R	Infection: Disease; Cystic fibrosis	0.813953488372093	1	FALSE
+PA1097; fleQ →; K220R	Infection: Disease; Cystic fibrosis	0.813953488372093	1	FALSE
+PA1097; fleQ →; L252M	Infection: Disease; Cystic fibrosis	0.405897701631236	1	FALSE
+PA1097; fleQ →; L83P	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA1097; fleQ →; M250L	Infection: Disease; Cystic fibrosis	0.710025516344654	1	FALSE
+PA1097; fleQ →; M254I	Infection: Disease; Cystic fibrosis	0.405897701631236	1	FALSE
+PA1097; fleQ →; N238D	Infection: Disease; Cystic fibrosis	0.539399791984331	1	FALSE
+PA1097; fleQ →; Δ99 bp: coding (1358‑1456/1473 nt)	Infection: Disease; Cystic fibrosis	0.813953488372093	1	FALSE

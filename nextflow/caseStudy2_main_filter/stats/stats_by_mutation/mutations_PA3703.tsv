@@ -1,0 +1,49 @@
+mutation	term	p.value	p.adj	significant
+PA3703; wspF →; 2 bp→TC: coding (788‑789/1008 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; 4 bp→20 bp: coding (786‑789/1008 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; A146T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; A200T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; A327S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; D315N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; D335G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; D335N	Host Body-Site: Organ; Ear	0.655241935483871	1	FALSE
+PA3703; wspF →; G277C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; I217M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; M1V	Host Body-Site: Organ; Ear	0.237903225806452	1	FALSE
+PA3703; wspF →; P215L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; Q132* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; R211C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; V139I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; Δ45 bp: coding (848‑892/1008 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3703; wspF →; 2 bp→TC: coding (788‑789/1008 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; 4 bp→20 bp: coding (786‑789/1008 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; A146T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; A200T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; A327S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; D315N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; D335G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; D335N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; G277C	Host Body-Site: Organ; Eye	0.03125	1	FALSE
+PA3703; wspF →; I217M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; M1V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; P215L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; Q132* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; R211C	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; V139I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; Δ45 bp: coding (848‑892/1008 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA3703; wspF →; 2 bp→TC: coding (788‑789/1008 nt)	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; 4 bp→20 bp: coding (786‑789/1008 nt)	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; A146T	Infection: Disease; Cystic fibrosis	0.818548387096774	1	FALSE
+PA3703; wspF →; A200T	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; A327S	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; D315N	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; D335G	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; D335N	Infection: Disease; Cystic fibrosis	0.643548387096774	1	FALSE
+PA3703; wspF →; G277C	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3703; wspF →; I217M	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; M1V	Infection: Disease; Cystic fibrosis	0.965322580645161	1	FALSE
+PA3703; wspF →; P215L	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; Q132* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; R211C	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; V139I	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE
+PA3703; wspF →; Δ45 bp: coding (848‑892/1008 nt)	Infection: Disease; Cystic fibrosis	0.90625	1	FALSE

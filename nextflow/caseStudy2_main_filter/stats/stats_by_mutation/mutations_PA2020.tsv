@@ -1,0 +1,178 @@
+mutation	term	p.value	p.adj	significant
+PA2020; N_A →; (ACAAGA)1→2: coding (160/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; (CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; +A: coding (80/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; +C: coding (364/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; +G: coding (601/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; +T: coding (601/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; 2 bp→GA: coding (413‑414/633 nt)	Host Body-Site: Organ; Ear	0.179720261049981	1	FALSE
+PA2020; N_A →; 2 bp→TA: coding (585‑586/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A159G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A194P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A38T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A41D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A66T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; A77P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; C113R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; C63G	Host Body-Site: Organ; Ear	0.0909090909090909	1	FALSE
+PA2020; N_A →; E57* (GAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; F92S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; G100V	Host Body-Site: Organ; Ear	0.0909090909090909	1	FALSE
+PA2020; N_A →; G89S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; H51R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; I141N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; K11* (AAA→TAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; L128M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; L174Q	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; L205P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; N186S	Host Body-Site: Organ; Ear	0.549021030142251	1	FALSE
+PA2020; N_A →; P203S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Q103R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Q132* (CAG→TAG)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Q164* (CAA→TAA)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; R45H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; R65S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; T12N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; T31N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; V48A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; W185* (TGG→TAG)	Host Body-Site: Organ; Ear	0.0909090909090909	1	FALSE
+PA2020; N_A →; Y162S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Y49C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Y52D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (101/633 nt)	Host Body-Site: Organ; Ear	0.0909090909090909	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (227/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (342/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (408/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (89/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (559‑568/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (61‑70/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (119‑129/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (184‑194/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (208‑218/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (293‑303/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ12 bp: coding (386‑397/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ13 bp: coding (578‑590/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ14 bp: coding (334‑347/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ3 bp: coding (196‑198/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ35 bp: coding (324‑358/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ7 bp: coding (506‑512/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ8 bp: coding (529‑536/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; Δ9 bp: coding (215‑223/633 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2020; N_A →; (ACAAGA)1→2: coding (160/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; (CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; +A: coding (80/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; +C: coding (364/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; +G: coding (601/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; +T: coding (601/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; 2 bp→GA: coding (413‑414/633 nt)	Host Body-Site: Organ; Eye	0.128067552332099	1	FALSE
+PA2020; N_A →; 2 bp→TA: coding (585‑586/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A159G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A194P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A38T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A41D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A66T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; A77P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; C113R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; C63G	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; E57* (GAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; F92S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; G100V	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; G89S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; H51R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; I141N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; K11* (AAA→TAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; L128M	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; L174Q	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; L205P	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; N186S	Host Body-Site: Organ; Eye	0.499598677281128	1	FALSE
+PA2020; N_A →; P203S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Q103R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Q132* (CAG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Q164* (CAA→TAA)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; R45H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; R65S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; T12N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; T31N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; V48A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; W185* (TGG→TAG)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Y162S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Y49C	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Y52D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (101/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (227/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (342/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (408/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (89/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (559‑568/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (61‑70/633 nt)	Host Body-Site: Organ; Eye	0.0795454545454546	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (119‑129/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (184‑194/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (208‑218/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (293‑303/633 nt)	Host Body-Site: Organ; Eye	0.0795454545454546	1	FALSE
+PA2020; N_A →; Δ12 bp: coding (386‑397/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ13 bp: coding (578‑590/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ14 bp: coding (334‑347/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ3 bp: coding (196‑198/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ35 bp: coding (324‑358/633 nt)	Host Body-Site: Organ; Eye	0.0795454545454546	1	FALSE
+PA2020; N_A →; Δ7 bp: coding (506‑512/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ8 bp: coding (529‑536/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; Δ9 bp: coding (215‑223/633 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2020; N_A →; (ACAAGA)1→2: coding (160/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; (CGCGGCGAACTGCCGG)1→2: coding (454/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; +A: coding (80/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; +C: coding (364/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; +G: coding (601/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; +T: coding (601/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; 2 bp→GA: coding (413‑414/633 nt)	Infection: Disease; Cystic fibrosis	0.992342316423602	1	FALSE
+PA2020; N_A →; 2 bp→TA: coding (585‑586/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A159G	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A194P	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A38T	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A41D	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A66T	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; A77P	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; C113R	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; C63G	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; E57* (GAG→TAG)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; F92S	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; G100V	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; G89S	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; H51R	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; I141N	Infection: Disease; Cystic fibrosis	0.566778450098418	1	FALSE
+PA2020; N_A →; K11* (AAA→TAA)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; L128M	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; L174Q	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; L205P	Infection: Disease; Cystic fibrosis	0.686520376175549	1	FALSE
+PA2020; N_A →; N186S	Infection: Disease; Cystic fibrosis	0.867442879482589	1	FALSE
+PA2020; N_A →; P203S	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Q103R	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Q132* (CAG→TAG)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Q164* (CAA→TAA)	Infection: Disease; Cystic fibrosis	0.686520376175549	1	FALSE
+PA2020; N_A →; R45H	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; R65S	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; T12N	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; T31N	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; V48A	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; W185* (TGG→TAG)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; Y162S	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Y49C	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Y52D	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (101/633 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (227/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (342/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (408/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ1 bp: coding (89/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (559‑568/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ10 bp: coding (61‑70/633 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (119‑129/633 nt)	Infection: Disease; Cystic fibrosis	0.566778450098418	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (184‑194/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (208‑218/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ11 bp: coding (293‑303/633 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; Δ12 bp: coding (386‑397/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ13 bp: coding (578‑590/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ14 bp: coding (334‑347/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ3 bp: coding (196‑198/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ35 bp: coding (324‑358/633 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2020; N_A →; Δ7 bp: coding (506‑512/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ8 bp: coding (529‑536/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE
+PA2020; N_A →; Δ9 bp: coding (215‑223/633 nt)	Infection: Disease; Cystic fibrosis	0.829545454545455	1	FALSE

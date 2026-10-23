@@ -1,0 +1,22 @@
+mutation	term	p.value	p.adj	significant
+PA2491; N_A →; D249N	Host Body-Site: Organ; Ear	0.614254275803502	1	FALSE
+PA2491; N_A →; E286D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2491; N_A →; G331A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2491; N_A →; M271I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2491; N_A →; M279R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2491; N_A →; V308I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA2491; N_A →; V318I	Host Body-Site: Organ; Ear	0.162790697674418	1	FALSE
+PA2491; N_A →; D249N	Host Body-Site: Organ; Eye	0.491681249036049	1	FALSE
+PA2491; N_A →; E286D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; G331A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; M271I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; M279R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; V308I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; V318I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA2491; N_A →; D249N	Infection: Disease; Cystic fibrosis	0.904874718441147	1	FALSE
+PA2491; N_A →; E286D	Infection: Disease; Cystic fibrosis	0.755813953488372	1	FALSE
+PA2491; N_A →; G331A	Infection: Disease; Cystic fibrosis	0.426812585499316	1	FALSE
+PA2491; N_A →; M271I	Infection: Disease; Cystic fibrosis	0.755813953488372	1	FALSE
+PA2491; N_A →; M279R	Infection: Disease; Cystic fibrosis	0.755813953488372	1	FALSE
+PA2491; N_A →; V308I	Infection: Disease; Cystic fibrosis	0.755813953488372	1	FALSE
+PA2491; N_A →; V318I	Infection: Disease; Cystic fibrosis	1	1	FALSE

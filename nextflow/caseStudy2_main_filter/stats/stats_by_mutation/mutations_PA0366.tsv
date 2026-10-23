@@ -1,0 +1,88 @@
+mutation	term	p.value	p.adj	significant
+PA0366; N_A →; (C)7→6: coding (1383/1431 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; (C)7→9: coding (1383/1431 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; 2 bp→AA: coding (925‑926/1431 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; 2 bp→CC: coding (870‑871/1431 nt)	Host Body-Site: Organ; Ear	0.741897595926074	1	FALSE
+PA0366; N_A →; A371T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; A390T	Host Body-Site: Organ; Ear	0.170212765957447	1	FALSE
+PA0366; N_A →; A57T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; D167N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; D388N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; D49E	Host Body-Site: Organ; Ear	0.318345951059466	1	FALSE
+PA0366; N_A →; E281D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; E317A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; G306A	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; G329S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; G85D	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; K98R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; P324L	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; Q278R	Host Body-Site: Organ; Ear	0.312971859986273	1	FALSE
+PA0366; N_A →; Q393R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; Q42E	Host Body-Site: Organ; Ear	0.133090626958312	1	FALSE
+PA0366; N_A →; Q56K	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; R270Q	Host Body-Site: Organ; Ear	0.170212765957447	1	FALSE
+PA0366; N_A →; R271H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; R309Q	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; R365H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; R64Q	Host Body-Site: Organ; Ear	0.343222632776416	1	FALSE
+PA0366; N_A →; V234I	Host Body-Site: Organ; Ear	0.86082510585551	1	FALSE
+PA0366; N_A →; V342I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; W43C	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0366; N_A →; (C)7→6: coding (1383/1431 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; (C)7→9: coding (1383/1431 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; 2 bp→AA: coding (925‑926/1431 nt)	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; 2 bp→CC: coding (870‑871/1431 nt)	Host Body-Site: Organ; Eye	0.689648555223133	1	FALSE
+PA0366; N_A →; A371T	Host Body-Site: Organ; Eye	0.148936170212766	1	FALSE
+PA0366; N_A →; A390T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; A57T	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; D167N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; D388N	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; D49E	Host Body-Site: Organ; Eye	0.485785205848058	1	FALSE
+PA0366; N_A →; E281D	Host Body-Site: Organ; Eye	0.277053305879661	1	FALSE
+PA0366; N_A →; E317A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; G306A	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; G329S	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; G85D	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; K98R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; P324L	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; Q278R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; Q393R	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; Q42E	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; Q56K	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; R270Q	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; R271H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; R309Q	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; R365H	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; R64Q	Host Body-Site: Organ; Eye	0.0234159807403004	1	FALSE
+PA0366; N_A →; V234I	Host Body-Site: Organ; Eye	0.817891235819217	1	FALSE
+PA0366; N_A →; V342I	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; W43C	Host Body-Site: Organ; Eye	1	1	FALSE
+PA0366; N_A →; (C)7→6: coding (1383/1431 nt)	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; (C)7→9: coding (1383/1431 nt)	Infection: Disease; Cystic fibrosis	0.461221688400824	1	FALSE
+PA0366; N_A →; 2 bp→AA: coding (925‑926/1431 nt)	Infection: Disease; Cystic fibrosis	0.461221688400824	1	FALSE
+PA0366; N_A →; 2 bp→CC: coding (870‑871/1431 nt)	Infection: Disease; Cystic fibrosis	0.604453867080025	1	FALSE
+PA0366; N_A →; A371T	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0366; N_A →; A390T	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0366; N_A →; A57T	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; D167N	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; D388N	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; D49E	Infection: Disease; Cystic fibrosis	0.882213126082316	1	FALSE
+PA0366; N_A →; E281D	Infection: Disease; Cystic fibrosis	0.900480439258751	1	FALSE
+PA0366; N_A →; E317A	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; G306A	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; G329S	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; G85D	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; K98R	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; P324L	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; Q278R	Infection: Disease; Cystic fibrosis	0.900480439258751	1	FALSE
+PA0366; N_A →; Q393R	Infection: Disease; Cystic fibrosis	0.310823311748382	1	FALSE
+PA0366; N_A →; Q42E	Infection: Disease; Cystic fibrosis	0.905805900703099	1	FALSE
+PA0366; N_A →; Q56K	Infection: Disease; Cystic fibrosis	0.208354088095069	1	FALSE
+PA0366; N_A →; R270Q	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA0366; N_A →; R271H	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; R309Q	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; R365H	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; R64Q	Infection: Disease; Cystic fibrosis	0.995363135664526	1	FALSE
+PA0366; N_A →; V234I	Infection: Disease; Cystic fibrosis	0.321091717226889	1	FALSE
+PA0366; N_A →; V342I	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE
+PA0366; N_A →; W43C	Infection: Disease; Cystic fibrosis	0.680851063829787	1	FALSE

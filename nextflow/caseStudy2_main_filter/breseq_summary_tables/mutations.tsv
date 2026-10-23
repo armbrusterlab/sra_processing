@@ -1,0 +1,1404 @@
+evidence	seq_id	position	mutation	freq	annotation	gene	description	evidence_file	source
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_23.html	DRR514233
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	DRR514233
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_191.html	DRR514233
+RA	PA2020	1,454	G→A	100%	W185* (TGG→TAG)	N_A →	transcriptional regulator	evidence/RA_195.html	DRR514233
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_196.html	DRR514233
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_212.html	DRR514233
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_239.html	DRR514233
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_245.html	DRR514233
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_261.html	DRR514233
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_317.html	DRR514233
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_390.html	DRR514233
+RA	PA0763	1,187	C→T	100%	T96I (ACC→ATC)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_98.html	ERR10011719
+RA	PA0763	1,204	G→C	100%	G102R (GGC→CGC)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_99.html	ERR10011719
+RA	PA1713	1,442	A→C	100%	Y181S (TAC→TCC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_170.html	ERR10011719
+RA	PA2020	1,385	A→C	100%	Y162S (TAT→TCT)	N_A →	transcriptional regulator	evidence/RA_204.html	ERR10011719
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_213.html	ERR10011719
+RA	PA2492	1,921	A→T	48.4%	I341F (ATC→TTC)	mexT →	transcriptional regulator MexT	evidence/RA_224.html	ERR10011719
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_249.html	ERR10011719
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_262.html	ERR10011719
+MC JC	PA3703	1,686	4 bp→20 bp	100%	coding (786‑789/1008 nt)	wspF →	chemotaxis‑specific methylesterase	evidence/MC_PLOT_904.html	ERR10011719
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_320.html	ERR10011719
+RA	PA4462	1,097	C→T	100%	A66V (GCC→GTC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_370.html	ERR10011719
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_15.html	ERR10818797
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	ERR10818797
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_183.html	ERR10818797
+RA	PA2491	1,852	G→A	100%	V318I (GTC→ATC)	N_A →	oxidoreductase	evidence/RA_185.html	ERR10818797
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_212.html	ERR10818797
+RA	PA3565	1,775	A→G	100%	E292G (GAG→GGG)	N_A →	transcriptional regulator	evidence/RA_251.html	ERR10818797
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_301.html	ERR10818797
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_361.html	ERR10818797
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_363.html	ERR10818797
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_364.html	ERR10818797
+JC	PA0313	1,383	Δ9 bp	100%	coding (483‑491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_505.html	ERR12131212
+JC	PA0425	1,190	(CGACCCCGC)1→2	100%	coding (290/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/JC_506.html	ERR12131212
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_43.html	ERR12131212
+JC	PA0763	1,329	(AGGGG)1→2	100%	coding (429/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/JC_509.html	ERR12131212
+RA	PA1777	1,255	C→T	100%	Q119* (CAG→TAG)	oprF →	outer membrane porin F	evidence/RA_96.html	ERR12131212
+RA	PA2020	1,034	G→A	100%	R45H (CGC→CAC)	N_A →	transcriptional regulator	evidence/RA_103.html	ERR12131212
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_109.html	ERR12131212
+RA	PA3217	2,107	G→A	100%	V403M (GTG→ATG)	cyaB →	protein CyaB	evidence/RA_123.html	ERR12131212
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_131.html	ERR12131212
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_143.html	ERR12131212
+RA	PA3841	2,144	A→T	100%	Q415L (CAG→CTG)	exoS →	exoenzyme S	evidence/RA_160.html	ERR12131212
+RA	PA3841	2,201	G→C	100%	R434P (CGT→CCT)	exoS →	exoenzyme S	evidence/RA_161.html	ERR12131212
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_195.html	ERR12131212
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_197.html	ERR12131212
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_207.html	ERR12131212
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_210.html	ERR12131212
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	ERR12131212
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_220.html	ERR12131212
+RA	PA4848	1,283	T→C	100%	V128A (GTC→GCC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_230.html	ERR12131212
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_22.html	ERR13863800
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_183.html	ERR13863800
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_203.html	ERR13863800
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_235.html	ERR13863800
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_246.html	ERR13863800
+RA	PA3565	1,538	C→G	100%	T213S (ACC→AGC)	N_A →	transcriptional regulator	evidence/RA_270.html	ERR13863800
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_322.html	ERR13863800
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_397.html	ERR13863800
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_399.html	ERR13863800
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_400.html	ERR13863800
+RA	PA0366	1,850	A→C	100%	E317A (GAG→GCG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_18.html	ERR14732654
+MC JC	PA2020	1,096	Δ3 bp	100%	coding (196‑198/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_553.html	ERR14732654
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_118.html	ERR14732654
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_137.html	ERR14732654
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_175.html	ERR14732654
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_183.html	ERR14732654
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_221.html	ERR14732654
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_222.html	ERR14732654
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_233.html	ERR14732654
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_236.html	ERR14732654
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_247.html	ERR14732654
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_248.html	ERR14732654
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_249.html	ERR14732654
+RA	PA4848	1,210	G→T	100%	G104C (GGC→TGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_257.html	ERR14732654
+RA	PA0313	930	G→A	100%	W10* (TGG→TGA)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	ERR1538268
+RA	PA0425	1,429	Δ1 bp	100%	coding (529/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/RA_24.html	ERR1538268
+RA	PA0506	1,612	A→G	9.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_36.html	ERR1538268
+RA	PA0652	1,454	G→A	100%	R185Q (CGG→CAG)	vfr →	cAMP‑regulatory protein	evidence/RA_43.html	ERR1538268
+JC	PA1097	1,575	33 bp→33 bp	30.3%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_608.html	ERR1538268
+JC	PA1097	1,579	29 bp→29 bp	35.3%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_609.html	ERR1538268
+RA	PA1097	1,612	A→G	13.5%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_78.html	ERR1538268
+RA	PA1097	1,648	A→C	28.9%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_79.html	ERR1538268
+RA	PA1097	1,654	C→A	22.1%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_80.html	ERR1538268
+RA	PA1097	1,662	G→C	20.7%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_81.html	ERR1538268
+JC	PA1713	1,055	(GCCTGGC)1→2	94.1%	coding (155/837 nt)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/JC_610.html	ERR1538268
+RA	PA2020	935	C→A	100%	T12N (ACC→AAC)	N_A →	transcriptional regulator	evidence/RA_132.html	ERR1538268
+RA	PA2492	1,901	G→A	100%	R334H (CGC→CAC)	mexT →	transcriptional regulator MexT	evidence/RA_157.html	ERR1538268
+RA	PA3217	1,992	A→T	100%	E364D (GAA→GAT)	cyaB →	protein CyaB	evidence/RA_171.html	ERR1538268
+RA	PA3565	1,412	G→C	100%	G171A (GGC→GCC)	N_A →	transcriptional regulator	evidence/RA_181.html	ERR1538268
+RA	PA3565	1,639	G→A	100%	A247T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_187.html	ERR1538268
+RA	PA3565	1,655	C→T	100%	A252V (GCC→GTC)	N_A →	transcriptional regulator	evidence/RA_189.html	ERR1538268
+RA	PA3574	932	C→A	100%	T11N (ACC→AAC)	nalD →	transcriptional regulator	evidence/RA_198.html	ERR1538268
+RA	PA3841	1,169	C→T	100%	A90V (GCG→GTG)	exoS →	exoenzyme S	evidence/RA_211.html	ERR1538268
+MC JC	PA4462	1,316	Δ9 bp	100%	coding (416‑424/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/MC_PLOT_602.html	ERR1538268
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_268.html	ERR1538268
+RA	PA0366	1,066	C→A	100%	Q56K (CAG→AAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	ERR16138758
+RA	PA0366	1,826	G→A	100%	R309Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_32.html	ERR16138758
+RA	PA1777	1,177	A→G	100%	T93A (ACC→GCC)	oprF →	outer membrane porin F	evidence/RA_222.html	ERR16138758
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_247.html	ERR16138758
+RA	PA2020	1,485	2 bp→TA	100%	coding (585‑586/633 nt)	N_A →	transcriptional regulator	evidence/RA_251.html	ERR16138758
+RA	PA3565	1,265	G→A	100%	S122N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_327.html	ERR16138758
+RA	PA3565	1,427	G→A	100%	R176H (CGC→CAC)	N_A →	transcriptional regulator	evidence/RA_331.html	ERR16138758
+RA	PA3817	1,091	A→G	100%	D64G (GAC→GGC)	N_A →	methyltransferase	evidence/RA_384.html	ERR16138758
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_385.html	ERR16138758
+RA	PA3841	1,606	G→A	100%	A236T (GCG→ACG)	exoS →	exoenzyme S	evidence/RA_409.html	ERR16138758
+RA	PA3841	1,900	A→C	100%	K334Q (AAG→CAG)	exoS →	exoenzyme S	evidence/RA_410.html	ERR16138758
+RA	PA3841	1,915	G→A	100%	D339N (GAC→AAC)	exoS →	exoenzyme S	evidence/RA_411.html	ERR16138758
+RA	PA3841	2,015	G→A	100%	G372E (GGG→GAG)	exoS →	exoenzyme S	evidence/RA_413.html	ERR16138758
+RA	PA4462	1,692	C→G	100%	D264E (GAC→GAG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_443.html	ERR16138758
+RA	PA4522	928	G→A	100%	V10I (GTC→ATC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_470.html	ERR16138758
+RA	PA4522	1,154	C→G	100%	A85G (GCC→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_474.html	ERR16138758
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_477.html	ERR16138758
+RA	PA4522	1,409	A→G	100%	E170G (GAG→GGG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_478.html	ERR16138758
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_496.html	ERR16138758
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_498.html	ERR16138758
+RA	PA0366	1,066	C→A	100%	Q56K (CAG→AAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_22.html	ERR16741959
+RA	PA1777	1,177	A→G	100%	T93A (ACC→GCC)	oprF →	outer membrane porin F	evidence/RA_134.html	ERR16741959
+RA	PA3817	1,091	A→G	100%	D64G (GAC→GGC)	N_A →	methyltransferase	evidence/RA_233.html	ERR16741959
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_234.html	ERR16741959
+RA	PA4462	1,692	C→G	100%	D264E (GAC→GAG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_270.html	ERR16741959
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_285.html	ERR16741959
+RA	PA4522	1,409	A→G	100%	E170G (GAG→GGG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_286.html	ERR16741959
+RA	PA0313	1,421	C→T	100%	S174F (TCC→TTC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	ERR2286130
+RA	PA0425	1,913	T→C	100%	L338P (CTG→CCG)	mexA →	multidrug resistance protein MexA	evidence/RA_19.html	ERR2286130
+RA	PA1713	1,457	A→G	100%	K186R (AAG→AGG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_68.html	ERR2286130
+RA	PA2020	1,480	G→C	100%	A194P (GCC→CCC)	N_A →	transcriptional regulator	evidence/RA_82.html	ERR2286130
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_87.html	ERR2286130
+RA	PA3217	2,183	G→A	100%	G428D (GGC→GAC)	cyaB →	protein CyaB	evidence/RA_101.html	ERR2286130
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_114.html	ERR2286130
+RA	PA4462	1,132:1	(C)5→6	100%	coding (232/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_127.html	ERR2286130
+RA	PA4522	932	G→T	100%	R11L (CGT→CTT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_140.html	ERR2286130
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_143.html	ERR2286130
+RA	PA4848	1,577	G→A	100%	G226D (GGC→GAC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_152.html	ERR2286130
+RA	PA0425	1,216	Δ1 bp	100%	coding (316/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/RA_11.html	ERR2322198
+RA	PA0506	1,591	A→C	7.3%	I231L (ATC→CTC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_19.html	ERR2322198
+RA	PA0506	1,593	C→G	7.5%	I231M (ATC→ATG) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_20.html	ERR2322198
+RA	PA0506	1,612	A→G	19.3%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_22.html	ERR2322198
+RA	PA0506	1,715	C→G	25.6%	A272G (GCC→GGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_23.html	ERR2322198
+RA	PA0506	1,756	A→G	41.5%	N286D (AAC→GAC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_26.html	ERR2322198
+RA	PA0506	1,758	C→A	42.6%	N286K (AAC→AAA) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_27.html	ERR2322198
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_165.html	ERR2322198
+RA	PA3841	1,566	A→C	11.8%	Q222H (CAA→CAC)	exoS →	exoenzyme S	evidence/RA_183.html	ERR2322198
+JC	PA3841	1,584	15 bp→15 bp	17.5%	coding (684‑698/1362 nt)	exoS →	exoenzyme S	evidence/JC_573.html	ERR2322198
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_220.html	ERR2322198
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_236.html	ERR2322198
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_253.html	ERR2322198
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_254.html	ERR2322198
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_255.html	ERR2322198
+RA	PA0366	2,062	G→A	100%	D388N (GAC→AAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_16.html	ERR233209
+RA	PA0425	1,621:1	+TG	100%	coding (721/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/RA_23.html	ERR233209
+RA	PA0425	2,019	C→G	100%	D373E (GAC→GAG)	mexA →	multidrug resistance protein MexA	evidence/RA_25.html	ERR233209
+RA	PA0506	1,612	A→G	9.0%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	ERR233209
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_60.html	ERR233209
+JC	PA1097	1,575	33 bp→33 bp	14.9%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_570.html	ERR233209
+JC	PA1097	1,579	29 bp→29 bp	19.8%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_571.html	ERR233209
+RA	PA1097	1,612	A→G	7.2%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_72.html	ERR233209
+RA	PA2020	1,514	T→C	100%	L205P (CTG→CCG)	N_A →	transcriptional regulator	evidence/RA_128.html	ERR233209
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_131.html	ERR233209
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_160.html	ERR233209
+RA	PA4462	2,156	T→C	100%	L419P (CTG→CCG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_204.html	ERR233209
+RA	PA4522	932	G→T	100%	R11L (CGT→CTT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_220.html	ERR233209
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_223.html	ERR233209
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_224.html	ERR233209
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_238.html	ERR233209
+RA	PA0313	1,444	A→G	100%	M182V (ATG→GTG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_3.html	ERR246336
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	ERR246336
+RA	PA0506	1,612	A→G	9.6%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	ERR246336
+JC	PA1097	1,575	33 bp→33 bp	27.0%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_522.html	ERR246336
+JC	PA1097	1,578	30 bp→30 bp	29.6%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_523.html	ERR246336
+JC	PA1097	1,579	29 bp→29 bp	19.1%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_524.html	ERR246336
+RA	PA1097	1,612	A→G	10.2%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_76.html	ERR246336
+RA	PA1097	1,648	A→C	24.7%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_78.html	ERR246336
+RA	PA1097	1,654	C→A	19.9%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_79.html	ERR246336
+RA	PA1097	1,662	G→C	19.4%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_80.html	ERR246336
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_123.html	ERR246336
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_155.html	ERR246336
+RA	PA4462	1,784	A→G	100%	D295G (GAC→GGC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_170.html	ERR246336
+RA	PA4522	1,032	G→C	100%	Q44H (CAG→CAC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_195.html	ERR246336
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_197.html	ERR246336
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_210.html	ERR246336
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_213.html	ERR246336
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_231.html	ERR246336
+RA	PA4848	1,462	G→A	100%	E188K (GAG→AAG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_240.html	ERR246336
+RA	PA0313	1,379	C→T	100%	S160L (TCG→TTG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_8.html	ERR3611294
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_14.html	ERR3611294
+RA	PA0425	1,447	C→T	100%	Q183* (CAG→TAG)	mexA →	multidrug resistance protein MexA	evidence/RA_38.html	ERR3611294
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_47.html	ERR3611294
+RA	PA0763	911	A→G	100%	E4G (GAA→GGA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_62.html	ERR3611294
+JC	PA1097	1,578	30 bp→30 bp	17.9%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_558.html	ERR3611294
+JC	PA1097	1,579	29 bp→29 bp	39.2%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_559.html	ERR3611294
+RA	PA1097	1,648	A→C	34.8%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_74.html	ERR3611294
+RA	PA1097	1,654	C→A	29.1%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_75.html	ERR3611294
+RA	PA1097	1,662	G→C	28.3%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_76.html	ERR3611294
+RA	PA1713	1,595	G→A	100%	S232N (AGC→AAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_102.html	ERR3611294
+RA	PA2020	1,322	T→A	100%	I141N (ATC→AAC)	N_A →	transcriptional regulator	evidence/RA_113.html	ERR3611294
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_117.html	ERR3611294
+RA	PA2491	1,892	G→C	100%	G331A (GGC→GCC)	N_A →	oxidoreductase	evidence/RA_121.html	ERR3611294
+RA	PA3565	1,639	G→A	100%	A247T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_140.html	ERR3611294
+RA	PA3565	1,655	C→T	100%	A252V (GCC→GTC)	N_A →	transcriptional regulator	evidence/RA_142.html	ERR3611294
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_170.html	ERR3611294
+RA	PA3841	1,145	C→T	100%	T82I (ACC→ATC)	exoS →	exoenzyme S	evidence/RA_181.html	ERR3611294
+RA	PA3841	2,116	G→A	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_183.html	ERR3611294
+RA	PA3841	2,118	C→T	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_184.html	ERR3611294
+RA	PA4522	1,025	Δ1 bp	100%	coding (125/567 nt)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_213.html	ERR3611294
+RA	PA4526	975	2 bp→TC	100%	coding (75‑76/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_232.html	ERR3611294
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_234.html	ERR3611294
+RA	PA4526	1,892	G→T	100%	G331V (GGC→GTC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_242.html	ERR3611294
+RA	PA4848	1,528	G→A	100%	V210M (GTG→ATG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_265.html	ERR3611294
+RA	PA0366	1,069	G→A	100%	A57T (GCA→ACA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_15.html	ERR431140
+RA	PA0506	1,612	A→G	11.4%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_29.html	ERR431140
+JC	PA1097	1,579	29 bp→29 bp	28.2%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_482.html	ERR431140
+RA	PA1097	1,648	A→C	13.3%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_55.html	ERR431140
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_88.html	ERR431140
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_126.html	ERR431140
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_132.html	ERR431140
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_179.html	ERR431140
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_180.html	ERR431140
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_192.html	ERR431140
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_195.html	ERR431140
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_215.html	ERR431140
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_216.html	ERR431140
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_217.html	ERR431140
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_20.html	ERR431534
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_41.html	ERR431534
+JC	PA1097	1,578	30 bp→30 bp	14.1%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_1113.html	ERR431534
+JC	PA1097	1,579	29 bp→29 bp	13.3%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_1114.html	ERR431534
+RA	PA1097	1,648	A→C	15.7%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_155.html	ERR431534
+RA	PA1097	1,654	C→A	12.1%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_156.html	ERR431534
+RA	PA1097	1,662	G→C	11.8%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_157.html	ERR431534
+RA	PA1097	2,367	T→G	100%	D489E (GAT→GAG)	fleQ →	transcriptional regulator FleQ	evidence/RA_166.html	ERR431534
+RA	PA2020	1,308	Δ1 bp	100%	coding (408/633 nt)	N_A →	transcriptional regulator	evidence/RA_241.html	ERR431534
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_253.html	ERR431534
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_304.html	ERR431534
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_315.html	ERR431534
+RA	PA3703	1,904	A→G	100%	D335G (GAT→GGT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_397.html	ERR431534
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_415.html	ERR431534
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_478.html	ERR431534
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_495.html	ERR431534
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_512.html	ERR431534
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_513.html	ERR431534
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_514.html	ERR431534
+RA	PA0506	1,612	A→G	10.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_21.html	ERR445120
+JC	PA1097	1,575	33 bp→33 bp	19.6%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_437.html	ERR445120
+JC	PA1097	1,579	29 bp→29 bp	19.7%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_438.html	ERR445120
+RA	PA1097	1,612	A→G	10.3%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_51.html	ERR445120
+RA	PA1097	1,648	A→C	14.8%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_52.html	ERR445120
+RA	PA1097	1,654	C→A	5.8%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_53.html	ERR445120
+RA	PA1097	1,662	G→C	5.1%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_54.html	ERR445120
+RA	PA1713	1,211	A→G	100%	E104G (GAG→GGG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_81.html	ERR445120
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_95.html	ERR445120
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_110.html	ERR445120
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_129.html	ERR445120
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_163.html	ERR445120
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_164.html	ERR445120
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_177.html	ERR445120
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_201.html	ERR445120
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_202.html	ERR445120
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_203.html	ERR445120
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	ERR6004007
+MC JC	PA2020	1,478	Δ13 bp	100%	coding (578‑590/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_864.html	ERR6004007
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_186.html	ERR6004007
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_214.html	ERR6004007
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_226.html	ERR6004007
+MC JC	PA3574	1,351	Δ13 bp	100%	coding (451‑463/639 nt)	nalD →	transcriptional regulator	evidence/MC_PLOT_869.html	ERR6004007
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_301.html	ERR6004007
+RA	PA4522	1,106	T→C	100%	I69T (ATC→ACC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_351.html	ERR6004007
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_352.html	ERR6004007
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_368.html	ERR6004007
+RA	PA0506	1,612	A→G	14.8%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	ERR705716
+JC	PA1097	1,575	33 bp→33 bp	21.1%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_572.html	ERR705716
+JC	PA1097	1,578	30 bp→30 bp	19.0%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_573.html	ERR705716
+JC	PA1097	1,579	29 bp→29 bp	24.7%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_574.html	ERR705716
+RA	PA1097	1,612	A→G	8.5%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_52.html	ERR705716
+RA	PA1097	1,648	A→C	18.5%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_53.html	ERR705716
+RA	PA3565	1,025	G→A	100%	S42N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_137.html	ERR705716
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_163.html	ERR705716
+RA	PA3841	1,669	C→G	100%	P257A (CCT→GCT)	exoS →	exoenzyme S	evidence/RA_183.html	ERR705716
+RA	PA4462	1,591	C→G	100%	P231A (CCC→GCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_200.html	ERR705716
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_222.html	ERR705716
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_253.html	ERR705716
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_254.html	ERR705716
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_255.html	ERR705716
+RA	PA1097	1,559	A→G	6.7%	K220R (AAG→AGG)	fleQ →	transcriptional regulator FleQ	evidence/RA_56.html	ERR705903
+JC	PA1097	1,575	33 bp→33 bp	33.4%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_532.html	ERR705903
+JC	PA1097	1,579	29 bp→29 bp	18.7%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_533.html	ERR705903
+RA	PA1097	1,612	A→G	18.1%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_61.html	ERR705903
+RA	PA1097	1,648	A→C	19.7%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_62.html	ERR705903
+RA	PA1430	970	C→T	100%	Q24* (CAG→TAG)	lasR →	transcriptional regulator LasR	evidence/RA_81.html	ERR705903
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_103.html	ERR705903
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_140.html	ERR705903
+RA	PA4522	932	G→T	100%	R11L (CGT→CTT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_197.html	ERR705903
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_200.html	ERR705903
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_202.html	ERR705903
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_233.html	ERR705903
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_234.html	ERR705903
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_235.html	ERR705903
+JC	PA0313	1,423	(TGATCTCCG)1→2	92.4%	coding (523/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_536.html	ERR706016
+RA	PA0425	1,446	2 bp→GT	100%	coding (546‑547/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/RA_19.html	ERR706016
+RA	PA0425	2,019	C→G	100%	D373E (GAC→GAG)	mexA →	multidrug resistance protein MexA	evidence/RA_21.html	ERR706016
+RA	PA0506	1,591	A→C	9.1%	I231L (ATC→CTC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_27.html	ERR706016
+RA	PA0506	1,593	C→G	10.6%	I231M (ATC→ATG) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_28.html	ERR706016
+RA	PA0506	1,715	C→G	23.7%	A272G (GCC→GGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_29.html	ERR706016
+RA	PA0506	1,756	A→G	37.7%	N286D (AAC→GAC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_32.html	ERR706016
+RA	PA0506	1,758	C→A	36.6%	N286K (AAC→AAA) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_33.html	ERR706016
+RA	PA0652	1,387	A→C	100%	T163P (ACC→CCC)	vfr →	cAMP‑regulatory protein	evidence/RA_52.html	ERR706016
+RA	PA0763	1,249	C→T	100%	Q117* (CAA→TAA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_64.html	ERR706016
+RA	PA1097	1,510	G→C	100%	G204R (GGG→CGG)	fleQ →	transcriptional regulator FleQ	evidence/RA_70.html	ERR706016
+JC	PA2020	1,354	(CGCGGCGAACTGCCGG)1→2	76.1%	coding (454/633 nt)	N_A →	transcriptional regulator	evidence/JC_540.html	ERR706016
+RA	PA4522	932	G→T	100%	R11L (CGT→CTT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_191.html	ERR706016
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_194.html	ERR706016
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_195.html	ERR706016
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_223.html	ERR706016
+RA	PA4848	1,586	A→G	100%	D229G (GAC→GGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_241.html	ERR706016
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_18.html	SRR10023729
+MC JC	PA2020	1,019	Δ11 bp	100%	coding (119‑129/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_774.html	SRR10023729
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_144.html	SRR10023729
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_148.html	SRR10023729
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_158.html	SRR10023729
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_203.html	SRR10023729
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_254.html	SRR10023729
+RA	PA0313	1,462	G→A	100%	V188I (GTC→ATC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR10023748
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_34.html	SRR10023748
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_99.html	SRR10023748
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_123.html	SRR10023748
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_178.html	SRR10023748
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_209.html	SRR10023748
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_210.html	SRR10023748
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_211.html	SRR10023748
+RA	PA0366	1,871	C→T	100%	P324L (CCG→CTG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_12.html	SRR10093385
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_34.html	SRR10093385
+RA	PA1430	1,121	C→T	19.6%	P74L (CCG→CTG)	lasR →	transcriptional regulator LasR	evidence/RA_48.html	SRR10093385
+RA	PA1713	1,211	A→G	100%	E104G (GAG→GGG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_54.html	SRR10093385
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_64.html	SRR10093385
+RA	PA4522	1,307	C→T	100%	A136V (GCC→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_129.html	SRR10093385
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_131.html	SRR10093385
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_19.html	SRR1014097
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_32.html	SRR1014097
+JC	PA1097	1,578	30 bp→30 bp	33.5%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_1009.html	SRR1014097
+RA	PA1097	1,648	A→C	11.2%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_129.html	SRR1014097
+RA	PA1713	1,241	C→T	100%	A114V (GCC→GTC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_182.html	SRR1014097
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_267.html	SRR1014097
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_279.html	SRR1014097
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_357.html	SRR1014097
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_422.html	SRR1014097
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_443.html	SRR1014097
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_445.html	SRR1014097
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_446.html	SRR1014097
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_19.html	SRR1014138
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_28.html	SRR1014138
+JC	PA1097	1,575	33 bp→33 bp	18.0%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_975.html	SRR1014138
+JC	PA1097	1,578	30 bp→30 bp	9.5%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_976.html	SRR1014138
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_255.html	SRR1014138
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_267.html	SRR1014138
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_343.html	SRR1014138
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_409.html	SRR1014138
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_430.html	SRR1014138
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_432.html	SRR1014138
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_433.html	SRR1014138
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_19.html	SRR1014150
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_28.html	SRR1014150
+RA	PA0506	1,593	C→G	6.0%	I231M (ATC→ATG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_72.html	SRR1014150
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_216.html	SRR1014150
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_260.html	SRR1014150
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_272.html	SRR1014150
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_353.html	SRR1014150
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_419.html	SRR1014150
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_433.html	SRR1014150
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_441.html	SRR1014150
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_443.html	SRR1014150
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_444.html	SRR1014150
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_18.html	SRR1014199
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_31.html	SRR1014199
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_34.html	SRR1014199
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_42.html	SRR1014199
+JC	PA1097	1,578	30 bp→30 bp	14.4%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_970.html	SRR1014199
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_259.html	SRR1014199
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_336.html	SRR1014199
+RA	PA3817	1,391	C→T	100%	A164V (GCC→GTC)	N_A →	methyltransferase	evidence/RA_337.html	SRR1014199
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_403.html	SRR1014199
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_415.html	SRR1014199
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_417.html	SRR1014199
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_418.html	SRR1014199
+RA	PA0506	1,612	A→G	11.0%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_17.html	SRR1014464
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_33.html	SRR1014464
+JC	PA1097	1,579	29 bp→29 bp	32.9%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_471.html	SRR1014464
+RA	PA1097	1,648	A→C	22.2%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_43.html	SRR1014464
+RA	PA1097	1,654	C→A	17.6%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_44.html	SRR1014464
+RA	PA1097	1,662	G→C	16.6%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_45.html	SRR1014464
+RA	PA2020	989	Δ1 bp	100%	coding (89/633 nt)	N_A →	transcriptional regulator	evidence/RA_87.html	SRR1014464
+RA	PA3217	2,107	G→A	100%	V403M (GTG→ATG)	cyaB →	protein CyaB	evidence/RA_108.html	SRR1014464
+RA	PA3565	1,120	C→T	100%	R74C (CGC→TGC)	N_A →	transcriptional regulator	evidence/RA_115.html	SRR1014464
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_117.html	SRR1014464
+RA	PA4462	2,350	T→C	100%	S484P (TCC→CCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_159.html	SRR1014464
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_178.html	SRR1014464
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_180.html	SRR1014464
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_192.html	SRR1014464
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_195.html	SRR1014464
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_210.html	SRR1014464
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_211.html	SRR1014464
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_212.html	SRR1014464
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR1014481
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_39.html	SRR1014481
+JC	PA1097	1,575	33 bp→33 bp	18.6%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_518.html	SRR1014481
+JC	PA1097	1,579	29 bp→29 bp	26.5%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_519.html	SRR1014481
+RA	PA1097	1,612	A→G	8.0%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_58.html	SRR1014481
+RA	PA1097	1,648	A→C	23.1%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_59.html	SRR1014481
+RA	PA1097	1,654	C→A	18.5%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_60.html	SRR1014481
+RA	PA1097	1,662	G→C	16.9%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_61.html	SRR1014481
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_118.html	SRR1014481
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_160.html	SRR1014481
+RA	PA4522	983	A→G	100%	D28G (GAC→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_186.html	SRR1014481
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_189.html	SRR1014481
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_190.html	SRR1014481
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_206.html	SRR1014481
+RA	PA4526	1,404	C→A	100%	D168E (GAC→GAA)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_217.html	SRR1014481
+RA	PA4526	1,423	G→A	100%	A175T (GCC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	SRR1014481
+RA	PA4526	1,697	C→G	100%	T266S (ACC→AGC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_223.html	SRR1014481
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_233.html	SRR1014481
+RA	PA0425	2,017	G→A	100%	D373N (GAC→AAC)	mexA →	multidrug resistance protein MexA	evidence/RA_26.html	SRR11213088
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_108.html	SRR11213088
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_155.html	SRR11213088
+RA	PA4462	1,112	G→C	100%	S71T (AGC→ACC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_171.html	SRR11213088
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_188.html	SRR11213088
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_199.html	SRR11213088
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_20.html	SRR11218711
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_23.html	SRR11218711
+RA	PA0366	1,193	A→G	100%	K98R (AAG→AGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	SRR11218711
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_32.html	SRR11218711
+RA	PA0425	1,126	A→C	100%	K76Q (AAG→CAG)	mexA →	multidrug resistance protein MexA	evidence/RA_57.html	SRR11218711
+RA	PA0425	1,223	C→T	100%	A108V (GCC→GTC)	mexA →	multidrug resistance protein MexA	evidence/RA_59.html	SRR11218711
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_110.html	SRR11218711
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_178.html	SRR11218711
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_207.html	SRR11218711
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_273.html	SRR11218711
+RA	PA4522	1,032	G→C	100%	Q44H (CAG→CAC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_308.html	SRR11218711
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_310.html	SRR11218711
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_20.html	SRR11288287
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_29.html	SRR11288287
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_36.html	SRR11288287
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_222.html	SRR11288287
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_264.html	SRR11288287
+RA	PA3565	1,538	C→G	100%	T213S (ACC→AGC)	N_A →	transcriptional regulator	evidence/RA_287.html	SRR11288287
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_342.html	SRR11288287
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_416.html	SRR11288287
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_22.html	SRR1173050
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	SRR1173050
+RA	PA0506	1,129	A→T	100%	T77S (ACC→TCT)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_39.html	SRR1173050
+RA	PA0506	1,131	C→T	100%	T77S (ACC→TCT)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_40.html	SRR1173050
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_48.html	SRR1173050
+JC	PA1097	1,575	33 bp→33 bp	30.2%	coding (675‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_578.html	SRR1173050
+JC	PA1097	1,578	30 bp→30 bp	17.5%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_579.html	SRR1173050
+JC	PA1097	1,579	29 bp→29 bp	17.6%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_580.html	SRR1173050
+RA	PA1097	1,612	A→G	17.2%	N238D (AAC→GAC)	fleQ →	transcriptional regulator FleQ	evidence/RA_76.html	SRR1173050
+RA	PA1097	1,648	A→C	29.2%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_77.html	SRR1173050
+RA	PA1097	1,654	C→A	12.5%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_78.html	SRR1173050
+RA	PA1097	1,662	G→C	10.0%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_79.html	SRR1173050
+RA	PA1430	1,164	G→A	100%	W88* (TGG→TGA)	lasR →	transcriptional regulator LasR	evidence/RA_97.html	SRR1173050
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_126.html	SRR1173050
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_143.html	SRR1173050
+RA	PA3574	1,462	A→G	100%	T188A (ACG→GCG)	nalD →	transcriptional regulator	evidence/RA_149.html	SRR1173050
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_158.html	SRR1173050
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_166.html	SRR1173050
+RA	PA3841	1,038	C→G	100%	D46E (GAC→GAG)	exoS →	exoenzyme S	evidence/RA_181.html	SRR1173050
+RA	PA3841	2,144	A→T	100%	Q415L (CAG→CTG)	exoS →	exoenzyme S	evidence/RA_191.html	SRR1173050
+RA	PA3841	2,201	G→C	100%	R434P (CGT→CCT)	exoS →	exoenzyme S	evidence/RA_192.html	SRR1173050
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_225.html	SRR1173050
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_226.html	SRR1173050
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_238.html	SRR1173050
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_241.html	SRR1173050
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_261.html	SRR1173050
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_262.html	SRR1173050
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_263.html	SRR1173050
+JC	PA4848	1,395	Δ3 bp	9.2%	coding (495‑497/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/JC_582.html	SRR1173050
+JC	PA0313	1,383	Δ9 bp	100%	coding (483‑491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_1766.html	SRR12695631
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_46.html	SRR12695631
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_50.html	SRR12695631
+RA	PA0366	1,825	2 bp→AA	100%	coding (925‑926/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_51.html	SRR12695631
+RA	PA0366	2,078	A→G	100%	Q393R (CAG→CGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_56.html	SRR12695631
+RA	PA0425	1,439	C→T	100%	T180I (ACC→ATC)	mexA →	multidrug resistance protein MexA	evidence/RA_101.html	SRR12695631
+RA	PA0506	1,628	2 bp→TG	100%	coding (728‑729/1806 nt)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_134.html	SRR12695631
+RA	PA1097	1,542	2 bp→GC	100%	coding (642‑643/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/RA_224.html	SRR12695631
+RA	PA1432	1,485	A→C	100%	E195D (GAA→GAC)	lasI →	acyl‑homoserine‑lactone synthase	evidence/RA_266.html	SRR12695631
+RA	PA1432	1,490	G→A	100%	R197Q (CGA→CAA)	lasI →	acyl‑homoserine‑lactone synthase	evidence/RA_267.html	SRR12695631
+RA	PA1777	1,177	A→G	100%	T93A (ACC→GCC)	oprF →	outer membrane porin F	evidence/RA_287.html	SRR12695631
+RA	PA3217	916	C→T	100%	P6S (CCC→TCC)	cyaB →	protein CyaB	evidence/RA_404.html	SRR12695631
+RA	PA3217	1,104	2 bp→TC	100%	coding (204‑205/1392 nt)	cyaB →	protein CyaB	evidence/RA_406.html	SRR12695631
+RA	PA3217	1,107	C→G	100%	F69L (TTC→TTG)	cyaB →	protein CyaB	evidence/RA_407.html	SRR12695631
+RA	PA3565	1,025	G→A	100%	S42N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_452.html	SRR12695631
+RA	PA3565	1,412	G→C	100%	G171A (GGC→GCC)	N_A →	transcriptional regulator	evidence/RA_462.html	SRR12695631
+RA	PA3574	963	A→C	100%	E21D (GAA→GAC)	nalD →	transcriptional regulator	evidence/RA_486.html	SRR12695631
+RA	PA3703	901	T→G	100%	M1V (TTG→GTG) †	wspF →	chemotaxis‑specific methylesterase	evidence/RA_502.html	SRR12695631
+RA	PA3703	1,531	C→T	100%	R211C (CGC→TGC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_508.html	SRR12695631
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_546.html	SRR12695631
+RA	PA3817	1,651	T→C	100%	S251P (TCC→CCC)	N_A →	methyltransferase	evidence/RA_558.html	SRR12695631
+RA	PA4462	1,265	A→G	100%	N122S (AAC→AGC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_606.html	SRR12695631
+RA	PA4522	932	G→A	100%	R11H (CGT→CAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_663.html	SRR12695631
+RA	PA4522	1,153	G→T	100%	A85S (GCC→TCC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_672.html	SRR12695631
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_676.html	SRR12695631
+RA	PA4522	1,423	T→C	100%	S175P (TCG→CCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_677.html	SRR12695631
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_695.html	SRR12695631
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_698.html	SRR12695631
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_712.html	SRR12695631
+RA	PA4848	1,651	A→G	100%	K251E (AAG→GAG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_733.html	SRR12695631
+RA	PA0313	1,324	A→C	100%	T142P (ACC→CCC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	SRR12830011
+RA	PA0366	2,283	(C)7→6	100%	coding (1383/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_16.html	SRR12830011
+RA	PA0425	1,397	G→C	100%	G166A (GGC→GCC)	mexA →	multidrug resistance protein MexA	evidence/RA_22.html	SRR12830011
+RA	PA0763	1,249	C→T	93.0%	Q117* (CAA→TAA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_48.html	SRR12830011
+RA	PA1713	953	A→G	100%	N18S (AAC→AGC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_81.html	SRR12830011
+RA	PA1713	1,147	C→T	100%	Q83* (CAG→TAG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_82.html	SRR12830011
+MC JC	PA2020	1,084	Δ11 bp	100%	coding (184‑194/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_438.html	SRR12830011
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_98.html	SRR12830011
+RA	PA4462	1,132:1	(C)5→6	100%	coding (232/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_152.html	SRR12830011
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_168.html	SRR12830011
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_169.html	SRR12830011
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_186.html	SRR12830011
+RA	PA4848	1,442	C→T	100%	S181L (TCG→TTG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_193.html	SRR12830011
+RA	PA0506	2,632	C→T	100%	H578Y (CAC→TAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_34.html	SRR13015522
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_35.html	SRR13015522
+RA	PA1713	1,684	A→G	100%	T262A (ACG→GCA)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_78.html	SRR13015522
+RA	PA1713	1,686	G→A	100%	T262A (ACG→GCA)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_79.html	SRR13015522
+RA	PA2020	1,390	C→T	100%	Q164* (CAA→TAA)	N_A →	transcriptional regulator	evidence/RA_93.html	SRR13015522
+RA	PA2491	1,713	G→A	100%	M271I (ATG→ATA)	N_A →	oxidoreductase	evidence/RA_96.html	SRR13015522
+RA	PA3574	1,459	G→C	100%	D187H (GAT→CAT)	nalD →	transcriptional regulator	evidence/RA_120.html	SRR13015522
+RA	PA3703	1,294	C→T	100%	Q132* (CAG→TAG)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_126.html	SRR13015522
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_140.html	SRR13015522
+MC JC	PA4522	1,214	Δ11 bp	100%	coding (314‑324/567 nt)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/MC_PLOT_450.html	SRR13015522
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_182.html	SRR13015522
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_183.html	SRR13015522
+RA	PA4848	1,499	T→C	100%	L200P (CTG→CCG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_191.html	SRR13015522
+RA	PA4848	1,825	G→A	100%	V309I (GTC→ATC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_192.html	SRR13015522
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	SRR13435732
+RA	PA1713	1,241	C→T	100%	A114V (GCC→GTC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_153.html	SRR13435732
+MC JC	PA2020	1,193	Δ11 bp	100%	coding (293‑303/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_932.html	SRR13435732
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_195.html	SRR13435732
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_237.html	SRR13435732
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_249.html	SRR13435732
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_324.html	SRR13435732
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_382.html	SRR13435732
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_401.html	SRR13435732
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_403.html	SRR13435732
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_404.html	SRR13435732
+RA	PA0506	1,612	A→G	14.9%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_3.html	SRR13767060
+RA	PA0313	1,591	T→C	100%	*231R (TGA→CGA)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR14585691
+RA	PA0366	1,154	G→A	100%	G85D (GGC→GAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_17.html	SRR14585691
+RA	PA0506	1,612	A→G	6.0%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_33.html	SRR14585691
+RA	PA0506	2,486	A→G	100%	Y529C (TAC→TGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_36.html	SRR14585691
+RA	PA0652	1,283	G→A	40.5%	R128H (CGC→CAC)	vfr →	cAMP‑regulatory protein	evidence/RA_44.html	SRR14585691
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_58.html	SRR14585691
+RA	PA1777	916	A→G	100%	T6A (ACC→GCC)	oprF →	outer membrane porin F	evidence/RA_111.html	SRR14585691
+RA	PA2020	1,052	A→G	100%	H51R (CAC→CGC)	N_A →	transcriptional regulator	evidence/RA_126.html	SRR14585691
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_131.html	SRR14585691
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_147.html	SRR14585691
+RA	PA3574	931	(A)6→5	100%	coding (31/639 nt)	nalD →	transcriptional regulator	evidence/RA_172.html	SRR14585691
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_181.html	SRR14585691
+RA	PA4522	1,036	G→A	100%	G46S (GGC→AGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_233.html	SRR14585691
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_235.html	SRR14585691
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_247.html	SRR14585691
+RA	PA4526	2,198	T→C	100%	L433P (CTG→CCG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_248.html	SRR14585691
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_249.html	SRR14585691
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_250.html	SRR14585691
+RA	PA4848	1,054	G→A	100%	G52S (GGT→AGT)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_260.html	SRR14585691
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_23.html	SRR15405717
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	SRR15405717
+RA	PA0425	1,666	A→G	100%	T256A (ACC→GCC)	mexA →	multidrug resistance protein MexA	evidence/RA_41.html	SRR15405717
+RA	PA0506	1,595	T→C	82.0%	V232A (GTG→GCG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_65.html	SRR15405717
+RA	PA0506	1,612	A→G	11.7%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_67.html	SRR15405717
+RA	PA0763	1,145	C→T	100%	P82L (CCG→CTG)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_93.html	SRR15405717
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_96.html	SRR15405717
+RA	PA1430	1,030:1	+G	93.4%	coding (130/720 nt)	lasR →	transcriptional regulator LasR	evidence/RA_144.html	SRR15405717
+RA	PA1430	1,030:2	+C	93.4%	coding (130/720 nt)	lasR →	transcriptional regulator LasR	evidence/RA_145.html	SRR15405717
+RA	PA2020	980:1	+A	100%	coding (80/633 nt)	N_A →	transcriptional regulator	evidence/RA_194.html	SRR15405717
+RA	PA2020	1,096	G→A	100%	A66T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_196.html	SRR15405717
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_200.html	SRR15405717
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_204.html	SRR15405717
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_244.html	SRR15405717
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_262.html	SRR15405717
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_315.html	SRR15405717
+RA	PA4462	2,224	G→A	100%	A442T (GCG→ACG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_355.html	SRR15405717
+RA	PA4522	1,162	C→T	100%	Q88* (CAG→TAG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_367.html	SRR15405717
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_381.html	SRR15405717
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_138.html	SRR15523648
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_159.html	SRR15523648
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_193.html	SRR15523648
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_214.html	SRR15523648
+RA	PA0313	1,379	C→T	100%	S160L (TCG→TTG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_8.html	SRR15793189
+RA	PA0425	1,451	C→G	100%	A184G (GCC→GGC)	mexA →	multidrug resistance protein MexA	evidence/RA_34.html	SRR15793189
+RA	PA0425	1,607	G→T	100%	G236V (GGT→GTT)	mexA →	multidrug resistance protein MexA	evidence/RA_35.html	SRR15793189
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_44.html	SRR15793189
+RA	PA0763	911	A→G	100%	E4G (GAA→GGA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_59.html	SRR15793189
+RA	PA1713	1,595	G→A	100%	S232N (AGC→AAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_91.html	SRR15793189
+RA	PA2020	1,322	T→A	100%	I141N (ATC→AAC)	N_A →	transcriptional regulator	evidence/RA_102.html	SRR15793189
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_106.html	SRR15793189
+RA	PA2491	1,892	G→C	100%	G331A (GGC→GCC)	N_A →	oxidoreductase	evidence/RA_110.html	SRR15793189
+RA	PA3565	1,639	G→A	100%	A247T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_130.html	SRR15793189
+RA	PA3565	1,655	C→T	100%	A252V (GCC→GTC)	N_A →	transcriptional regulator	evidence/RA_132.html	SRR15793189
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_155.html	SRR15793189
+RA	PA3841	1,145	C→T	100%	T82I (ACC→ATC)	exoS →	exoenzyme S	evidence/RA_157.html	SRR15793189
+RA	PA3841	2,116	G→A	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_159.html	SRR15793189
+RA	PA3841	2,118	C→T	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_160.html	SRR15793189
+RA	PA4522	1,025	Δ1 bp	100%	coding (125/567 nt)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_187.html	SRR15793189
+RA	PA4526	975	2 bp→TC	100%	coding (75‑76/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_203.html	SRR15793189
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_205.html	SRR15793189
+RA	PA4526	1,892	G→T	100%	G331V (GGC→GTC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_213.html	SRR15793189
+RA	PA4848	1,528	G→A	100%	V210M (GTG→ATG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_234.html	SRR15793189
+RA	PA0313	982	G→A	100%	G28S (GGC→AGC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_15.html	SRR17017347
+RA	PA0313	1,586	G→A	100%	R229Q (CGG→CAG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_16.html	SRR17017347
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_30.html	SRR17017347
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_33.html	SRR17017347
+RA	PA0366	1,712	G→A	100%	R271H (CGC→CAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_37.html	SRR17017347
+RA	PA0366	1,743	G→C	100%	E281D (GAG→GAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_39.html	SRR17017347
+RA	PA0425	1,516	G→T	100%	A206S (GCC→TCC)	mexA →	multidrug resistance protein MexA	evidence/RA_69.html	SRR17017347
+RA	PA0506	1,268	C→T	100%	S123F (TCC→TTC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_101.html	SRR17017347
+RA	PA0763	1,336	C→T	100%	Q146* (CAG→TAG)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_139.html	SRR17017347
+RA	PA1713	1,209	C→G	100%	D103E (GAC→GAG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_221.html	SRR17017347
+RA	PA2020	1,022	C→A	100%	A41D (GCC→GAC)	N_A →	transcriptional regulator	evidence/RA_252.html	SRR17017347
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_264.html	SRR17017347
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_308.html	SRR17017347
+RA	PA3217	1,337	T→G	100%	L146R (CTG→CGG)	cyaB →	protein CyaB	evidence/RA_314.html	SRR17017347
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_322.html	SRR17017347
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_411.html	SRR17017347
+RA	PA4462	935	A→C	100%	Q12P (CAG→CCG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_470.html	SRR17017347
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_503.html	SRR17017347
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_519.html	SRR17017347
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_2.html	SRR17036807
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_22.html	SRR17283908
+RA	PA0425	988	C→T	100%	P30S (CCG→TCG)	mexA →	multidrug resistance protein MexA	evidence/RA_48.html	SRR17283908
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_184.html	SRR17283908
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_219.html	SRR17283908
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_230.html	SRR17283908
+RA	PA3565	1,538	C→G	100%	T213S (ACC→AGC)	N_A →	transcriptional regulator	evidence/RA_256.html	SRR17283908
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_307.html	SRR17283908
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_376.html	SRR17283908
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_378.html	SRR17283908
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_379.html	SRR17283908
+RA	PA0313	1,376	T→A	100%	L159Q (CTG→CAG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR1825713
+RA	PA0425	1,612	C→T	100%	Q238* (CAA→TAA)	mexA →	multidrug resistance protein MexA	evidence/RA_31.html	SRR1825713
+RA	PA0506	1,612	A→G	13.2%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_42.html	SRR1825713
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_58.html	SRR1825713
+JC	PA1097	1,579	29 bp→29 bp	38.1%	coding (679‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_653.html	SRR1825713
+RA	PA1097	1,648	A→C	30.7%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_67.html	SRR1825713
+RA	PA1097	1,654	C→A	24.8%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_68.html	SRR1825713
+RA	PA1097	1,662	G→C	22.1%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_69.html	SRR1825713
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_131.html	SRR1825713
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_164.html	SRR1825713
+RA	PA3703	1,843	G→A	100%	D315N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_187.html	SRR1825713
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_189.html	SRR1825713
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_203.html	SRR1825713
+RA	PA3841	1,262	G→A	100%	S121N (AGC→AAC)	exoS →	exoenzyme S	evidence/RA_223.html	SRR1825713
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_259.html	SRR1825713
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_274.html	SRR1825713
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_277.html	SRR1825713
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_298.html	SRR1825713
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_299.html	SRR1825713
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_300.html	SRR1825713
+RA	PA4526	2,445	2 bp→CT	100%	coding (1545‑1546/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_302.html	SRR1825713
+JC	PA0313	1,383	Δ9 bp	100%	coding (483‑491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_1053.html	SRR18286280
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	SRR18286280
+RA	PA0506	1,628	C→T	100%	A243V (GCC→GTC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_42.html	SRR18286280
+RA	PA2020	1,054	T→G	100%	Y52D (TAC→GAC)	N_A →	transcriptional regulator	evidence/RA_104.html	SRR18286280
+RA	PA2020	1,421	T→A	100%	L174Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_106.html	SRR18286280
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_109.html	SRR18286280
+RA	PA2492	1,921	A→T	100%	I341F (ATC→TTC)	mexT →	transcriptional regulator MexT	evidence/RA_121.html	SRR18286280
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_153.html	SRR18286280
+RA	PA3841	1,300	G→A	5.8%	E134K (GAG→AAG)	exoS →	exoenzyme S	evidence/RA_160.html	SRR18286280
+RA	PA4462	2,155	C→G	6.3%	L419V (CTG→GTG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_175.html	SRR18286280
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_186.html	SRR18286280
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_187.html	SRR18286280
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_211.html	SRR18286280
+RA	PA4526	1,404	C→A	100%	D168E (GAC→GAA)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_222.html	SRR18286280
+RA	PA4526	1,423	G→A	100%	A175T (GCC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_224.html	SRR18286280
+RA	PA4526	1,697	C→G	100%	T266S (ACC→AGC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_232.html	SRR18286280
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_242.html	SRR18286280
+JC	PA4848	1,395	Δ3 bp	10.9%	coding (495‑497/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/JC_1062.html	SRR18286280
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR18924763
+RA	PA0506	1,612	A→G	10.3%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	SRR18924763
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_138.html	SRR18924763
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_222.html	SRR18924763
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_228.html	SRR18924763
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_280.html	SRR18924763
+RA	PA0313	1,316	G→A	100%	W139* (TGG→TAG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR19575446
+RA	PA0506	2,198	A→G	100%	D433G (GAC→GGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_32.html	SRR19575446
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_65.html	SRR19575446
+RA	PA1430	1,033	C→T	100%	Q45* (CAG→TAG)	lasR →	transcriptional regulator LasR	evidence/RA_94.html	SRR19575446
+RA	PA2020	1,175	T→C	100%	F92S (TTT→TCT)	N_A →	transcriptional regulator	evidence/RA_113.html	SRR19575446
+RA	PA2020	1,376	C→G	100%	A159G (GCC→GGC)	N_A →	transcriptional regulator	evidence/RA_116.html	SRR19575446
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_147.html	SRR19575446
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_153.html	SRR19575446
+RA	PA3841	1,000	A→T	100%	T34S (ACC→TCC)	exoS →	exoenzyme S	evidence/RA_161.html	SRR19575446
+RA	PA4462	1,643	G→A	100%	G248D (GGC→GAC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_171.html	SRR19575446
+RA	PA4522	929	T→G	100%	V10G (GTC→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_190.html	SRR19575446
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_193.html	SRR19575446
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_195.html	SRR19575446
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_208.html	SRR19575446
+RA	PA4848	1,807	G→T	100%	V303F (GTC→TTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_218.html	SRR19575446
+RA	PA0366	1,024	C→G	100%	Q42E (CAG→GAA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_23.html	SRR2043986
+RA	PA0366	1,026	G→A	100%	Q42E (CAG→GAA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	SRR2043986
+RA	PA0366	1,733	A→G	100%	Q278R (CAG→CGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_41.html	SRR2043986
+RA	PA0425	1,259	A→T	100%	Y120F (TAC→TTC)	mexA →	multidrug resistance protein MexA	evidence/RA_75.html	SRR2043986
+RA	PA0506	1,113	C→G	100%	D71E (GAC→GAG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_90.html	SRR2043986
+RA	PA0506	1,130	C→G	100%	T77S (ACC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_92.html	SRR2043986
+RA	PA0506	2,147	T→A	100%	F416Y (TTC→TAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_107.html	SRR2043986
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_199.html	SRR2043986
+RA	PA3217	2,044	A→G	100%	I382V (ATC→GTC)	cyaB →	protein CyaB	evidence/RA_232.html	SRR2043986
+RA	PA3565	981	G→T	100%	E27D (GAG→GAT)	N_A →	transcriptional regulator	evidence/RA_248.html	SRR2043986
+RA	PA3565	1,250	G→A	100%	R117H (CGC→CAC)	N_A →	transcriptional regulator	evidence/RA_255.html	SRR2043986
+RA	PA3565	1,259	A→G	100%	Q120R (CAA→CGA)	N_A →	transcriptional regulator	evidence/RA_256.html	SRR2043986
+RA	PA3703	901	T→G	100%	M1V (TTG→GTG) †	wspF →	chemotaxis‑specific methylesterase	evidence/RA_280.html	SRR2043986
+RA	PA3817	1,554	2 bp→TC	100%	coding (654‑655/774 nt)	N_A →	methyltransferase	evidence/RA_288.html	SRR2043986
+RA	PA3817	1,651	T→A	100%	S251T (TCC→ACC)	N_A →	methyltransferase	evidence/RA_289.html	SRR2043986
+RA	PA4526	2,193	2 bp→TC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_310.html	SRR2043986
+RA	PA4526	2,530	A→T	100%	T544S (ACC→TCC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_312.html	SRR2043986
+RA	PA4848	2,124	2 bp→AC	100%	coding (1224‑1225/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_335.html	SRR2043986
+RA	PA0366	1,091	G→A	5.6%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR21537018
+RA	PA0366	1,709	G→A	100%	R270Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_22.html	SRR21537018
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_151.html	SRR21537018
+RA	PA3817	1,112	T→G	8.4%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_201.html	SRR21537018
+RA	PA3841	1,669	C→G	100%	P257A (CCT→GCT)	exoS →	exoenzyme S	evidence/RA_219.html	SRR21537018
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_251.html	SRR21537018
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_252.html	SRR21537018
+RA	PA4526	1,988	G→A	100%	G363D (GGC→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_262.html	SRR21537018
+RA	PA0506	1,612	A→G	8.2%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_67.html	SRR22024279
+RA	PA0763	1,362	Δ1 bp	46.1%	coding (462/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_84.html	SRR22024279
+RA	PA1097	1,171	G→T	100%	A91S (GCC→TCC)	fleQ →	transcriptional regulator FleQ	evidence/RA_88.html	SRR22024279
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_131.html	SRR22024279
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_145.html	SRR22024279
+RA	PA3565	1,025	G→A	100%	S42N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_173.html	SRR22024279
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_179.html	SRR22024279
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_199.html	SRR22024279
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_242.html	SRR22024279
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_243.html	SRR22024279
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_253.html	SRR22024279
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_256.html	SRR22024279
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_264.html	SRR22024279
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR22319601
+MC JC	PA2020	1,429	Δ8 bp	100%	coding (529‑536/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_645.html	SRR22319601
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_139.html	SRR22319601
+MC JC	PA3703	1,748	Δ45 bp	100%	coding (848‑892/1008 nt)	wspF →	chemotaxis‑specific methylesterase	evidence/MC_PLOT_648.html	SRR22319601
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_224.html	SRR22319601
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_230.html	SRR22319601
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_290.html	SRR22319601
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_19.html	SRR22801516
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_28.html	SRR22801516
+JC	PA1097	1,578	30 bp→30 bp	30.8%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_977.html	SRR22801516
+RA	PA1713	1,241	C→T	100%	A114V (GCC→GTC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_154.html	SRR22801516
+RA	PA1777	1,426	G→T	100%	A176S (GCT→TCT)	oprF →	outer membrane porin F	evidence/RA_172.html	SRR22801516
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_240.html	SRR22801516
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_252.html	SRR22801516
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_335.html	SRR22801516
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_402.html	SRR22801516
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_419.html	SRR22801516
+RA	PA4526	2,147	T→A	100%	V416E (GTG→GAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_427.html	SRR22801516
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_428.html	SRR22801516
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_430.html	SRR22801516
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_431.html	SRR22801516
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR24707197
+RA	PA0652	1,268	G→A	100%	S123N (AGC→AAC)	vfr →	cAMP‑regulatory protein	evidence/RA_77.html	SRR24707197
+RA	PA0763	1,331	C→T	13.6%	A144V (GCG→GTG)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_94.html	SRR24707197
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_184.html	SRR24707197
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_284.html	SRR24707197
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_329.html	SRR24707197
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_330.html	SRR24707197
+RA	PA4526	976	G→C	100%	V26L (GTG→CTG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_351.html	SRR24707197
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_352.html	SRR24707197
+RA	PA0425	1,252	C→T	100%	Q118* (CAG→TAG)	mexA →	multidrug resistance protein MexA	evidence/RA_18.html	SRR25119420
+RA	PA0425	1,908:1	+A	100%	coding (1008/1152 nt)	mexA →	multidrug resistance protein MexA	evidence/RA_21.html	SRR25119420
+MC JC	PA0506	1,557	Δ9 bp	100%	coding (657‑665/1806 nt)	N_A →	acyl‑CoA dehydrogenase	evidence/MC_PLOT_464.html	SRR25119420
+RA	PA0506	1,612	A→G	9.4%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	SRR25119420
+RA	PA0652	944	A→G	100%	K15R (AAG→AGG)	vfr →	cAMP‑regulatory protein	evidence/RA_38.html	SRR25119420
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_54.html	SRR25119420
+RA	PA2020	1,390	C→T	100%	Q164* (CAA→TAA)	N_A →	transcriptional regulator	evidence/RA_101.html	SRR25119420
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_104.html	SRR25119420
+RA	PA3217	1,879	G→A	100%	E327K (GAA→AAA)	cyaB →	protein CyaB	evidence/RA_118.html	SRR25119420
+RA	PA3574	1,239	G→A	100%	M113I (ATG→ATA)	nalD →	transcriptional regulator	evidence/RA_137.html	SRR25119420
+RA	PA3817	1,052	C→T	100%	S51F (TCC→TTC)	N_A →	methyltransferase	evidence/RA_149.html	SRR25119420
+RA	PA3841	1,993	A→T	100%	R365W (AGG→TGG)	exoS →	exoenzyme S	evidence/RA_158.html	SRR25119420
+RA	PA4462	2,209	T→C	100%	S437P (TCC→CCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_170.html	SRR25119420
+RA	PA4522	932	G→T	100%	R11L (CGT→CTT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_186.html	SRR25119420
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_189.html	SRR25119420
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_190.html	SRR25119420
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_204.html	SRR25119420
+RA	PA4526	2,485	G→T	100%	E529* (GAG→TAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_208.html	SRR25119420
+RA	PA0366	2,283:1	(C)7→9	100%	coding (1383/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_17.html	SRR25320327
+RA	PA0425	1,601	A→G	100%	E234G (GAG→GGG)	mexA →	multidrug resistance protein MexA	evidence/RA_22.html	SRR25320327
+RA	PA0425	1,648	G→A	100%	V250I (GTT→ATT)	mexA →	multidrug resistance protein MexA	evidence/RA_23.html	SRR25320327
+RA	PA0506	2,519	C→T	100%	A540V (GCG→GTG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_30.html	SRR25320327
+RA	PA2020	1,514	T→C	100%	L205P (CTG→CCG)	N_A →	transcriptional regulator	evidence/RA_127.html	SRR25320327
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_133.html	SRR25320327
+RA	PA2492	1,721	G→A	100%	G274D (GGC→GAC)	mexT →	transcriptional regulator MexT	evidence/RA_140.html	SRR25320327
+RA	PA3565	1,412	G→C	100%	G171A (GGC→GCC)	N_A →	transcriptional regulator	evidence/RA_159.html	SRR25320327
+RA	PA3574	1,438	G→A	100%	D180N (GAC→AAC)	nalD →	transcriptional regulator	evidence/RA_168.html	SRR25320327
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_182.html	SRR25320327
+RA	PA4522	1,073	T→C	100%	L58P (CTG→CCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_229.html	SRR25320327
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_230.html	SRR25320327
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_231.html	SRR25320327
+RA	PA4848	1,645	G→A	100%	D249N (GAC→AAC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_248.html	SRR25320327
+RA	PA0313	1,117	C→T	100%	R73C (CGC→TGC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR25422541
+RA	PA0366	1,399	G→A	100%	D167N (GAC→AAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR25422541
+RA	PA0425	1,115	G→A	100%	G72D (GGC→GAC)	mexA →	multidrug resistance protein MexA	evidence/RA_26.html	SRR25422541
+RA	PA0763	1,435	A→G	100%	T179A (ACA→GCA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_60.html	SRR25422541
+JC	PA2020	1,060	(ACAAGA)1→2	100%	coding (160/633 nt)	N_A →	transcriptional regulator	evidence/JC_595.html	SRR25422541
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_116.html	SRR25422541
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_195.html	SRR25422541
+RA	PA4462	1,112	G→C	100%	S71T (AGC→ACC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_219.html	SRR25422541
+RA	PA4522	1,391	G→A	100%	R164H (CGC→CAC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_241.html	SRR25422541
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_253.html	SRR25422541
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_254.html	SRR25422541
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_255.html	SRR25422541
+RA	PA4848	1,708	C→T	100%	R270C (CGC→TGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_267.html	SRR25422541
+RA	PA4848	1,729	T→C	100%	F277L (TTC→CTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_268.html	SRR25422541
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	SRR25436271
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_26.html	SRR25436271
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_197.html	SRR25436271
+MC JC	PA2020	1,406	Δ7 bp	100%	coding (506‑512/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_920.html	SRR25436271
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_202.html	SRR25436271
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_219.html	SRR25436271
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_248.html	SRR25436271
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_254.html	SRR25436271
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_270.html	SRR25436271
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_325.html	SRR25436271
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_397.html	SRR25436271
+RA	PA0506	1,612	A→G	5.6%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_65.html	SRR25684270
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_163.html	SRR25684270
+RA	PA3565	1,556	A→C	5.1%	D219A (GAC→GCC)	N_A →	transcriptional regulator	evidence/RA_182.html	SRR25684270
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_198.html	SRR25684270
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_205.html	SRR25684270
+RA	PA3841	1,690	G→C	100%	A264P (GCC→CCC)	exoS →	exoenzyme S	evidence/RA_222.html	SRR25684270
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_277.html	SRR25684270
+RA	PA1430	1,079	G→A	100%	W60* (TGG→TAG)	lasR →	transcriptional regulator LasR	evidence/RA_63.html	SRR25798612
+RA	PA2020	1,199	G→T	100%	G100V (GGT→GTT)	N_A →	transcriptional regulator	evidence/RA_88.html	SRR25798612
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_95.html	SRR25798612
+RA	PA3565	1,025	G→A	100%	S42N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_110.html	SRR25798612
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_126.html	SRR25798612
+RA	PA3841	1,369	G→T	100%	A157S (GCC→TCC)	exoS →	exoenzyme S	evidence/RA_142.html	SRR25798612
+RA	PA4522	1,032	G→C	100%	Q44H (CAG→CAC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_171.html	SRR25798612
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_173.html	SRR25798612
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_174.html	SRR25798612
+RA	PA0366	1,817	G→C	100%	G306A (GGC→GCC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_31.html	SRR25818364
+RA	PA0366	1,924	G→A	100%	V342I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_33.html	SRR25818364
+RA	PA0763	1,265:1	+C	100%	coding (365/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_108.html	SRR25818364
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_110.html	SRR25818364
+RA	PA2020	1,294	C→T	100%	Q132* (CAG→TAG)	N_A →	transcriptional regulator	evidence/RA_217.html	SRR25818364
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_225.html	SRR25818364
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_270.html	SRR25818364
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_277.html	SRR25818364
+RA	PA3565	1,556	A→C	5.2%	D219A (GAC→GCC)	N_A →	transcriptional regulator	evidence/RA_314.html	SRR25818364
+RA	PA3703	1,498	G→A	100%	A200T (GCC→ACC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_357.html	SRR25818364
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_386.html	SRR25818364
+RA	PA3841	1,716	Δ1 bp	100%	coding (816/1362 nt)	exoS →	exoenzyme S	evidence/RA_423.html	SRR25818364
+RA	PA4522	986	C→T	100%	A29V (GCG→GTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_458.html	SRR25818364
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_461.html	SRR25818364
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_480.html	SRR25818364
+RA	PA4848	908	A→G	100%	E3G (GAA→GGA)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_487.html	SRR25818364
+RA	PA4848	1,573	C→T	100%	L225F (CTC→TTC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_492.html	SRR25818364
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_36.html	SRR26058668
+JC	PA2020	1,286	Δ12 bp	100%	coding (386‑397/633 nt)	N_A →	transcriptional regulator	evidence/JC_513.html	SRR26058668
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_144.html	SRR26058668
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_199.html	SRR26058668
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_218.html	SRR26058668
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	SRR26058668
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_220.html	SRR26058668
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_38.html	SRR26953609
+RA	PA0506	999	C→G	100%	D33E (GAC→GAG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_101.html	SRR26953609
+RA	PA1097	2,367	T→G	100%	D489E (GAT→GAG)	fleQ →	transcriptional regulator FleQ	evidence/RA_169.html	SRR26953609
+RA	PA1713	1,209	C→G	100%	D103E (GAC→GAG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_224.html	SRR26953609
+MC JC	PA2020	961	Δ10 bp	100%	coding (61‑70/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_1108.html	SRR26953609
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_261.html	SRR26953609
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_304.html	SRR26953609
+RA	PA3217	1,337	T→G	100%	L146R (CTG→CGG)	cyaB →	protein CyaB	evidence/RA_310.html	SRR26953609
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_319.html	SRR26953609
+RA	PA3565	934	C→T	100%	H12Y (CAC→TAC)	N_A →	transcriptional regulator	evidence/RA_344.html	SRR26953609
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_409.html	SRR26953609
+RA	PA4522	1,030	C→A	100%	Q44K (CAG→AAG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_464.html	SRR26953609
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_466.html	SRR26953609
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_486.html	SRR26953609
+RA	PA0313	1,202	G→A	100%	G101D (GGC→GAC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_14.html	SRR27140059
+JC	PA0313	1,391	(CAGCCTGAT)1→2	100%	coding (491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_779.html	SRR27140059
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_24.html	SRR27140059
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_25.html	SRR27140059
+RA	PA0425	1,799	G→T	100%	R300L (CGC→CTC)	mexA →	multidrug resistance protein MexA	evidence/RA_41.html	SRR27140059
+RA	PA2020	1,093	C→A	100%	R65S (CGC→AGC)	N_A →	transcriptional regulator	evidence/RA_166.html	SRR27140059
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_177.html	SRR27140059
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_272.html	SRR27140059
+RA	PA0506	1,613	A→C	5.1%	N238T (AAC→ACC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_32.html	SRR27501761
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_112.html	SRR27501761
+RA	PA3565	1,433	A→C	10.7%	E178A (GAG→GCG)	N_A →	transcriptional regulator	evidence/RA_141.html	SRR27501761
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_143.html	SRR27501761
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_177.html	SRR27501761
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_229.html	SRR27501761
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_230.html	SRR27501761
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_252.html	SRR27501761
+RA	PA0506	1,612	A→G	11.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_3.html	SRR27842630
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_17.html	SRR28533055
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_18.html	SRR28533055
+MC JC	PA1097	2,258	Δ99 bp	100%	coding (1358‑1456/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/MC_PLOT_585.html	SRR28533055
+MC JC	PA2020	1,234	Δ14 bp	100%	coding (334‑347/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_589.html	SRR28533055
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_120.html	SRR28533055
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_148.html	SRR28533055
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_175.html	SRR28533055
+RA	PA3841	1,825	G→A	100%	G309R (GGA→AGA)	exoS →	exoenzyme S	evidence/RA_194.html	SRR28533055
+RA	PA3841	2,241	G→A	100%	M447I (ATG→ATA)	exoS →	exoenzyme S	evidence/RA_197.html	SRR28533055
+RA	PA4462	1,591	C→G	100%	P231A (CCC→GCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_212.html	SRR28533055
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_234.html	SRR28533055
+RA	PA4848	1,457	G→C	100%	R186P (CGC→CCC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_266.html	SRR28533055
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_29.html	SRR28862967
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_32.html	SRR28862967
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_40.html	SRR28862967
+RA	PA0652	1,290	Δ1 bp	100%	coding (390/645 nt)	vfr →	cAMP‑regulatory protein	evidence/RA_94.html	SRR28862967
+RA	PA2020	1,087	T→G	100%	C63G (TGC→GGC)	N_A →	transcriptional regulator	evidence/RA_186.html	SRR28862967
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_200.html	SRR28862967
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_249.html	SRR28862967
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_330.html	SRR28862967
+RA	PA3817	1,391	C→T	100%	A164V (GCC→GTC)	N_A →	methyltransferase	evidence/RA_331.html	SRR28862967
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_414.html	SRR28862967
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_416.html	SRR28862967
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_417.html	SRR28862967
+RA	PA0366	2,068	G→A	100%	A390T (GCG→ACG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_3.html	SRR2939282
+RA	PA0506	1,612	A→G	7.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_10.html	SRR2939282
+RA	PA2020	1,001	Δ1 bp	100%	coding (101/633 nt)	N_A →	transcriptional regulator	evidence/RA_11.html	SRR2939282
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_12.html	SRR2939282
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_8.html	SRR30156008
+MC JC	PA2020	1,108	Δ11 bp	100%	coding (208‑218/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_592.html	SRR30156008
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_70.html	SRR30156008
+RA	PA4462	1,859	Δ1 bp	100%	coding (959/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_81.html	SRR30156008
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_87.html	SRR30156008
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_15.html	SRR30916324
+RA	PA1713	1,211	A→G	100%	E104G (GAG→GGG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_86.html	SRR30916324
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_104.html	SRR30916324
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_137.html	SRR30916324
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_169.html	SRR30916324
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_170.html	SRR30916324
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_191.html	SRR30916324
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_192.html	SRR30916324
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_193.html	SRR30916324
+RA	PA0425	1,405	G→A	100%	G169S (GGC→AGC)	mexA →	multidrug resistance protein MexA	evidence/RA_25.html	SRR3121784
+RA	PA0506	1,612	A→G	5.7%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_39.html	SRR3121784
+RA	PA2020	1,046	A→G	100%	Y49C (TAC→TGC)	N_A →	transcriptional regulator	evidence/RA_119.html	SRR3121784
+RA	PA2020	1,208	A→G	100%	Q103R (CAG→CGG)	N_A →	transcriptional regulator	evidence/RA_120.html	SRR3121784
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_130.html	SRR3121784
+RA	PA2491	1,736	T→G	100%	M279R (ATG→AGG)	N_A →	oxidoreductase	evidence/RA_132.html	SRR3121784
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_163.html	SRR3121784
+RA	PA4522	1,021	C→T	100%	P41S (CCG→TCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_201.html	SRR3121784
+RA	PA4522	1,307	C→T	100%	A136V (GCC→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_203.html	SRR3121784
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_205.html	SRR3121784
+RA	PA4526	2,530	A→G	100%	T544A (ACC→GCC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_239.html	SRR3121784
+JC	PA0313	1,383	Δ9 bp	100%	coding (483‑491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_541.html	SRR31254167
+RA	PA0506	1,612	A→G	6.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_32.html	SRR31254167
+RA	PA2020	1,501:1	+G	92.7%	coding (601/633 nt)	N_A →	transcriptional regulator	evidence/RA_111.html	SRR31254167
+RA	PA2020	1,501:2	+T	92.7%	coding (601/633 nt)	N_A →	transcriptional regulator	evidence/RA_112.html	SRR31254167
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_120.html	SRR31254167
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_142.html	SRR31254167
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_161.html	SRR31254167
+RA	PA3841	1,306	T→C	100%	S136P (TCC→CCC)	exoS →	exoenzyme S	evidence/RA_173.html	SRR31254167
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_211.html	SRR31254167
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_214.html	SRR31254167
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_225.html	SRR31254167
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_226.html	SRR31254167
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_227.html	SRR31254167
+RA	PA0313	1,216	A→C	100%	T106P (ACC→CCC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR31417083
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR31417083
+RA	PA0366	1,994	G→A	100%	R365H (CGC→CAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR31417083
+RA	PA0763	1,265	Δ1 bp	100%	coding (365/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_49.html	SRR31417083
+RA	PA1430	1,141	C→T	100%	Q81* (CAG→TAG)	lasR →	transcriptional regulator LasR	evidence/RA_74.html	SRR31417083
+RA	PA1713	953	A→G	100%	N18S (AAC→AGC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_82.html	SRR31417083
+JC	PA1713	1,263	(GTTGC)1→2	100%	coding (363/837 nt)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/JC_492.html	SRR31417083
+MC JC	PA2020	1,115	Δ9 bp	100%	coding (215‑223/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_477.html	SRR31417083
+RA	PA2020	1,282	C→A	100%	L128M (CTG→ATG)	N_A →	transcriptional regulator	evidence/RA_97.html	SRR31417083
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_102.html	SRR31417083
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_145.html	SRR31417083
+RA	PA3841	2,060	A→G	100%	E387G (GAG→GGG)	exoS →	exoenzyme S	evidence/RA_158.html	SRR31417083
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_194.html	SRR31417083
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_197.html	SRR31417083
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_204.html	SRR31417083
+RA	PA4848	1,819	G→A	100%	D307N (GAC→AAC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_213.html	SRR31417083
+JC	PA0313	1,383	Δ9 bp	100%	coding (483‑491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_403.html	SRR31613341
+RA	PA0425	1,106	A→G	100%	Q69R (CAG→CGG)	mexA →	multidrug resistance protein MexA	evidence/RA_24.html	SRR31613341
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_111.html	SRR31613341
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_174.html	SRR31613341
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_175.html	SRR31613341
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_20.html	SRR31904122
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_29.html	SRR31904122
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_30.html	SRR31904122
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_212.html	SRR31904122
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_216.html	SRR31904122
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_233.html	SRR31904122
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_266.html	SRR31904122
+RA	PA3217	2,291	A→G	86.3%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_272.html	SRR31904122
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_291.html	SRR31904122
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_353.html	SRR31904122
+JC	PA3841	1,584	15 bp→15 bp	46.3%	coding (684‑698/1362 nt)	exoS →	exoenzyme S	evidence/JC_993.html	SRR31904122
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_438.html	SRR31904122
+RA	PA0366	1,024	C→G	100%	Q42E (CAG→GAA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_61.html	SRR33388173
+RA	PA0366	1,026	G→A	100%	Q42E (CAG→GAA)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_62.html	SRR33388173
+RA	PA0366	1,066	C→A	100%	Q56K (CAG→AAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_64.html	SRR33388173
+RA	PA0366	1,733	A→G	100%	Q278R (CAG→CGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_78.html	SRR33388173
+RA	PA0366	2,078	A→G	100%	Q393R (CAG→CGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_82.html	SRR33388173
+RA	PA0425	1,259	A→T	100%	Y120F (TAC→TTC)	mexA →	multidrug resistance protein MexA	evidence/RA_126.html	SRR33388173
+RA	PA0506	1,113	C→G	100%	D71E (GAC→GAG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_164.html	SRR33388173
+RA	PA0506	1,130	C→G	100%	T77S (ACC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_166.html	SRR33388173
+RA	PA0506	1,612	A→G	9.6%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_178.html	SRR33388173
+RA	PA0506	2,147	T→A	100%	F416Y (TTC→TAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_181.html	SRR33388173
+RA	PA0763	1,435	A→T	100%	T179S (ACA→TCA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_290.html	SRR33388173
+RA	PA1097	1,704	2 bp→GC	100%	coding (804‑805/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/RA_304.html	SRR33388173
+RA	PA2020	992	C→A	100%	T31N (ACC→AAC)	N_A →	transcriptional regulator	evidence/RA_396.html	SRR33388173
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_409.html	SRR33388173
+RA	PA2491	1,822	G→A	100%	V308I (GTC→ATC)	N_A →	oxidoreductase	evidence/RA_415.html	SRR33388173
+RA	PA3217	2,044	A→G	100%	I382V (ATC→GTC)	cyaB →	protein CyaB	evidence/RA_481.html	SRR33388173
+RA	PA3217	2,083	G→A	100%	A395T (GCG→ACG)	cyaB →	protein CyaB	evidence/RA_482.html	SRR33388173
+RA	PA3565	981	G→T	100%	E27D (GAG→GAT)	N_A →	transcriptional regulator	evidence/RA_508.html	SRR33388173
+RA	PA3565	1,221	2 bp→AT	100%	coding (321‑322/921 nt)	N_A →	transcriptional regulator	evidence/RA_514.html	SRR33388173
+RA	PA3565	1,259	A→G	100%	Q120R (CAA→CGA)	N_A →	transcriptional regulator	evidence/RA_516.html	SRR33388173
+RA	PA3565	1,294	A→G	100%	T132A (ACC→GCC)	N_A →	transcriptional regulator	evidence/RA_517.html	SRR33388173
+MC JC	PA3565	1,811	Δ6 bp	100%	coding (911‑916/921 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_2180.html	SRR33388173
+RA	PA3703	901	T→G	100%	M1V (TTG→GTG) †	wspF →	chemotaxis‑specific methylesterase	evidence/RA_576.html	SRR33388173
+RA	PA3703	1,551	A→G	100%	I217M (ATA→ATG)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_588.html	SRR33388173
+RA	PA3703	1,688	2 bp→TC	100%	coding (788‑789/1008 nt)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_593.html	SRR33388173
+RA	PA3817	1,532	A→G	100%	K211R (AAG→AGG)	N_A →	methyltransferase	evidence/RA_659.html	SRR33388173
+RA	PA3817	1,651	T→A	100%	S251T (TCC→ACC)	N_A →	methyltransferase	evidence/RA_661.html	SRR33388173
+RA	PA4462	1,072	2 bp→GG	100%	coding (172‑173/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_709.html	SRR33388173
+RA	PA4462	1,265	A→G	100%	N122S (AAC→AGC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_712.html	SRR33388173
+RA	PA4462	1,657	A→G	100%	S253G (AGC→GGC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_722.html	SRR33388173
+RA	PA4462	1,695	2 bp→GT	100%	coding (795‑796/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_724.html	SRR33388173
+RA	PA4462	1,703	A→T	100%	Q268L (CAG→CTG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_725.html	SRR33388173
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_794.html	SRR33388173
+RA	PA4526	2,301	G→T	100%	E467D (GAG→GAT)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_796.html	SRR33388173
+RA	PA4526	2,530	A→T	100%	T544S (ACC→TCC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_800.html	SRR33388173
+RA	PA4848	1,240	G→A	100%	G114S (GGC→AGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_812.html	SRR33388173
+RA	PA4848	1,283	2 bp→CA	100%	coding (383‑384/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_815.html	SRR33388173
+RA	PA4848	1,465	G→A	100%	A189T (GCC→ACC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_819.html	SRR33388173
+RA	PA4848	2,124	2 bp→AC	100%	coding (1224‑1225/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_823.html	SRR33388173
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_35.html	SRR33574348
+RA	PA2020	931	A→T	100%	K11* (AAA→TAA)	N_A →	transcriptional regulator	evidence/RA_101.html	SRR33574348
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_108.html	SRR33574348
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_125.html	SRR33574348
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_134.html	SRR33574348
+RA	PA3841	2,144	A→T	100%	Q415L (CAG→CTG)	exoS →	exoenzyme S	evidence/RA_153.html	SRR33574348
+RA	PA3841	2,201	G→C	100%	R434P (CGT→CCT)	exoS →	exoenzyme S	evidence/RA_154.html	SRR33574348
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_190.html	SRR33574348
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_192.html	SRR33574348
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_202.html	SRR33574348
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_205.html	SRR33574348
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_213.html	SRR33574348
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_214.html	SRR33574348
+RA	PA0506	1,612	A→G	9.2%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_26.html	SRR33848949
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	SRR33848949
+RA	PA0763	1,185:1	+G	100%	coding (285/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_45.html	SRR33848949
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_146.html	SRR33848949
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_202.html	SRR33848949
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_204.html	SRR33848949
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_216.html	SRR33848949
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	SRR33848949
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_226.html	SRR33848949
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_17.html	SRR34269087
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_31.html	SRR34269087
+RA	PA2020	1,165	G→A	100%	G89S (GGC→AGC)	N_A →	transcriptional regulator	evidence/RA_213.html	SRR34269087
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_227.html	SRR34269087
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_273.html	SRR34269087
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_367.html	SRR34269087
+RA	PA4462	1,126	2 bp→CC	100%	coding (226‑227/1494 nt)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_411.html	SRR34269087
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_450.html	SRR34269087
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_452.html	SRR34269087
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_453.html	SRR34269087
+RA	PA4848	1,255	G→A	100%	A119T (GCC→ACC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_461.html	SRR34269087
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_20.html	SRR34771002
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_35.html	SRR34771002
+RA	PA0506	1,462	A→T	14.0%	S188C (AGC→TGC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_91.html	SRR34771002
+RA	PA0506	1,463	G→C	13.3%	S188T (AGC→ACC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_92.html	SRR34771002
+RA	PA0506	1,469	A→G	11.4%	K190R (AAG→AGG)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_93.html	SRR34771002
+RA	PA0506	1,612	A→G	7.0%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_95.html	SRR34771002
+RA	PA1097	1,648	A→C	5.2%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_150.html	SRR34771002
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_241.html	SRR34771002
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_258.html	SRR34771002
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_308.html	SRR34771002
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_392.html	SRR34771002
+JC	PA3841	1,584	15 bp→15 bp	100%	coding (684‑698/1362 nt)	exoS →	exoenzyme S	evidence/JC_1111.html	SRR34771002
+RA	PA4522	1,104	G→T	100%	E68D (GAG→GAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_459.html	SRR34771002
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_491.html	SRR34771002
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_28.html	SRR35166706
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_29.html	SRR35166706
+MC JC	PA2020	1,224	Δ35 bp	100%	coding (324‑358/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_927.html	SRR35166706
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_205.html	SRR35166706
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_209.html	SRR35166706
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_225.html	SRR35166706
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_252.html	SRR35166706
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_258.html	SRR35166706
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_274.html	SRR35166706
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_328.html	SRR35166706
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_397.html	SRR35166706
+RA	PA2492	1,606	Δ1 bp	100%	coding (706/1044 nt)	mexT →	transcriptional regulator MexT	evidence/RA_2.html	SRR35316738
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_27.html	SRR35957298
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_183.html	SRR35957298
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_216.html	SRR35957298
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_224.html	SRR35957298
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_306.html	SRR35957298
+RA	PA4526	975	2 bp→TC	100%	coding (75‑76/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_371.html	SRR35957298
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_373.html	SRR35957298
+RA	PA4526	1,141	G→A	100%	A81T (GCC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_375.html	SRR35957298
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR36346580
+RA	PA0366	2,011	G→A	100%	A371T (GCC→ACC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_17.html	SRR36346580
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	SRR36346580
+RA	PA3565	1,771	C→T	100%	R291C (CGC→TGC)	N_A →	transcriptional regulator	evidence/RA_142.html	SRR36346580
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_163.html	SRR36346580
+RA	PA4526	976	G→C	100%	V26L (GTG→CTG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_216.html	SRR36346580
+RA	PA4526	988	G→A	100%	A30T (GCG→ACG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_217.html	SRR36346580
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_218.html	SRR36346580
+RA	PA4526	1,121	A→G	100%	K74R (AAG→AGG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_220.html	SRR36346580
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_230.html	SRR36346580
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_107.html	SRR36366199
+RA	PA3703	1,729	G→T	5.2%	G277C (GGC→TGC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_134.html	SRR36366199
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_138.html	SRR36366199
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_177.html	SRR36366199
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_179.html	SRR36366199
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_3.html	SRR36421863
+RA	PA0366	1,885	G→A	100%	G329S (GGC→AGC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_13.html	SRR36421863
+RA	PA0763	1,267:1	+C	100%	coding (367/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_59.html	SRR36421863
+RA	PA2020	1,069	G→T	100%	E57* (GAG→TAG)	N_A →	transcriptional regulator	evidence/RA_101.html	SRR36421863
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_108.html	SRR36421863
+RA	PA3703	1,544	C→T	100%	P215L (CCG→CTG)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_147.html	SRR36421863
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_149.html	SRR36421863
+RA	PA3817	1,018	A→G	100%	S40G (AGC→GGC)	N_A →	methyltransferase	evidence/RA_156.html	SRR36421863
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_157.html	SRR36421863
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_212.html	SRR36421863
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_226.html	SRR36421863
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_227.html	SRR36421863
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_228.html	SRR36421863
+RA	PA4848	1,885	G→A	100%	V329I (GTC→ATC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_242.html	SRR36421863
+RA	PA4848	2,210	T→C	100%	I437T (ATC→ACC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_243.html	SRR36421863
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_40.html	SRR36760477
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_96.html	SRR36760477
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_102.html	SRR36760477
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_141.html	SRR36760477
+RA	PA3841	1,054	G→A	100%	G52R (GGG→AGG)	exoS →	exoenzyme S	evidence/RA_154.html	SRR36760477
+RA	PA0366	1,029	G→C	100%	W43C (TGG→TGC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_36.html	SRR36784808
+RA	PA0366	1,066	C→A	100%	Q56K (CAG→AAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_38.html	SRR36784808
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_51.html	SRR36784808
+RA	PA0366	1,770	2 bp→CC	100%	coding (870‑871/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_55.html	SRR36784808
+RA	PA0366	1,825	2 bp→AA	100%	coding (925‑926/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_56.html	SRR36784808
+RA	PA0366	2,078	A→G	100%	Q393R (CAG→CGG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_61.html	SRR36784808
+RA	PA0506	1,628	2 bp→TG	100%	coding (728‑729/1806 nt)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_138.html	SRR36784808
+RA	PA1097	1,542	2 bp→GC	100%	coding (642‑643/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/RA_235.html	SRR36784808
+RA	PA1432	1,485	A→C	100%	E195D (GAA→GAC)	lasI →	acyl‑homoserine‑lactone synthase	evidence/RA_283.html	SRR36784808
+RA	PA1432	1,490	G→A	100%	R197Q (CGA→CAA)	lasI →	acyl‑homoserine‑lactone synthase	evidence/RA_284.html	SRR36784808
+RA	PA1777	1,177	A→G	100%	T93A (ACC→GCC)	oprF →	outer membrane porin F	evidence/RA_293.html	SRR36784808
+RA	PA2491	1,758	G→C	100%	E286D (GAG→GAC)	N_A →	oxidoreductase	evidence/RA_361.html	SRR36784808
+RA	PA3217	916	C→T	100%	P6S (CCC→TCC)	cyaB →	protein CyaB	evidence/RA_411.html	SRR36784808
+RA	PA3217	1,104	2 bp→TC	100%	coding (204‑205/1392 nt)	cyaB →	protein CyaB	evidence/RA_413.html	SRR36784808
+RA	PA3217	1,107	C→G	100%	F69L (TTC→TTG)	cyaB →	protein CyaB	evidence/RA_414.html	SRR36784808
+RA	PA3565	1,025	G→A	100%	S42N (AGC→AAC)	N_A →	transcriptional regulator	evidence/RA_464.html	SRR36784808
+RA	PA3565	1,249	C→T	100%	R117C (CGC→TGC)	N_A →	transcriptional regulator	evidence/RA_467.html	SRR36784808
+RA	PA3565	1,412	G→C	100%	G171A (GGC→GCC)	N_A →	transcriptional regulator	evidence/RA_472.html	SRR36784808
+RA	PA3574	963	A→C	100%	E21D (GAA→GAC)	nalD →	transcriptional regulator	evidence/RA_503.html	SRR36784808
+RA	PA3703	901	T→G	100%	M1V (TTG→GTG) †	wspF →	chemotaxis‑specific methylesterase	evidence/RA_526.html	SRR36784808
+RA	PA3703	1,336	G→A	100%	A146T (GCC→ACC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_532.html	SRR36784808
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_574.html	SRR36784808
+RA	PA3817	1,216	G→T	100%	A106S (GCG→TCG)	N_A →	methyltransferase	evidence/RA_578.html	SRR36784808
+RA	PA4522	932	G→A	100%	R11H (CGT→CAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_652.html	SRR36784808
+RA	PA4522	1,153	G→T	100%	A85S (GCC→TCC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_661.html	SRR36784808
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_666.html	SRR36784808
+RA	PA4522	1,423	T→C	100%	S175P (TCG→CCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_667.html	SRR36784808
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_691.html	SRR36784808
+RA	PA4526	1,399	G→A	100%	A167T (GCG→ACG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_702.html	SRR36784808
+RA	PA4526	1,404	C→A	100%	D168E (GAC→GAA)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_703.html	SRR36784808
+RA	PA4526	1,423	G→A	100%	A175T (GCC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_705.html	SRR36784808
+RA	PA4848	1,651	A→G	100%	K251E (AAG→GAG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_762.html	SRR36784808
+RA	PA0763	1,258	A→G	100%	T120A (ACC→GCC)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_60.html	SRR37059562
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_129.html	SRR37059562
+RA	PA3574	1,522	G→C	100%	A208P (GCC→CCC)	nalD →	transcriptional regulator	evidence/RA_153.html	SRR37059562
+RA	PA3703	1,879	G→T	100%	A327S (GCC→TCC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_167.html	SRR37059562
+RA	PA3841	2,144	A→T	100%	Q415L (CAG→CTG)	exoS →	exoenzyme S	evidence/RA_206.html	SRR37059562
+RA	PA3841	2,201	G→C	100%	R434P (CGT→CCT)	exoS →	exoenzyme S	evidence/RA_207.html	SRR37059562
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_241.html	SRR37059562
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_242.html	SRR37059562
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_255.html	SRR37059562
+RA	PA4848	1,295	C→T	100%	P132L (CCG→CTG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_268.html	SRR37059562
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR37069584
+RA	PA0506	1,612	A→G	5.6%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_29.html	SRR37069584
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_33.html	SRR37069584
+RA	PA1713	1,366	C→G	100%	P156A (CCG→GCG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_83.html	SRR37069584
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_97.html	SRR37069584
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_139.html	SRR37069584
+RA	PA4522	1,307	C→T	100%	A136V (GCC→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_180.html	SRR37069584
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_182.html	SRR37069584
+RA	PA4526	976	G→C	100%	V26L (GTG→CTG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_191.html	SRR37069584
+RA	PA4526	988	G→A	100%	A30T (GCG→ACG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_192.html	SRR37069584
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_193.html	SRR37069584
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_201.html	SRR37069584
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_31.html	SRR39756586
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_34.html	SRR39756586
+RA	PA0366	1,743	G→C	100%	E281D (GAG→GAC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_39.html	SRR39756586
+RA	PA1097	1,148	T→C	100%	L83P (CTG→CCG)	fleQ →	transcriptional regulator FleQ	evidence/RA_155.html	SRR39756586
+RA	PA1097	2,367	T→G	100%	D489E (GAT→GAG)	fleQ →	transcriptional regulator FleQ	evidence/RA_164.html	SRR39756586
+RA	PA1713	1,209	C→G	100%	D103E (GAC→GAG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_213.html	SRR39756586
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_249.html	SRR39756586
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_266.html	SRR39756586
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_309.html	SRR39756586
+RA	PA3217	1,337	T→G	100%	L146R (CTG→CGG)	cyaB →	protein CyaB	evidence/RA_315.html	SRR39756586
+RA	PA3217	1,770	G→T	100%	Q290H (CAG→CAT)	cyaB →	protein CyaB	evidence/RA_320.html	SRR39756586
+RA	PA3217	2,291	A→G	100%	*464* (TAA→TGA)	cyaB →	protein CyaB	evidence/RA_325.html	SRR39756586
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_344.html	SRR39756586
+RA	PA3565	1,204	T→C	100%	F102L (TTC→CTC)	N_A →	transcriptional regulator	evidence/RA_347.html	SRR39756586
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_430.html	SRR39756586
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_489.html	SRR39756586
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_509.html	SRR39756586
+RA	PA4526	1,243	A→G	100%	I115V (ATC→GTC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_513.html	SRR39756586
+RA	PA4526	2,336	C→T	100%	P479L (CCG→CTG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_523.html	SRR39756586
+RA	PA0313	1,379	C→T	100%	S160L (TCG→TTG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_8.html	SRR40198574
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_14.html	SRR40198574
+RA	PA0425	1,447	C→T	100%	Q183* (CAG→TAG)	mexA →	multidrug resistance protein MexA	evidence/RA_38.html	SRR40198574
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_47.html	SRR40198574
+RA	PA0763	911	A→G	100%	E4G (GAA→GGA)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_62.html	SRR40198574
+RA	PA1713	1,595	G→A	100%	S232N (AGC→AAC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_94.html	SRR40198574
+RA	PA1713	1,660	A→T	100%	S254C (AGC→TGC)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_95.html	SRR40198574
+RA	PA1777	1,529	A→T	100%	D210V (GAC→GTC)	oprF →	outer membrane porin F	evidence/RA_99.html	SRR40198574
+RA	PA2020	1,322	T→A	100%	I141N (ATC→AAC)	N_A →	transcriptional regulator	evidence/RA_107.html	SRR40198574
+RA	PA2491	1,892	G→C	100%	G331A (GGC→GCC)	N_A →	oxidoreductase	evidence/RA_114.html	SRR40198574
+RA	PA3565	1,639	G→A	100%	A247T (GCC→ACC)	N_A →	transcriptional regulator	evidence/RA_134.html	SRR40198574
+RA	PA3565	1,655	C→T	100%	A252V (GCC→GTC)	N_A →	transcriptional regulator	evidence/RA_136.html	SRR40198574
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_158.html	SRR40198574
+RA	PA3841	1,145	C→T	100%	T82I (ACC→ATC)	exoS →	exoenzyme S	evidence/RA_164.html	SRR40198574
+RA	PA3841	2,116	G→A	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_166.html	SRR40198574
+RA	PA3841	2,118	C→T	100%	V406I (GTC→ATT)	exoS →	exoenzyme S	evidence/RA_167.html	SRR40198574
+RA	PA4522	1,025	Δ1 bp	100%	coding (125/567 nt)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_195.html	SRR40198574
+RA	PA4526	975	2 bp→TC	100%	coding (75‑76/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_211.html	SRR40198574
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_213.html	SRR40198574
+RA	PA4526	1,892	G→T	100%	G331V (GGC→GTC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_221.html	SRR40198574
+RA	PA4848	1,528	G→A	100%	V210M (GTG→ATG)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_244.html	SRR40198574
+JC	PA1713	1,055	(GCCTGGC)1→2	100%	coding (155/837 nt)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/JC_610.html	SRR8182773
+RA	PA2020	1,507	C→T	100%	P203S (CCC→TCC)	N_A →	transcriptional regulator	evidence/RA_94.html	SRR8182773
+RA	PA3703	1,336	G→A	100%	A146T (GCC→ACC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_143.html	SRR8182773
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_158.html	SRR8182773
+RA	PA4462	1,331	T→C	100%	L144P (CTC→CCC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_173.html	SRR8182773
+RA	PA4522	1,030	C→A	100%	Q44K (CAG→AAG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_186.html	SRR8182773
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_188.html	SRR8182773
+RA	PA0313	1,282	C→G	100%	Q128E (CAA→GAA)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR8351329
+RA	PA0366	2,283:1	(C)7→9	100%	coding (1383/1431 nt)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR8351329
+RA	PA0425	1,255	C→T	100%	R119C (CGC→TGC)	mexA →	multidrug resistance protein MexA	evidence/RA_23.html	SRR8351329
+RA	PA0425	2,019	C→G	100%	D373E (GAC→GAG)	mexA →	multidrug resistance protein MexA	evidence/RA_25.html	SRR8351329
+RA	PA0506	1,591	A→C	5.1%	I231L (ATC→CTC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_34.html	SRR8351329
+RA	PA0506	1,593	C→G	5.6%	I231M (ATC→ATG) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_35.html	SRR8351329
+RA	PA0506	1,612	A→G	20.7%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	SRR8351329
+RA	PA0506	1,715	C→G	18.7%	A272G (GCC→GGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_38.html	SRR8351329
+RA	PA0506	1,756	A→G	22.5%	N286D (AAC→GAC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_41.html	SRR8351329
+RA	PA0506	1,758	C→A	24.0%	N286K (AAC→AAA) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_42.html	SRR8351329
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_46.html	SRR8351329
+RA	PA0652	1,306	G→A	100%	V136M (GTG→ATG)	vfr →	cAMP‑regulatory protein	evidence/RA_51.html	SRR8351329
+RA	PA0763	1,024	C→T	100%	R42C (CGT→TGT)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_53.html	SRR8351329
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_55.html	SRR8351329
+RA	PA1713	1,535	C→T	100%	S212L (TCG→TTG)	exsA →	exoenzyme S transcriptional regulator ExsA	evidence/RA_84.html	SRR8351329
+MC JC	PA2020	1,459	Δ10 bp	100%	coding (559‑568/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_537.html	SRR8351329
+RA	PA3574	1,516	G→A	100%	G206S (GGT→AGT)	nalD →	transcriptional regulator	evidence/RA_120.html	SRR8351329
+RA	PA3841	1,566	A→C	14.2%	Q222H (CAA→CAC)	exoS →	exoenzyme S	evidence/RA_156.html	SRR8351329
+JC	PA3841	1,584	15 bp→15 bp	19.9%	coding (684‑698/1362 nt)	exoS →	exoenzyme S	evidence/JC_556.html	SRR8351329
+RA	PA3841	1,627	A→G	9.2%	K243E (AAG→GAG)	exoS →	exoenzyme S	evidence/RA_158.html	SRR8351329
+RA	PA4522	920	C→G	100%	T7S (ACC→AGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_178.html	SRR8351329
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_181.html	SRR8351329
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_182.html	SRR8351329
+RA	PA4526	976	G→C	100%	V26L (GTG→CTG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_194.html	SRR8351329
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_196.html	SRR8351329
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_222.html	SRR8351329
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_223.html	SRR8351329
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_224.html	SRR8351329
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR8586094
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_30.html	SRR8586094
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_145.html	SRR8586094
+RA	PA4522	983	A→G	100%	D28G (GAC→GGC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_172.html	SRR8586094
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_175.html	SRR8586094
+RA	PA4522	1,424	C→T	100%	S175L (TCG→TTG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_176.html	SRR8586094
+RA	PA4526	1,037	G→A	100%	S46N (AGC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_191.html	SRR8586094
+RA	PA4526	1,404	C→A	100%	D168E (GAC→GAA)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_202.html	SRR8586094
+RA	PA4526	1,423	G→A	100%	A175T (GCC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_203.html	SRR8586094
+RA	PA4526	1,697	C→G	100%	T266S (ACC→AGC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_207.html	SRR8586094
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_217.html	SRR8586094
+RA	PA0425	2,019	C→G	100%	D373E (GAC→GAG)	mexA →	multidrug resistance protein MexA	evidence/RA_13.html	SRR8612873
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_65.html	SRR8612873
+JC	PA4848	1,385	+CGG	100%	coding (485/1350 nt)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/JC_334.html	SRR8612873
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_78.html	SRR8737545
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_102.html	SRR8737545
+RA	PA3841	1,669	C→G	100%	P257A (CCT→GCT)	exoS →	exoenzyme S	evidence/RA_113.html	SRR8737545
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_141.html	SRR8737545
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_142.html	SRR8737545
+RA	PA0313	1,386	C→G	100%	S162R (AGC→AGG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_3.html	SRR8775058
+RA	PA2020	1,127	Δ1 bp	100%	coding (227/633 nt)	N_A →	transcriptional regulator	evidence/RA_86.html	SRR8775058
+RA	PA2020	1,129	G→C	100%	A77P (GCC→CCC)	N_A →	transcriptional regulator	evidence/RA_87.html	SRR8775058
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_91.html	SRR8775058
+RA	PA3217	1,830	G→A	100%	M310I (ATG→ATA)	cyaB →	protein CyaB	evidence/RA_102.html	SRR8775058
+RA	PA3574	1,167	C→A	100%	Y89* (TAC→TAA)	nalD →	transcriptional regulator	evidence/RA_110.html	SRR8775058
+RA	PA3574	1,516	G→A	100%	G206S (GGT→AGT)	nalD →	transcriptional regulator	evidence/RA_112.html	SRR8775058
+RA	PA3703	1,315	G→A	100%	V139I (GTC→ATC)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_119.html	SRR8775058
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_129.html	SRR8775058
+RA	PA4462	1,936	G→A	100%	A346T (GCC→ACC)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_147.html	SRR8775058
+RA	PA4462	2,029	T→C	100%	Y377Q (TAC→CAG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_148.html	SRR8775058
+RA	PA4462	2,031	C→G	100%	Y377Q (TAC→CAG)	rpoN →	RNA polymerase factor sigma‑54	evidence/RA_149.html	SRR8775058
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_171.html	SRR8775058
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_185.html	SRR8775058
+RA	PA4848	1,591	T→C	100%	S231P (TCC→CCC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_196.html	SRR8775058
+RA	PA0313	1,031	T→C	100%	L44P (CTG→CCG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	SRR8942500
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	SRR8942500
+RA	PA0763	1,244	Δ1 bp	100%	coding (344/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_59.html	SRR8942500
+RA	PA2020	1,237	T→C	100%	C113R (TGC→CGC)	N_A →	transcriptional regulator	evidence/RA_110.html	SRR8942500
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_129.html	SRR8942500
+RA	PA3217	1,444	Δ1 bp	100%	coding (544/1392 nt)	cyaB →	protein CyaB	evidence/RA_135.html	SRR8942500
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_160.html	SRR8942500
+RA	PA4522	914	C→T	100%	S5F (TCC→TTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_201.html	SRR8942500
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_204.html	SRR8942500
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_206.html	SRR8942500
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	SRR8942500
+RA	PA4848	1,141	G→A	100%	G81S (GGC→AGC)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_225.html	SRR8942500
+RA	PA0313	930	G→A	100%	W10* (TGG→TGA)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_6.html	SRR9031856
+JC	PA0763	1,189	(GACCC)1→2	100%	coding (289/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/JC_461.html	SRR9031856
+RA	PA0763	1,259	C→G	100%	T120S (ACC→AGC)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_52.html	SRR9031856
+RA	PA2020	1,012	G→A	100%	A38T (GCG→ACG)	N_A →	transcriptional regulator	evidence/RA_98.html	SRR9031856
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_108.html	SRR9031856
+RA	PA3841	1,169	C→T	100%	A90V (GCG→GTG)	exoS →	exoenzyme S	evidence/RA_145.html	SRR9031856
+RA	PA0313	1,255	G→A	100%	G119R (GGG→AGG)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_5.html	SRR9642603
+RA	PA0506	1,014	G→A	100%	M38I (ATG→ATA)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_31.html	SRR9642603
+RA	PA0506	1,291	T→C	100%	S131P (TCC→CCC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_33.html	SRR9642603
+RA	PA0506	1,591	A→C	5.1%	I231L (ATC→CTC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_34.html	SRR9642603
+RA	PA0506	1,593	C→G	5.7%	I231M (ATC→ATG) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_35.html	SRR9642603
+RA	PA0506	1,612	A→G	12.2%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	SRR9642603
+RA	PA0506	1,715	C→G	18.4%	A272G (GCC→GGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_39.html	SRR9642603
+RA	PA0506	1,756	A→G	17.3%	N286D (AAC→GAC) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_42.html	SRR9642603
+RA	PA0506	1,758	C→A	20.0%	N286K (AAC→AAA) ‡	N_A →	acyl‑CoA dehydrogenase	evidence/RA_43.html	SRR9642603
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_48.html	SRR9642603
+MC JC	PA0763	1,072	Δ13 bp	100%	coding (172‑184/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/MC_PLOT_574.html	SRR9642603
+RA	PA0763	1,330	(G)5→4	100%	coding (430/585 nt)	mucA →	sigma factor AlgU negative regulator MucA	evidence/RA_68.html	SRR9642603
+RA	PA1097	1,648	A→C	15.3%	M250L (ATG→CTG)	fleQ →	transcriptional regulator FleQ	evidence/RA_73.html	SRR9642603
+RA	PA1097	1,654	C→A	16.3%	L252M (CTG→ATG)	fleQ →	transcriptional regulator FleQ	evidence/RA_74.html	SRR9642603
+RA	PA1097	1,662	G→C	16.6%	M254I (ATG→ATC)	fleQ →	transcriptional regulator FleQ	evidence/RA_75.html	SRR9642603
+RA	PA2020	1,242	Δ1 bp	100%	coding (342/633 nt)	N_A →	transcriptional regulator	evidence/RA_112.html	SRR9642603
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_134.html	SRR9642603
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_160.html	SRR9642603
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_169.html	SRR9642603
+RA	PA3841	1,566	A→C	20.8%	Q222H (CAA→CAC)	exoS →	exoenzyme S	evidence/RA_188.html	SRR9642603
+JC	PA3841	1,584	15 bp→15 bp	33.3%	coding (684‑698/1362 nt)	exoS →	exoenzyme S	evidence/JC_594.html	SRR9642603
+RA	PA3841	1,627	A→G	11.4%	K243E (AAG→GAG)	exoS →	exoenzyme S	evidence/RA_190.html	SRR9642603
+RA	PA4522	1,032	G→C	100%	Q44H (CAG→CAC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_223.html	SRR9642603
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_225.html	SRR9642603
+RA	PA4522	1,447	G→T	100%	D183Y (GAT→TAT)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_226.html	SRR9642603
+RA	PA4526	1,532	T→C	100%	I211T (ATC→ACC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_241.html	SRR9642603
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_265.html	SRR9642603
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_266.html	SRR9642603
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_267.html	SRR9642603
+RA	PA0313	1,462	G→A	100%	V188I (GTC→ATC)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_4.html	SRR9670643
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_29.html	SRR9670643
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_91.html	SRR9670643
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_109.html	SRR9670643
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_155.html	SRR9670643
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_175.html	SRR9670643
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_176.html	SRR9670643
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_19.html	SRR9673758
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_20.html	SRR9673758
+MC JC	PA2020	1,019	Δ11 bp	100%	coding (119‑129/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_743.html	SRR9673758
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_145.html	SRR9673758
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_149.html	SRR9673758
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_159.html	SRR9673758
+RA	PA3217	1,891	G→A	28.6%	G331S (GGC→AGC)	cyaB →	protein CyaB	evidence/RA_168.html	SRR9673758
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_191.html	SRR9673758
+RA	PA0313	1,593:1	+GC	100%	coding (693/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/RA_20.html	SRR9673762
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_29.html	SRR9673762
+RA	PA0366	1,600	G→A	100%	V234I (GTC→ATC)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_30.html	SRR9673762
+MC JC	PA2020	1,019	Δ11 bp	100%	coding (119‑129/633 nt)	N_A →	transcriptional regulator	evidence/MC_PLOT_925.html	SRR9673762
+RA	PA2020	1,313	2 bp→GA	100%	coding (413‑414/633 nt)	N_A →	transcriptional regulator	evidence/RA_185.html	SRR9673762
+RA	PA2020	1,457	A→G	100%	N186S (AAC→AGC)	N_A →	transcriptional regulator	evidence/RA_189.html	SRR9673762
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_200.html	SRR9673762
+RA	PA3217	1,348	C→T	100%	P150S (CCG→TCG)	cyaB →	protein CyaB	evidence/RA_222.html	SRR9673762
+RA	PA3565	1,100	T→A	100%	L67Q (CTG→CAG)	N_A →	transcriptional regulator	evidence/RA_230.html	SRR9673762
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_273.html	SRR9673762
+RA	PA3817	1,122	C→A	6.5%	S74R (AGC→AGA)	N_A →	methyltransferase	evidence/RA_274.html	SRR9673762
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_349.html	SRR9673762
+RA	PA0506	2,660	A→G	100%	N587S (AAC→AGC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_19.html	SRR9673765
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_68.html	SRR9673765
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_102.html	SRR9673765
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_116.html	SRR9673765
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_117.html	SRR9673765
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_118.html	SRR9673765
+RA	PA2491	1,645	G→A	100%	D249N (GAC→AAC)	N_A →	oxidoreductase	evidence/RA_94.html	SRR9824840
+RA	PA3565	1,382	A→C	100%	D161A (GAC→GCC)	N_A →	transcriptional regulator	evidence/RA_129.html	SRR9824840
+RA	PA3565	1,655	C→T	100%	A252V (GCC→GTC)	N_A →	transcriptional regulator	evidence/RA_131.html	SRR9824840
+RA	PA3703	1,903	G→A	100%	D335N (GAT→AAT)	wspF →	chemotaxis‑specific methylesterase	evidence/RA_149.html	SRR9824840
+RA	PA4522	1,307	C→T	100%	A136V (GCC→GTC)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_207.html	SRR9824840
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_209.html	SRR9824840
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_219.html	SRR9824840
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_227.html	SRR9824840
+JC	PA0313	1,391	(CAGCCTGAT)1→2	100%	coding (491/693 nt)	N_A →	L‑cysteine ABC transporter protein YecS	evidence/JC_463.html	SRR9841424
+RA	PA0366	1,047	C→G	100%	D49E (GAC→GAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_15.html	SRR9841424
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_16.html	SRR9841424
+RA	PA0425	1,114	G→A	100%	G72S (GGC→AGC)	mexA →	multidrug resistance protein MexA	evidence/RA_27.html	SRR9841424
+RA	PA0506	1,612	A→G	14.5%	N238D (AAC→GAC)	N_A →	acyl‑CoA dehydrogenase	evidence/RA_37.html	SRR9841424
+RA	PA1430	1,031	Δ1 bp	100%	coding (131/720 nt)	lasR →	transcriptional regulator LasR	evidence/RA_94.html	SRR9841424
+RA	PA2020	1,264:1	+C	100%	coding (364/633 nt)	N_A →	transcriptional regulator	evidence/RA_116.html	SRR9841424
+RA	PA3565	1,683	G→C	100%	E261D (GAG→GAC)	N_A →	transcriptional regulator	evidence/RA_144.html	SRR9841424
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_163.html	SRR9841424
+RA	PA4526	1,697	C→A	100%	T266N (ACC→AAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_188.html	SRR9841424
+RA	PA4848	1,249	G→A	100%	V117I (GTT→ATT)	accC →	acetyl‑CoA carboxylase biotin carboxylase subunit	evidence/RA_193.html	SRR9841424
+RA	PA0366	1,091	G→A	100%	R64Q (CGG→CAG)	N_A →	coniferyl aldehyde dehydrogenase	evidence/RA_15.html	SRR9889983
+JC	PA1097	1,578	30 bp→30 bp	26.1%	coding (678‑707/1473 nt)	fleQ →	transcriptional regulator FleQ	evidence/JC_870.html	SRR9889983
+RA	PA2020	1,043	T→C	100%	V48A (GTC→GCC)	N_A →	transcriptional regulator	evidence/RA_154.html	SRR9889983
+RA	PA3217	1,139	C→T	100%	A80V (GCC→GTC)	cyaB →	protein CyaB	evidence/RA_184.html	SRR9889983
+RA	PA3817	1,112	T→G	100%	I71S (ATC→AGC)	N_A →	methyltransferase	evidence/RA_254.html	SRR9889983
+RA	PA4522	1,343	G→C	100%	G148A (GGG→GCG)	ampD →	N‑acetyl‑anhydromuranmyl‑L‑alanine amidase	evidence/RA_296.html	SRR9889983
+RA	PA4526	2,193	2 bp→CC	100%	coding (1293‑1294/1701 nt)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_314.html	SRR9889983
+RA	PA4526	2,301	G→C	100%	E467D (GAG→GAC)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_316.html	SRR9889983
+RA	PA4526	2,309	G→A	100%	R470K (AGG→AAG)	pilB →	type 4 fimbrial biogenesis protein PilB	evidence/RA_317.html	SRR9889983

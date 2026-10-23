@@ -1,0 +1,53 @@
+mutation	term	p.value	p.adj	significant
+PA3841; exoS →; 15 bp→15 bp: coding (684‑698/1362 nt)	Host Body-Site: Organ; Ear	0.607003886969527	1	FALSE
+PA3841; exoS →; A157S	Host Body-Site: Organ; Ear	0.163265306122449	1	FALSE
+PA3841; exoS →; A236T	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; A264P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; A90V	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; D339N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; D46E	Host Body-Site: Organ; Ear	0.163265306122449	1	FALSE
+PA3841; exoS →; E134K	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; E387G	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; G309R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; G372E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; G52R	Host Body-Site: Organ; Ear	0.163265306122449	1	FALSE
+PA3841; exoS →; K243E	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; K334Q	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; M447I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; P257A	Host Body-Site: Organ; Ear	0.0653495440729483	1	FALSE
+PA3841; exoS →; Q222H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; Q415L	Host Body-Site: Organ; Ear	0.522031754422398	1	FALSE
+PA3841; exoS →; R365W	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; R434P	Host Body-Site: Organ; Ear	0.522031754422398	1	FALSE
+PA3841; exoS →; S121N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; S136P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; T34S	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; T82I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; V406I	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; Δ1 bp: coding (816/1362 nt)	Host Body-Site: Organ; Ear	1	1	FALSE
+PA3841; exoS →; 15 bp→15 bp: coding (684‑698/1362 nt)	Infection: Disease; Cystic fibrosis	0.817856775766119	1	FALSE
+PA3841; exoS →; A157S	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3841; exoS →; A236T	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; A264P	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; A90V	Infection: Disease; Cystic fibrosis	0.697278911564626	1	FALSE
+PA3841; exoS →; D339N	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; D46E	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3841; exoS →; E134K	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; E387G	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; G309R	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; G372E	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; G52R	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA3841; exoS →; K243E	Infection: Disease; Cystic fibrosis	0.697278911564626	1	FALSE
+PA3841; exoS →; K334Q	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; M447I	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; P257A	Infection: Disease; Cystic fibrosis	0.996960486322188	1	FALSE
+PA3841; exoS →; Q222H	Infection: Disease; Cystic fibrosis	0.578593139383413	1	FALSE
+PA3841; exoS →; Q415L	Infection: Disease; Cystic fibrosis	0.880467820800846	1	FALSE
+PA3841; exoS →; R365W	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; R434P	Infection: Disease; Cystic fibrosis	0.880467820800846	1	FALSE
+PA3841; exoS →; S121N	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; S136P	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; T34S	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE
+PA3841; exoS →; T82I	Infection: Disease; Cystic fibrosis	0.578593139383413	1	FALSE
+PA3841; exoS →; V406I	Infection: Disease; Cystic fibrosis	0.321542274297659	1	FALSE
+PA3841; exoS →; Δ1 bp: coding (816/1362 nt)	Infection: Disease; Cystic fibrosis	0.836734693877551	1	FALSE

@@ -1,0 +1,15 @@
+mutation	term	p.value	p.adj	significant
+PA0652; vfr →; K15R	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; R128H	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; R185Q	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; S123N	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; T163P	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; V136M	Host Body-Site: Organ; Ear	1	1	FALSE
+PA0652; vfr →; Δ1 bp: coding (390/645 nt)	Host Body-Site: Organ; Ear	0.142857142857143	1	FALSE
+PA0652; vfr →; K15R	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; R128H	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; R185Q	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; S123N	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; T163P	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; V136M	Infection: Disease; Cystic fibrosis	0.857142857142857	1	FALSE
+PA0652; vfr →; Δ1 bp: coding (390/645 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE

@@ -1,0 +1,5 @@
+mutation	term	p.value	p.adj	significant
+PA2492; mexT →; G274D	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2492; mexT →; I341F	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2492; mexT →; R334H	Infection: Disease; Cystic fibrosis	1	1	FALSE
+PA2492; mexT →; Δ1 bp: coding (706/1044 nt)	Infection: Disease; Cystic fibrosis	1	1	FALSE
